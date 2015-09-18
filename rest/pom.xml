@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.trmsys.crowdfunding</groupId>
+        <artifactId>crowdfunding</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <artifactId>crowndfunding-rest</artifactId>
+    <name>Cargo :: Examples :: RESTFul</name>
+    <packaging>rest</packaging>
+
+    <dependencies> 
+        <dependency> <!-- J2E dependancy for PATH -->
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>   
+        </dependency>  
+        <dependency> <!-- Enable dependancy injection -->
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+        </dependency>
+        <dependency> <!-- Mandatory dependancy for module start-up -->
+            <groupId>com.trmsys.cargo</groupId>
+            <artifactId>cargo-ext-api</artifactId>
+        </dependency>
+    </dependencies>
+</project>
