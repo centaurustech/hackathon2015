@@ -18,5 +18,10 @@
             <artifactId>crowdfunding-rest</artifactId>
             <version>1.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.misys.crowdfunding</groupId>
+            <artifactId>crowdfunding-html</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 </project>
