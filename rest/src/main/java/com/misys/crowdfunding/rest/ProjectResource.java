@@ -15,7 +15,6 @@ import static org.slf4j.LoggerFactory.getLogger;
 /**
  * Created by kdeveloper on 9/21/15.
  */
-@Path("/project")
 public class ProjectResource {
 
     private static final Logger LOGGER = getLogger(ProjectResource.class);
@@ -27,7 +26,14 @@ public class ProjectResource {
     }
 
     @GET
-    @Path("/{id}")
+    @Path("/projects")
+    @Produces({MediaType.APPLICATION_JSON})
+    public String getProjects() {
+        return projectService.getProjects();
+    }
+
+    @GET
+    @Path("/project/{id}")
     @Produces({MediaType.APPLICATION_JSON})
     public String getProject(int id) {
         return projectService.getProject(id);

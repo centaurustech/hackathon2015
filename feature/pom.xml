@@ -18,5 +18,25 @@
             <artifactId>crowdfunding-rest</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.misys.crowdfunding.service.api</groupId>
+            <artifactId>service-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.misys.crowdfunding.service.impl</groupId>
+            <artifactId>service-impl</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.misys.crowdfunding.provider.api</groupId>
+            <artifactId>provider-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.misys.crowdfunding.provider.impl</groupId>
+            <artifactId>provider-impl</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>

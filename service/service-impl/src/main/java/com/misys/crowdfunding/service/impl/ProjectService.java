@@ -22,9 +22,16 @@ public class ProjectService implements IProjectService {
     }
 
     @Override
+    public String getProjects() {
+        // TODO call DAO and process output to json
+
+        return "toto";
+    }
+
+    @Override
     public String getProject(int id) {
         // TODO call DAO and process output to json
 
-        return "";
+        return "titi";
     }
 }
