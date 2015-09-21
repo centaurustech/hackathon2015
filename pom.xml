@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <!-- Declaration of using a the Cargo platform -->
     <parent>
         <groupId>com.trmsys.cargo</groupId>
         <artifactId>cargo-platform</artifactId>
-        <version>2.0.0.RELEASE</version> <!-- PUT THE RIGHT VERSION OF CARGO THERE -->
-        <relativePath>../pom.xml</relativePath>
+        <version>2.2.6.RELEASE</version> <!-- PUT THE RIGHT VERSION OF CARGO THERE -->
     </parent>
 
     <groupId>com.misys.crowdfunding</groupId>
@@ -16,9 +15,17 @@
     <name>CrowdFunding</name>
     <!-- Top declaration is a pom packaging -->
     <packaging>pom</packaging>
+
+    <properties>
+        <checkstyle.version>0.11</checkstyle.version>
+    </properties>
+
     <modules>
         <module>app</module>
-        <module>rest</module>
         <module>feature</module>
-    </modules>  
+        <module>parent</module>
+        <module>rest</module>
+        <module>service</module>
+        <module>provider</module>
+    </modules>
 </project>

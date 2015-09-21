@@ -1,4 +1,4 @@
-package com.trmsys.crowdfunding.rest;
+package com.misys.crowdfunding.rest;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 

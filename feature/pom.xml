@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.misys.crowdfunding</groupId>
-        <artifactId>crowdfunding</artifactId>
+        <artifactId>crowdfunding-parent</artifactId>
         <version>1.0.0</version>
-        <relativePath>../pom.xml</relativePath>
+        <relativePath>../parent/pom.xml</relativePath>
     </parent>
     <artifactId>crowdfunding-feature</artifactId>
     <name>CrownFunding :: Feature</name>
@@ -16,7 +16,7 @@
         <dependency>
             <groupId>com.misys.crowdfunding</groupId>
             <artifactId>crowdfunding-rest</artifactId>
-            <version>1.0.0</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>

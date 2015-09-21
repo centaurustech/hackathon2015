@@ -16,7 +16,7 @@
             <!-- application depends on feature only -->
             <groupId>com.misys.crowdfunding</groupId>
             <artifactId>crowdfunding-feature</artifactId>
-            <version>1.0.0</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>

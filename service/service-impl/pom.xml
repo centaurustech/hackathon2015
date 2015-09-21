@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.misys.crowdfunding.service</groupId>
+        <artifactId>crowdfunding-service</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.misys.crowdfunding.service.impl</groupId>
+    <artifactId>service-impl</artifactId>
+    <name>CrowdFunding :: Service :: Impl</name>
+
+    <packaging>impl</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.trmsys.cargo</groupId>
+            <artifactId>cargo-ext-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.misys.crowdfunding.service.api</groupId>
+            <artifactId>service-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.misys.crowdfunding.provider.api</groupId>
+            <artifactId>provider-api</artifactId>
+        </dependency>
+    </dependencies>
+</project>

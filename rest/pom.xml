@@ -4,15 +4,20 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.misys.crowdfunding</groupId>
-        <artifactId>crowdfunding</artifactId>
+        <artifactId>crowdfunding-parent</artifactId>
         <version>1.0.0</version>
-        <relativePath>../pom.xml</relativePath>
+        <relativePath>../parent/pom.xml</relativePath>
     </parent>
     <artifactId>crowdfunding-rest</artifactId>
     <name>CrowdFunding :: RESTFul</name>
     <packaging>rest</packaging>
 
-    <dependencies> 
+    <dependencies>
+        <dependency>
+            <groupId>com.misys.crowdfunding.service.api</groupId>
+            <artifactId>service-api</artifactId>
+        </dependency>
+
         <dependency> <!-- J2E dependancy for PATH -->
             <groupId>javax.ws.rs</groupId>
             <artifactId>javax.ws.rs-api</artifactId>   
