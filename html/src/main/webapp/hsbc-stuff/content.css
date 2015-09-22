@@ -1,0 +1,3649 @@
+body ul,
+body ul li,
+#hero .carouselWrapper .tabArticleText ul,
+#hero .carouselWrapper .tabArticleText ul li
+{
+	list-style:disc outside none;
+}
+body ol,
+body ol li
+{
+	list-style:decimal outside none;
+}
+#hero .carouselWrapper ul,
+#hero .carouselWrapper ul li,
+#hero .carouselWrapper .bgLight ul,
+#hero .carouselWrapper .bgLight ul li,
+#grid #productNav ul,
+#grid #productNav ul li,
+#smallCarousel .galleryControls ul,
+#smallCarousel .galleryControls ul li,
+#productSelector #productTabs,
+#productSet #productTabs,
+#productSelector #productTabs li,
+#productSet #productTabs li,
+#grid .grid_6 .column ul,
+#grid .grid_6 .column ul li,
+#grid .actions ul,
+#grid .actions ul li,
+#productFooter .column ul,
+#productFooter .column ul li,
+#otherAccounts .column ul,
+#otherAccounts .column ul li,
+body .propositionRow .column ul,
+body .propositionRow .column ul li,
+#grid .grid .featureBox ul,
+#grid .grid .featureBox ul li,
+#mortgageForm ul,
+#mortgageForm ul li,
+.productComparison tr.productLinks ul,
+.productComparison tr.productLinks ul li,
+#treeNav ul,
+#treeNav ul li,
+#leftNav ul,
+#leftNav ul li,
+#searchResults ul,
+#searchResults ul li,
+body .pageTabs,
+body .pageTabs li,
+body .productItem ul,
+body .productItem ul li,
+body .contentRow .contentIntro .contentItem ul,
+body .contentRow .contentIntro .contentItem ul li,
+body .pillarPagination .pillarContent ul,
+body .pillarPagination .pillarContent ul li
+{
+	list-style:none;
+}
+body ol
+{
+	padding:0 0 6px 20px;
+}
+body ul,
+#hero .carouselWrapper .tabArticleText ul
+{
+	padding:0 0 6px 15px;
+}
+body li,
+#hero h2,
+#grid #hero .carouselWrapper .bgLight ul,
+#hero .tabArticleText ul li,
+#grid .grid_6 .column ul,
+#grid .grid_6 .column ul li,
+#grid .actions ul,
+#grid .actions ul li,
+#productFooter .column ul,
+#productFooter .column ul li,
+body .propositionRow .column ul,
+body .propositionRow .column ul li,
+#grid .grid .featureBox ul,
+#grid .grid .featureBox ul li,
+#treeNav ul li p,
+#treeNav ul li ul li,
+body .contentRow h3,
+body .contentRow p.intro,
+#businessProductTable tr.rowContent th h4,
+#businessProductTable tr.rowFull th h4,
+.propositionDetails #stage h2,
+body .contentRow .contentIntro .contentItem ul,
+body .contentRow .contentIntro .contentItem ul li,
+body .pillarPagination .pillarContent h3,
+body .pillarPagination .pillarContent p
+{
+	padding:0 0 6px;
+}
+body p,
+body h2,
+body h3,
+body h4,
+body h5,
+.grid_6 .contentItem img,
+.grid_8 .contentItem img,
+.grid_12 .contentItem img,
+body .contentRow .contentItem img,
+#productComparisonTools,
+#grid #products .furtherInfo .column .inner,
+form#productSelector fieldset p.intro,
+.productComparison tr.productLinks td,
+#treeNav ul li,
+body .grid .featureBox h3,
+body .contentRow .contentItem h3,
+body .contentRow .contentIntro h3,
+body .grid .grid_8 .shaded .inner,
+#grid .grid_24 .advanceBox p span,
+#grid .grid_24 .premierBox p span,
+#grid .grid_16 .column .inner .inner,
+#grid .grid_16 .column .apply p.phone,
+body .portalRow,
+body .propositionRow .contentItem .portalRow .portalItem img,
+body .grid .propositionRow .shaded .inner
+{
+	padding:0 0 12px;
+}
+.grid .contentItem p,
+.grid .productItem p,
+#grid .grid .column p.phone,
+body .pillarPagination .pillarContent p
+{
+	padding:0 15px 12px 0;
+}
+body p,
+body li,
+#productNav li .dropDown li,
+.contentItem table tr th,
+.contentItem table tr td,
+.productItem table tr th,
+.productItem table tr td,
+body a.redLink,
+body a.pdfLink,
+body a.overlayLaunchLink,
+body a.backLink,
+body a.backtoTop,
+#mortgageForm fieldset .mandatory,
+form #products .productInfo td label,
+#businessProductTable td label,
+#treeNav ul li ul li,
+#productSet .options .filter p,
+#productSet .options .filter label
+{
+	font-size:75%;
+	line-height:18px;
+}
+body a.greyBtn span,
+body a.redBtn span,
+.contentItem table thead tr th,
+.productItem table thead tr th,
+#businessProductTable tr.productHeadings th,
+#productSelector #productTabs li,
+#productSet #productTabs li,
+.productComparison tr.productLinks ul li a.redLink,
+.jqmWindow .lightviewFooter a.redLink,
+#treeNav ul li p,
+#leftNav ul li,
+body .grid_6 .promo p,
+body .grid .applyBox .right p,
+.lightviewHeading .right p,
+#businessProductTable tr.rowContent th p,
+#businessProductTable tr.rowFull th p,
+body .right .rightInner p,
+body .grid_8 .shaded p.intro,
+body .popupMenu p.popupItemTitle,
+#grid .grid_16 .column .apply p.phone,
+#otherAccounts .column h4,
+#otherAccounts .column ul li
+{
+	font-size:87.5%;
+	line-height:18px;
+}
+body .contentItem h5,
+#hero li a.carouselTab,
+.lightviewDetails .grid .promo h2,
+body .contentItem h2,
+#products .productInfo th h4,
+#grid #products .furtherInfo h5,
+body .grid .column h3,
+#grid .grid .column p.phone,
+form#productSelector fieldset p.intro,
+.productComparison th,
+#businessProductTable tr.rowContent th,
+#businessProductTable tr.rowFull th,
+#searchResults .searchListing h4,
+body .contentRow .contentItem h3,
+body .contentRow .contentItem h4,
+body .grid .featureBox h3,
+body .grid .featureBox h4,
+body .contentRow p.intro,
+#businessProductTable tr.rowContent th h4,
+#businessProductTable tr.rowFull th h4,
+#grid .grid_24 .advanceBox p,
+#grid .grid_24 .premierBox p,
+body .grid_8 .quote p,
+.lightviewDetails h2,
+.lightviewDetails h3,
+body .menu .contentItem h4,
+body .propositionRow .column h4,
+body .pillarPagination .pillarContent h3,
+body .grid .propositionRow p.intro,
+body .portalRow .portalItem h4
+{
+	font-size:100%;
+	line-height:20px;
+}
+body .contentItem h4,
+body .productItem h4,
+.lightviewDetails .column h2,
+#grid #heroContainer .bgLight p,
+#hero .tabArticleText ul li,
+body .contentItem p.intro,
+body .productItem p.intro,
+#productComparison th h3,
+#fixed-table-header th h3,
+#productComparison tr.sectionType a.expand,
+.propositionDetails #stage p,
+body .contentRow .contentIntro h3,
+body .grid_18 #businessProductTable h3,
+#grid .grid_24 .advanceBox p span,
+#grid .grid_24 .premierBox p span,
+body .grid_16 .quote p
+{
+	font-size:125%;
+	line-height:24px;
+}
+#heroContainer .tabArticleText p,
+body .grid_12 .contentItem h2.intro,
+#productNav h2,
+#grid .grid .column p.phone span,
+#searchResults h3,
+body .contentRow h3,
+.propositionDetails .branding h2,
+.productDetails .branding h2,
+.lightviewHeading h2,
+body .contentIntro h3,
+body .grid_12 h3.advance,
+body .propositionRow h3.advance,
+body .grid_12 h3.premier,
+body .propositionRow h3.premier,
+.premierDetails #stage p,
+body .popupMenu .expanded p.popupItemTitle
+{
+	font-size:150%;
+	line-height:28px;
+}
+#grid #heroContainer .bgLight h2,
+body .contentItem h3,
+body .productItem h3,
+.propositionDetails #stage h2
+{
+	font-size:175%;
+	line-height:32px;
+}
+#heroContainer .tabArticleText h2
+{
+	font-size:200%;
+	line-height:36px;
+}
+body #hero a,
+body #hero a:hover,
+body .contentItem h2 a,
+body .contentItem h3 a,
+body .contentItem h4 a,
+body a.greyBtn,
+body a.redBtn,
+body a.greyBtn span,
+body a.redBtn span,
+body a.greyBtn:hover,
+body a.redBtn:hover,
+body a.greyBtn span:hover,
+body a.redBtn span:hover,
+#productNav ul li a,
+#smallCarousel a,
+#productSelector #productTabs li a,
+#productSet #productTabs li a,
+#products .furtherInfo .handle a,
+#grid .grid_6 .column ul li a,
+#grid .actions ul li a,
+#productFooter .column ul li a,
+#otherAccounts .column ul li a,
+body .propositionRow .column ul li a,
+body a.redLink,
+body a.pdfLink,
+body a.overlayLaunchLink,
+body a.backLink,
+body a.backtoTop,
+body .featureBox ul li a,
+body .popupMenu .popupMenuItemContent p a,
+form#productSelector #products table thead th p a,
+#productComparison tr.sectionType a.expand,
+#productComparison td a.more,
+#treeNav ul li a,
+#leftNav ul li a,
+#searchResults a,
+#businessProductTable tr.rowContent th h4 a,
+#businessProductTable tr.rowFull th h4 a,
+body .pageTabs li a,
+body .pageTabs li a:hover,
+#productNav .pageTabs li a,
+#productNav .pageTabs li a:hover,
+body .contentRow .contentIntro .contentItem ul li a,
+.premierDetails #stage p a,
+.businessDetails #stage p a,
+body .contentItem .caption p a,
+body .pillarPagination a
+{
+	text-decoration:none;
+}
+body a,
+body a:hover,
+body a:active,
+body a:focus,
+body #hero a:active,
+body #hero a:focus,
+body #hero .tabArticleText h2 a,
+body #hero .tabArticleText h2 a:hover,
+body #hero .tabArticleText p a,
+body #hero .tabArticleText p a:hover,
+body #hero .tabArticleText li a,
+body #hero .tabArticleText li a:hover,
+body .contentItem h2 a:hover,
+body .contentItem h2 a:active,
+body .contentItem h2 a:focus,
+body .contentItem h3 a:hover,
+body .contentItem h3 a:active,
+body .contentItem h3 a:focus,
+body .contentItem h4 a:hover,
+body .contentItem h4 a:active,
+body .contentItem h4 a:focus,
+body a.redBtn:active,
+body a.redBtn:focus,
+body a.greyBtn:active,
+body a.greyBtn:focus,
+body a.redBtn:active span,
+body a.redBtn:focus span,
+body a.greyBtn:active span,
+body a.greyBtn:focus span,
+#productNav ul li a:hover,
+#productNav ul li a:active,
+#productNav ul li a:focus,
+#productSelector #productTabs li a:hover,
+#productSelector #productTabs li a:active,
+#productSelector #productTabs li a:focus,
+#productSet #productTabs li a:hover,
+#productSet #productTabs li a:active,
+#productSet #productTabs li a:focus,
+#products .furtherInfo .handle a:hover,
+#products .furtherInfo .handle a:active,
+#products .furtherInfo .handle a:focus,
+#grid .grid_6 .column ul li a:hover,
+#grid .grid_6 .column ul li a:active,
+#grid .grid_6 .column ul li a:focus,
+#grid .actions ul li a:hover,
+#grid .actions ul li a:active,
+#grid .actions ul li a:focus,
+#otherAccounts .column ul li a:hover,
+#otherAccounts .column ul li a:active,
+#otherAccounts .column ul li a:focus,
+body .propositionRow .column ul li a:hover,
+body .propositionRow .column ul li a:active,
+body .propositionRow .column ul li a:focus,
+#productFooter .column ul li a:hover,
+#productFooter .column ul li a:active,
+#productFooter .column ul li a:focus,
+body a.redLink:hover,
+body a.redLink:active,
+body a.redLink:focus,
+body a.pdfLink:hover,
+body a.pdfLink:active,
+body a.pdfLink:focus,
+body a.overlayLaunchLink:hover,
+body a.overlayLaunchLink:active,
+body a.overlayLaunchLink:focus,
+body a.backLink:hover,
+body a.backLink:active,
+body a.backLink:focus,
+body a.backtoTop:hover,
+body a.backtoTop:active,
+body a.backtoTop:focus,
+body .featureBox ul li a:hover,
+body .featureBox ul li a:active,
+body .featureBox ul li a:focus,
+body .popupMenu .popupMenuItemContent p a:hover,
+body .popupMenu .popupMenuItemContent p a:active,
+body .popupMenu .popupMenuItemContent p a:focus,
+form#productSelector #products table thead th p a:hover,
+form#productSelector #products table thead th p a:active,
+form#productSelector #products table thead th p a:focus,
+#productComparison tr.sectionType a.expand:hover,
+#productComparison tr.sectionType a.expand:active,
+#productComparison tr.sectionType a.expand:focus,
+#productComparison td a.more:hover,
+#productComparison td a.more:active,
+#productComparison td a.more:focus,
+#treeNav ul li a:hover,
+#treeNav ul li a:active,
+#treeNav ul li a:focus,
+#leftNav ul li a:hover,
+#leftNav ul li a:active,
+#leftNav ul li a:focus,
+#searchResults a:hover,
+#searchResults a:active,
+#searchResults a:focus,
+#businessProductTable tr.rowContent th h4 a:hover,
+#businessProductTable tr.rowContent th h4 a:active,
+#businessProductTable tr.rowContent th h4 a:focus,
+#businessProductTable tr.rowFull th h4 a:hover,
+#businessProductTable tr.rowFull th h4 a:active,
+#businessProductTable tr.rowFull th h4 a:focus,
+body .pageTabs li a:active,
+body .pageTabs li a:focus,
+body .pageTabs li a:active span,
+body .pageTabs li a:focus span,
+#productNav .pageTabs li a:active,
+#productNav .pageTabs li a:focus,
+#productNav .pageTabs li a:active span,
+#productNav .pageTabs li a:focus span,
+body .contentRow .contentIntro .contentItem ul li a:hover,
+body .contentRow .contentIntro .contentItem ul li a:active,
+body .contentRow .contentIntro .contentItem ul li a:focus,
+.premierDetails #stage p a:hover,
+.premierDetails #stage p a:active,
+.premierDetails #stage p a:focus,
+.businessDetails #stage p a:hover,
+.businessDetails #stage p a:active,
+.businessDetails #stage p a:focus,
+body .contentItem .caption p a:hover,
+body .contentItem .caption p a:active,
+body .contentItem .caption p a:focus,
+body .pillarPagination a:hover,
+body .pillarPagination a:active,
+body .pillarPagination a:focus
+{
+	text-decoration:underline;
+}
+body p,
+body li,
+.contentItem table tr td,
+.productItem table tr td,
+#mortgageForm fieldset .mandatory,
+#mortgageForm ul li label,
+#mortgageForm fieldset input.question,
+#mortgageForm fieldset select,
+.productComparison td,
+#businessProductTable td,
+body .grid .quote p span,
+#otherAccounts .column h4
+{
+	color:#4c4c4c;
+}
+body a,
+body h2,
+body h3,
+body h4,
+body h5,
+.contentItem table tr th,
+.productItem table tr th,
+.contentItem table thead tr td,
+.productItem table thead tr td,
+body #heroContainer .bgLight h2,
+body #heroContainer .bgLight p,
+body #heroContainer .bgLight ul li,
+body #hero .bgLight h2 a,
+body #hero .bgLight p a,
+body #hero .bgLight li a,
+body .contentItem p.intro,
+body .productItem p.intro,
+#productSelector #productTabs li a,
+#productSet #productTabs li a,
+#products .furtherInfo .handle a,
+#products .productInfo td.price p span,
+#grid .grid .column p.phone span,
+form#productSelector fieldset p.intro,
+form#productSelector #products table thead th p a:hover,
+form#productSelector #products table thead th p a:active,
+form#productSelector #products table thead th p a:focus,
+form #products .productInfo td label,
+#businessProductTable td label,
+#productComparison tr.sectionType a.expand:hover,
+#productComparison tr.sectionType a.expand:active,
+#productComparison tr.sectionType a.expand:focus,
+.productComparison th,
+#businessProductTable tr.productHeadings th,
+#businessProductTable tr.rowContent th,
+#businessProductTable tr.rowFull th,
+#productComparison td p strong,
+body .grid .applyBox .right p,
+.lightviewHeading .right p,
+#businessProductTable tr.rowContent th p,
+#businessProductTable tr.rowFull th p,
+#productSet .options .filter p,
+#productSet .options .filter label,
+body .contentRow p.intro,
+body .right .rightInner p,
+body .productItem li span,
+body .grid_8 .shaded p.intro,
+body .advanceDetails #stage h2,
+body .advanceDetails #stage p,
+body .advanceTabs .pageTabs li.selected a,
+body .advanceTabs .pageTabs li.selected a span,
+#grid .grid_24 .advanceBox p,
+body .grid .quote p,
+#grid .grid_16 .column .apply p.phone,
+body .pillarPagination .pillarContent p,
+body .propositionRow p.intro
+{
+	color:#000;
+}
+body .premierTabs .pageTabs li.selected a,
+body .premierTabs .pageTabs li.selected a span,
+.lightviewDetails .column h2.premier,
+body .grid h3.premier,
+body .grid h4.premier,
+body .popupMenu p.popupItemTitle,
+body .quote p.premier,
+body .quote p.premier span
+{
+	color:#292278;
+}
+#productNav ul li a,
+#treeNav ul li a,
+#leftNav ul li a
+{
+	color:#333;
+}
+body a:hover,
+body a:active,
+body a:focus,
+body #hero .tabArticleText h2 a:hover,
+body #hero .tabArticleText p a:hover,
+body #hero .tabArticleText li a:hover,
+body #hero .tabArticleText h2 a:active,
+body #hero .tabArticleText p a:active,
+body #hero .tabArticleText li a:active,
+body #hero .tabArticleText h2 a:focus,
+body #hero .tabArticleText p a:focus,
+body #hero .tabArticleText li a:focus,
+#productNav li.on a,
+#productNav li a:hover,
+#productNav li a:active,
+#productNav li a:focus,
+#grid .grid .accountsOn h3,
+#grid .grid .mortgagesOn h3,
+#grid .grid .toolsOn h3,
+#grid .grid .adviceOn h3,
+#productSelector #productTabs li.selected a,
+#productSet #productTabs li.selected a,
+#treeNav ul li a:hover,
+#treeNav ul li a:active,
+#treeNav ul li a:focus,
+#leftNav ul li a:hover,
+#leftNav ul li a:active,
+#leftNav ul li a:focus,
+#treeNav ul li.on p a,
+#treeNav ul li ul li.on a,
+#leftNav ul li.on a,
+#grid .grid_6 .coloured h3,
+#searchResults h3 span.searchedText,
+body .pageTabs li.selected a,
+body .pageTabs li.selected a span
+{
+	color:#db0011;
+}
+#hero li a.carouselTab,
+#hero li a.carouselTab:hover,
+#hero li a.carouselTab:active,
+#hero li a.carouselTab:focus,
+#heroContainer .tabArticleText h2,
+#heroContainer .tabArticleText p,
+#heroContainer .tabArticleText ul li,
+body a.redBtn,
+body a.redBtn:hover,
+body a.redBtn:active,
+body a.redBtn:focus,
+body a.greyBtn:hover,
+body a.greyBtn:active,
+body a.greyBtn:focus,
+body .compare a.greyBtn,
+body .premierBox a.greyBtn,
+#productNav ul li.open a,
+#productNav ul li.open a:hover,
+#productNav ul li.open a:active,
+#productNav ul li.open a:focus,
+#hero .tabArticleText h2 a,
+#hero .tabArticleText p a,
+#hero .tabArticleText li a,
+#mortgageForm .helpText,
+#mortgageForm fieldset input.question:active,
+#mortgageForm fieldset input.question:focus,
+#mortgageForm fieldset input.ieTextFocus,
+div#productSelector #products table thead,
+.productComparison tr.productHeadings td,
+#searchResults .searchMenu li.current a,
+.propositionDetails #stage h2,
+.propositionDetails #stage p,
+body .pageTabs li a,
+body .pageTabs li a span,
+.premierDetails #stage p a,
+.businessDetails #stage p a,
+#grid .grid_24 .premierBox p,
+body .premierBox a.overlayLaunchLink,
+body .contentItem .caption p,
+body .contentItem .caption p a,
+body .pillarPremier .pillarContent h3,
+body .pillarPremier .pillarContent p,
+body .pillarPremier .pillarContent h3 a,
+body .pillarPremier .pillarContent p a
+{
+	color:#fff;
+}
+body a:active,
+body a:focus,
+.jqmWindow .close a:active span,
+.jqmWindow .close a:focus span,
+body #hero .tabArticleText h2 a:active,
+body #hero .tabArticleText p a:active,
+body #hero .tabArticleText li a:active,
+body #hero .tabArticleText h2 a:focus,
+body #hero .tabArticleText p a:focus,
+body #hero .tabArticleText li a:focus,
+form #products .productInfo td input:active,
+form #products .productInfo td input:focus,
+#businessProductTable td input:active,
+#businessProductTable td input:focus,
+#productSet .options .filter label input:active,
+#productSet .options .filter label input:focus
+{
+	outline:1px solid #db0011;
+}
+.jqmWindow a.anchor:active,
+.jqmWindow a.anchor:focus,
+.jqmWindow .close a:active,
+.jqmWindow .close a:focus,
+body #hero a:active,
+body #hero a:focus,
+body .contentItem h2 a:hover,
+body .contentItem h2 a:active,
+body .contentItem h2 a:focus,
+body .contentItem h3 a:hover,
+body .contentItem h3 a:active,
+body .contentItem h3 a:focus,
+body .contentItem h4 a:hover,
+body .contentItem h4 a:active,
+body .contentItem h4 a:focus,
+body a.redBtn:active,
+body a.redBtn:focus,
+body a.greyBtn:active,
+body a.greyBtn:focus,
+#productNav li a:active,
+#productNav li a:focus,
+#smallCarousel a:active,
+#smallCarousel a:focus,
+#productSelector #productTabs li a:active,
+#productSelector #productTabs li a:focus,
+#productSet #productTabs li a:active,
+#productSet #productTabs li a:focus,
+#products .furtherInfo .handle a:active,
+#products .furtherInfo .handle a:focus,
+#grid .grid_6 .column ul li a:active,
+#grid .grid_6 .column ul li a:focus,
+#grid .actions ul li a:active,
+#grid .actions ul li a:focus,
+#otherAccounts .column ul li a:active,
+#otherAccounts .column ul li a:focus,
+body .propositionRow .column ul li a:active,
+body .propositionRow .column ul li a:focus,
+#productFooter .column ul li a:active,
+#productFooter .column ul li a:focus,
+body a.redLink:active,
+body a.redLink:focus,
+body a.pdfLink:active,
+body a.pdfLink:focus,
+body a.overlayLaunchLink:active,
+body a.overlayLaunchLink:focus,
+body a.backLink:active,
+body a.backLink:focus,
+body a.backtoTop:active,
+body a.backtoTop:focus,
+body .featureBox ul li a:active,
+body .featureBox ul li a:focus,
+body .popupMenu .popupMenuItemContent p a:active,
+body .popupMenu .popupMenuItemContent p a:focus,
+#mortgageForm span.help a:active,
+#mortgageForm span.help a:focus,
+form#productSelector #products table thead th p a:active,
+form#productSelector #products table thead th p a:focus,
+#productComparison tr.sectionType a.expand:active,
+#productComparison tr.sectionType a.expand:focus,
+#productComparison td a.more:active,
+#productComparison td a.more:focus,
+#treeNav ul li a:active,
+#treeNav ul li a:focus,
+#leftNav ul li a:active,
+#leftNav ul li a:focus,
+#searchResults a:active,
+#searchResults a:focus,
+body .bannerItem a:active,
+body .bannerItem a:focus,
+#businessProductTable tr.rowContent th h4 a:active,
+#businessProductTable tr.rowContent th h4 a:focus,
+#businessProductTable tr.rowFull th h4 a:active,
+#businessProductTable tr.rowFull th h4 a:focus,
+body .pageTabs li a:active,
+body .pageTabs li a:focus,
+body .contentRow .contentIntro .contentItem ul li a:active,
+body .contentRow .contentIntro .contentItem ul li a:focus,
+.premierDetails #stage p a:active,
+.premierDetails #stage p a:focus,
+.businessDetails #stage p a:active,
+.businessDetails #stage p a:focus,
+body .contentItem .caption p a:active,
+body .contentItem .caption p a:focus,
+body .propositionRow .promo a:active,
+body .propositionRow .promo a:focus,
+body .pillarPagination a:active,
+body .pillarPagination a:focus
+{
+	outline:0;
+}
+body a.greyBtn
+{
+	background:url("../images/content/bg_lightgrey_btn_left.gif") left top no-repeat;
+	display:block;
+	float:left;
+	white-space:nowrap;
+	padding:0 0 0 4px;
+	margin:0 10px 0 0;
+}
+body .compare a.greyBtn
+{
+	background:url("../images/content/bg_darkgrey_btn_left.gif") left top no-repeat;
+	float:right;
+	margin:0;
+}
+body .premierBox a.greyBtn
+{
+	background:url("../images/content/bg_purple_btn_left.gif") left top no-repeat;
+}
+body a.videoBtn
+{
+	background:url("../images/content/bg_lightgrey_btn_right.gif") right top no-repeat;
+	padding:0 4px 0 0;
+}
+body a.greyBtn span
+{
+	background:url("../images/content/bg_lightgrey_btn.gif") right top no-repeat;
+	display:block;
+	float:left;
+	padding:8px 26px 7px 10px;
+}
+body .compare a.greyBtn span
+{
+	background:url("../images/content/bg_darkgrey_btn.gif") right top no-repeat;
+	padding:8px 14px 7px 10px;
+}
+body a.greyBtn span.new
+{
+	background:url("../images/content/bg_lightgrey_btn_new.gif") right top no-repeat;
+	padding:8px 31px 7px 10px;
+}
+body .premierBox a.greyBtn span.new
+{
+	background:url("../images/content/bg_purple_btn_new.gif") right top no-repeat;
+}
+body a.videoBtn span
+{
+	background:url("../images/content/bg_lightgrey_btn_video.gif") left top no-repeat;
+	padding:8px 10px 7px 31px;
+}
+body a.redBtn
+{
+	background:url("../images/content/bg_btn_left.gif") left top no-repeat;
+	display:block;
+	float:left;
+	white-space:nowrap;
+	padding:0 0 0 4px;
+	margin:0 10px 0 0;
+}
+body a.redBtn span
+{
+	background:url("../images/content/bg_btn.gif") right top no-repeat;
+	display:block;
+	float:left;
+	padding:8px 14px 7px 10px;
+}
+body a.greyBtn:hover,
+body a.greyBtn:active,
+body a.greyBtn:focus
+{
+	background:url("../images/content/bg_lightgrey_btn_left.gif") left -87px no-repeat;
+}
+body .compare a.greyBtn:hover,
+body .compare a.greyBtn:active,
+body .compare a.greyBtn:focus
+{
+	background:url("../images/content/bg_darkgrey_btn_left.gif") left -87px no-repeat;
+}
+body .premierBox a.greyBtn:hover,
+body .premierBox a.greyBtn:active,
+body .premierBox a.greyBtn:focus
+{
+	background:url("../images/content/bg_purple_btn_left.gif") left -87px no-repeat;
+}
+body a.videoBtn:hover,
+body a.videoBtn:active,
+body a.videoBtn:focus
+{
+	background:url("../images/content/bg_lightgrey_btn_right.gif") right -87px no-repeat;
+}
+body a.redBtn:hover,
+body a.redBtn:active,
+body a.redBtn:focus
+{
+	background:url("../images/content/bg_btn_left.gif") left -87px no-repeat;
+}
+body a.greyBtn:hover span,
+body a.greyBtn:active span,
+body a.greyBtn:focus span
+{
+	background:url("../images/content/bg_lightgrey_btn.gif") right -87px no-repeat;
+}
+body a.greyBtn:hover span.new,
+body a.greyBtn:active span.new,
+body a.greyBtn:focus span.new
+{
+	background:url("../images/content/bg_lightgrey_btn_new.gif") right -87px no-repeat;
+}
+body .premierBox a.greyBtn:hover span.new,
+body .premierBox a.greyBtn:active span.new,
+body .premierBox a.greyBtn:focus span.new
+{
+	background:url("../images/content/bg_purple_btn_new.gif") right -87px no-repeat;
+}
+body a.videoBtn:hover span,
+body a.videoBtn:active span,
+body a.videoBtn:focus span
+{
+	background:url("../images/content/bg_lightgrey_btn_video.gif") left -87px no-repeat;
+}
+body a.redBtn:hover span,
+body a.redBtn:active span,
+body a.redBtn:focus span
+{
+	background:url("../images/content/bg_btn.gif") right -87px no-repeat;
+}
+body .compare a.greyBtn:hover span,
+body .compare a.greyBtn:active span,
+body .compare a.greyBtn:focus span
+{
+	background:url("../images/content/bg_darkgrey_btn.gif") right -87px no-repeat;
+}
+.productComparison tr.productLinks a.redBtn,
+.productComparison tr.productLinks a.greyBtn,
+#businessProductTable tr.rowContent td a.greyBtn,
+#products .productInfo td a.greyBtn,
+body .premierBox a.greyBtn,
+body .advanceBox a.greyBtn
+{
+	margin:0;
+}
+body .applyBox .right a.redBtn,
+body .applyBox .right a.greyBtn,
+body .right .rightInner a.redBtn,
+body .right .rightInner a.greyBtn,
+.lightviewHeading .right a.redBtn,
+.lightviewHeading .right a.greyBtn
+{
+	margin:0 0 0 10px;
+}
+body .contentRow .contentRow a.greyBtn,
+body .contentRow .contentRow a.redBtn,
+body .contentRow .contentIntro a.greyBtn,
+body .contentRow .contentIntro a.redBtn,
+#businessProductTable tr.rowContent td a.redBtn,
+#businessProductTable tr.rowContent td a.greyBtn,
+#products .productInfo td a.greyBtn,
+#products .productInfo td a.redBtn
+{
+	clear:both;
+}
+body .contentRow .contentRow a.greyBtn,
+body .contentRow .contentRow a.redBtn,
+#businessProductTable tr.rowContent td a.redBtn,
+#products .productInfo td a.redBtn
+{
+	margin:12px 0 0;
+}
+body .contentRow .contentIntro a.greyBtn,
+body .contentRow .contentIntro a.redBtn
+{
+	margin:6px 0 0;
+}
+body .contentItem h2 a,
+body .contentItem h3 a,
+body .contentItem h4 a,
+#searchResults .searchListing h4 a,
+#businessProductTable tr.rowContent th h4 a,
+#businessProductTable tr.rowFull th h4 a
+{
+	background:url("../images/content/lrg_red_arrow.gif") right bottom no-repeat;
+	padding:0 12px 0 0;
+}
+body .menu .contentItem h4 a
+{
+	background:url("../images/content/lrg_red_arrow_down.gif") right bottom no-repeat;
+	padding:0 15px 0 0;
+}
+#grid .grid_6 .column ul li a,
+#grid .actions ul li a,
+#productFooter .column ul li a,
+body a.redLink,
+body .featureBox ul li a,
+body .popupMenu .popupMenuItemContent p a,
+body .contentRow .contentIntro .contentItem ul li a,
+body .propositionRow .column ul li a
+{
+	background:url("../images/content/sml_red_arrow.gif") right bottom no-repeat;
+	padding:0 12px 0 0;
+}
+.productComparison tr.productLinks ul li a.redLink,
+.jqmWindow .lightviewFooter a.redLink
+{
+	background:url("../images/content/red_arrow.gif") right center no-repeat;
+	padding:8px 12px 7px 0;
+	display:block;
+}
+body .grid_16 .quote a.redLink
+{
+	padding:0 12px 0 65px;
+}
+body .grid_8 .quote a.redLink
+{
+	padding:0 12px 0 50px;
+}
+body a.pdfLink,
+body .propositionRow .column ul li a.pdfLink
+{
+	background:url("../images/content/icon_pdf_launch.gif") left top no-repeat;
+	padding:0 0 0 20px;
+	display:block;
+}
+body .column ul li.selected a
+{
+	padding:0;
+	background:none;
+	font-weight:bold;
+}
+body a.backtoTop
+{
+	background:url("../images/content/sml_red_arrow_up.gif") left center no-repeat;
+	float:right;
+	display:block;
+	padding:0 0 0 15px;
+}
+body .compare a.backtoTop
+{
+	padding:8px 10px 7px 15px;
+}
+body a.backLink
+{
+	background:url("../images/content/sml_red_arrow_back.gif") left bottom no-repeat;
+	padding:0 0 0 12px;
+	display:block;
+	float:left;
+}
+body .contentRow .contentRow .contentItem h4 a,
+body .portalRow .portalItem h4 a
+{
+	padding:0 18px 0 0;
+	line-height:20px;
+	background:url("../images/content/icon_overlay_launch_lrg.gif") right bottom no-repeat;
+}
+body a.overlayLaunchLink,
+body .grid .new ul li a,
+#productFooter .column ul li a.overlayLaunchLink,
+body .propositionRow .column ul li a.overlayLaunchLink
+{
+	padding:0 18px 0 0;
+	background:url("../images/content/icon_overlay_launch.gif") right bottom no-repeat;
+}
+body .premierBox a.overlayLaunchLink
+{
+	background-image:url("../images/content/icon_white_overlay_launch.gif");
+}
+body .productItem li a.pdfLink,
+body .contentItem li a.pdfLink,
+body .productItem li a.redLink,
+body .contentItem li a.redLink,
+body .productItem li a.overlayLaunchLink,
+body .contentItem li a.overlayLaunchLink,
+body .column li a.overlayLaunchLink,
+body .productItem p a.pdfLink,
+body .contentItem p a.pdfLink,
+body .column li a.pdfLink,
+body .productItem p a.redLink,
+body .contentItem p a.redLink,
+body .productItem p a.overlayLaunchLink,
+body .contentItem p a.overlayLaunchLink
+{
+	font-size:100%;
+}
+.premierDetails #stage p a,
+.businessDetails #stage p a
+{
+	background:url("../images/content/stage-chevron-white.gif") right center no-repeat;
+	padding:0 14px 0 0;
+	line-height:28px;
+}
+body .productItem ul
+{
+	padding:6px 0;
+}
+body .productItem ul li
+{
+	padding:0 0 12px 28px;
+	background:url("../images/content/lrg_tick.gif") left top no-repeat;
+}
+body .productItem li span
+{
+	font-weight:bold;
+	font-size:133.33%;
+	line-height:20px;
+}
+.contentItem table,
+.productItem table
+{
+	margin:15px 0 25px;
+}
+.contentItem table th,
+.contentItem table td,
+.productItem table th,
+.productItem table td
+{
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	padding:9px 20px;
+}
+.contentItem table thead tr th,
+.productItem table thead tr th,
+.contentItem table thead tr td,
+.productItem table thead tr td
+{
+	background-color:#dbdcdd;
+	padding:8px 20px;
+}
+.contentItem table thead tr th span,
+.productItem table thead tr th span
+{
+	display:block;
+	font-weight:normal;
+	line-height:18px;
+	font-size:85.71%;
+}
+.contentItem table tr th,
+.contentItem table tr td,
+.productItem table tr th,
+.productItem table tr td
+{
+	background-color:#f0f0f0;
+}
+.contentItem table tr.odd th,
+.contentItem table tr.odd td,
+.productItem table tr.odd th,
+.productItem table tr.odd td
+{
+	background-color:#e4e4e4;
+}
+.grid .contentItem table tr p,
+.grid .productItem table tr p
+{
+	padding:0;
+	font-size:100%;
+}
+body .grid_16 .contentRow .contentItem,
+body .grid_16 .productRow .productItem
+{
+	width:290px;
+	padding:0 20px 0 0;
+}
+body .grid_12 .contentRow .contentItem,
+body .grid_12 .productRow .productItem
+{
+	width:210px;
+	padding:0 20px 0 0;
+}
+body .grid img.left
+{
+	float:left;
+	padding:6px 20px 12px 0;
+}
+body .grid img.right
+{
+	float:right;
+	padding:6px 10px 12px 25px;
+}
+body .grid .smallPrint
+{
+	border-top:1px solid #ccc;
+	float:left;
+	margin:12px 0 0;
+	padding:18px 0 0;
+	width:100%;
+}
+body .grid .smallPrint p,
+body .grid p.note
+{
+	font-size:68.75%;
+	line-height:16px;
+	color:#696969;
+}
+body .grid_8 .bannerItem
+{
+	padding:0 0 30px;
+}
+body .bannerItem a,
+body .bannerItem a:hover
+{
+	border:2px solid #fff;
+	display:block;
+}
+body .bannerItem a:active,
+body .bannerItem a:focus
+{
+	border-color:#626469;
+}
+#heroContainer,
+#hero,
+#hero .carouselWrapper,
+#hero ul li
+{
+	width:940px;
+}
+#heroContainer
+{
+	padding:0 20px 0 0;
+}
+#hero
+{
+	z-index:1;
+	overflow-x:hidden;
+	overflow-y:auto;
+	position:relative;
+	background-color:#626469;
+	top:-10px;
+}
+#hero .carouselWrapper,
+#hero ul li
+{
+	overflow:hidden;
+}
+#hero .carouselWrapper ul
+{
+	width:9999px;
+	margin:0;
+	padding:0;
+}
+#hero ul li
+{
+	display:block;
+	float:left;
+	padding:0;
+	height:340px;
+	font-size:100%;
+	line-height:1;
+}
+#carousel-2 img,
+#carousel-3 img,
+#carousel-4 img,
+#carousel-2 .tabArticleText,
+#carousel-3 .tabArticleText,
+#carousel-4 .tabArticleText
+{
+	display:none;
+}
+#hero li a.carouselTab
+{
+	background:url("../images/content/carousel_divider_small.gif") center top no-repeat;
+	opacity:0.9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter:alpha(opacity=90);
+	font-weight:bold;
+	display:none;
+	float:left;
+	padding:25px 10px 15px 25px;
+	position:absolute;
+	top:280px;
+	z-index:50;
+}
+#hero li a.double
+{
+	top:260px;
+	background:url("../images/content/carousel_divider.gif") center top no-repeat;
+}
+#hero a#carouselTab1
+{
+	left:0;
+	width:200px;
+}
+#hero a#carouselTab2
+{
+	left:235px;
+	width:200px;
+}
+#hero a#carouselTab3
+{
+	left:470px;
+	width:200px;
+}
+#hero a#carouselTab4
+{
+	left:705px;
+	width:200px;
+}
+#hero li#carousel-1 a.carouselTab
+{
+	background:url("../images/content/carousel_divider_small_1.gif") center top no-repeat;
+}
+#hero li#carousel-4 a.carouselTab
+{
+	background:url("../images/content/carousel_divider_small_4.gif") center top no-repeat;
+}
+#hero li#carousel-1 a.double
+{
+	background:url("../images/content/carousel_divider_1.gif") center top no-repeat;
+}
+#hero li#carousel-4 a.double
+{
+	background:url("../images/content/carousel_divider_4.gif") center top no-repeat;
+}
+#hero li a.current,
+#hero li#carousel-1 a.current,
+#hero li#carousel-4 a.current
+{
+	background:url("../images/content/carousel_arrow.gif") center top no-repeat;
+}
+#heroContainer .tabArticleText
+{
+	position:absolute;
+	z-index:20;
+	top:0;
+	left:0;
+	padding:30px;
+	width:32em;
+}
+#hero .carouselWrapper .tabArticleText ul
+{
+	width:auto;
+}
+#hero .tabArticleText ul li
+{
+	float:none;
+	height:auto;
+	display:list-item;
+	overflow:visible;
+	width:auto;
+}
+#hero .bgLight ul li
+{
+	padding:0 0 6px 30px;
+	background:url("../images/content/lrg_tick.gif") left 2px no-repeat;
+}
+#heroContainer .bgLight
+{
+	background:#fff;
+	opacity:0.9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter:alpha(opacity=90);
+	width:25em;
+	padding:20px;
+	top:36px;
+	width:32em;
+}
+#hero .carouselWrapper .pager
+{
+	background-color:#626469;
+	position:absolute;
+	top:36px;
+	right:0;
+	z-index:20;
+	padding:7px 0;
+}
+#hero .carouselWrapper .pager ul
+{
+	width:auto;
+	float:left;
+	padding:2px 12px 1px 2px;
+	border-right:1px solid #939196;
+}
+#hero .carouselWrapper .pager li
+{
+	margin:0 0 0 7px;
+	height:auto;
+	width:auto;
+}
+#hero .carouselWrapper .pager a
+{
+	display:block;
+	border:1px solid #626469;
+	text-indent:-9999px;
+}
+#hero .carouselWrapper .pager li a
+{
+	width:11px;
+	height:11px;
+	background:url("../images/content/hero-pager-item.gif") left top no-repeat;
+}
+#hero .carouselWrapper .pager .pausePlay
+{
+	float:left;
+	padding:0 9px 1px 10px;
+	width:15px;
+	height:15px;
+}
+#hero .carouselWrapper .pager .pausePlay a
+{
+	background:url("../images/content/hero-pager-pause.gif") left top no-repeat;
+	width:13px;
+	height:13px;
+}
+#hero .carouselWrapper .pager li.selected a,
+#hero .carouselWrapper .pager .pausePlay a.paused
+{
+	background-position:left bottom;
+}
+#hero .carouselWrapper .pager a:active,
+#hero .carouselWrapper .pager a:focus
+{
+	border:1px solid #fff;
+}
+#productNav
+{
+	border-bottom:1px solid #ccc;
+	padding:24px 0 12px;
+}
+#productNav h2
+{
+	font-weight:normal;
+	float:left;
+}
+#productNav ul
+{
+	float:right;
+	padding:0;
+}
+#productNav ul li
+{
+	float:left;
+	font-size:100%;
+	line-height:20px;
+	padding:0;
+	position:relative;
+	z-index:100;
+}
+#productNav ul li a
+{
+	display:block;
+	padding:12px 12px 12px 43px;
+	background-color:#fff;
+	background-position:8px center;
+	line-height:20px;
+	background-repeat:no-repeat;
+}
+#productNav ul li a.acctService
+{
+	padding:12px 0 12px 43px;
+}
+#productNav li a#accountsTab,
+body .grid .accounts
+{
+	background-image:url("../images/content/productNavAccounts.gif");
+}
+#productNav li a#mortgagesTab,
+body .grid .mortgages
+{
+	background-image:url("../images/content/productNavMortgages.gif");
+}
+#productNav li a#toolsTab,
+body .grid .tools
+{
+	background-image:url("../images/content/productNavTools.gif");
+}
+#productNav li a#adviceTab,
+body .grid .advice
+{
+	background-image:url("../images/content/productNavAdvice.gif");
+}
+#productNav li a#shareTab
+{
+	background-image:url("../images/content/productNavShare.gif");
+	display:none;
+}
+#productNav li a#printTab
+{
+	background-image:url("../images/content/productNavPrint.gif");
+	display:none;
+}
+#productNav li.on a#accountsTab,
+#productNav li a#accountsTab:hover,
+#productNav li a#accountsTab:active,
+#productNav li a#accountsTab:focus,
+body .grid .accountsOn
+{
+	background-image:url("../images/content/productNavAccountsOver.gif");
+}
+#productNav li.on a#mortgagesTab,
+#productNav li a#mortgagesTab:hover,
+#productNav li a#mortgagesTab:active,
+#productNav li a#mortgagesTab:focus,
+body .grid .mortgagesOn
+{
+	background-image:url("../images/content/productNavMortgagesOver.gif");
+}
+#productNav li.on a#toolsTab,
+#productNav li a#toolsTab:hover,
+#productNav li a#toolsTab:active,
+#productNav li a#toolsTab:focus,
+body .grid .toolsOn
+{
+	background-image:url("../images/content/productNavToolsOver.gif");
+}
+#productNav li.on a#adviceTab,
+#productNav li a#adviceTab:hover,
+#productNav li a#adviceTab:active,
+#productNav li a#adviceTab:focus,
+body .grid .adviceOn
+{
+	background-image:url("../images/content/productNavAdviceOver.gif");
+}
+#productNav li.on a#shareTab,
+#productNav li a#shareTab:hover,
+#productNav li a#shareTab:active,
+#productNav li a#shareTab:focus
+{
+	background-image:url("../images/content/productNavShareOver.gif");
+}
+#productNav li.on a#printTab,
+#productNav li a#printTab:hover,
+#productNav li a#printTab:active,
+#productNav li a#printTab:focus
+{
+	background-image:url("../images/content/productNavPrintOver.gif");
+}
+body .grid .column
+{
+	padding:41px 20px 0 0;
+	background-position:left top;
+	float:left;
+	width:220px;
+	background-repeat:no-repeat;
+}
+body .grid .contact
+{
+	background-image:url("../images/content/productNavContact.gif");
+	padding:41px 0 0 0;
+}
+body .grid .articles
+{
+	background-image:url("../images/content/productNavArticles.gif");
+}
+#productNav ul li.open a,
+#productNav ul li.open a:hover,
+#productNav ul li.open a:active,
+#productNav ul li.open a:focus
+{
+	background-color:#000;
+}
+#productNav ul li.open a#accountsTab,
+#productNav ul li.open a#accountsTab:hover,
+#productNav ul li.open a#accountsTab:active,
+#productNav ul li.open a#accountsTab:focus
+{
+	background-image:url("../images/content/productNavAccountsOpen.gif");
+}
+#productNav ul li.open a#mortgagesTab,
+#productNav ul li.open a#mortgagesTab:hover,
+#productNav ul li.open a#mortgagesTab:active,
+#productNav ul li.open a#mortgagesTab:focus
+{
+	background-image:url("../images/content/productNavMortgagesOpen.gif");
+}
+#productNav ul li.open a#toolsTab,
+#productNav ul li.open a#toolsTab:hover,
+#productNav ul li.open a#toolsTab:active,
+#productNav ul li.open a#toolsTab:focus
+{
+	background-image:url("../images/content/productNavToolsOpen.gif");
+}
+#productNav ul li.open a#adviceTab,
+#productNav ul li.open a#adviceTab:hover,
+#productNav ul li.open a#adviceTab:active,
+#productNav ul li.open a#adviceTab:focus
+{
+	background-image:url("../images/content/productNavAdviceOpen.gif");
+}
+#productNav ul li.open a#shareTab,
+#productNav ul li.open a#shareTab:hover,
+#productNav ul li.open a#shareTab:active,
+#productNav ul li.open a#shareTab:focus
+{
+	background-image:url("../images/content/productNavShareOpen.gif");
+}
+#productNav li a span
+{
+	background:url("../images/content/productArrow.gif") right center no-repeat;
+	display:block;
+	padding:0 29px 0 0;
+	line-height:20px;
+}
+#productNav li.on a span,
+#productNav li a:hover span,
+#productNav li a:active span,
+#productNav li a:focus span
+{
+	background-image:url("../images/content/productArrowOver.gif");
+}
+#productNav li.open a.acctService span
+{
+	background-image:url("../images/content/productArrowOpen.gif");
+}
+#productNav li ul.dropDown
+{
+	background-color:#000;
+	display:none;
+	padding:12px 0 6px;
+	position:absolute;
+	width:230px;
+	z-index:100;
+}
+#productNav li.open ul.dropDown
+{
+	display:block;
+}
+#productNav li.last ul.dropDown
+{
+	right:0;
+}
+#productNav li .dropDown li
+{
+	float:none;
+	padding:0 15px 6px;
+	width:auto;
+	display:block;
+}
+#productNav li .dropDown li#facebookShare
+{
+	padding:0 15px 6px 40px;
+	background:url("../images/content/shareFacebookIcon.gif") 15px top no-repeat;
+}
+#productNav li .dropDown li#emailShare
+{
+	padding:0 15px 6px 40px;
+	background:url("../images/content/shareEmailIcon.gif") 15px top no-repeat;
+}
+#productNav li .dropDown li#twitterShare
+{
+	padding:0 15px 6px 40px;
+	background:url("../images/content/shareTwitterIcon.gif") 15px top no-repeat;
+}
+#productNav ul li ul.dropDown li a
+{
+	background:url("../images/content/sml_white_arrow.gif") right bottom no-repeat;
+	padding:0 12px 0 0;
+	line-height:18px;
+	display:inline;
+}
+#productFooter
+{
+	border-top:1px solid #ccc;
+	padding:22px 0 15px;
+}
+body .grid .border
+{
+	border-bottom:1px solid #ccc;
+}
+body .grid .grid_6 .column,
+body .grid .grid_8 .column
+{
+	margin:0 0 30px;
+}
+body .grid .grid_6 .contact,
+body .grid .grid_6 .articles
+{
+	padding:59px 18px 6px;
+	background-position:18px 18px;
+	border:1px solid #ccc;
+	width:182px;
+}
+body .grid .grid_6 .promo,
+body .grid .grid_8 .promo
+{
+	border:1px solid #ccc;
+	padding:0 0 18px;
+	width:218px;
+}
+body .grid .grid_8 .promo
+{
+	width:258px;
+	padding:20px;
+	-moz-box-shadow:0 0 20px #ccc;
+	-webkit-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+body .grid .grid_6 .shaded
+{
+	border:0;
+	padding:0 0 18px;
+	width:220px;
+}
+#grid .promo .inner,
+#grid .contact .inner
+{
+	padding:18px 18px 0;
+	float:left;
+	width:182px;
+}
+#grid .grid_8 .promo .inner
+{
+	width:258px;
+	padding:12px 0 0;
+}
+body .grid .grid_8 .shaded,
+body .grid .propositionRow .shaded
+{
+	border:0;
+	width:260px;
+	padding:20px 20px 8px;
+}
+body .grid .grid_8 .shaded .inner,
+body .grid .propositionRow .shaded .inner
+{
+	clear:both;
+	width:260px;
+	float:left;
+}
+body #grid .grid .grid_8 .contact,
+body .grid .grid_6 .shaded,
+#grid #products .furtherInfo .help
+{
+	background:#f0eff0 url("../images/content/bg_grad.gif") left bottom repeat-x;
+}
+#grid .grid .column p.phone span
+{
+	display:block;
+	margin:3px 0 0;
+	font-weight:bold;
+}
+body .grid_8 .quote p
+{
+	padding:0 0 6px 50px;
+	background:url("../images/content/leftQuote_blk.gif") 2px 4px no-repeat;
+}
+body .grid_8 .quote p.premier
+{
+	background-image:url("../images/content/leftQuote.gif");
+}
+body .grid_8 .quote p span
+{
+	font-size:68.75%;
+}
+body .grid_16 .column
+{
+	width:618px;
+	border:1px solid #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-webkit-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+	margin:0 0 18px;
+	padding:20px 0;
+}
+#grid .grid_16 .column .inner
+{
+	background:url("../images/content/bg_apply_divider.gif") top left repeat-y;
+	float:left;
+	width:618px;
+}
+#grid .grid_16 .column .inner .inner
+{
+	width:165px;
+	background:none;
+	clear:both;
+}
+#grid .grid_16 .column .apply
+{
+	width:165px;
+	float:left;
+	padding:0 21px 0 20px;
+}
+#grid .grid_16 .column .apply p.phone
+{
+	clear:both;
+}
+body .grid .grid_16 .quote
+{
+	width:600px;
+	padding:18px 20px 12px 0;
+	margin:12px 0 0;
+	border-left:0;
+	border-bottom:0;
+	border-right:0;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+body .grid_16 .quote p
+{
+	background:url("../images/content/leftQuote_lrg.gif") 2px 4px no-repeat;
+	padding:0 65px 6px;
+}
+body .grid_16 .quote p span
+{
+	font-size:60%;
+}
+#smallCarousel
+{
+	float:left;
+	width:458px;
+	margin:6px 0 0;
+	border:1px solid #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-webkit-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+.contentRow .contentRow #smallCarousel
+{
+	margin:12px 0 0;
+}
+#smallCarousel .revolverBelt a
+{
+	float:left;
+	font-size:1%;
+	display:none;
+	border:2px solid #fff;
+}
+#smallCarousel .revolverBelt a#first
+{
+	display:block;
+}
+#smallCarousel .galleryControls
+{
+	overflow:hidden;
+	background:#fff url("../images/content/bg-gallery-controls.gif") left bottom repeat-x;
+	width:458px;
+	height:45px;
+	display:none;
+}
+#smallCarousel .galleryControls div,
+body .right .rightInner,
+.lightviewHeading .right,
+.lightviewFooter a.redLink
+{
+	float:right;
+}
+#smallCarousel .galleryControls ul li
+{
+	float:left;
+	padding:0 0 0 9px;
+}
+#smallCarousel .galleryControls li a
+{
+	background:url("../images/content/bg-account-selector-gallery.gif") left top no-repeat;
+	text-indent:-9999px;
+	display:block;
+	width:26px;
+	height:25px;
+	border:1px solid transparent;
+}
+#smallCarousel .galleryControls li a:hover,
+#smallCarousel .galleryControls li a:active,
+#smallCarousel .galleryControls li a:focus
+{
+	background-position:right top;
+}
+#smallCarousel .galleryControls li a#galleryNext
+{
+	background-position:left -29px;
+}
+#smallCarousel .galleryControls li a#galleryNext:hover,
+#smallCarousel .galleryControls li a#galleryNext:active,
+#smallCarousel .galleryControls li a#galleryNext:focus
+{
+	background-position:right -29px;
+}
+#smallCarousel .galleryControls ul
+{
+	padding:8px 19px 10px 6px;
+	float:left;
+}
+#smallCarousel .galleryControls #galleryPager
+{
+	float:left;
+	font-size:1%;
+}
+#smallCarousel .galleryControls #galleryPager ul
+{
+	padding:15px 0 16px;
+}
+#smallCarousel .galleryControls #galleryPager ul li a
+{
+	width:12px;
+	height:12px;
+	background-position:left -58px;
+}
+#smallCarousel .galleryControls #galleryPager ul li a.selected
+{
+	background-position:left -78px;
+}
+#smallCarousel .revolverBelt a:hover,
+#smallCarousel .revolverBelt a:active,
+#smallCarousel .revolverBelt a:focus,
+#smallCarousel .galleryControls li a:active,
+#smallCarousel .galleryControls li a:focus
+{
+	border-color:#626469;
+}
+#productComparisonTools,
+#productSelector,
+#productSet,
+#products,
+#productTable,
+#businessProductTable,
+#productComparison,
+#fixed-table-header,
+#products table,
+#products table tbody,
+#products table tr,
+#products tr.spacer td,
+form#productSelector #products table thead,
+#products table colgroup,
+#businessProductTable table colgroup,
+#grid #productComparisonTools #productSet .options,
+#products .furtherInfo,
+#products .furtherInfo td,
+#otherAccounts,
+body #otherAccounts .column
+{
+	width:940px;
+}
+#productComparisonTools,
+#productSelector,
+#productSet,
+#products,
+#productTable,
+#businessProductTable,
+#productSelector #productTabs,
+#productSet #productTabs,
+#productSelector #productTabs li,
+#productSet #productTabs li,
+#grid #productComparisonTools #productSet .options,
+#products .furtherInfo,
+#products .furtherInfo td,
+#products .furtherInfo .handle a,
+#otherAccounts,
+#otherAccounts .column h4,
+#otherAccounts .column ul,
+#otherAccounts .column ul li
+{
+	float:left;
+}
+#products,
+#productComparison,
+#fixed-table-header,
+#productSelector #productTabs,
+#productSet #productTabs,
+body .grid .compare,
+body .grid .back
+{
+	clear:both;
+}
+form#productSelector #products
+{
+	padding:12px 0 0;
+}
+body .grid .back,
+#productComparisonTools .compare
+{
+	position:relative;
+	bottom:-10px;
+	padding:15px 0 0;
+}
+#productComparisonTools .compare
+{
+	bottom:-22px;
+	padding:0;
+}
+#productComparisonTools #productSet .compare
+{
+	padding:15px 0 0;
+}
+#grid #productComparisonTools #productSet .options
+{
+	position:static;
+	padding:0 0 21px;
+}
+body #productNav .back
+{
+	top:-16px;
+	padding:0 0 4px;
+}
+#productSelector #productTabs,
+#productSet #productTabs
+{
+	display:none;
+	border-bottom:24px solid #fff;
+	padding:0 2px 0 0;
+	background:url("../images/content/productTabEnd.gif") right bottom no-repeat;
+}
+#productSet #productTabs
+{
+	display:block;
+	border-bottom:18px solid #fff;
+}
+#productSelector #productTabs li,
+#productSet #productTabs li
+{
+	border-top:1px solid #dadcdc;
+	background:url("../images/content/productTab.gif") left bottom no-repeat;
+	padding:0;
+}
+#productSelector #productTabs li.selected,
+#productSet #productTabs li.selected
+{
+	background:url("../images/content/productTabSelected.gif") left top no-repeat;
+}
+#productSelector #productTabs li a,
+#productSet #productTabs li a
+{
+	display:block;
+	text-align:center;
+	font-weight:bold;
+	padding:15px 25px 25px;
+}
+#productSet #productTabs li a
+{
+	padding:20px 22px 30px;
+}
+#productSelector #productTabs li.selected a,
+#productSet #productTabs li.selected a
+{
+	background:url("../images/content/productTabArrow.gif") center bottom no-repeat;
+}
+#productSet .options .filter
+{
+	float:left;
+	width:770px;
+	background-color:#f0f0f0;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+#productSet .options .filter p,
+#productSet .options .filter label
+{
+	float:left;
+	font-weight:bold;
+	vertical-align:middle;
+	padding:8px 18px 7px;
+	border-right:1px solid #ccc;
+}
+#productTable,
+body .grid_18 #businessProductTable
+{
+	padding:18px 0;
+}
+body .grid_18 #productComparisonTools,
+body .grid_18 #businessProductTable,
+body .grid_18 #businessProductTable table colgroup,
+body .grid_18 #businessProductTable h3
+{
+	width:700px;
+}
+body .grid_18 #businessProductTable h3
+{
+	padding:24px 0 18px;
+	background:url("../images/content/bg_businessContact.gif") left top no-repeat;
+}
+#productComparison,
+#fixed-table-header
+{
+	border-collapse:separate;
+}
+#fixed-table-header
+{
+	z-index:10;
+}
+#products table col.name
+{
+	width:181px;
+}
+#products table col.price
+{
+	width:134px;
+}
+#products table col.other
+{
+	width:178px;
+}
+#businessProductTable table col.heading
+{
+	width:240px;
+}
+#businessProductTable table col.even
+{
+	width:170px;
+}
+#businessProductTable table col.odd
+{
+	width:360px;
+}
+body .grid_18 #businessProductTable table col.even,
+body .grid_18 #businessProductTable table col.odd
+{
+	width:230px;
+}
+form#productSelector #products table col.name
+{
+	width:209px;
+}
+form#productSelector #products table col.price
+{
+	width:116px;
+}
+form#productSelector #products table col.other
+{
+	width:150px;
+}
+div#productSelector #products table thead
+{
+	display:table-row-group;
+	height:1%;
+	font-size:1%;
+}
+form#productSelector #products table thead th
+{
+	padding:9px 0;
+	vertical-align:middle;
+	background:#e4e4e4 url("../images/content/td_divider.gif") right center no-repeat;
+	border-bottom:1px solid #ccc;
+}
+form#productSelector #products table thead td
+{
+	border-bottom:1px solid #fff;
+}
+form#productSelector #products table thead th.sortby
+{
+	background:url("../images/content/table_sortby_bg.gif") right top no-repeat;
+}
+form#productSelector #products table thead th.sortby p
+{
+	padding:0 20px 0 0;
+}
+form #products .productInfo td
+{
+	padding:15px 5px 5px 15px;
+}
+form #products .productInfo td label,
+#businessProductTable td label
+{
+	font-weight:bold;
+	display:block;
+	float:left;
+	width:120px;
+	margin:3px 0 0;
+	vertical-align:middle;
+}
+form #products .productInfo td input,
+#businessProductTable td input,
+#productSet .options .filter label input
+{
+	height:13px;
+	display:inline;
+	width:13px;
+	margin:6px 5px 8px;
+}
+#productSet .options .filter label input
+{
+	margin:0 5px 2px 0;
+}
+form #products .productInfo td.price
+{
+	padding:15px 10px;
+}
+#products tr.productInfo
+{
+	width:939px;
+	border-right:1px solid #ccc;
+}
+#products .productInfo th,
+#products .productInfo td
+{
+	padding:15px;
+	background-color:#e4e4e4;
+	border-bottom:1px solid #ccc;
+	vertical-align:top;
+}
+#products .productInfo td
+{
+	background:#e4e4e4 url("../images/content/td_divider.gif") left center no-repeat;
+}
+#products .productInfo th h4,
+#products .productInfo td p,
+form#productSelector #products table thead th p
+{
+	padding:0;
+}
+#products .productInfo th h4,
+#products .productInfo td.price p,
+#products .productInfo td.price p span,
+form#productSelector #products table thead th p
+{
+	text-align:center;
+}
+#products .productInfo td.price p,
+form#productSelector #products table thead th p
+{
+	text-transform:uppercase;
+	line-height:15px;
+	font-size:62.5%;
+}
+#products .productInfo td.price p span
+{
+	font-size:160%;
+	font-weight:bold;
+	display:block;
+	line-height:24px;
+}
+#products .productInfo td.price p .yes
+{
+	background:url("../images/content/included_dark.gif") center bottom no-repeat;
+	text-indent:-9999px;
+}
+#products .productInfo td.price p .no
+{
+	background:url("../images/content/not_included.gif") center bottom no-repeat;
+	text-indent:-9999px;
+}
+#products .productInfo td a.greyBtn span
+{
+	white-space:nowrap;
+}
+#products .furtherInfo
+{
+	position:relative;
+	min-height:25px;
+}
+#products .furtherInfo .handle
+{
+	display:none;
+	position:absolute;
+	left:8px;
+	height:21px;
+	bottom:0;
+	border-top:4px solid #d8d8d8;
+	padding:0 18px;
+	text-transform:uppercase;
+	font-size:68.75%;
+	line-height:14px;
+	width:888px;
+}
+#products .furtherInfo .handle a
+{
+	padding:2px 36px 5px 10px;
+	display:block;
+	background:#d8d8d8 url("../images/content/bg-account-info-handle.gif") right center no-repeat;
+}
+#products .furtherInfo .handle a.selected
+{
+	background-image:url("../images/content/bg-account-info-handle-up.gif");
+}
+#products .furtherInfo .content
+{
+	border-bottom:1px solid #d8d8d8;
+	border-left:5px solid #d8d8d8;
+	border-right:5px solid #d8d8d8;
+	overflow:hidden;
+	padding:20px 17px;
+	width:880px;
+	margin:0 8px 25px 8px;
+}
+#products .furtherInfo .features
+{
+	padding:0 15px 0 0;
+	float:left;
+	width:380px;
+}
+#grid #products .furtherInfo h5
+{
+	padding:12px 0;
+}
+#grid #products .furtherInfo .column
+{
+	padding:0 15px 0 0;
+}
+#grid #products .furtherInfo .column .inner
+{
+	float:left;
+	clear:both;
+	width:220px;
+}
+#grid #products .furtherInfo .help
+{
+	padding:5px 15px;
+}
+#products tr.spacer
+{
+	height:25px;
+}
+.productComparison tr.productHeadings,
+.productComparison tr.productLinks
+{
+	background-color:#fff;
+}
+.productComparison tr.productHeadings td
+{
+	background-color:#fff!important;
+}
+.productComparison tr .even,
+.productComparison tr.productLinks .odd
+{
+	background-color:#f0f0f0;
+}
+.productComparison tr .odd,
+.productComparison tr.productLinks .even
+{
+	background-color:#e4e4e4;
+}
+.productComparison tr.productHeadings td,
+.productComparison tr.productHeadings th
+{
+	padding:18px 0 6px;
+}
+#businessProductTable tr.productHeadings th
+{
+	padding:12px 18px;
+	background-color:#dbdcdd;
+}
+#productComparison th h3,
+#fixed-table-header th h3
+{
+	padding:0 18px 12px;
+}
+.productComparison tr.productLinks ul
+{
+	padding:0 0 0 18px;
+}
+.productComparison tr.productLinks ul li
+{
+	float:left;
+	display:inline;
+	font-size:100%;
+	line-height:18px;
+	padding:0 10px 0 0;
+}
+.productComparison td a
+{
+	cursor:pointer;
+}
+.productComparison tr.bgRow,
+#businessProductTable tr.bgRow
+{
+	background:url("../images/content/bg_table_row.png") center top repeat-x;
+	height:4px!important;
+}
+#productComparison tr.rows-separator,
+#businessProductTable tr.rows-separator
+{
+	height:2px!important;
+	background:url("../images/content/bg_table_separator.gif") center top repeat-x;
+}
+.productComparison tr.bgRow td,
+.productComparison tr.rows-separator td,
+#businessProductTable tr.bgRow td,
+#businessProductTable tr.rows-separator td
+{
+	padding:0;
+	font-size:1px;
+	line-height:1%;
+	height:1px;
+}
+#productComparison tr.sectionType th,
+#productComparison tr.sectionType td
+{
+	padding:15px 0;
+}
+#productComparison tr.sectionType a.expand
+{
+	background:url("../images/content/roundArrowOpen.gif") left center no-repeat;
+	display:block;
+	padding:1px 0 1px 35px;
+	white-space:nowrap;
+	font-weight:bold;
+}
+#productComparison tr.closed a.expand
+{
+	background-image:url("../images/content/roundArrow.gif");
+}
+.productComparison tr.rowContent th
+{
+	padding:12px 36px 18px 0;
+	vertical-align:top;
+}
+.productComparison th,
+#businessProductTable tr.rowContent th,
+#businessProductTable tr.rowFull th
+{
+	font-weight:normal;
+}
+#productComparison tr.rowContent td
+{
+	padding:0 18px 18px;
+}
+.productComparison tr.rowContent th p,
+#productComparison td p
+{
+	padding:12px 0 0;
+}
+#productComparison td p strong
+{
+	font-size:133.33%;
+	line-height:20px;
+}
+#productComparison td a.more
+{
+	background:url("../images/content/moreLinkDown.gif") right center no-repeat;
+	padding:0 12px 0 0;
+	display:none;
+}
+#productComparison td a.open
+{
+	background:url("../images/content/moreLinkUp.gif") right center no-repeat;
+}
+.contentItem table tr td .yes,
+.contentItem table tr td .no,
+.productItem table tr td .yes,
+.productItem table tr td .no,
+#productComparison td .yes,
+#productComparison td .no
+{
+	text-indent:-9999px;
+	background-repeat:no-repeat;
+	background-position:left top;
+	height:20px;
+}
+#productComparison td .yes,
+#productComparison td .no
+{
+	background-position:left bottom;
+}
+#productComparison td .yes
+{
+	background-image:url("../images/content/lrg_tick.gif");
+}
+#productComparison td .no
+{
+	background-image:url("../images/content/lrg_cross.gif");
+}
+.contentItem table tr td .yes,
+.productItem table tr td .yes,
+#productComparison td.even .yes
+{
+	background-image:url("../images/content/included.gif");
+}
+.contentItem table tr.odd td .yes,
+.productItem table tr.odd td .yes,
+#productComparison td.odd .yes
+{
+	background-image:url("../images/content/included_dark.gif");
+}
+.contentItem table tr td .no,
+.productItem table tr td .no,
+#productComparison td.even .no
+{
+	background-image:url("../images/content/not_included_light.gif");
+}
+.contentItem table tr.odd td .no,
+.productItem table tr.odd td .no,
+#productComparison td.odd .no
+{
+	background-image:url("../images/content/not_included.gif");
+}
+#businessProductTable tr.rowContent th,
+#businessProductTable tr.rowFull th,
+#businessProductTable tr.rowContent td,
+#businessProductTable tr.rowFull td
+{
+	padding:18px;
+	vertical-align:top;
+	background-color:#f0f0f0
+}
+body .grid_18 #businessProductTable tr.rowContent th,
+body .grid_18 #businessProductTable tr.rowFull th
+{
+	padding:18px 36px 18px 18px;
+	width:186px;
+}
+#businessProductTable tr.odd th,
+#businessProductTable tr.odd td
+{
+	background-color:#e4e4e4;
+}
+#businessProductTable td.even
+{
+	width:120px;
+}
+#businessProductTable td.odd
+{
+	width:310px;
+}
+body .grid_18 #businessProductTable td.even,
+body .grid_18 #businessProductTable td.odd
+{
+	width:194px;
+}
+#businessProductTable tr.rowContent td
+{
+	background:#f0f0f0 url("../images/content/td_business_divider.gif") left center repeat-y;
+}
+#businessProductTable tr.odd td
+{
+	background:#e4e4e4 url("../images/content/td_business_divider.gif") left center repeat-y;
+}
+#businessProductTable tr.rowFull th,
+#businessProductTable tr.rowFull td
+{
+	background-color:#fff;
+}
+body .grid_18 #businessProductTable tr.rowFull td
+{
+	width:420px;
+}
+#mortgageForm
+{
+	background-color:#e4e4e4;
+	float:left;
+	display:inline;
+	padding:20px 20px 10px;
+	border-bottom:24px solid #fff;
+	position:relative;
+	width:900px;
+}
+#mortgageForm fieldset .mandatory
+{
+	position:absolute;
+	right:20px;
+	top:20px;
+}
+#mortgageForm ul
+{
+	padding:0 0 15px;
+	width:780px;
+}
+#mortgageForm ul li
+{
+	position:relative;
+	float:left;
+	width:260px;
+}
+#mortgageForm ul,
+#mortgageForm ul li label,
+#mortgageForm ul li input,
+#mortgageForm ul li select
+{
+	float:left;
+}
+#mortgageForm ul li label
+{
+	width:190px;
+	padding:2px 29px 12px 0;
+	position:relative;
+	line-height:18px;
+}
+#mortgageForm span.help
+{
+	position:absolute;
+	right:0;
+	top:0;
+}
+#mortgageForm span.help a
+{
+	background:url("../images/content/icon_tooltip.gif") top left no-repeat;
+	display:block;
+	height:19px;
+	border:1px solid #e4e4e4;
+	width:19px;
+}
+#mortgageForm span.help a:active,
+#mortgageForm span.help a:focus
+{
+	border-color:#626469;
+}
+#mortgageForm .tooltipContent
+{
+	display:none;
+}
+#mortgageForm .helpText
+{
+	width:185px;
+	padding:10px;
+	background-color:#626469;
+	display:block;
+	border:2px solid #ccc;
+	line-height:18px;
+}
+#mortgageForm fieldset select
+{
+	width:220px;
+}
+#mortgageForm ul li select option
+{
+	width:auto;
+}
+#mortgageForm fieldset input.question
+{
+	width:212px;
+	padding:1px 3px;
+}
+#mortgageForm fieldset input.question,
+#mortgageForm fieldset select
+{
+	border:1px solid #ccc;
+	background-color:#fff;
+}
+#mortgageForm fieldset input.question:active,
+#mortgageForm fieldset input.question:focus,
+#mortgageForm fieldset input.ieTextFocus
+{
+	background-color:#626469;
+}
+#mortgageForm fieldset input[type="submit"],
+#productSelector fieldset input[type="submit"],
+#productSet fieldset input[type="submit"]
+{
+	background-origin:border-box;
+	-moz-background-origin:border;
+	-webkit-background-origin:border;
+	background-clip:border-box;
+	-moz-background-clip:border;
+	-webkit-background-clip:border;
+}
+#mortgageForm fieldset .searchBtn
+{
+	position:absolute;
+	right:20px;
+	bottom:24px;
+}
+#mortgageForm fieldset input.searchBtn,
+#productSelector fieldset input.compareBtn,
+#productSet fieldset input.compareBtn
+{
+	background-image:url("../images/content/bg_search_btn.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	background-color:#626469;
+	cursor:pointer;
+	display:block;
+	height:33px;
+	font-size:75%;
+	float:left;
+	line-height:15px!important;
+	text-indent:-9999px;
+	width:73px;
+}
+#productSelector fieldset input.compareBtn,
+#productSet fieldset input.compareBtn
+{
+	background-image:url("../images/content/bg_compare_btn.gif");
+	float:right;
+	width:86px;
+}
+#mortgageForm fieldset input.searchBtn:hover,
+#mortgageForm fieldset input.searchBtn:active,
+#mortgageForm fieldset input.searchBtn:focus,
+#mortgageForm fieldset input.ieSubmitFocus,
+#mortgageForm fieldset input.ieSubmitHover
+{
+	background-image:url("../images/content/bg_search_btn_hover.gif");
+}
+#productSelector fieldset input.compareBtn:hover,
+#productSelector fieldset input.compareBtn:active,
+#productSelector fieldset input.compareBtn:focus,
+#productSelector fieldset input.ieSubmitFocus,
+#productSelector fieldset input.ieSubmitHover,
+#productSet fieldset input.compareBtn:hover,
+#productSet fieldset input.compareBtn:active,
+#productSet fieldset input.compareBtn:focus,
+#productSet fieldset input.ieSubmitFocus,
+#productSet fieldset input.ieSubmitHover
+{
+	background-image:url("../images/content/bg_compare_btn_hover.gif");
+}
+#mortgageForm fieldset input.searchBtn:active,
+#mortgageForm fieldset input.searchBtn:focus,
+#mortgageForm fieldset input.ieSubmitFocus,
+#productSelector fieldset input.compareBtn:active,
+#productSelector fieldset input.compareBtn:focus,
+#productSelector fieldset input.ieSubmitFocus,
+#productSet fieldset input.compareBtn:active,
+#productSet fieldset input.compareBtn:focus,
+#productSet fieldset input.ieSubmitFocus
+{
+	border:3px solid #626469;
+}
+#mortgageForm fieldset input[type="submit"]:active::-moz-focus-inner,
+#mortgageForm fieldset input[type="submit"]:focus::-moz-focus-inner,
+#productSelector fieldset input[type="submit"]:active::-moz-focus-inner,
+#productSelector fieldset input[type="submit"]:focus::-moz-focus-inner
+{
+	border:0!important;
+}
+#otherAccounts
+{
+	padding:0 0 25px;
+}
+body #otherAccounts .column
+{
+	padding:0;
+	border-top:1px dotted #ccc;
+	border-bottom:1px dotted #ccc;
+}
+#otherAccounts .column h4
+{
+	font-weight:normal;
+	padding:6px 18px 6px 0;
+	background:url("../images/content/pipe.gif") right top no-repeat;
+}
+#otherAccounts .column ul
+{
+	padding:6px 0;
+}
+#otherAccounts .column ul li
+{
+	padding:0 15px 0 18px;
+	background:url("../images/content/bullet.gif") left top no-repeat;
+}
+#otherAccounts .column ul li.first
+{
+	background:none;
+	padding:0 15px;
+}
+#otherAccounts .column ul li a
+{
+	font-weight:bold;
+}
+#treeNav,
+#leftNav
+{
+	border-bottom:1px solid #ccc;
+	float:left;
+	padding:0 0 12px;
+	width:200px;
+}
+#leftNav ul,
+#treeNav ul
+{
+	padding:0;
+}
+#treeNav ul li
+{
+	font-size:100%;
+}
+#leftNav ul li
+{
+	padding:0 0 18px;
+}
+#treeNav ul li ul
+{
+	padding:3px 0 0 20px;
+}
+#treeNav ul li a
+{
+	line-height:18px;
+	display:block;
+}
+#searchResults
+{
+	width:700px;
+	float:left;
+}
+#searchResults h3
+{
+	padding:0 0 24px;
+}
+#searchResults .searchMenu
+{
+	border-bottom:24px solid #fff;
+	background-color:#e4e4e4;
+	padding:10px 15px;
+	width:670px;
+	float:left;
+}
+#searchResults ul
+{
+	padding:0;
+	float:left;
+}
+#searchResults .searchMenu ul li
+{
+	float:left;
+	padding:0 4px 0 0;
+}
+#searchResults .searchMenu li a
+{
+	line-height:18px;
+	padding:0 4px;
+	display:block;
+}
+#searchResults .searchMenu li.current a
+{
+	background-color:#db0011;
+}
+#searchResults .searchMenu li.next a
+{
+	padding:0 12px 0 8px;
+	background:url("../images/content/moreLink.gif") right center no-repeat;
+}
+#searchResults .searchMenu li.prev a
+{
+	padding:0 8px 0 12px;
+	background:url("../images/content/moreLinkBack.gif") left center no-repeat;
+}
+#searchResults .searchListing li
+{
+	font-size:100%;
+	padding:0 0 18px;
+}
+#grid .grid .shadedRow
+{
+	background:url("../images/content/bg_propositionContent.gif") left bottom no-repeat;
+	padding:0 0 40px
+}
+body .contentRow .contentRow,
+body .contentRow .contentIntro
+{
+	width:460px;
+	padding:0 20px 0 0;
+}
+body .contentRow .contentItem
+{
+	width:220px;
+	padding:0 20px 0 0;
+}
+body .contentRow .contentRow .contentItem
+{
+	width:210px;
+	padding:12px 20px 0 0;
+}
+body .contentRow .contentIntro .contentItem
+{
+	width:210px;
+	padding:0 20px 0 0;
+}
+body .contentRow .contentIntro h3
+{
+	font-weight:normal;
+}
+body .grid .featureBox
+{
+	float:left;
+	padding:18px 18px 6px;
+	width:184px;
+}
+body .contentRow .contentRow .featureBox
+{
+	width:424px;
+	margin:12px 0 0;
+}
+body .grid .featureBox,
+body .grid .applyBox,
+body .grid .grid_8 .shaded,
+body .grid .propositionRow .shaded,
+body .grid .popupMenu
+{
+	background:url("../images/content/bg_help.gif") left top no-repeat;
+}
+body .grid .grid .applyBox
+{
+	border-top:30px solid #fff;
+}
+body .grid .applyBox .right
+{
+	float:right;
+	padding:15px;
+}
+body .right .rightInner p,
+body .grid .applyBox .right p,
+.lightviewHeading .right p
+{
+	float:left;
+	padding:8px 0 7px;
+}
+body .right .rightInner div,
+body .grid .applyBox .right div,
+.lightviewHeading .right div
+{
+	float:left;
+}
+.productDetails,
+.propositionDetails
+{
+	float:left;
+	width:940px;
+	position:relative;
+	background-position:left top;
+	background-repeat:no-repeat;
+	top:-10px;
+}
+.propositionDetails
+{
+	height:413px;
+}
+.productDetails
+{
+	background:url("../images/content/border_grey.gif") left bottom no-repeat;
+	height:160px;
+}
+.advanceProductDetails
+{
+	height:200px;
+}
+.premierProductDetails
+{
+	height:240px;
+}
+body .productDetails .back
+{
+	top:20px;
+	position:absolute;
+	padding:0;
+	float:none;
+	left:0;
+}
+body .advanceProductDetails .back,
+body .premierProductDetails .back
+{
+	left:20px;
+	width:900px;
+}
+.propositionDetails #stage
+{
+	position:absolute;
+	top:80px;
+	width:25em;
+	left:40px;
+}
+.advanceDetails #stage,
+.premierDetails #stage
+{
+	width:40em;
+}
+.premierDetails #stage h2,
+body .grid .contentItem h3.premier,
+body .grid .productItem h3.premier
+{
+	font-weight:normal;
+}
+.premierDetails #stage p
+{
+	font-weight:bold;
+}
+#detailsInner
+{
+	float:left;
+	font-size:1%;
+	position:absolute;
+}
+.propositionDetails #detailsInner,
+.premierProductDetails #detailsInner
+{
+	height:137px;
+	left:20px;
+	opacity:0.9;
+	background:#fff;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter:alpha(opacity=90);
+	width:900px;
+	bottom:8px;
+}
+.advanceDetails #detailsInner,
+.advanceProductDetails #detailsInner
+{
+	height:145px;
+	left:20px;
+	opacity:0.7;
+	background:#fff;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter:alpha(opacity=70);
+	width:900px;
+	bottom:0;
+}
+.premierProductDetails #detailsInner
+{
+	height:110px;
+}
+.advanceProductDetails #detailsInner
+{
+	height:118px;
+}
+.propositionDetails .branding
+{
+	left:40px;
+	position:absolute;
+	bottom:87px;
+}
+.productDetails .branding
+{
+	left:0;
+	position:absolute;
+	bottom:60px;
+}
+.propositionDetails .right,
+#productNav .right
+{
+	position:absolute;
+	bottom:94px;
+	right:40px;
+}
+.productDetails .right
+{
+	position:absolute;
+	bottom:11px;
+	right:0;
+}
+.premierProductDetails .right,
+.advanceProductDetails .right
+{
+	right:40px;
+}
+.premierProductDetails .right
+{
+	bottom:18px;
+}
+.advanceProductDetails .right
+{
+	bottom:10px;
+}
+#productNav .right
+{
+	bottom:41px;
+	right:20px;
+}
+body .pageTabs
+{
+	position:absolute;
+	display:block;
+	padding:0;
+}
+#productNav .pageTabs
+{
+	float:left;
+	clear:both;
+	position:relative;
+	bottom:-13px;
+}
+.propositionTabs .pageTabs
+{
+	top:-116px;
+	left:0;
+	width:860px;
+	padding:0 40px;
+}
+.internationalTabs .pageTabs
+{
+	width:900px;
+	padding:0 0 0 40px;
+}
+.productDetails .pageTabs
+{
+	bottom:0;
+	left:0;
+}
+.premierProductDetails .branding,
+.advanceProductDetails .branding,
+.premierProductDetails .pageTabs,
+.advanceProductDetails .pageTabs
+{
+	left:40px;
+}
+body .pageTabs li
+{
+	float:left;
+	font-size:100%;
+	padding:0;
+}
+body .pageTabs li a,
+#productNav .pageTabs li a
+{
+	float:left;
+	display:block;
+	background:url("../images/content/tab.gif") center top no-repeat;
+	font-size:87.5%;
+	padding:0;
+	line-height:32px;
+}
+.propositionTabs .pageTabs li a
+{
+	font-size:75%;
+	line-height:22px;
+	width:172px;
+}
+.internationalTabs .pageTabs li a
+{
+	width:auto;
+}
+.premierTabs .pageTabs li a,
+.premierProductDetails .pageTabs li a
+{
+	background-image:url("../images/content/tab-premier.gif");
+}
+body .pageTabs li.first a,
+#productNav .pageTabs li.first a
+{
+	background-position:left top;
+}
+body .pageTabs li.last a,
+#productNav .pageTabs li.last a
+{
+	background-position:right top;
+}
+body .pageTabs li a:hover,
+body .pageTabs li a:active,
+body .pageTabs li a:focus,
+#productNav .pageTabs li a:hover,
+#productNav .pageTabs li a:active,
+#productNav .pageTabs li a:focus
+{
+	background-image:url("../images/content/tab-hover.gif");
+}
+body .pageTabs li.selected a,
+#productNav .pageTabs li.selected a
+{
+	margin:0 0 0 -1px;
+	background:url("../images/content/tab-selected.gif") left top no-repeat;
+	padding:0 0 0 22px;
+}
+.propositionTabs .pageTabs li.selected a
+{
+	padding:0;
+	background:url("../images/content/tab-selected.gif") right top no-repeat;
+}
+body .pageTabs li.first a,
+#productNav .pageTabs li.first a
+{
+	margin:0;
+}
+body .pageTabs li a span,
+#productNav .pageTabs li a span
+{
+	line-height:32px;
+	display:block;
+	padding:11px 24px 6px 23px;
+	background:url("../images/content/tab-separator.gif") right center no-repeat;
+	text-align:center;
+}
+.propositionTabs .pageTabs li a span
+{
+	line-height:22px;
+	padding:16px 0;
+}
+.internationalTabs .pageTabs li a span
+{
+	padding:19px 19px 13px;
+	white-space:nowrap;
+}
+.premierTabs .pageTabs li a span
+{
+	background-image:url("../images/content/tab-separator-premier.gif");
+}
+body .pageTabs li.last a span,
+#productNav .pageTabs li.last a span
+{
+	background:none;
+	padding:11px 23px 6px;
+}
+body .pageTabs li.selected a span,
+#productNav .pageTabs li.selected a span
+{
+	font-weight:bold;
+	padding:11px 23px 6px 0;
+	background:url("../images/content/tab-selected.gif") right top no-repeat;
+}
+.propositionTabs .pageTabs li.selected a span
+{
+	background:url("../images/content/tab-selected.gif") left top no-repeat;
+}
+.propositionTabs .pageTabs li.last a span,
+.propositionTabs .pageTabs li.selected a span
+{
+	padding:16px 0;
+}
+.internationalTabs .pageTabs li.last a span,
+.internationalTabs .pageTabs li.selected a span
+{
+	padding:19px 19px 13px;
+}
+.propositionTabs .pageTabs li a span strong
+{
+	font-size:166.67%;
+	font-weight:normal;
+}
+.internationalTabs .pageTabs li a span strong
+{
+	font-size:133.33%;
+}
+.propositionTabs .pageTabs li.selected a span strong
+{
+	font-weight:bold;
+}
+body .pageTabs li.selected a:hover,
+body .pageTabs li.selected a:active,
+body .pageTabs li.selected a:focus,
+#productNav .pageTabs li.selected a:hover,
+#productNav .pageTabs li.selected a:active,
+#productNav .pageTabs li.selected a:focus
+{
+	background-image:url("../images/content/tab-selected.gif");
+}
+body .productItem h3.premier,
+body .contentItem h3.premier
+{
+	padding:0 0 18px;
+}
+body .productItem h3.advance,
+body .contentItem h3.advance
+{
+	background:url("../images/content/advance_product_intro.gif") left top no-repeat;
+	padding:9px 12px 18px 36px;
+}
+body .productItem h3.advance span,
+body .contentItem h3.advance span
+{
+	font-size:83.33%;
+	line-height:28px;
+	display:block;
+	font-weight:normal;
+}
+body .grid_16 .productItem h3.advance span,
+body .grid_16 .contentItem h3.advance span
+{
+	font-size:85.71%;
+	line-height:32px;
+}
+body .grid .popupMenu
+{
+	min-height:220px;
+	padding:28px 14px;
+	width:912px;
+	float:left;
+	position:relative;
+}
+body .grid .popupMenu .popupMenuItem,
+body .grid .popupMenu .popupMenuItemInner
+{
+	width:200px;
+	padding:0 14px;
+	float:left;
+}
+body .grid .popupMenu .popupMenuItemInner
+{
+	padding:0;
+	-moz-box-shadow:0 0 20px #ccc;
+	-webkit-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+body .grid .popupMenu .expanded
+{
+	width:300px;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:12px;
+	z-index:2;
+}
+#grid .grid .expanded .popupMenuItemInner
+{
+	width:300px;
+}
+#grid .grid .expanded .popupMenuItemInner img
+{
+	width:auto;
+	height:auto;
+}
+body .grid .popupMenu .popupMenuItemContent
+{
+	background:#fff;
+	min-height:48px;
+	padding:12px 12px 0;
+}
+body .grid .popupMenu .expanded .popupMenuItemContent
+{
+	min-height:98px;
+	padding:18px 18px 6px;
+}
+#grid .grid_24 .advanceBox,
+#grid .grid_24 .premierBox
+{
+	width:910px;
+	float:left;
+	padding:15px;
+	background:#e4e4e4 url("../images/content/bg_teaser.gif") top left no-repeat;
+}
+#grid .grid_24 .premierBox
+{
+	background:#292278 url("../images/content/bg_footer_feature.gif") top left no-repeat;
+}
+#grid .grid_24 .advanceBox img,
+#grid .grid_24 .advanceBox .inner,
+#grid .grid_24 .premierBox img,
+#grid .grid_24 .premierBox .inner
+{
+	float:left;
+	padding:0 15px 0 0;
+}
+#grid .grid_24 .advanceBox .inner,
+#grid .grid_24 .premierBox .inner
+{
+	width:895px;
+}
+#grid .grid_24 .advanceBox .narrow,
+#grid .grid_24 .premierBox .narrow
+{
+	width:610px;
+}
+#grid .grid_24 .advanceBox .about,
+#grid .grid_24 .premierBox .about
+{
+	float:right;
+	width:236px;
+	border-left:1px solid #ccc;
+	padding:28px 0 28px 48px;
+}
+#grid .grid_24 .advanceBox p,
+#grid .grid_24 .premierBox p
+{
+	padding:6px 0 0;
+}
+#grid .grid_24 .advanceBox p span,
+#grid .grid_24 .premierBox p span
+{
+	font-weight:bold;
+	display:block;
+}
+body .propositionRow .contentItem
+{
+	width:620px;
+	padding:0 20px 0 0;
+	position:relative;
+}
+body .menu .contentItem
+{
+	width:460px;
+}
+body .menu .contentItem h4
+{
+	padding:0;
+}
+body .propositionRow .contentItem .caption
+{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:250px;
+	background:#000;
+	opacity:0.9;
+	padding:9px 0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter:alpha(opacity=90);
+}
+body .menu .contentItem .caption
+{
+	width:460px;
+}
+body .contentItem .caption p
+{
+	padding:0 15px;
+}
+body .contentIntro h3
+{
+	padding:0 0 24px;
+}
+body .propositionRow .contentItem img
+{
+	padding:0 20px 0 0;
+	float:left;
+}
+body .menu .contentItem img
+{
+	padding:6px 0 0;
+	float:none;
+}
+body .propositionRow .column
+{
+	padding:0;
+	width:300px;
+	margin:0 20px 0 0;
+	display:inline;
+}
+body .propositionRow p.intro
+{
+	padding:0 20px 18px 0;
+}
+body .propositionRow .promo
+{
+	padding:20px 20px 8px;
+	width:258px;
+	border:1px solid #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-webkit-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+body .propositionRow .image
+{
+	width:282px;
+	padding:8px;
+}
+body .propositionRow .image a
+{
+	border:2px solid #fff;
+	display:block;
+	width:278px;
+}
+body .propositionRow .promo li a
+{
+	border:none;
+	display:inline;
+	width:auto;
+}
+#grid .grid .columnRow
+{
+	float:left;
+	width:320px;
+}
+#grid .grid .columnRow .promo
+{
+	margin:30px 20px 0 0;
+}
+body .propositionRow .image a:active,
+body .propositionRow .image a:focus
+{
+	border-color:#626469;
+}
+body .portalRow
+{
+	float:left;
+	clear:both;
+	width:620px;
+}
+body .portalRow .portalItem
+{
+	float:left;
+	width:176px;
+	padding:0 30px 0 0;
+}
+body .portalRow .portalItem img
+{
+	float:none;
+}
+body .pillarPagination
+{
+	width:940px;
+	padding:20px 0 0;
+	float:left;
+}
+body .pillarPagination div,
+body .pillarPagination a.pillarArrow,
+body .pillarPagination a.pillarArrow span
+{
+	float:left;
+	display:block;
+}
+body .pillarPagination a.pillarArrow
+{
+	border:2px solid #7b7b7b;
+}
+body .pillarPremier a.pillarArrow
+{
+	border:2px solid #181236;
+}
+body .pillarPagination a.pillarArrow span
+{
+	width:46px;
+	height:108px;
+	text-indent:-9999px;
+}
+body .pillarPagination a.pillarArrow:active,
+body .pillarPagination a.pillarArrow:focus
+{
+	border:2px solid #db0011;
+}
+body .pillarPagination .pillarPrev span
+{
+	background:url("../images/content/pillar-prev-advance.gif") left top no-repeat;
+}
+body .pillarPremier .pillarPrev span
+{
+	background-image:url("../images/content/pillar-prev.gif");
+}
+body .pillarPagination .pillarNext span
+{
+	background:url("../images/content/pillar-next-advance.gif") left top no-repeat;
+}
+body .pillarPremier .pillarNext span
+{
+	background-image:url("../images/content/pillar-next.gif");
+}
+body .pillarPagination .pillarNextDisabled span,
+body .pillarPagination .pillarPrevDisabled span
+{
+	background-image:url("../images/content/pillar-disabled-advance.gif");
+	cursor:auto;
+}
+body .pillarPremier .pillarPrevDisabled span,
+body .pillarPremier .pillarNextDisabled span
+{
+	background-image:url("../images/content/pillar-disabled.gif");
+}
+body .pillarPagination .pillarContent
+{
+	width:840px;
+	background:url("../images/content/pillar-bg-advance.gif") left top repeat-y;
+}
+body .pillarPremier .pillarContent
+{
+	background-image:url("../images/content/pillar-bg-premier.gif");
+}
+body .pillarPagination .pillarContent ul
+{
+	float:left;
+	padding:0;
+}
+body .pillarPagination .pillarContent ul li
+{
+	width:420px;
+	height:112px;
+	font-size:100%;
+	padding:0;
+	float:left;
+}
+body .pillarPagination .pillarContent ul li .pillar
+{
+	padding:14px 0 14px 18px;
+}
+body .pillarPagination .pillarContent ul li img
+{
+	float:left;
+}
+body .pillarPagination .pillarContent ul li .pillarContentInner
+{
+	float:left;
+	padding:0 0 0 18px;
+	width:287px;
+}
+.overlay
+{
+	background-color:#030303;
+	left:0;
+	top:0;
+	position:fixed;
+	opacity:0.7;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter:alpha(opacity=70);
+	z-index:2;
+}
+.jqmWindow
+{
+	display:none;
+	position:absolute;
+	z-index:5;
+}
+.jqmWindow .lightviewTop,
+.jqmWindow .lightviewBottom
+{
+	margin:0 auto;
+	font-size:1%;
+	height:10px;
+}
+.lightviewDetails .lightviewTop
+{
+	background:url("../images/content/overlay_top_details.png") left top no-repeat;
+	width:620px;
+}
+.lightviewDetails .lightviewBottom
+{
+	background:url("../images/content/overlay_bottom_details.png") left top no-repeat;
+	width:620px;
+}
+.lightviewWide .lightviewTop
+{
+	background:url("../images/content/overlay_top.png") left top no-repeat;
+	width:980px;
+}
+.lightviewWide .lightviewBottom
+{
+	background:url("../images/content/overlay_bottom.png") left top no-repeat;
+	width:980px;
+}
+.lightview
+{
+	margin:0 auto;
+	background-color:#fff;
+	position:relative;
+}
+.lightview:after
+{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.lightviewDetails .lightview
+{
+	width:540px;
+	padding:30px 40px 20px;
+}
+.lightviewWide .lightview
+{
+	width:980px;
+	padding:10px 0 8px;
+}
+.jqmWindow .close
+{
+	height:52px;
+	position:absolute;
+	right:-10px;
+	top:-25px;
+	width:52px;
+}
+.jqmWindow .close span
+{
+	background:url("../images/content/closemodal_window.png") left top no-repeat;
+	height:52px;
+	width:52px;
+	display:block;
+}
+.lightviewHeading
+{
+	float:left;
+	width:930px;
+	padding:30px 25px 10px;
+	border-bottom:8px solid #db0011;
+}
+.lightviewHeading h2
+{
+	float:left;
+	padding:0 20px 0 0;
+}
+.lightviewDetails .grid_8 .column
+{
+	padding:0;
+	width:540px;
+}
+.lightviewDetails .grid_8 .promo
+{
+	width:498px;
+	padding:20px;
+	margin:20px 0 0;
+	-moz-box-shadow:0 0 20px #ccc;
+	-webkit-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+	border:1px solid #ccc;
+}
+.lightviewDetails .grid_8 .scroll
+{
+	width:500px;
+	padding:20px;
+	height:300px;
+	margin:10px 0 0;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.lightviewDetails .grid_8 .promo img
+{
+	float:left;
+	padding:0 20px 0 0;
+}
+.jqmWindow .propositionTabs .pageTabs
+{
+	position:static;
+	width:930px;
+	padding:0 0 30px;
+	float:left;
+}
+.jqmWindow .propositionTabs .pageTabs li a
+{
+	width:186px;
+}
+.lightviewFooter
+{
+	float:left;
+	width:930px;
+	padding:58px 25px 0;
+	background:url("../images/content/bg_footer.gif") left top no-repeat;
+}
+.lightviewDetails .lightviewFooter
+{
+	width:540px;
+	padding:30px 0 0;
+	background:none;
+}
+div.divWelcome, div.divBye {
+	font-size: 15px;
+	line-height: 32px;
+	padding-left: 25px;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #c4c4c4;
+	margin-top: 10px;
+}
+div.divWelcome {
+    background: url(../images/red/lock.png) no-repeat left 7px;
+}
+div.divBye {
+    background: url(../images/content/info.gif) no-repeat left 7px;
+}
+#returnButton{ 
+	float: right;
+}
+.bp16 .csButtonWrap {
+   background: url("/HBFR_Themes_Skins/themes/html/HBFR-Idv-Theme-2.0/css/onehsbc/images/forms/buttons/bg_lightgrey_btn_left.gif") no-repeat left top !important;
+	margin-left: 5px;
+	margin-right: 2px;
+	height: 32px;
+}
+.bp16 a.csButton {
+    font-size: 12px;
+	line-height: 16px;
+    position: static;
+	text-decoration: none;
+	display: inline-block;
+    background: url("/HBFR_Themes_Skins/themes/html/HBFR-Idv-Theme-2.0/css/onehsbc/images/forms/buttons/bg_lightgrey_btn.gif") no-repeat right top !important;
+    color: #000000;
+    height: 16px !important;
+    margin: 0 0 0 3px;
+    padding: 7px 10px 7px 7px;
+}
+.bp16 a.csButton:hover {
+    text-decoration: underline;
+}
+.customerStatusDiv {
+	width: 937px;
+	margin: 0 auto;
+}
+#innerPage .customerStatusDiv {
+	width: auto;
+	margin: 0 21px 0 12px;
+}
