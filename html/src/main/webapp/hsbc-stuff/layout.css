@@ -142,8 +142,11 @@ div#mainTopUtility li,
 #mainTopUtility p,
 #mainTopUtility li,
 #sections ul li.focused,
+#sections ul li.alwaysFocused,
 #sections ul li.focused a.mainTopNav,
+#sections ul li.alwaysFocused a.mainTopNav,
 #sections ul li.focused a.mainTopNav strong,
+#sections ul li.alwaysFocused a.mainTopNav strong,
 #sections ul li a.mainTopNav:hover,
 #sections ul li a.mainTopNav:hover strong,
 #sections ul li:hover a.mainTopNav,
@@ -644,7 +647,9 @@ div#locale a.on:focus span,
 	font-size:125%;
 }
 #sections ul li.focused,
+#sections ul li.alwaysFocused,
 #sections ul li.focused a.mainTopNav,
+#sections ul li.alwaysFocused a.mainTopNav,
 #sections ul li a.mainTopNav:hover,
 #sections ul li:hover a.mainTopNav
 {
@@ -661,7 +666,7 @@ div#locale a.on:focus span,
 	width:920px;
 	z-index:200;
 }
-#sections li.focused .doormat
+#sections li.focused .doormat li.alwaysFocused
 {
 	display:block;
 }
@@ -1451,4 +1456,17 @@ ul#meta li
 	padding:18px 30px 22px;
 	border-top:1px solid #ccc;
 	width:720px;
+}
+
+#project-view h2 {
+    text-align: center;
+}
+
+#project-view .big {
+    font-size: xx-large;
+    width: 220px;
+    line-height: 160px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
 }
