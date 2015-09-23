@@ -85,6 +85,7 @@ public class ProjectService implements IProjectService {
                 "  \"targetAmount\": \"20000\",\n" +
                 "  \"currentAmount\": \"8547\",\n" +
                 "  \"targetDate\": \"2015-12-22T11:27:58.614+04:00\",\n" +
+                "  \"creationDate\": \"2015-09-22T11:27:58.614+04:00\",\n" +
                 "  \"backers\": \"12\"\n" +
                 "}";
 
