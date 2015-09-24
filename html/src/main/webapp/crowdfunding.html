@@ -584,12 +584,13 @@
     <div class="project-name"><span id="project-contribution-name">Project Name</span></div>
     <div class="block text-center" style="padding-top: 10px;">You are about to contribute funds to this project</div>
     <form role="form">
+        <input type="hidden" name="project-id" id="contribution-project-id">
         <div class="row" style="padding-top: 30px;">
-            <div class="col-md-4"></div>
-            <div class="col-md-2" style="text-align: right;">
+            <div class="col-md-3"></div>
+            <div class="col-md-3" style="text-align: right;">
                 <label for="contribution-source" >Source:</label>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
                 <div class="dropdown">
                     <button class="btn btn-default dropdown-toggle" type="button" id="contribution-source" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         Account ending in -4321
@@ -603,13 +604,14 @@
                     </ul>
                 </div>
             </div>
+            <div class="col-md-3"></div>
         </div>
         <div class="row" style="padding-top: 5px;" >
-            <div class="col-md-4"></div>
-            <div class="col-md-2" >
+            <div class="col-md-3"></div>
+            <div class="col-md-3" >
                 <input type="text" class="form-control" id="contribution-amount" placeholder="Amount" style="text-align: right;" >
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
                 <div class="dropdown">
                     <button class="btn btn-default dropdown-toggle" type="button" id="contribution-currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         EUR
@@ -622,12 +624,14 @@
                     </ul>
                 </div>
             </div>
+            <div class="col-md-3"></div>
         </div>
     </form>
     <div class="row" style="padding:20px;padding-left: 100px; padding-right: 100px">
-        <div class="col-md-7"><button type="button" class="btn btn-success btn-block btn-large" id="contribute-button">Donate</button></div>
-        <div class="col-md-1"></div>
-        <div class="col-md-4"><button type="button" class="btn btn-warning btn-block" onclick="showList()">Cancel</button></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"><button type="button" class="btn btn-success btn-block btn-large" id="contribute-button">Donate</button></div>
+        <div class="col-md-3"><button type="button" class="btn btn-warning btn-block" onclick="showList()">Cancel</button></div>
+        <div class="col-md-3"></div>
     </div>
 </div>
 
