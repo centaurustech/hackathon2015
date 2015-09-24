@@ -17,7 +17,7 @@ function loadProjects() {
     console.log("projects sent");
     $.getJSON("/api/project", function (data) {
         console.log("projects received " + data);
-        $.each(data.array, function(i,project) {
+        $.each(data, function(i,project) {
 
             innerHTML = '<div class="grid grid_6"><div class="contentItem"><h2><a href="">' + project.name + '</a></h2>';
             innerHTML += '<a href=""><img src="' + project.pictureURL + '" width="220" height="160"></a>';
