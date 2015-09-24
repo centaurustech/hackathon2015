@@ -1463,7 +1463,8 @@ ul#meta li
 }
 
 #project-view .big {
-    font-size: xx-large;
+    font-size: 60px;
+    font-weight: bolder;
     width: 220px;
     line-height: 160px;
     vertical-align: middle;
