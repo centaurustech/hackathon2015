@@ -13,6 +13,23 @@ $("#ping-button").click( function() {
     ;
 });
 
+$('#contribute-button').click( function() {
+    var amount = $('#contribution-amount').val();
+    console.log("Contributing " + amount);
+});
+
+function showContribution() {
+    $('#project-view').hide(500);
+    $('#projects-list').hide(500);
+    $('#project-contribution').show(250);
+}
+
+function showList() {
+    $('#project-view').hide(500);
+    $('#project-contribution').hide(500);
+    $('#projects-list').show(250);
+}
+
 function loadProjects() {
     $.getJSON("/api/project", function (data) {
         $.each(data, function(i,project) {
@@ -39,8 +56,11 @@ function loadProjects() {
 function showProject( id) {
 //    console.log( "I should be showing project " + id);
     $('#projects-list').hide(500);
+    $('#project-contribution').hide(500);
+
     $.getJSON("/api/project/" + id, function (project) {
-        $('#project-name').text( project.name);
+        $('#project-view-name').text( project.name);
+        $('#project-contribution-name').text( project.name);
         $('#project-view-target').text( to4Chars(project.targetAmount));
         var amountPct = 0;
         if( project.targetAmount != 0) {
@@ -55,9 +75,9 @@ function showProject( id) {
         var targetDate = Date.parse( project.targetDate);
         var creationDate = Date.parse( project.creationDate);
         var dateDifference = (targetDate - Date.now());
-        var daysDifference = dateDifference / 1000 / 3600 / 24;
+        var daysDifference = Math.round( dateDifference / 1000 / 3600 / 24);
         var targetDuration = ( targetDate - creationDate);
-        var timePercent = targetDuration == 0 ? 0 : Math.min( Math.round( dateDifference / targetDuration * 100), 100);
+        var timePercent = 100 - (targetDuration == 0 ? 0 : Math.min( Math.round( dateDifference / targetDuration * 100), 100));
 
         $('#project-time-progress-bar').width( timePercent.toString() + '%');
 
@@ -66,6 +86,8 @@ function showProject( id) {
         } else {
             $('#project-time-progress-text').text( 'Completed');
         }
+
+        $('#project-description').text(project.description);
     })
         .done(function () {
 //            console.log("projects succeeded");

@@ -522,42 +522,115 @@
 
 
 <div id="projects-list" class="grid grid_24"></div>
-<div id="project-view" style="display: all">
-    <div class="grid grid_24"><h1 id="project-name">-</h1></div>
-    <div class="grid grid_24">
-        <div class="grid grid_6">
-            <h2>Type</h2>
-            <img src="images/donation.jpg" width="220" height="160">
-        </div>
-        <div class="grid grid_6">
-            <h2>Target</h2>
-            <span class="big" id="project-view-target">-</span>
-        </div>
-        <div class="grid grid_6">
-            <h2>Completion</h2>
-            <span class="big" id="project-view-completion">-%</span>
-        </div>
-        <div class="grid grid_6">
-            <h2>Backers</h2>
-            <span class="big" id="project-view-backers">-</span>
-        </div>
-    </div>
-    <div class="grid grid_24">
-        <div class="grid grid_4">Funds</div>
-        <div class="grid grid_12" id="project-amount-progress"></div>
-        <div class="grid grid_8" id="project-amount-text">- of - XXX </div>
-    </div>
-    <div class="grid grid_24">
-        <div class="grid grid_4"></div>
-        <div class="grid grid_4">Time</div>
-        <div class="grid grid_8">
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" id="project-time-progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" style="width:50%"></div>
+<div id="project-view" style="display: none">
+    <div class="project-name"><span id="project-view-name">Project Name</span></div>
+    <div style="padding: 100px; padding-top: 20px; padding-bottom: 20px">
+        <div class="row">
+            <div class="col-md-3">
+                <h2>Type</h2>
+                <img src="images/donation.jpg" width="180" height="150">
+            </div>
+            <div class="col-md-3">
+                <h2>Target</h2>
+                <span class="big" id="project-view-target">-</span>
+            </div>
+            <div class="col-md-3">
+                <h2>Completion</h2>
+                <span class="big" id="project-view-completion">-%</span>
+            </div>
+            <div class="col-md-3">
+                <h2>Backers</h2>
+                <span class="big" id="project-view-backers">-</span>
             </div>
         </div>
-        <div class="grid grid_8" id="project-time-progress-text"></div>
+    </div>
+    <div class="separator"><span class="label">Progress</span></div>
+    <div>
+        <div class="row" style="padding-left: 50px;padding-right: 50px">
+            <div class="col-md-1">Funds</div>
+            <div class="col-md-8">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" id="project-amount-progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" style="width:33%"></div>
+                </div>
+            </div>
+            <div class="col-md-3" id="project-amount-progress-text"> X out of Y</div>
+        </div>
+        <div class="row" style="padding-left: 50px;padding-right: 50px">
+            <div class="col-md-1">Time</div>
+            <div class="col-md-8">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" id="project-time-progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" style="width:66%"></div>
+                </div>
+            </div>
+            <div class="col-md-3" id="project-time-progress-text">X days left</div>
+        </div>
+        <div class="row" style="padding:20px;padding-left: 100px; padding-right: 100px">
+            <div class="col-md-7"><button type="button" class="btn btn-success btn-block btn-large" onclick="showContribution()">Donate</button></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4"><button type="button" class="btn btn-info btn-block" onclick="showList()">Follow</button></div>
+        </div>
+    </div>
+    <div class="separator"><span class="label">Description</span></div>
+    <div id="project-description-div">
+        <div id="project-description">Project Description</div>
+        <div class="row" style="padding:20px;padding-left: 100px; padding-right: 100px">
+            <div class="col-md-7"><button type="button" class="btn btn-success btn-block btn-large" onclick="showContribution()">Donate</button></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4"><button type="button" class="btn btn-info btn-block" onclick="showList()">Follow</button></div>
+        </div>
     </div>
 </div>
+<div id="project-contribution" style="display: none">
+    <div class="project-name"><span id="project-contribution-name">Project Name</span></div>
+    <div class="block text-center" style="padding-top: 10px;">You are about to contribute funds to this project</div>
+    <form role="form">
+        <div class="row" style="padding-top: 30px;">
+            <div class="col-md-4"></div>
+            <div class="col-md-2" style="text-align: right;">
+                <label for="contribution-source" >Source:</label>
+            </div>
+            <div class="col-md-6">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="contribution-source" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Account ending in -4321
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Account ending in -4321</a></li>
+                        <li><a href="#">Account ending in -5678</a></li>
+                        <li><a href="#">Credit card ending in -0000</a></li>
+                        <li><a href="#">PayPal</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 5px;" >
+            <div class="col-md-4"></div>
+            <div class="col-md-2" >
+                <input type="text" class="form-control" id="contribution-amount" placeholder="Amount" style="text-align: right;" >
+            </div>
+            <div class="col-md-6">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="contribution-currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        EUR
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">EUR</a></li>
+                        <li><a href="#">USD</a></li>
+                        <li><a href="#">GBP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="row" style="padding:20px;padding-left: 100px; padding-right: 100px">
+        <div class="col-md-7"><button type="button" class="btn btn-success btn-block btn-large" id="contribute-button">Donate</button></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4"><button type="button" class="btn btn-warning btn-block" onclick="showList()">Cancel</button></div>
+    </div>
+</div>
+
 
 <div id="globalFooter">
 
