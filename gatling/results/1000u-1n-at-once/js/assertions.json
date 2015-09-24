@@ -1,0 +1,10 @@
+{
+  "simulation": "CrowdFunding",
+  "simulationId": "crowdfunding",
+  "start": 1443000929499,
+  "description": "",
+  "scenarios": ["CrowdFunding"],
+  "assertions": [
+
+  ]
+}
