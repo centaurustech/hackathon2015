@@ -8,6 +8,7 @@ import org.slf4j.Logger;
 import javax.inject.Inject;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Map;
 
 import static org.slf4j.LoggerFactory.getLogger;
@@ -84,6 +85,8 @@ public class ProjectService implements IProjectService {
 
         try {
             ObjectMapper objectMapper = new ObjectMapper();
+            objectMapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm'Z'"));
+
             return objectMapper.writeValueAsString(data);
         } catch (IOException e) {
             e.printStackTrace();
