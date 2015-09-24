@@ -15,7 +15,12 @@ $("#ping-button").click( function() {
 
 $('#contribute-button').click( function() {
     var amount = $('#contribution-amount').val();
-    console.log("Contributing " + amount);
+    var projectId = $('#contribution-project-id').val();
+    var url = "/api/project/" + projectId + "/payment/" + amount;
+    console.log("Contributing at " + url);
+    $.post( url, function( data) {
+        console.log("Contribution result " + data);
+    });
 });
 
 function showContribution() {
@@ -46,7 +51,6 @@ function loadProjects() {
         });
     })
         .done(function () {
-//            console.log("projects suceeded");
         })
         .fail(function () {
             console.log("projects failed");
@@ -58,6 +62,7 @@ function showProject( id) {
 //    console.log( "I should be showing project " + id);
     $('#projects-list').hide(500);
     $('#project-contribution').hide(500);
+    $('#contribution-project-id').val(id);
 
     $.getJSON("/api/project/" + id, function (project) {
         $('#project-view-name').text( project.name);
