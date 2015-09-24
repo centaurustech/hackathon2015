@@ -22,6 +22,7 @@ function showContribution() {
     $('#project-view').hide(500);
     $('#projects-list').hide(500);
     $('#project-contribution').show(250);
+    window.scrollTo( 0, 0);
 }
 
 function showList() {
@@ -35,9 +36,9 @@ function loadProjects() {
         $.each(data, function(i,project) {
 
             var refHTML = 'href="#" onclick="showProject(' + project.id + ')"';
-            var innerHTML = '<div class="grid grid_6"><div class="contentItem"><h2><a ' + refHTML + '>' + project.name + '</a></h2>';
+            var innerHTML = '<div class="grid grid_6"><div class="contentItem"><h2 style="font-weight: bolder;"><a ' + refHTML + '>' + project.name + '</a></h2>';
             innerHTML += '<a ' + refHTML + '><img src="' + project.imgSrc + '" width="220" height="160"></a>';
-            innerHTML += '<p style="padding-right: 0">' + project.description + '</p>';
+            innerHTML += '<p>' + project.description + '</p>';
             innerHTML += '<p><a class="redLink" ' + refHTML + ' title="Find out more">Find out more</a></p>';
             innerHTML += '</div>';
 
