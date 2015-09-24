@@ -20,7 +20,7 @@ function loadProjects() {
         $.each(data, function(i,project) {
 
             innerHTML = '<div class="grid grid_6"><div class="contentItem"><h2><a href="">' + project.name + '</a></h2>';
-            innerHTML += '<a href=""><img src="' + project.pictureURL + '" width="220" height="160"></a>';
+            innerHTML += '<a href=""><img src="' + project.imgSrc + '" width="220" height="160"></a>';
             innerHTML += '<p style="padding-right: 0">' + project.description + '</p>';
             innerHTML += '<p><a class="redLink" href="" title="Find out more">Find out more</a></p>';
             innerHTML += '</div>';
