@@ -1,10 +1,14 @@
 package com.misys.crowdfunding.service.impl;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.misys.crowdfunding.provider.api.IProjectDAO;
 import com.misys.crowdfunding.service.api.IProjectService;
 import org.slf4j.Logger;
 
 import javax.inject.Inject;
+
+import java.io.IOException;
+import java.util.Map;
 
 import static org.slf4j.LoggerFactory.getLogger;
 
@@ -27,7 +31,7 @@ public class ProjectService implements IProjectService {
 
         return "[\n" +
                 "  {\n" +
-                "    \"id\": \"1\",\n" +
+                "    \"id\": \"#12:0\",\n" +
                 "    \"name\": \"CrowdFunding\",\n" +
                 "    \"description\": \"Our fantastic project that will revolutionize the world\",\n" +
                 "    \"imgSrc\": \"https://resistanceinventerre.files.wordpress.com/2013/10/asumo2.jpg?w=300&h=277\"\n" +
@@ -72,23 +76,19 @@ public class ProjectService implements IProjectService {
     }
 
     @Override
-    public String getProject(int id) {
-        // TODO call DAO and process output to json
+    public String getProject(String id) {
+        Map<String, Object> data = projectDAO.getProject(id);
 
-        final String ret = "{\n" +
-                "  \"id\": \"TOFILLUP\",\n" +
-                "  \"name\": \"CrowdFunding\",\n" +
-                "  \"description\": \"Our fantastic project that will revolutionize the world\",\n" +
-                "  \"imgSrc\": \"https://resistanceinventerre.files.wordpress.com/2013/10/asumo2.jpg?w=300&h=277\",\n" +
-                "  \"type\": \"Donation\",\n" +
-                "  \"currency\": \"EUR\",\n" +
-                "  \"targetAmount\": \"20000\",\n" +
-                "  \"currentAmount\": \"8547\",\n" +
-                "  \"targetDate\": \"2015-12-22T11:27:58.614+04:00\",\n" +
-                "  \"creationDate\": \"2015-09-22T11:27:58.614+04:00\",\n" +
-                "  \"backers\": \"12\"\n" +
-                "}";
+        data.remove("@rid");
+        data.put("bakers", 42);
 
-        return ret.replace("TOFILLUP", Integer.toString(id));
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            return objectMapper.writeValueAsString(data);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return "";
     }
 }

@@ -34,7 +34,7 @@ public class ProjectResource {
     @GET
     @Path("/{id}")
     @Produces({MediaType.APPLICATION_JSON})
-    public String getProject(@PathParam("id") int id) {
+    public String getProject(@PathParam("id") String id) {
         return projectService.getProject(id);
     }
 
