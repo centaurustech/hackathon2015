@@ -9,10 +9,10 @@ import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
  */
 public class ProjectDAO implements IProjectDAO {
 
-
     @Override
     public Object getProject(int id) {
         ODatabaseDocumentTx db = new ODatabaseDocumentTx("remote:localhost/Crowdfunding").open("root", "crowdfunding");
+
         return null;
     }
 }
