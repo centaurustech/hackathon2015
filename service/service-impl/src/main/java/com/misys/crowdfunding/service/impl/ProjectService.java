@@ -81,7 +81,7 @@ public class ProjectService implements IProjectService {
         Map<String, Object> data = projectDAO.getProject(id);
 
         data.remove("@rid");
-        data.put("bakers", 42);
+        data.put("backers", 42);
 
         try {
             ObjectMapper objectMapper = new ObjectMapper();
