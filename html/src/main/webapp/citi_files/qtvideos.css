@@ -1,0 +1,156 @@
+.cboltour_avatar_close_lghtbox {			
+	position:absolute;
+	top:10px;
+	right:10px;
+	width:15px;
+	height:15px;
+	padding-right:0px !important;
+	background:transparent url(/JRS/cboltour/images/btn_overlay_close.png) no-repeat 0px 0px;
+}
+	
+.cboltour_avatar_close_lghtbox:hover {
+	background:transparent url(/JRS/cboltour/images/btn_overlay_close.png) no-repeat 0px 0px;
+}
+	
+.cboltour_lghtboxBgdImg {
+	position:relative;
+	width:936px;
+	height:585px;
+	padding:10px 30px;
+	background:transparent url(/JRS/cboltour/images/stripes.gif) repeat 0px 0px;
+	border:1px solid #999999;
+	zoom:1;
+	box-shadow:0px 0px 15px #ccc; -moz-box-shadow:0px 0px 15px #ccc; -o-box-shadow:0px 0px 15px #ccc; -ms-box-shadow:0px 0px 15px #ccc; -webkit-box-shadow:0px 0px 15px #ccc;behavior: url(/JRS/thankyoums/PIE.htc);
+}
+	
+.cboltour_avatar_qt_navitems {
+	font-size:12px;
+	width:auto;
+}		
+			
+.cboltour_avatar_qt_navitems a {
+	color:#7a7a7a;
+	padding:3 6px;
+	text-decoration:none; 
+	margin-left:2px;			
+}
+	
+.cboltour_avatar_qt_navitems a.cboltour_prevnext {
+	color:#0368C2;
+}		
+		
+.cboltour_avatar_qt_navitems .disable {
+	color:#E7E7E7 !important;
+	cursor:default;
+}	
+	
+.cboltour_avatar_qt_navitems .active {
+	color:#DCB182;
+	border:1px solid #7A7A7A;
+	cursor:default;
+}
+			
+.cboltour_lghtboxheaderWrapper {
+	position:relative;
+	clear:both;
+}		
+			
+.cboltour_lghtboxHeaderTitle {	
+	display:inline-block;	
+	width:500px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#33333;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+	
+*+html .cboltour_lghtboxHeaderTitle {
+	display:inline !important;
+}		
+			
+.cboltour_lghtboxHeaderNav {
+	display:inline-block;
+	text-align:right;			
+	width:436px;
+	line-height:24px;
+	padding-bottom:10px;
+}
+			
+*+html .cboltour_lghtboxHeaderNav {
+	display:inline !important;
+}		
+					
+ul li {
+	padding-bottom:10px;
+}
+
+
+/**  VIDEO SLIDER  **/
+.carousel {position:relative; clear:both; float:left; width:100%; height:auto; margin:0px 0px 20px 0px; padding:0px;}
+	#videoSlider .mask {width:190px; margin:0px auto; background-color:#EAEAEA;}
+	.carousel .mask {position:relative; overflow:hidden;}
+		.carousel .mask ul {position:relative; float:left; clear:both; overflow:hidden; margin:0px; padding:0px; list-style:none;}
+			.carousel .mask ul li {position:relative; float:left; width:190px; height:158px; margin-bottom:0px !important; padding-bottom:0px !important; margin-right:10px;}
+				.carousel .mask ul li a {display:block; position:relative; float:left; width:190px; height:112px; padding-left:0px !important;
+					background-image:url(../images/videoSprite.jpg) !important; background-repeat:no-repeat !important; 
+				}
+
+				/*  BEGIN: Carousel Video Images  */
+					/*  Getting Started  */
+					.carousel .mask ul li a.gettingstarted {background-position:0px 0px !important;}
+					.carousel .mask ul li a.gettingstarted:hover {background-position:0px -112px !important;}
+					/*  Account Summary  */
+					.carousel .mask ul li a.accountsummary {background-position:-190px 0px !important;}
+					.carousel .mask ul li a.accountsummary:hover {background-position:-190px -112px !important;}
+					/*  One-time Payment  */
+					.carousel .mask ul li a.onetimepayment {background-position:-380px 0px !important;}
+					.carousel .mask ul li a.onetimepayment:hover {background-position:-380px -112px !important;}
+					/*  eBills  */
+					.carousel .mask ul li a.ebills {background-position:-570px 0px !important;}
+					.carousel .mask ul li a.ebills:hover {background-position:-570px -112px !important;}
+					/*  Alerts  */
+					.carousel .mask ul li a.alerts {background-position:-760px 0px !important;}
+					.carousel .mask ul li a.alerts:hover {background-position:-760px -112px !important;}
+					/*  Add a Payee  */
+					.carousel .mask ul li a.addpayee {background-position:-950px 0px !important;}
+					.carousel .mask ul li a.addpayee:hover {background-position:-950px -112px !important;}
+					/*  Express Payments  */
+					.carousel .mask ul li a.expresspayment {background-position:-1140px 0px !important;}
+					.carousel .mask ul li a.expresspayment:hover {background-position:-1140px -112px !important;}
+					/*  Mobiule Check Deposit  */
+					.carousel .mask ul li a.mobiledeposit {background-position:-1330px 0px !important;}
+					.carousel .mask ul li a.mobiledeposit:hover {background-position:-1330px -112px !important;}
+				/*  END: Carousel Video Images  */
+
+				.carousel .mask ul li span {position:relative; float:left; margin-top:8px;}
+					.carousel .mask ul li span a {position:relative; float:left; width:auto; height:auto; color:#000000; padding-left:20px !important; background:url(/JRS/images/marketing/SPR-links.gif) no-repeat -10px -380px !important;}
+
+		.carousel .pagination-links,
+		.carousel .pagination-links li,
+		.carousel .pagination-links li a,
+		.carousel .navContainer a {display:block; float:left;}
+
+		.carousel .pagination-links,
+		.carousel .pagination-links li {margin:0px; padding:0px; list-style:none;}
+
+			.carousel .navContainer ol.pagination-links li a {background:none !important;}
+			.carousel .navContainer ol.pagination-links li a,
+			.carousel .navContainer a {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666 !important; text-decoration:none; border:none; padding:2px 8px !important;}
+
+		/*  Pagination Links  */
+		.carousel .navContainer {position:relative; float:left; margin-top:10px; padding-top:12px; background:transparent url(/JRS/images/marketing/BG-dotted-line.gif) repeat-x scroll left top;}
+			.carousel .navContainer a {color:#00589D !important;}
+			.carousel .navContainer a.prev {padding-left:12px !important; background:url(/JRS/images/marketing/SPR-links.gif) no-repeat left -353px !important;}
+			.carousel .navContainer a.next {padding-right:12px !important; background:url(/JRS/images/marketing/SPR-links.gif) no-repeat right -377px !important;}
+			/*  Hover State   */
+			.carousel .pagination-links li a:hover,
+			.carousel .navContainer a:hover {text-decoration:underline;}
+		 	/*  Disabled State  */
+			.carousel .navContainer a.disabled {color:#666666 !important; opacity:0.5; text-decoration:none; cursor:default;}
+			.carousel .navContainer a.disabled:hover {text-decoration:none !important; cursor:default !important;}
+			/*  Active State  */
+			.carousel ol.pagination-links li.current a {color:#CC6600 !important; border:1px solid #BEBEBE !important;}
+			.carousel ol.pagination-links li.current a:hover {text-decoration:none !important; cursor:default !important;}
+
+.clear {display:block; position:relative; clear:both;}

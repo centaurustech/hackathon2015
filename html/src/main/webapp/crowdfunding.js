@@ -16,7 +16,7 @@ $("#ping-button").click( function() {
 $('#contribute-button').click( function() {
     var amount = $('#contribution-amount').val();
     var projectId = $('#contribution-project-id').val();
-    var url = "/api/project/" + encodeURIComponent(projectId) + "/payment/" + amount;
+    var url = "/api/project/" + encodeURIComponent( projectId) + "/payment/" + amount;
     console.log("Contributing at " + url);
     $.post( url, function( data) {
         console.log("Contribution result " + data);
