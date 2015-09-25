@@ -1,24 +1,24 @@
-$("#ping-button").click( function() {
+$("#ping-button").click(function () {
     console.log("projects ping");
-    $.ajax( {
-            url:"/api/ping",
-            dataType: "text"
-        })
-        .done( function( data){
+    $.ajax({
+        url: "/api/ping",
+        dataType: "text"
+    })
+        .done(function (data) {
             console.log("Ping received " + data);
         })
-        .fail(function(){
+        .fail(function () {
             console.log("Ping failed");
         })
     ;
 });
 
-$('#contribute-button').click( function() {
+$('#contribute-button').click(function () {
     var amount = $('#contribution-amount').val();
     var projectId = $('#contribution-project-id').val();
-    var url = "/api/project/" + encodeURIComponent( projectId) + "/payment/" + amount;
+    var url = "/api/project/" + encodeURIComponent(projectId) + "/payment/" + amount;
     console.log("Contributing at " + url);
-    $.post( url, function( data) {
+    $.post(url, function (data) {
         console.log("Contribution result " + data);
     });
 });
@@ -27,7 +27,7 @@ function showContribution() {
     $('#project-view').hide(500);
     $('#projects-list').hide(500);
     $('#project-contribution').show(250);
-    window.scrollTo( 0, 0);
+    window.scrollTo(0, 0);
 }
 
 function showList() {
@@ -38,7 +38,7 @@ function showList() {
 
 function loadProjects() {
     $.getJSON("/api/project", function (data) {
-        $.each(data, function(i,project) {
+        $.each(data, function (i, project) {
 
             var refHTML = 'href="#" onclick="showProject(\'' + project.id + '\')"';
             var innerHTML = '<div class="grid grid_6"><div class="contentItem"><h2 style="font-weight: bolder;"><a ' + refHTML + '>' + project.name + '</a></h2>';
@@ -47,7 +47,7 @@ function loadProjects() {
             innerHTML += '<p><a class="redLink" ' + refHTML + ' title="Find out more">Find out more</a></p>';
             innerHTML += '</div>';
 
-            $('#projects-list').append( innerHTML);
+            $('#projects-list').append(innerHTML);
         });
     })
         .done(function () {
@@ -58,39 +58,39 @@ function loadProjects() {
     ;
 }
 
-function showProject( id) {
+function showProject(id) {
 //    console.log( "I should be showing project " + id);
     $('#projects-list').hide(500);
     $('#project-contribution').hide(500);
     $('#contribution-project-id').val(id);
 
     $.getJSON("/api/project/" + encodeURIComponent(id), function (project) {
-        $('#project-view-name').text( project.name);
-        $('#project-contribution-name').text( project.name);
-        $('#project-view-target').text( to4Chars(project.targetAmount));
+        $('#project-view-name').text(project.name);
+        $('#project-contribution-name').text(project.name);
+        $('#project-view-target').text(to4Chars(project.targetAmount));
         var amountPct = 0;
-        if( project.targetAmount != 0) {
+        if (project.targetAmount != 0) {
             amountPct = Math.round((project.currentAmount / project.targetAmount) * 100);
         }
-        $('#project-view-completion').text( amountPct.toString() + '%');
-        $('#project-view-backers').text( project.backers);
+        $('#project-view-completion').text(amountPct.toString() + '%');
+        $('#project-view-backers').text(project.backers);
 
-        $('#project-amount-progress-bar').width( amountPct.toString() + '%');
-        $('#project-amount-progress-text').text( project.currentAmount + ' of ' + project.targetAmount + ' ' + project.currency );
+        $('#project-amount-progress-bar').width(amountPct.toString() + '%');
+        $('#project-amount-progress-text').text(project.currentAmount + ' of ' + project.targetAmount + ' ' + project.currency);
 
-        var targetDate = Date.parse( project.targetDate);
-        var creationDate = Date.parse( project.creationDate);
+        var targetDate = Date.parse(project.targetDate);
+        var creationDate = Date.parse(project.creationDate);
         var dateDifference = (targetDate - Date.now());
-        var daysDifference = Math.round( dateDifference / 1000 / 3600 / 24);
+        var daysDifference = Math.round(dateDifference / 1000 / 3600 / 24);
         var targetDuration = ( targetDate - creationDate);
-        var timePercent = 100 - (targetDuration == 0 ? 0 : Math.min( Math.round( dateDifference / targetDuration * 100), 100));
+        var timePercent = 100 - (targetDuration == 0 ? 0 : Math.min(Math.round(dateDifference / targetDuration * 100), 100));
 
-        $('#project-time-progress-bar').width( timePercent.toString() + '%');
+        $('#project-time-progress-bar').width(timePercent.toString() + '%');
 
-        if( dateDifference > 0) {
-            $('#project-time-progress-text').text( daysDifference + ' days left');
+        if (dateDifference > 0) {
+            $('#project-time-progress-text').text(daysDifference + ' days left');
         } else {
-            $('#project-time-progress-text').text( 'Completed');
+            $('#project-time-progress-text').text('Completed');
         }
 
         $('#project-description').text(project.description);
@@ -105,26 +105,26 @@ function showProject( id) {
     $('#project-view').show(250);
 }
 
-function to4Chars( amount) {
-    amount = Math.round( amount);
+function to4Chars(amount) {
+    amount = Math.round(amount);
     // [0-1k[
-    if( amount < 1000) return amount;
+    if (amount < 1000) return amount;
     // [1k,10k[ => 2d,1d
-    if( amount < 10000) return Math.round( amount / 1000) + ',' + Math.round( amount % 1000) + 'k';
+    if (amount < 10000) return Math.round(amount / 1000) + ',' + Math.round(amount % 1000) + 'k';
     // [10k,100k[ => 2d,1d
-    if( amount < 100000) return Math.round( amount / 1000) + ',' + Math.round( amount / 100 % 10) + 'k';
+    if (amount < 100000) return Math.round(amount / 1000) + ',' + Math.round(amount / 100 % 10) + 'k';
     // [100k,1m[ => 3d + k
-    if( amount < 1000000) return Math.round( amount / 1000) + 'k';
+    if (amount < 1000000) return Math.round(amount / 1000) + 'k';
     // [1m < 10m[ 1d,3d
-    if( amount < 10000000) return Math.round( amount / 1000000) + ',' + Math.round( amount / 1000 % 1000) + 'm';
+    if (amount < 10000000) return Math.round(amount / 1000000) + ',' + Math.round(amount / 1000 % 1000) + 'm';
     // [10m,100m[ => 2d,1d
-    if( amount < 100000000) return Math.round( amount / 1000000) + ',' + Math.round( amount / 100000 % 10) + 'm';
+    if (amount < 100000000) return Math.round(amount / 1000000) + ',' + Math.round(amount / 100000 % 10) + 'm';
     // [100m,1b[ => 3d + k
-    if( amount < 1000000000) return Math.round( amount / 1000000) + 'm';
+    if (amount < 1000000000) return Math.round(amount / 1000000) + 'm';
     // [1m < 10m[ 1d,3d
-    if( amount < 10000000000) return Math.round( amount / 1000000000) + ',' + Math.round( amount / 1000000 % 1000) + 'b';
+    if (amount < 10000000000) return Math.round(amount / 1000000000) + ',' + Math.round(amount / 1000000 % 1000) + 'b';
     // [10m,100m[ => 2d,1d
-    if( amount < 100000000000) return Math.round( amount / 1000000000) + ',' + Math.round( amount / 100000000 % 10) + 'b';
+    if (amount < 100000000000) return Math.round(amount / 1000000000) + ',' + Math.round(amount / 100000000 % 10) + 'b';
     // [100m,1b[ => 3d + k
-    return Math.round( amount / 1000000000) + 'b';
+    return Math.round(amount / 1000000000) + 'b';
 }
