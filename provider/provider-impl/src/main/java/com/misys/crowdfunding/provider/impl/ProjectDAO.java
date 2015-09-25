@@ -1,8 +1,6 @@
 package com.misys.crowdfunding.provider.impl;
 
 import com.misys.crowdfunding.provider.api.IProjectDAO;
-import com.orientechnologies.orient.core.db.OPartitionedDatabasePool;
-import com.orientechnologies.orient.core.db.OPartitionedDatabasePoolFactory;
 import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
 import com.orientechnologies.orient.core.record.impl.ODocument;
 import com.orientechnologies.orient.core.sql.query.OSQLSynchQuery;
@@ -17,24 +15,22 @@ import java.util.Map;
  */
 public class ProjectDAO implements IProjectDAO {
 
-    private OPartitionedDatabasePool pool;
+    private String connectionStr;
 
     public ProjectDAO() {
-        OPartitionedDatabasePoolFactory factory = new OPartitionedDatabasePoolFactory();
-
-        pool = factory.get("remote:localhost/Crowdfunding", "admin", "admin");
+        connectionStr = "remote:localhost/Crowdfunding";
 
         try {
-            ODatabaseDocumentTx db = pool.acquire();
+            ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
             db.close();
         } catch (Exception e) {
-            pool = factory.get("remote:192.168.100.11/Crowdfunding", "admin", "admin");
+            connectionStr = "remote:192.168.100.11/Crowdfunding";
         }
     }
 
     @Override
     public List<Map<String, Object>> getProjects() {
-        ODatabaseDocumentTx db = pool.acquire();
+        ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
         try {
             List<ODocument> result = db.query(new OSQLSynchQuery<ODocument>("select @rid.asString() as id, name, description, imgSrc from projects"));
             List<Map<String, Object>> ret = new ArrayList<>();
@@ -53,7 +49,7 @@ public class ProjectDAO implements IProjectDAO {
 
     @Override
     public Map<String, Object> getProject(String id) {
-        ODatabaseDocumentTx db = pool.acquire();
+        ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
         try {
             List<ODocument> result = db.command(new OSQLSynchQuery<ODocument>("select @rid.asString() as id, name, description, imgSrc, type, currency, targetAmount, currentAmount, targetDate, creationDate from projects where @rid=?")).execute(id);
             Map<String, Object> mret = result.get(0).toMap();
@@ -66,11 +62,9 @@ public class ProjectDAO implements IProjectDAO {
 
     @Override
     public void createPayment(String id, double amount) {
-        ODatabaseDocumentTx db = pool.acquire();
+        ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
         try {
-            List<ODocument> result = db.command(new OSQLSynchQuery<ODocument>("select @rid.asString() as id, name, description, imgSrc, type, currency, targetAmount, currentAmount, targetDate, creationDate from projects where @rid=?")).execute(id);
-            Map<String, Object> mret = result.get(0).toMap();
-            mret.remove("@rid");
+
         } finally {
             db.close();
         }
