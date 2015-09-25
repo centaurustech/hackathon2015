@@ -1,0 +1,2373 @@
+/* modal-overlay.css existing classes starts */
+.appClear {
+	clear: both;
+}
+
+/* EBIZDI removing grey line */
+#aJPSINFRA_t_sPortalCrossSiteScript #appPageletteDiv,
+#aJPSINFRA_t_sPortalUNAuthorized #appPageletteDiv,
+#aJPSINFRA_t_sPrintError #appPageletteDiv,
+#aJPSINFRA_t_sPortalServerError #appPageletteDiv,
+#aJPSINFRA_t_sPortalNotFound #appPageletteDiv, 
+#aJPSINFRA_t_sPortalError #appPageletteDiv,
+#aJPSINFRA_t_sPortalNoCookie #appPageletteDiv,
+#aJPSINFRA_t_sPortalInvalidEntry #appPageletteDiv, 
+#aJPSINFRA_t_sPortalSessionTimeout #appPageletteDiv,
+#aJPSINFRA_t_sPortalRequestFailure #appPageletteDiv,
+#aJPSINFRA_t_sPortalBrowserExclude #appPageletteDiv,
+#aJPSINFRA_t_sPortalBrowserWarn #appPageletteDiv,
+#aJPSINFRA_t_sPortalParamLengthExceed #appPageletteDiv,
+#aJPSINFRA_t_sDeviceTypeDownloadableApp #appPageletteDiv,
+#aJPSINFRA_t_sDeviceTypeNotSupported #appPageletteDiv,
+#aJRSLINKACCTS_t_sLink #appPageletteDiv,
+#aJRSAO_t_sIAOProfile_NonAvailability #appPageletteDiv,
+#aJSOSIGNON_t_s302 #appPageletteDiv {
+	visibility: hidden;
+}
+
+.appHidden {
+	display: none;
+}
+#moAjaxContent {
+	clear: both;
+
+	padding: 2px 15px 15px 15px;
+	text-align: left;
+	line-height: 1.4em;
+ 	* background-color: #fff;
+}
+
+#moOverlay {
+	position: fixed;
+	z-index: 1350;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+}
+.iFrameInlineIE {
+	* margin-top: 7px;
+	margin: 7px;
+}
+.moOverlayBG {
+	background-color: #FFF;
+	filter: alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+	height: 100%;
+}
+* html #moOverlay { /* ie6 hack */
+	position: absolute;
+ 	height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight: document.body.offsetHeight + 'px');
+}
+* html #moHideSelect { /* ie6 hack */
+	position: absolute;
+ 	height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight: document.body.offsetHeight + 'px');
+}
+#moHideSelect {
+	z-index: 101;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	border: none;
+
+	filter: alpha(opacity=0);
+
+	-moz-opacity: 0;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+.moCenter {
+	text-align: center;
+}
+
+.moAlignSpacer {
+	border: 1px solid #ffffff;
+	width: 100%;
+}
+
+div#mo, 
+div#mo div#moBtm *, 
+div#mo div#moTop *, 
+div#moCtr div.moL, 
+div#moCtr div.moR {
+	margin: 0;
+	padding: 0;
+}
+
+* div#moCtr div.moR {
+	margin: 0;
+	padding: -1px;
+}
+
+div#mo {
+	position: absolute;
+	left: 250px;
+
+	top: 200px;
+	width: 550px;
+	height: auto;
+	z-index: 1380;
+}
+
+div#mo div#moClose {
+	position: relative;
+	float: right;
+	z-index: 1450;
+}
+
+
+* html div#mo div#moClose {
+	position: relative;
+	left: 4px;
+
+	top: -3px;
+	z-index: 1450;
+	display: inline;
+}
+div#mo div.moRow {
+	clear: both;
+}
+
+div#mo div.moRow div {
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#mo div#moCtr div {
+	height: auto;
+}
+
+div#mo div#moCtr div.moL {
+	background: url(/JFP/images/jquery/plugins/modal-overlay-l.png) 0 0 repeat-y;
+	position: relative;
+	left: 0px;
+	margin: 0;
+	padding-left: 40px;
+}
+
+
+* html div#mo div#moCtr div.moL {
+	background-image: url(/JFP/images/jquery/plugins/modal-overlay-l.gif);
+	height: 0px;
+}
+
+div#mo div#moCtr div.moR {
+	background: url(/JFP/images/jquery/plugins/modal-overlay-r.png) 100% 0 repeat-y;
+	position: relative;
+	right: 0px;
+	margin: 0;
+	padding-right: 40px;
+}
+
+
+
+* html div#mo div#moCtr div.moR {
+	background-image: url(/JFP/images/jquery/plugins/modal-overlay-r.gif);
+}
+
+div#mo div#moBtm div.moC {
+	background: url(/JFP/images/jquery/plugins/modal-overlay-b.png) 0 100% repeat-x;
+	margin: 0 40px;
+}
+
+* html div#mo div#moBtm div.moC {
+	background-image: url(/JFP/images/jquery/plugins/modal-overlay-b.gif);
+}
+
+div#mo div#moBtm div.moL {
+	background: url(/JFP/images/jquery/plugins/modal-overlay-cbl.png) 0 100% no-repeat;
+}
+
+* html div#mo div#moBtm div.moL {
+	background-image: url(/JFP/images/jquery/plugins/modal-overlay-cbl.gif);
+}
+
+div#mo div#moBtm div.moR {
+	background: url(/JFP/images/jquery/plugins/modal-overlay-cbr.png) 100% 100% no-repeat;
+}
+
+* html div#mo div#moBtm div.moR {
+	background-image: url(/JFP/images/jquery/plugins/modal-overlay-cbr.gif);
+}
+
+div#mo div#moTop div.moC {
+	background: url(/JFP/images/jquery/plugins/modal-overlay-t.png) 0 0 repeat-x;
+	margin: 0 40px;
+}
+
+* html div#mo div#moTop div.moC {
+	background-image: url(/JFP/images/jquery/plugins/modal-overlay-t.gif);
+}
+
+div#mo div#moTop div.moL {
+	background: url(/JFP/images/jquery/plugins/modal-overlay-ctl.png) 0 0 no-repeat;
+}
+
+* html div#mo div#moTop div.moL {
+	background-image: url(/JFP/images/jquery/plugins/modal-overlay-ctl.gif);
+}
+
+div#mo div#moTop div.moR {
+	background: url(/JFP/images/jquery/plugins/modal-overlay-ctr.png) 100% 0 no-repeat;
+}
+
+* html div#mo div#moTop div.moR {
+	background-image: url(/JFP/images/jquery/plugins/modal-overlay-ctr.gif);
+}
+div#mo div#moTop div.moL, 
+div#mo div#moBtm div.moL {
+	float: left;
+	width: 40px;
+	position: relative;
+	left: -40px;
+}
+div#mo div#moTop div.moR, 
+div#mo div#moBtm div.moR {
+	float: right;
+	width: 40px;
+
+	position: relative;
+	right: -40px;
+}
+
+
+/* fieldset css */
+
+#mo h1 {
+	width: auto;
+	padding: 0px;
+	margin: 0px;
+}
+
+#mo fieldset {
+	padding-left: 197px;
+}
+
+#mo ul.appNav, 
+ul#appNav {
+	margin: 0 !important;
+}
+
+* html #mo fieldset {
+	border-width: 0;
+	padding-left: 0;
+	width: auto !important;
+}
+
+* html #mo fieldset div.sideBySide {
+	width: auto;
+	text-indent: -3px;
+	padding-left: 167px;
+
+	height: 1%;
+	vertical-align: top;
+	font-size: 12px;
+	color: #0f0f0f;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	clear: both;
+	text-align: left;
+}
+
+/* modal-overlay.css existing classes ends */
+
+
+
+/* autocomplete.css existing classes starts */
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid #999;
+	background-color: white !important;
+	overflow: hidden;
+
+	z-index: 99999 !important;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: white !important;
+}
+
+
+.ac_results li {
+	margin: 0px;
+
+	padding: 2px 5px;
+	cursor: pointer;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;
+	font: menu;*/
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+
+
+
+
+	color: #2269B9;
+}
+.ac_results iframe {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	filter: mask();
+
+
+	width: 3000px;
+	height: 3000px;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+
+
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	/*background-color: #0A246A;*/
+	color: #42AFE5 !important;
+	text-decoration: underline;/*padding-bottom: 1px;
+	border-bottom: solid 1px red;*/
+}
+
+/* autocomplete.css existing classes ends */
+
+
+
+/* ctp.css existing classes starts */
+
+.errorContainerCTP {
+	margin-left: 10px;
+}
+
+div#ErrorContainerCTP {
+	width: 422px;
+}
+
+div.ctp-creditcard-to-overlay {
+	display: inline-block;
+	width: 360px;
+}
+
+/* Modified Version Starts Here*/
+
+ul {
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.multiple_columns li.one {
+	text-align: left;
+	float: left;
+	list-style: none;
+	width: 55px;
+	font-size: 11px !important;
+	margin-left: 10px;
+}
+ul.multiple_columns li.two {
+	text-align: left;
+	float: left;
+	list-style: none;
+	font-size: 11px !important;
+}
+
+.creditcardMainContainer {
+	margin-left: 94px !important;
+	padding-bottom: 5px !important;
+	padding-top: 4px!important;
+	position: absolute;
+}
+
+.creditcardMainContainertext {
+	float: left;
+
+	margin-top: 4px;
+	width: 338px;
+
+
+	height: 22px;
+}
+.creditcardMainContainerRadio {
+	float: left;
+	overflow: hidden;
+}
+
+#ctpoverlay .ctpHeader {
+	height: 40px;
+}
+
+#ctpoverlay .ctpMainContainer {
+	height: 288px;
+	border: 1px solid #999999;
+	background-color: #FFFFFF !important;
+}
+
+#ctpoverlay .ctpFooter {
+	height: 50px;
+}
+
+#ctpoverlay .spaceBlock {
+	height: 110px;
+}
+
+#ctpoverlay fontCtp11Size {
+	font-size: 11px;
+	float: right;
+}
+
+#ctpoverlay .fontSizeCTP20px {
+	font-size: 20px;
+}
+
+#ctpoverlay .fontSizeCTP12px {
+	font-size: 12px;
+}
+
+#ctpoverlay .fontSizeCTP11px {
+	font-size: 11px;
+	margin-left: 180px;
+}
+
+.noFundingAccountContainer {
+	height: 200px;
+	padding-left: 30px;
+	padding-top: 40px;
+}
+
+div#CTPfooter, 
+div#ctpverification, 
+div#ctpMultiCCFooterError, 
+div#ctpSingleCCFooterError, 
+div#ctpCloseFooter {
+	height: 40px;
+	border-top: 1px dotted #979797;
+	padding-top: 8px;
+	margin-top: 8px;
+}
+
+div#CTPfooter {
+	margin-left: 9px;
+}
+
+li.ssoToAoButtonCTPCC {
+	display: inline-block;
+	float: right;
+}
+
+.payDropDownCtpOverlay {
+	height: 35px !important;
+	margin-left: 28px !important;
+	padding-bottom: 5px !important;
+	padding-top: 12px !important;
+	vertical-align: top;
+}
+
+.dateDisplayContainer {
+	left: 70px;
+	margin-top: -2px;
+	position: absolute;
+}
+
+div.amountContainer {
+	margin-left: 28px !important;
+	padding-bottom: 5px !important;
+	padding-top: 7px!important;
+	position: absolute;
+}
+
+.dateContainer {
+	position: absolute;
+}
+
+table#ctpWrapper {
+	height: 290px;
+	width: 490px;
+}
+
+div#ui-tooltip-ctpDateError {
+	top: 270px !important;
+}
+
+li#next_buttonholder span.appNavLock {
+	font-size: 12px;
+	padding: 2px 8px;
+	border: 1px solid #999999;
+	font-weight: bold !important;
+	color: #D3D3D3;
+	background-color: #999999;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+span#ctpStepCounter {
+	float: right;
+	margin-top: 5px;
+ 	*margin-top: -15px;
+}
+
+li#next_buttonholder span#enableNext {
+	background-image: url("/JFP/images/horizontal_sprite.png");
+	background-position: 0 -139px;
+	background-repeat: repeat-x;
+	color: #FFFFFF;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+}
+
+li#next_buttonholder span#enableNext a#cmlink_CTPNextBtnOverlay, 
+li#confirm_footer_container li#CTPConfirm a#cmlink_CTPConfirmBtnOverlay, 
+ul#ctpConfirmationFooter li.closeCTPConfirm a#cmlink_CTPCloseBtnOverlay {
+	color: #FFFFFF !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+}
+
+.StructCTPSelectBG {
+	background-color: #FFFAA1 !important;
+}
+
+div#invalidAmntMessage, 
+div#alphaNumericError, 
+div#fundingaccountnotselected, 
+div#CCaccountnotselected, 
+div#ctpDateError, 
+div#ctpPayDateError, 
+div#ctpDateAlreadyUsedError, 
+div#ctpAmtEqExceedError, 
+div#ctpAmtMaxError, 
+div#ctpGeneral, 
+div#ctpErrPayBlockMultipleFundAcct, 
+div#CTPErrAmtMoreThanMaxAmt {
+	cursor: default !important;
+}
+
+li#next_and_cancel_buttonholder li#cancel_buttonholder a#cmlink_CTPSignupOverlayCancelLink, 
+div#ctpGeneral, 
+div#fundingaccountnotselected, 
+li#next_and_cancel_buttonholder li#next_buttonholder span#disableNext {
+	font-size: 11px !important;
+}
+
+ul#ctp_footer_container li#next_and_cancel_buttonholder {
+	float: right;
+	width: auto;
+}
+
+ul#ctpNextCancelButton {
+	text-align: right;
+}
+
+ul#ctpNextCancelButton li#cancel_buttonholder {
+	display: inline;
+	padding-right: 20px;
+}
+
+li#toCTP, 
+li#fromCTP {
+	width: 60px;
+}
+
+div.ctpDisclaimer {
+	font-size: 11px !important;
+	margin-left: 70px;
+}
+
+div.ctpDisclaimer a {
+	font-size: 11px !important;
+}
+
+span#ctpStepCounter {
+	font-weight: bold;
+}
+
+ul#ctp_footer_container li#view_buttonholder a#cmlink_CTPViewEditSchPymt, 
+div#Makechanges_footercontainer a#cmlink_CTPMakeChanges, 
+li#confirm_footer_container li#cancel_button_container a#cmlink_CTPSignupOverlayCancelLink, 
+li#CTPConfirm a#cmlink_CTPConfirmBtnOverlay, 
+li#printOption a#cmlink_CTPPrint, 
+li#confirmViewButtonholder a#cmlink_CTPViewEditSchPymt, 
+li#ctpSetupAutoPay a#cmlink_CTPSetUpAutopay, 
+li#closeCTPConfirm a#cmlink_CTPCloseBtnOverlay {
+	font-size: 11px !important;
+}
+
+ul#ctp_footer_container li#view_buttonholder {
+	float: left;
+	width: 200px;
+}
+
+li#CTPConfirm {
+	background-image: url(/JFP/images/horizontal_sprite.png);
+	background-position: 0 -139px;
+	background-repeat: repeat-x;
+	padding: 4px 8px;
+ 	*margin-top: 1px;
+}
+
+ul#ctpErrorBtnContainer li#CTPAddPaymntBtn, 
+li.ssoToAoButtonCTPCC, 
+ul#ctpCloseBtnContainer li.closeButtonContainer, 
+li.yesCTPCC {
+	background-image: url(/JFP/images/horizontal_sprite.png);
+	background-position: 0 -139px;
+	background-repeat: repeat-x;
+	padding: 3px 10px 3px;
+}
+
+ul#ctpErrorBtnContainer li#CTPAddPaymntBtn a#cmlink_CTPSignupAddPymtBtn, 
+li.ssoToAoButtonCTPCC a#cmlink_CTPSignupAddPymtBtn, 
+li#CTPConfirm a#cmlink_CTPConfirmBtnOverlay {
+	color: #FFFFFF;
+}
+
+li#confirm_footer_container li#cancel_button_container {
+	float: left;
+	width: 70px;
+	margin-top: 2px;
+}
+
+
+ul#ctpErrorBtnContainer li#cancel_buttonholder {
+	float: left;
+	width: 70px;
+	margin-top: 5px;
+}
+
+label.CTPstructAlignrecapWidth {
+	display: inline-block;
+
+	width: 130px;
+	font-size: 11px;
+}
+
+div.structAlignTopLineConfirm {
+	border-top: 1px dotted #979797;
+	margin-bottom: 10px !important;
+ 	*margin-bottom: 0px !important;
+	margin-top: 10px !important;
+	width: 435px !important;
+}
+
+span.payeeNameInList {
+	font-weight: bold !important;
+}
+
+li#ctpVerification {
+	font-size: 11px !important;
+	margin-left: 9px;
+}
+
+div#OtherAmount input.appOtherAmt, 
+div#DateDisplayContainer input.appOtherAmt {
+	border: 1px solid #CCCCCC;
+}
+div#ctpSingleCCFooterError {
+	margin-right: 20px;
+}
+
+div#ctpSingleCCFooterError ul#ctpErrorBtnContainer, 
+div#ctpMultiCCFooterError ul#ctpErrorBtnContainer, 
+div#ctpCloseFooter ul#ctpCloseBtnContainer {
+	float: right;
+	width: 255px;
+}
+
+div#ctpSingleCCFooterError ul#ctpErrorBtnContainer li.cancelButtonContainer, 
+div#ctpMultiCCFooterError ul#ctpErrorBtnContainer li.cancelButtonContainer, 
+ul#ctpCloseBtnContainer li.cancelButtonContainer {
+	float: left;
+	margin-top: 3px;
+}
+
+div#ctpSingleCCFooterError ul#ctpErrorBtnContainer li.ssoToAoButtonCTPCC, 
+div#ctpMultiCCFooterError ul#ctpErrorBtnContainer li.ssoToAoButtonCTPCC {
+	float: right;
+}
+
+ul#ctpCloseBtnContainer li.closeButtonContainer {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+}
+
+
+table#ctpWrapper td#ctpSliderHolder {
+
+	padding-left: 13px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	vertical-align: top;
+}
+p.ctpSpinnerTxt {
+	margin-top: 10px;
+	width: 200px;
+}
+
+div#ctp_parent {
+	overflow: hidden;
+	position: relative;
+	height: 235px;
+ 	*height: 234px;
+}
+
+table#ctpWrapper td.ctpTdWidth {
+	width: 5%;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+table#ctpWrapper td.ctpTdMain {
+	width: 90%;
+	height: 235px;
+	vertical-align: top;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+table#ctpWrapper tr.ctpTrMain {
+	height: 230px;
+}
+
+div#ctpMarginTop {
+	height: 20px;
+}
+
+table#ctpWrapper tr.ctpTrLast {
+	height: 45px;
+}
+
+div#CTPfooter, 
+div#ctpverification, 
+div#ctpMultiCCFooterError {
+	margin-top: 8px;
+}
+
+ul#ctpCloseBtnContainer li.closeButtonContainer a {
+	color: #FFFFFF;
+}
+
+ul#ctpNextCancelButton li#next_buttonholder {
+
+	line-height: 15px;
+	display: inline;
+ 	*margin-top: 2px;
+}
+
+ul#ctpVerification li#confirm_footer_container {
+	width: 150px;
+}
+
+ul#ctpVerification li#confirm_footer_container li#cancel_button_container {
+	margin-top: 4px;
+}
+
+.ctpStructBGColorWhite {
+	background-color: #FFFFFFF;
+}
+
+ul#ctpConfirmationFooter li#confirmViewButtonholder {
+	width: 200px;
+	margin-right: 9px;
+}
+
+
+ul#ctpConfirmationFooter li#printOption {
+	width: 40px;
+	display: inline;
+	margin-right: 9px;
+}
+
+ul#ctpConfirmationFooter li.closeCTPConfirm {
+	background-image: url(/JFP/images/horizontal_sprite.png);
+	background-position: 0 -139px;
+	background-repeat: repeat-x;
+	
+
+	padding: 4px 8px 5px;
+	float: right;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	margin-top: 1px;
+ 	*margin-top: 3px;
+}
+
+
+
+div.closeContainerCTP {
+	height: 200px;
+	margin-left: 30px;
+	margin-top: 35px;
+}
+
+div#ctpCloseFooter ul#ctpCloseBtnContainer {
+	float: right;
+	width: 90px;
+}
+div#ctpCloseFooter {
+	
+
+	margin-right: 30px;
+
+
+	margin-left: 30px;
+}
+div#ctpCloseFooter ul#ctpCloseBtnContainer li.ssoToAoButtonCTPCC a {
+	color: #FFFFFF;
+	font-weight: bold !important;
+}
+
+.ctpStructPay {
+	background: none repeat scroll 0 0 #FFFAA1;
+}
+
+.ctpStructDispBlock {
+	display: inline-block;
+}
+
+.ctpStructHeaderFontHeader {
+	font-weight: bold;
+}
+
+.ctpMarginBottom {
+	margin-bottom: 10px;
+}
+
+.ctpFloatRight {
+	float: right;
+}
+
+div#ctp_cancel {
+	overflow: hidden;
+	position: relative;
+}
+
+.ctpConfirmation {
+	float: left;
+	margin-top: 4px;
+}
+
+ul#ctpConfirmationFooter a#cmlink_CTPCloseBtnOverlay {
+	color: #FFFFFF;
+}
+
+.ctpDisplayInline {
+	display: inline;
+}
+
+#ctpPrinthearderWrapper {
+	clear: both;
+	border-bottom: 1px solid #999999;
+	padding-bottom: 10px;
+	height: 35px;
+	margin-left: 70px;
+}
+
+
+
+.ctpPrintMargin {
+	margin-left: 70px !important;
+}
+
+#ctpPrintheaderLink {
+	float: right;
+
+	
+
+	text-align: right;
+	width: 60%;
+
+
+	padding-top: 20px;
+	color: #666666;
+}
+#ctpPrintheaderLink a {
+	color: #0099cc;
+	
+	margin-left: 3px;
+	font-size: 12px;
+}
+
+.ctpStructLinkleftarrow {
+	background-image: url("/JFP/images/global_sprite.png");
+	background-position: -7px -397px;
+	display: inline-block;
+	height: 10px;
+	margin-right: 2px;
+	padding-left: 7px;
+	vertical-align: middle;
+}
+
+#ctpPrintInfoWrapper {
+	clear: both;
+	margin-left: 70px;
+}
+
+.ctpPrintHeadtext {
+	color: #000000;
+	float: left;
+	font-size: 12px;
+	margin-top: 12px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+#ctpPrintHeadtext2 {
+
+
+
+
+
+	padding-bottom: 12px;
+	text-align: left;
+
+
+
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	float: left;
+	font-family: Arial, sans-serif;
+		text-align: left;
+	padding-left: 10px;
+}
+.ctpBrandImg {
+	height: 80px;
+	float: right;
+	text-align: right;
+}
+
+.ctpPrintLabel {
+	width: 160px;
+	float: left;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	padding-left: 10px;
+}
+
+	
+
+.ctpPrintText {
+	height: 30px;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+}
+
+.ctpHrFirst {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.ctpHrSecond {
+	border: 1px dotted #d4d4d4;
+	margin-bottom: 15px;
+}
+
+.ctpWidth600px {
+	width: 600px;
+}
+
+.ctpTandCHrFirst {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+}
+
+.ctpTandHead {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: #333;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+
+.tandCSubhead {
+
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	color: #666;
+
+	margin-left: 8px;
+
+
+	margin-bottom: 20px;
+}
+.tandCSubheadText {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #333;
+	margin-left: 5px;
+	margin-bottom: 26px;
+}
+
+
+.ctpColorTextGrey {
+	color: #858585;
+}
+
+div#ctpGeneralErrWrapper {
+	margin-top: 20px;
+}
+
+.ctpBorderBottomDotted {
+	border-bottom: 1px dotted #333;
+}
+
+input#ctpPaymentAmount {
+	border: 1px solid #CCCCCC;
+}
+
+div#CTPDateTooltip-info, 
+div#CTPCurrBalTooltip-info {
+	color: #000000;
+}
+img#ctpPaymentDatetrigger {
+	margin-bottom: 3px;
+}
+
+.ctpWidth360px {
+	width: 360px;
+}
+
+.ctpHeight95px {
+	height: 95px;
+}
+
+.ctpHeight30px {
+	height: 30px;
+}
+
+.ctpHeight18px {
+	height: 18px;
+ 	*height: 20px;
+}
+
+.ctpCursorPointer {
+	cursor: pointer;
+}
+
+div.StructOverlayFooterContainer div.footerRightLinks ul#contactUsOptions li.contactUsList a.aCallUs {
+ 	*padding-bottom: 0px !important;
+}
+
+.ctpWidth115px {
+	width: 115px;
+}
+
+.ctpWidth415px {
+	width: 415px;
+}
+
+.ctpWidth300px {
+	width: 300px;
+}
+
+.ctpFloatLeft {
+	float: left;
+}
+
+.ctpFontWeightBold {
+	font-weight: bold;
+}
+
+.ctpMarginBottom12px {
+	margin-bottom: 12px;
+}
+
+.ctpDisplayBlock {
+	display: block;
+}
+
+.height200px {
+	height: 200px;
+}
+
+.height100px {
+	height: 100px;
+}
+
+a#ctpPayTo-button span.ui-selectmenu-status span.ui-selectmenu-item-header, 
+a#ctpPayFrom-button span.ui-selectmenu-status span.ui-selectmenu-item-header {
+	color: #222222 !important;
+}
+
+.ctpPositionRelative {
+	position: relative;
+}
+
+div.StructCTPOverlayFooterWrapper div.StructOverlayFooterContainer span.LiveChatSpan div#lpClickToPayOverlay a.lpLinkOverlay {
+	margin-top: -5px;
+}
+
+.ctpMargin3px {
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+.ctpmargin130px {
+	margin-left: 130px;
+}
+
+.ctpOtherPayOptn {
+	width: 50%;
+	margin-left: 10px;
+	margin-top: -4px;
+}
+
+
+
+div.ctpStructAlignBottomConfirm {
+	margin-bottom: 15px;
+ 	*margin-bottom: 11px;
+}
+
+div.StructCTPOverlayFooterWrapper a#cmlink_CardsSendMessage, 
+div.StructCTPOverlayFooterWrapper a#cmlink_CardsCallUs {
+	height: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 6px;
+	padding-right: 10px;
+}
+
+
+div.StructCTPOverlayFooterWrapper a#cmlink_CardsSendMessage {
+	border-right: #bbbbbb 1px solid;
+}
+
+div.StructCTPOverlayFooterWrapper span.FooterIconsSpan {
+ 	*vertical-align: 0px !important;
+}
+
+ul#ctpPayTo-menu li.ui-state-hover a, 
+ul#ctpPayFrom-menu li.ui-state-hover a {
+	background-color: #f0f0f0 !important;
+}
+
+ul#ctpPayTo-menu li a, 
+ul#ctpPayFrom-menu li a {
+	border-bottom: 1px solid #CCC;
+	padding-top: 4px;
+}
+
+ul#ctpPayTo-menu li.ui-corner-bottom a, 
+ul#ctpPayFrom-menu li.ui-corner-bottom a {
+	border-bottom: 0px;
+}
+
+div.StructCTPOverlayFooterWrapper div.StructOverlayFooterContainer {
+	padding-top: 0px !important;
+}
+
+/* ctp.css existing classes ends */
+
+
+
+
+/* =================================================== */
+/* /===== BEGIN investment_overlay.css classes ======= */
+/* =================================================== */
+
+.param1 {
+    background-color: #FFFFFF;
+    border-top: 1px solid #C1C1C1;
+    border-right: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+    border-left: 1px solid #C1C1C1;
+    list-style: none outside none;
+	height: 202px;
+	margin-left: -3px;
+    padding: 0 12px;
+    width: 180px;
+}
+
+.PFMparameter {
+    background-color: #FFFFFF;
+    border-top: 1px solid #C1C1C1;
+    border-right: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+    border-left: 1px solid #C1C1C1;
+	height: 310px;
+    list-style: none outside none;
+    padding: 4px 30px 16px;
+}
+
+#investOvContent p {
+    font-size: 11px;
+    margin-bottom: 17px;
+    padding: 1px 0;
+}
+
+#investOvContent p2 {
+    font-size: 11px;
+    margin: 0px;
+    padding: 1px 0;
+}
+
+.colorBGBlueBtn {
+	background-image: url("/JFP/images/horizontal_sprite.png");
+    background-position: 0 -139px;
+    font-weight: bold;
+    padding-top: 5px !important;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+.dottedOverlay{
+	border-bottom: 1px dotted #CCCCCC;
+	width: 430px;
+}
+
+.colorBGBlueButtonOptOut:hover {
+    background-image: url("/JFP/images/horizontal_sprite.png");
+    background-position: 0 -160px;
+    background-repeat: repeat-x;
+}
+
+#investment-option-form {
+	padding-top: 180px;
+}
+
+.vIE7 #investment-option-form {
+	padding-top: 163px;
+}
+
+#investment-option-form .investment-option-form-expense {
+	padding-top: 145px;
+}
+/* =================================================== */
+/* /====== END investment_overlay.css classes ======== */
+/* =================================================== */
+
+
+
+
+
+/* ====================================================== */
+/* /======== FINANCIAL TOOLS MODIFICATIONS ========== */
+/* ====================================================== */
+
+body#acbol_common_t_sDashboard div#PfmOverlay {
+    display: none;
+}
+
+body#acbol_common_t_sDashboard .cS-structRightPanel .cS-structToolsPanel {
+	clear: left;
+	width: 270px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel #pfmResponseData .PFMTools .StructPFMHeader h2.margin0.colorTextBlack {
+	font-size: 13px;
+}
+
+body#acbol_common_t_sDashboard .cS-structRightPanel .cS-structToolsPanel h2.pfmlinksheader {
+	font-size: 13px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .StructPFMWrapper {
+    width: 277px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel a#cmlink_PFMViewTools,
+body#acbol_common_t_sDashboard .cS-structToolsPanel .ToolsPanelHeaders a,
+body#acbol_common_t_sDashboard .cS-structToolsPanel table th.PFMTableHeader {
+	font-size: 12px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table th.PFMTableHeader {
+	color: #000;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .StructRightLiSpan {
+    display: inline-block;
+    float: left;
+    height: 6px;
+    margin-right: 4px;
+    text-indent: 10px;
+    background-image: url("/JFP/images/global_sprite.png");
+    background-position: -8px -398px;
+    background-repeat: no-repeat;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .interactGoToPFM {
+    display: inline-block;
+    float: left;
+    font-size: 9px;
+    margin-right: 4px;
+    margin-top: 4px;
+    width: 6px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel #cmlink_PFMViewDetails {
+    color: #05589D;
+}
+
+body#acbol_common_t_sDashboard .backpless span p, 
+body#acbol_common_t_sDashboard .backpless a {
+    color: #05589D;
+    display: inline;
+}
+
+body#acbol_common_t_sDashboard div.StructCitiFastHead {
+    font-size: 12px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel div.PFMTools {
+    display: inline-block;
+    padding-top: 25px;
+    position: relative;
+    text-indent: 10px;
+    width: 277px;
+    border-top: 2px solid gray;
+    margin-top: 25px;
+}
+body#acbol_common_t_sDashboard .cS-structToolsPanel div.PFMTools h2 {
+    text-indent: 0;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel span.StructToolsView {
+    display: block;
+    float: left;
+    padding-left: 5px;
+    padding-top: 2px;
+    text-indent: 0;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel th.PFMVSToolsLink {
+    width: 150px;
+}
+
+body#acbol_common_t_sDashboard #cmlink_PFMViewTools:hover {
+    text-decoration: underline;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .PFMTableHeader {
+    height: 11px;
+    padding-bottom: 8px;
+    vertical-align:bottom;
+}
+
+body#acbol_common_t_sDashboard div.late-minimum-content td, 
+body#acbol_common_t_sDashboard div.late-minimum-content th, 
+body#acbol_common_t_sDashboard div.LatePayWrapper p {
+    color: #0F0F0F;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+body#acbol_common_t_sDashboard a.interactIconSprite, 
+body#acbol_common_t_sDashboard li.appNavNeg span, 
+body#acbol_common_t_sDashboard span.interactIconSprite, 
+body#acbol_common_t_sDashboard .interactIconSprite {
+    background-image: url("/JFP/images/global_sprite.png");
+    background-repeat: no-repeat;
+}
+
+body#acbol_common_t_sDashboard a.StructSnapshotLink {
+    padding-left: 15px;
+}
+
+body#acbol_common_t_sDashboard a.interactSnapShot {
+    background-position: -1px -583px;
+    display: block;
+    height: 12px;
+}
+body#acbol_common_t_sDashboard a.interactSnapShot:hover {
+    background-position: -1px -594px;
+    text-decoration: underline;
+}
+
+body#acbol_common_t_sDashboard a.fastlink:hover {
+    background-position: -1px -594px;
+    text-decoration: underline !important;
+    font-weight: bold !important;
+}
+
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .PFMPercentPadding {
+    padding-right: 4px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .PFMTableHeader {
+    height: 11px;
+    padding-bottom: 8px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .toolsPanelDottedLine {
+    border-top: 1px dotted #999999;
+    height: 10px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .PFMPanelHeader {
+    display: block;
+    font-weight: bold;
+    width: auto;
+}
+
+body#acbol_common_t_sDashboard .citiGlobalImgSprite {
+    background-image: url("/JFP/images/global_sprite.png");
+    background-repeat: repeat;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .PFMErrorText {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+body#acbol_common_t_sDashboard a.colorTextBlue {
+    color: #05589D;
+}
+body#acbol_common_t_sDashboard .cS-structToolsPanel a.colorTextBlue:hover {
+    color: #05589D;
+    text-decoration: underline;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel span.StructToolsView {
+    color: #05589D;
+    float: right;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel span.StructPFMHeader {
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+}
+
+body#acbol_common_t_sDashboard .margin0 {
+    margin: 0;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .Height35px {
+    height: 14px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel div.appPFMSpacer {
+    display: inline-block;
+    height: 10px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table {
+    width: 100%;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table th {
+    text-align: right;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table td {
+    height: 24px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .toolsPanelDottedLine {
+    border-top: 1px dotted #999999;
+    height: 10px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table th.PFMVSToolsLink {
+   text-align: left;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel .fontSize11px, 
+body#acbol_common_t_sDashboard .cS-structToolsPanel li.appNavPos a, 
+body#acbol_common_t_sDashboard .cS-structToolsPanel .appLabel, 
+body#acbol_common_t_sDashboard .cS-structToolsPanel .appLabelAlt, 
+body#acbol_common_t_sDashboard .cS-structToolsPanel .secondaryBodyFntSize {
+    font-size: 11px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table td.StructToolsPercent {
+    font-weight: bold;
+    text-align: right;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table td {
+    height: 24px;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table td.StructToolsAmount {
+    font-weight: bold;
+    text-align: right;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table td.StructToolsPercent {
+    padding-top: 0;
+    text-align: left;
+    width: 40px;
+    font-weight: bold;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table span {
+    height: 12px;
+    margin: 0 8px 0 0;
+    width: 12px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table tr.StructToolsRow1 span {
+    background-color: #7EB0E3;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table tr.StructToolsRow2 span {
+    background-color: #D8D8D8;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table tr.StructToolsRow3 span {
+    background-color: #628282;
+}
+
+body#acbol_common_t_sDashboard .cS-structToolsPanel table tr.StructToolsRow4 span {
+    background-color: #D0C43F;
+}
+
+html.vIE7 body#acbol_common_t_sDashboard .cS-structRightPanel .cS-structToolsPanel .pfmlinkslist .citiGlobalImgSprite.structLinkleftArrow {
+		vertical-align: top;
+		*display: inline;
+		*zoom: 1;
+		margin-top: 5px !important;
+		margin-right: 4px !important;
+}
+
+body#acbol_common_t_sDashboard .cS-structRightPanel .cS-structToolsPanel .pfmlinkslist a.pfmlinks:hover {
+	text-decoration: underline;
+}
+
+/* ====================================================== */
+/* /======== END FINANCIAL TOOLS MODIFICATIONS ========== */
+/* ====================================================== */
+
+
+
+
+
+
+
+/* =================================================== */
+/* /====== Dashboard Quick Tasks Panel================ */
+/* =================================================== */
+
+body#acbol_common_t_sDashboard #quickLinksContainer {
+	margin: 9px 0 19px;
+}
+
+body#acbol_common_t_sDashboard .cS-quickTasksPanel div.cH-quickTasksHead > h3 {
+	padding-bottom: 15px;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList {
+	width: 270px;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList > li {
+	border-bottom: none !important;
+	width: 270px;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a {
+	border-bottom: 1px dotted #CCC;
+	clear: left;
+	color: #000;
+	float: left;
+	min-height: 16px;
+	padding: 7px 0 7px 2px;
+	width: 268px;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover {
+	/*removing border color change. see Avatar Experience Framework 1.5, page 131*/
+	/*border-bottom-color: #3399CC;*/
+	color: #3399CC;
+	cursor: pointer;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a.interActLink:hover {
+	border-bottom: 1px dotted #CCC;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase {
+	background-image: url("/JFP/images/citiFastIcons.png");
+	background-repeat: no-repeat;
+	float: left;
+	height: 16px;
+	width: 17px;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-linkText {
+	color: #000;
+	float: left;	
+	line-height: 16px;
+	padding-left: 12px;
+	width: 86%;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-linkText {
+	color: #3399CC;
+}
+		
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-payBills {
+	background-position: -1px -1px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-payBills {
+	background-position: -1px -18px;
+}
+	
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-transferFunds {
+	background-position: -19px -1px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-transferFunds {
+	background-position: -19px -18px;
+}
+	
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-downloadStatements {
+	background-position: -37px -1px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-downloadStatements {
+	background-position: -37px -18px;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-rewards {
+	background-position: -55px -1px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-rewards {
+	background-position: -55px -18px;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-alerts {
+	background-position: -73px -1px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-alerts {
+	background-position: -73px -18px;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-mobile {
+	background-position: -91px -1px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-mobile {
+	background-position: -91px -18px;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-recentTransactions {
+	background-position: -109px -1px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-recentTransactions {
+	background-position: -109px -18px;
+}
+	
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-recentTransactions {
+	background-position: -109px -1px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-recentTransactions {
+	background-position: -109px -18px;
+}
+	
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-scheduledPayments {
+	background-position: -91px -35px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-scheduledPayments {
+	background-position: -91px -52px;
+}
+	
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-specialOffers {
+	background-position: -108px -35px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-specialOffers {
+	background-position: -108px -52px;
+}
+	
+/*** REL specific icons ***/
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-viewRates {
+	background-position: -1px -35px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-viewRates {
+	background-position: -1px -52px;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-rateAlert {
+	background-position: -19px -35px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-rateAlert {
+	background-position: -19px -52px;
+}
+
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-mortgageLearningCenter {
+	background-position: -37px -35px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-mortgageLearningCenter {
+	background-position: -37px -52px;
+}
+	
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-checkStatus {
+	background-position: -55px -35px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-checkStatus {
+	background-position: -55px -52px;
+}
+	
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-applicationProcess {
+	background-position: -73px -35px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-applicationProcess {
+	background-position: -73px -52px;
+}
+	
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a > .cR-quickTasks-spriteBase.cR-quickTasks-applicationProcess {
+	background-position: -73px -35px;
+}
+body#acbol_common_t_sDashboard .cL-quickTasksList > li > a:hover > .cR-quickTasks-spriteBase.cR-quickTasks-applicationProcess {
+	background-position: -73px -52px;
+}
+
+/* =================================================== */
+/* /====== END Dashboard Quick Tasks Panel =========== */
+/* =================================================== */
+
+
+
+
+
+/* <<Interstitial Overlay/Iframe CSS (Defects 2300, etc)>> */
+div#alertWindow {
+    left: 100px;
+    position: fixed;
+    top: 0px;
+    width: 80%;
+    z-index: 502;
+}
+
+#aJRSCONTACTINFO_t_sContactInfo div#alertWindow {
+	position:fixed;
+	width:80%;
+	z-index:502;
+}
+
+div#alertWindowOuter {
+    height: 300px;
+    left: 105px;
+    margin: 1px;
+    position: static;
+    top: 1px;
+    width: 450px;
+    z-index: 503;
+}
+div.alertWindowContainer {
+    margin: 150px 0 6px;
+    width: 100%;
+}
+
+#acbol_common_t_sDashboard div.alertWindowContainer {
+    margin-left:85px;
+}
+div.alertWindowContainer div#alertWindowContent {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    left: -2px;
+    padding: 16px;
+    position: relative;
+    text-align: justify;
+    top: -2px;
+}
+#acbol_common_t_sDashboard form[name="ajaxform"]  div#alertWindow
+{
+    position: relative;
+}
+
+div.alertWindowContainer div#waitMessage {
+    display: none;
+}
+div.alertWindowContainer div#waitMessage {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #999999;
+    border-style: solid;
+    border-width: 1px;
+    left: -2px;
+    padding: 16px;
+    position: relative;
+    text-align: justify;
+    top: -2px;
+}
+div.alertWindowContainer div#waitMessage p {
+    color: #0F0F0F;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+/* Defect 1215 fix */
+form[name="ajaxform"] {
+	position: absolute;
+	width: 100%;
+	z-index: 502;
+}
+/* Defect 1215 fix */
+div#alertWindowOuter {
+	margin: 0 auto;
+}
+/* <</Interstitial Overlay/Iframe CSS>> */
+
+
+/* Fix for the defect 12700 START*/
+
+#cmlink_CyotaOverlayCancelBtn {
+	color: #05589D;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#cmlink_CyotaSubmitBtn {
+    background-image: url("/JFP/images/horizontal_sprite.png") !important;
+    background-position: 0 -81px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding:3px 8px;
+    text-decoration: none;
+	height:auto;
+	width:auto;
+	font-size:12px;
+}
+.structSpanSpacer {
+	width: 5px;
+	#width: 8px;
+	display: inline-block;
+}
+
+/* Fix for the defect 12700 END*/
+
+
+/* =================================================== */
+/* ===== US-Regional.css existing classes starts ===== */
+/* =================================================== */
+/* ========== LEAVE THIS CODE AT END OF FILE ========= */
+/* =================================================== */
+
+/* Common margins and padding for <p>s in the application tile with class "StructPrimaryContainer" */
+.StructPrimaryContainer p {
+	margin: 12px 0;
+}
+
+/* No margins for <p>s in QUICK TASKS AND FINANCIAL TOOLS */
+.StructQuickLinksPanel p, 
+.StructToolsPanel p {
+	margin: 0;
+}
+
+/* Styles for Bulleted Lists */
+.cA-appBulletedList li {
+	display: list-item;
+	list-style: disc outside none;
+	font-size: 12px;
+	line-height: 18px;
+
+}
+
+/* Styles to apply to spacer element in between adjacent dotted borders */
+/* NOTE: this style will work only with a 1px border-width. For other   */
+/*       border-widths, you must override this class in application     */
+/*       specific CSS. Also, float may need to be applied               */
+.cM-dottedBorderFix {
+	height: 1px;
+	padding: 0 !important;
+	width: 1px !important;
+}
+.cM-dottedBorderFix.hideBorder {
+	border: none;
+}
+.cM-cbolLinkHoverContainer a:hover {
+	text-decoration: underline !important;
+}
+
+/* 
+   Style to address Internet Explorer issues with icons inside of scrolling
+   table in overlay where arrow icons are not vertically aligned correctly 
+   with text.
+*/
+html.bIE .ui-dialog.jfpw-dialog .cT-scrollableTable .cM-spriteBase.cM-leftArrowIcon {	
+	vertical-align: top;
+}
+
+
+/*Dashboard Alignment Issues*/
+html.bIE .cT-tableAccountsPanel .cM-negAlertIcon {
+margin-top:5px !important;
+}
+/* Defect fix for 9073*/ 
+#aJRSAM_t_sSMTPMigration #body,#aJRSAM_t_sAlertMigration #body {
+margin-left:10px !important;
+}
+
+/* 
+    Style to hide an element (usually for use on page load)
+    NOTE: important is used because inclusion of this class
+          is an explicit indication that the element should be
+          hidden. Other rules with much more specificity may
+          set another display value, and this can not override
+          specificity without !important
+*/
+.cM-hide {
+    display: none;
+}
+html.vIE8 .jfpw-dialog.ui-dialog .cT-scrollableTable .cM-leftArrowIcon.cM-spriteBase{
+	vertical-align:baseline !important;
+}
+#StmstOverlay {
+        Padding-top : 20px; 
+        height: 420px !important; 
+}
+
+html.vIE7 .structAlignOspBottomLine {
+    height:0;
+}
+
+/* Center align the site */
+html {
+	overflow-y: scroll;
+}
+body {
+	width: 100% !important;
+}
+body > .cR-citiWrapper {
+	margin: 0 auto;
+	position: relative; /* Readded to fix center alignment issue. Lookin for alternate solutions for Defect 723 and 204 */
+	width: 984px;
+}
+body > .cR-citiWrapper > .cR-citiFloatContainer {
+	float: left;
+	position: relative; /* Readded to fix center alignment issue. Lookin for alternate solutions for Defect 723 and 204 */
+	width: 984px;
+}
+body#aUSCBOL_t_sWelcome > .cR-citiWrapper.cR-citiBodyWrapper,
+body#aJSOSIGNON_t713_s200 > .cR-citiWrapper.cR-citiBodyWrapper,
+body#aJSOSIGNON_t713_s202 > .cR-citiWrapper.cR-citiBodyWrapper,
+body#aJSOSIGNON_t713_s227 > .cR-citiWrapper.cR-citiBodyWrapper {
+	top: -134px;
+}
+.cR-citiWrapper.cR-citiBodyWrapper > .cR-citiFloatContainer > #body #signonOvHeader {
+	margin-top: 134px;
+}
+
+html.vIE7 body#aJRSUIDREMINDER_t712_s100 > .cR-citiWrapper,
+html.vIE7 body#aJSOSIGNON_t713_s205 > .cR-citiWrapper,
+html.vIE7 body#aJSOSIGNON_t713_s262 > .cR-citiWrapper,
+html.vIE7 body#aJRSAO_t_sIAOAddl_CDInterest > .cR-citiWrapper,
+html.vIE7 body#aUSCBOL_t_sWelcome > .cR-citiWrapper,
+html.vIE7 body#aJSOSIGNON_t713_s200 > .cR-citiWrapper,
+html.vIE7 body#aJSOSIGNON_t713_s202 > .cR-citiWrapper,
+html.vIE7 body#aJSOSIGNON_t713_s219 > .cR-citiWrapper,
+html.vIE8 body#aJSOSIGNON_t713_s219 > .cR-citiWrapper,
+html.vIE7 body#aJSOSIGNON_t713_s227 > .cR-citiWrapper,
+html.vIE7 body#aJRSPRODSERV_t_sProdServDetail > .cR-citiWrapper,
+html.vIE7 body#aJRSAO_t_sIAO4StepsBody > .cR-citiWrapper,
+html.vIE7 body#aJRSAO_t_sIAOPersonalInfo > .cR-citiWrapper,
+html.vIE7 body#aJRSAO_t_sIAOAddl_CkingType > .cR-citiWrapper,
+html.vIE7 body#aJPSINFRA_t_sPortalUNAuthorized > .cR-citiWrapper,
+html.vIE8 body#aJPSINFRA_t_sPortalUNAuthorized > .cR-citiWrapper,
+html.vIE7 body#aJRSLOCATIONFINDER_t_sCitiLocate > .cR-citiWrapper,
+html.vIE7 body#aJRSGLOBALSEARCH_t_sGlobalSearch > .cR-citiWrapper,
+html.vIE7 body#aJRSLOCATIONFINDER_t_sCitiLocatorIntl > .cR-citiWrapper {
+	position: static;
+}
+html.vIE7 body#aUSCBOL_t_sWelcome > .cR-citiWrapper.cR-citiBodyWrapper,
+html.vIE7 body#aJSOSIGNON_t713_s200 > .cR-citiWrapper.cR-citiBodyWrapper,
+html.vIE7 body#aJSOSIGNON_t713_s202 > .cR-citiWrapper.cR-citiBodyWrapper,
+html.vIE7 body#aJSOSIGNON_t713_s227 > .cR-citiWrapper.cR-citiBodyWrapper{
+	margin-top: -116px;
+	position: static;
+}
+
+body > .cR-citiWrapper.cR-citiBodyWrapper .cM-clearFloat {
+	clear: both;
+	height: 0;
+}
+html.ADAsite body#aJSOSIGNON_t713_s200 div.cR-citiWrapper.cR-citiBodyWrapper.cR-citiBodyWrapper,
+html.ADAsite body#aJSOSIGNON_t713_s202 div.cR-citiWrapper.cR-citiBodyWrapper.cR-citiBodyWrapper,
+html.ADAsite body#aJSOSIGNON_t713_s227 div.cR-citiWrapper.cR-citiBodyWrapper.cR-citiBodyWrapper {
+	top:0;
+}
+/* End center align the site */
+
+/* Defect 207 fix */
+
+#cT-regAlertOverlayWrapper .cS-overlayAlert .cS-overlayContent {
+	margin-bottom: 10px;
+}
+
+/* fix for defect OptoutOverlay*/
+
+#OptOutOverlay .StructTitleLabel,#OptOutOverlay .PFMparameter
+{
+	display:inline-block;
+}
+/*Fix for common issue due to HTML5 docType Defect */
+
+#pagelette-container table td img
+{
+	display:block;
+}
+/* Defect no :431 */
+
+html.bFF #aJRSCONTACTINFO_t_sContactInfo #hideScreen {
+	height:1211px !important;
+}
+
+/*fix for the defect 1605 */
+
+div.ChatImage {
+	left: 985px !important;
+	position: absolute !important;
+	/* top:145px; */
+}
+
+
+div.cN-linkButton.cH-accountSummaryHead.cH-dashboardLinks {
+    display: block;
+}
+/* fix for the defect 2560*/
+
+#ajba_an_t140_s100 table tr > td img
+{
+	height:0px;
+}
+
+/* Fix for the defect */
+
+div#commonQuestionsNavigation {
+	border-top: 0px !important;
+}
+
+#cmlink_CardsSendMessage:focus,
+#cmlink_CardsCallUs:focus,
+#cmlink_SendMessageLink:focus,#cmlink_CloseOver:focus,#cmlink_PFMViewDetails:focus  { 
+	outline: 0; 
+}
+
+fieldset div.appError>h4,fieldset div.appError>p,fieldset div.appError li {
+	color:#CC0000;
+}
+/* Fix for defect 15384 */
+html.bGC #aJRSSMS_t_sMobileNumberSelection  div#alertWindow {
+        position: absolute;
+        left: 200px;
+        margin-top: -600px;
+        
+}
+/* Fix for defect TR 17003026  */
+#aJRSHELP_t_sHelpCenterMain div#alertWindow {
+	position:  fixed;
+}
+
+
+html.bGC #aJRSSMS_t_sMobileNumberSelection h3.appBoxInTop span {
+        margin-top :0px;
+}
+
+/* TR 16574308  - correct contact us footer for overlays. */
+html.vIE8 .cN-contactUsFooter a {
+	display: inline;
+	float: none;
+	height: auto;
+	padding: 7px 10px 6px 0;
+	position: relative;
+	top: 3px;
+}
+html.vIE8 .cN-contactUsFooter a > span {
+	position: static;
+	top: auto;
+}
+html.vIE8 .cN-contactUsFooter a > span.cM-spriteBase {
+	position: static;
+	top: auto;
+}
+html.vIE8 .cN-contactUsFooter a > span.cM-spriteBase.cM-callUsIcon {
+	position: relative;
+	top: 3px !important;
+}
+html.vIE8 .cN-contactUsFooter > SPAN {
+	margin-top: 13px;
+}
+.arrowImgForLink {
+background-image: url("/JFP/images/global_sprite.png");
+background-position: -8px -398px;
+background-repeat: repeat-x;
+color: #05589D;
+display: inline-block;
+height: 6px;
+margin-bottom: 1px;
+width: 6px;
+}
+/* END TR 16574308  - correct contact us footer for overlays.  */
+/* defect 1239 */
+#aJPSINFRA_t_sHome #citilmHeader {
+	width: 900px;
+}
+/* defect 1261 */ 
+#aDAASummary_t_sAnnualAcctSummary h1 { 
+    font-weight: normal; 
+} 
+#aEDelivery_t_sDocCenterStatement ul#accounts-menu span.smalltext, 
+#aEDelivery_t_sDocCenterLetters ul#accounts-menu span.smalltext,
+#aEDelivery_t_sDocCenterArchiveStatement ul#accounts-menu span.smalltext {
+    padding: 0;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-top: -3px;
+    vertical-align: bottom;
+}
+#ajba_mc_t268_s300  #bubble-pointer.rightSide{ 
+	top: 24px\0/ !important;
+	margin-top:0;
+	top: 20px !important;
+}
+.vIE8  #ajba_mc_t268_s300  #bubble-pointer.rightSide{  
+	margin-top:0;
+	top: 24px !important;
+}
+.bIE #aJRSSMS_t_sMobileNumberSelection h3.appBoxInTop span {
+	margin-top : 0px;
+}
+#aEDelivery_t_seCommunications #mainContent #quickLinks {
+	border-left: 1px solid #999999;
+}
+#aEDelivery_t_seCommunications #quickLinks h2 {
+	font-size: 12px;
+}
+#aEDelivery_t_seCommunications #quickLinks > p {
+	display: none;
+}
+#aEDelivery_t_seCommunications #quickLinks ul > li {
+	height: 18px;
+}
+#aEDelivery_t_seCommunications #communications {
+	width: 446px;
+}
+#aEDelivery_t_seCommunications #DoccenterBodyContainer #mainContent {
+	width: 700px;
+}
+
+.ssoToAoButtonCTPCC
+a{ color: white !important;
+   font-weight : bold !important;
+   font-size : 12px !important;
+	}
+/*Commented for fixing defect #7809 */
+	
+/*	html {
+ overflow-x: hidden\9;
+ overflow-x: hidden\10;
+}*/
+ul#card-menu li span.ui-selectmenu-item-header {
+	display: flex;
+}
+/* =================================================== */
+/* /===== END US-Regional.css existing classes ======= */
+/* ==================================================== */
+/* ========== LEAVE THIS CODE AT END OF FILE ========== */
+/* ==================================================== */
+
+html.bSF.oMac #aJRSCONTACTINFO_t_sContactInfo div#alertWindow {
+position: absolute !important; 
+top: -200px !important; 
+} 
+
+#alertWindow #alertWindowOuter #alertWindowContent #activateMobile {
+width: 500px;
+}
+
+.ficoIcon {
+    display: inline-block;
+    float: left;
+    height: 23px;
+    margin-right: 4px;
+    text-indent: 10px;
+    background-image: url("/GFC/branding/img/cardasboa_sprite.png");
+    background-position: -10px -10px;
+    background-repeat: no-repeat;
+    width: 23px;
+}
+.ficoIcon:hover {
+    display: inline-block;
+    float: left;
+    height: 23px;
+    margin-right: 4px;
+    text-indent: 10px;
+    background-image: url("/GFC/branding/img/cardasboa_sprite.png");
+    background-position: -51px -10px;
+    background-repeat: no-repeat;
+    width: 23px;
+}
+
+
+
+#cT-regAlertOverlayWrapper #cT-acctAlertOverlayCnt #cT-regAlertDetailedMsg {
+  line-height: 18px;
+}
+
+html.bSF.oMac form[name="ajaxform"] {
+position: fixed; 
+}
+html.bSF.oMac #aJRSCONTACTINFO_t_sContactInfo div#alertWindow {
+position: absolute !important; 
+margin-top: 500px !important; 
+}
+#activateMobile {
+width: 500px;
+}
+
+#acbol_common_t_sDashboard #ui-tooltip-transferDatetrigger {
+z-index : 1002;
+}
+#main-content #main-details #cmlink_aoEntryPoint
+{
+  width:85px !important;
+}
+
+#acbol_common_t_sDashboard #ui-tooltip-dateEnteredtrigger {
+z-index: 1002;
+}
+
+#TnfrsFundsOverlay-parent #TnfrsFundsOverlay #StructMTSelectWrapper #mtOverlayDisplay #inputFields .StructSelPayBtnWrapper1 .LastLineBtns .StructTfrNavLinkTwo {
+width: 154px;
+}
+
+#TnfrsFundsOverlay-parent #TnfrsFundsOverlay #StructMTSelectWrapper #mtOverlayDisplay #inputFields .StructSelPayBtnWrapper1 .LastLineBtns .StructTfrNavLinkThree {
+width: 62px;
+}
+html.bSF.oMac #jfpOverlay-parent #jfpOverlay #DAAOverlay .cS-overlayContent #DownloadAccountActivity .cF-sideBySide .cN-primaryNav #DownLoadActivity_Complete {
+margin-top: -6px;
+}
+
+#aEDelivery_t_sPlessWizard .cR-citiFloatContainer #DoccenterBodyContainer #mainContentpless .dynSubmitGoAll {
+  margin-top:10em;
+}
+
+#acbol_common_t_sDashboard #TnfrsFundsOverlay .ajax-dialog-container #confirmMTDetialsWrapper #confirmationText .structAlignLeftConfirm .rightButtonsAlign ul.appNav li {
+  display:inline-block;
+}
+
+.cR-citiWrapper .cR-citiFloatContainer #body .alignClass #f1 ul.appNav li{
+  display:inline-block;
+}
+
+.cR-citiWrapper .cR-citiFloatContainer #maincontent .StructPrimaryContainer .StructBodyContainer .container .mkt_signon #firstSignongrp #cookiedLoginForm #uidSelection #uidInput input{
+  width:168px;
+}
+
+.cR-citiWrapper .cR-citiFloatContainer #maincontent .StructPrimaryContainer .StructBodyContainer .container .content .mkt_signon #firstSignongrp #loginForm #SignonForm #uidSelection #uidInput select{
+  width:171px;
+}
+
+.cR-citiWrapper #citilmHeader #signOnTool #signOnFlyout .last sup{
+      line-height:12px;
+}
+
+#acbol_common_t_sDashboard #billpayoverlay-parent #billpayoverlay .ajax-dialog-container #f1 #StructBillPayWrapper1 #confirmDetails #confirmHrWrapper .BPConfirmNavLinks ul.appNav li{
+  display:inline-block;
+}
+
+.cR-citiWrapper .cR-citiFloatContainer #body .alignClass fieldset ul.appNav li{
+  display:inline-block;
+}
+
+#aJRSAO_t_sIAOELoan_Notes #mainblock {
+margin: 0 auto;
+float: none;
+}
+
+#aJRSAO_t_sIAOELoan_Notes #mainblock p.intro-text {
+float: none;
+}
+body#ajba_mp_t46_s2700 .cR-citiBodyWrapper .cR-citiFloatContainer #body #f1 fieldset .sideBySide #terminationLimitSelection{
+margin:0 auto;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+body#aJSOSIGNON_t713_s219 > .cR-citiWrapper {
+ position:static; 
+ } 
+}
+
+/* added for crofu */
+#project-view .project-banner {
+    text-align: center;
+    display: block;
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#project-view .big {
+    font-size: 60px;
+    font-weight: bolder;
+    width: 220px;
+    line-height: 160px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+}
+
+.project-name {
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.separator .label {
+    color: #000;
+    padding: 10px;
+    padding-top: 40px;
+    display: table;
+    margin: 0 auto;
+}
+
+.separator {
+    display: block;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#inner-page .row {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}

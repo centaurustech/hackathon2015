@@ -1,0 +1,7723 @@
+@charset "utf-8";
+body {
+    margin: 0 !important;
+}
+
+body *{
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+}
+
+#body {
+    margin: 0 0 0 29px !important;
+    color: #333;
+}
+
+td, th, div, li {
+    font-family: Arial,Verdana,Helvetica,sans-serif !important;
+}
+
+td *, th *, div *, li *{
+    font-family: Arial,Verdana,Helvetica,sans-serif !important;
+}
+
+sup {
+    *font-size:11px;
+    font-size:11px\9; /* IE 8 and below */
+    font-size:10px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+.clearB {
+    clear: both;
+    line-height: 0;
+    font-size: 12px !important;
+    display: block;
+}
+
+.clearB a {
+    color: #00589d;
+    border-bottom: none;
+    font-size: 12px !important;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.clearB a:active,.clearB a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+}
+
+.whatYouGet li a {
+    display:inline-block !important;
+    padding:0 !important;
+    background:none !important;
+}
+
+#header {
+    position: relative;
+    height: 45px !important;
+}
+
+#header .section-title {
+    float: left;
+    line-height: 45px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#headerRewards {
+    position: relative;
+    height: 75px !important;
+    border-bottom: 2px solid #c5c5c5;
+}
+
+#headerRewards h1.section-title {
+    float: left;
+    line-height: 45px;
+    font-size: 22px;
+    text-transform: uppercase !important;
+    width:950px !important;
+    margin:0px; 
+}
+
+#headerRewards h2.subtitle {
+    font-weight:lighter;
+}
+
+
+h1,#main-heading {
+    float: none;
+    color: #333 !important;
+    line-height: 2em;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: none !important;
+    margin-bottom: 5px;
+    width: 692px !important;
+}
+#main-heading sup{
+    font-size:12px !important;
+    vertical-align:super;
+}
+
+.ui-tooltip-content h1{
+    font-size:20px;
+    line-height:24px;
+}
+#main-summary h1 {
+    float: none;
+    color: #333 !important;
+    display: block;
+    line-height: 1.2em;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: none !important;
+    width: 692px !important;
+    margin: 0 0 5px;
+}
+h2#main-heading{
+    float: none;
+    color: #333 !important;
+    display: block;
+    line-height: 1.2em;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: none !important;
+    width: 692px !important;
+    margin: 0 0 5px;
+}
+
+#mark2 {
+    white-space: normal;
+}
+
+#mark1 h1 {
+    float: none;
+    color: #333 !important;
+    display: block;
+    line-height: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: none !important;
+    width: 400px !important;
+    margin: 0 0 5px;
+}
+
+.product-title {
+    height: 110px;
+}
+
+.spanish-position {
+    margin-bottom: 10px;
+}
+
+.product-title h2 {
+    line-height: 26px !important;
+}
+
+.spanish-layout {
+    height: 580px !important;
+}
+
+#container #main-content ul.checklist{
+    min-height: 370px;
+}
+
+#container #main-content .summary-side ul.checklist {
+    min-height: 100%;
+}
+
+#container #main-content .summary-side_equal ul.checklist {
+    min-height: 100%;
+    margin: 0 0 0 20px;
+}
+
+#container #main-content .collapsible ul.checklist{
+    min-height: 100%;
+}
+#breadcrumb {
+    float: left;
+    color: #808080;
+    line-height: 25px;
+    margin-left: 0 !important;
+    height: 25px;
+    width: 100%
+}
+
+#breadcrumb a {
+    background: none repeat scroll 0 0 transparent !important;
+    color: #666666 !important;
+    font-size: 11px !important;
+    padding-left: 0 !important;
+    text-decoration: none !important;   
+}
+
+#breadcrumb strong {
+    color: #333;
+    font-weight: normal;
+}
+
+#global-state-selector {
+    color: #333;
+    float: right;
+}
+
+#global-state-selector a {
+    background: url(/JRS/images/marketing/SPR-links.gif) 2px -96px no-repeat;
+    color: #00589d;
+    padding-left: 12px;
+    border-bottom: none;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#cmlink_ProdDisp:focus, #cmlink_AOStart:focus {
+    outline: 1px dotted black !important;
+}
+
+#container #main-summary a.find-branch,#container #main-summary p.margin-bottom
+{
+    margin-bottom: 30px;
+}
+
+#container #main-content #main-summary #AdBanner2 a {
+    background-image: none;
+    padding-left: 1px;
+}
+
+#container #main-content #main-summary #Sml_Img_1 a {
+    background-image: none;
+}
+
+#container #main-content a {
+    display: inline-block !important;
+    /* background: url(/JRS/images/marketing/SPR-links.gif) 2px -96px no-repeat;
+	 padding-left: 12px;*/
+    color: #00589d;
+    border-bottom: none;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    cursor:pointer;
+}
+a.rollover{
+    font-weight:bold !important;
+}
+
+#container #main-content a:active,#container #main-content a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+}
+
+#container #main-content a:focus {
+    outline: 1px dotted black;
+}
+#container #main-content a.btn-overlay {
+    background: url(/JRS/images/marketing/SPR-links.gif) 2px -250px no-repeat;
+    padding: 5px 0 6px 30px;
+    font-size: 12px;
+}
+
+#container #main-content a.visit {
+    background: url(/JRS/CitiGold_BTG/images/icon_branch.png) no-repeat;
+    padding: 5px 0 6px 30px;
+    font-size: 12px;
+}
+
+#container #main-content .call {
+    background: url(/JRS/CitiGold_BTG/images/icon_call.png) no-repeat;
+    padding: 5px 0 6px 30px;
+    font-size: 12px;
+/*	font-size: 10px\9;*/
+	/*font-size: 10px\0/;*/
+}
+
+
+#container #main-content li a {
+    display: inline;
+	background-image: none;
+	padding: 0;
+	margin-left:0px;
+}
+
+#container #main-content ol li a {
+	display:inline !important;
+	background-image: none;
+	padding:0;
+}
+#container #main-content ol li{
+	padding:0 0 10px 0;
+}
+#container #main-content p>a {
+    background: none;
+    color: #00589D;
+    padding-left: 0;
+    border-bottom: none;
+    text-decoration: underline !important;
+	display: inline !important;
+}
+.vIE7 #container #main-content ul.checklist li{
+	width:70%;	
+}
+
+#container #main-content ul.checklist li {
+    background: url(/JRS/images/marketing/green-checkmark.gif) 0 3px no-repeat;
+    line-height: 16px;
+    padding: 0 25px 10px 25px;
+	
+}
+#container #main-content ul.reglist {
+    margin-top: 15px;
+}
+#container #main-content ul.reglist li {
+    background: url(/JRS/images/marketing/SPR-links.gif) no-repeat scroll -20px -404px transparent;
+    line-height: 16px;
+    padding: 0 0 8px 10px;
+}
+#container #main-content ul.reglist li a{
+	background-image:none;
+	display:inline !important;
+	padding:0;
+}
+
+#container #main-content .btn-sign-on,#container #main-content .btn-apply-online,#container #main-content .btn-branch-locator,#container #main-content .btn-find
+
+
+{
+    display: block;
+    background: #265e9b;
+    background: url(/JRS/images/marketing/BTN-apply-online.gif) top left repeat-x !important;
+    color: #fff !important;
+    line-height: 10px;
+    padding: 5px 10px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial !important;
+    width: auto;
+}
+
+#container #main-content .btn-apply-online-es
+
+
+{
+    display: block;
+    background: #265e9b;
+    background: url(/JRS/images/marketing/BTN-apply-online.gif) top left repeat-x;
+    color: #fff !important;
+    line-height: 10px;
+    padding: 5px;
+    border: none;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial !important;
+    width: auto;
+}
+
+#container #main-content .btn-apply-online-es2
+{
+    display: block;
+    background: #265e9b;
+    background: url(/JRS/images/marketing/BTN-apply-online.gif) top left repeat-x;
+    color: #fff !important;
+    line-height: 10px;
+    padding: 5px 3px;
+    border: none;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial !important;
+    width: auto;
+}
+
+
+#container #main-content .product-link
+{	
+    background: none;	
+}
+
+#container #main-content .btn-sign-on {
+    width: 50px;
+}
+
+#container #main-content-footer a.btn-apply-online, #container #main-content-footer a.btn-apply-online-es {
+    padding: 5px 15px;
+}
+
+#container #main-content .btn-branch-locator {
+    width: 155px;
+}
+
+#container #main-content .btn-find {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#container #main-content .btn-sign-on:hover,#container #main-content .btn-apply-online:hover,#container #main-content .btn-apply-online-es:hover,#container #main-content .btn-branch-locator:hover,#container #main-content .btn-find:hover
+{
+    background-position: bottom left !important;
+    text-decoration: none !important;
+}
+
+#tooltip-container {
+    display: none;
+}
+
+#longtooltip { 
+    width:760px;
+    height:285px;             
+}
+#body #container #main-content #main-details #account-features .row .add-on.odd span#SafetyCheck {
+margin-left: 72px!important;
+}
+
+
+/* Overwrite rule from jfpw.tooltip.css */
+.ui-tooltip, .qtip, .ui-tooltip-hidden { max-width: 704px; }
+
+/* Overwrite for small tooltips */
+.ui-tooltip.ui-tooltip-pos-lc, .ui-tooltip-hidden.ui-tooltip-pos-lc { max-width: 480px; }
+
+/* -- Long Tooltips -- */
+div.ui-tooltip-pos-tc .ui-tooltip-titlebar, div.ui-tooltip-pos-tr .ui-tooltip-titlebar { width:682px!important; }
+
+div.ui-tooltip-pos-tc .ui-tooltip-content, div.ui-tooltip-pos-tr .ui-tooltip-content { width:682px!important; }
+
+div.ui-tooltip-pos-tc .ui-tooltip-content #main-details.compare,
+div.ui-tooltip-pos-tr .ui-tooltip-content #main-details.compare { border-bottom: 0 none; padding-top: 1px; }
+
+div.ui-tooltip-pos-tc .ui-tooltip-content #main-details.compare .row .col ul,
+div.ui-tooltip-pos-tr .ui-tooltip-content #main-details.compare .row .col ul { list-style: none; padding-left: 10px; margin: 0; }
+
+div.ui-tooltip-pos-tc .ui-tooltip-content #main-details.compare .row .col ul li,
+div.ui-tooltip-pos-tr .ui-tooltip-content #main-details.compare .row .col ul li { background: none repeat scroll 0 0 transparent; line-height: 1.4em; padding: 0 0 6px 1px; }
+
+div.ui-tooltip-pos-tc .ui-tooltip-content #main-details.compare .row .second,
+div.ui-tooltip-pos-tr .ui-tooltip-content #main-details.compare .row .second { padding-top: 35px !important; }
+
+div.ui-tooltip-pos-tc .ui-tooltip-content #main-details.compare .row. .col .first a,
+div.ui-tooltip-pos-tr .ui-tooltip-content #main-details.compare .row. .col .first a { background: url("/JRS/images/marketing/SPR-links.gif") no-repeat scroll 2px -96px transparent; padding: 0 0 0 10px }
+
+div.ui-tooltip-pos-tc .ui-tooltip-content #main-details.compare .row .first,
+div.ui-tooltip-pos-tr .ui-tooltip-content #main-details.compare .row .first { width: 235px !important; }
+
+div.ui-tooltip-pos-tc .ui-tooltip-content #main-details.compare .row .third,
+div.ui-tooltip-pos-tr .ui-tooltip-content #main-details.compare .row .third { border-left: 0 none !important; width: 199px !important; padding-top: 33px !important; }
+
+div.ui-tooltip-pos-tc .ui-tooltip-content #main-details.compare .row .col,
+div.ui-tooltip-pos-tr .ui-tooltip-content #main-details.compare .row .col { width: 186px; } 
+
+div.ui-tooltip-pos-tc td,
+div.ui-tooltip-pos-tc th,
+div.ui-tooltip-pos-tc div,
+div.ui-tooltip-pos-tc li,
+div.ui-tooltip-pos-tr td,
+div.ui-tooltip-pos-tr th,
+div.ui-tooltip-pos-tr div,
+div.ui-tooltip-pos-tr li { font-size: 12px; }
+
+
+/* --- Adjust carats --- */
+div.ui-tooltip-pos-tc div.ui-tooltip-tip { top: -12px !important; }
+div.ui-tooltip-pos-tr div.ui-tooltip-tip { top: -12px !important; right: -6px !important; }
+.bIE div.ui-tooltip-pos-tr div.ui-tooltip-tip { top: -12px !important; right: -3px !important; }
+
+.two-cols .col {
+    float: left;
+    width: 50%;
+}
+
+.three-cols .col {
+    float: left;
+    width: 230px;
+}
+
+.three-cols .col.b {
+    margin: 0 -1px;
+    border: 1px solid #ccc;
+    border-width: 0 1px;
+}
+
+.global-services-bar {
+    overflow: hidden;
+}
+
+.global-services-bar .inner-content {
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.global-services-bar .feature {
+    float: left;
+    width: 220px;
+    padding-left: 20px;
+    margin-right: -1px;
+    border-right: 1px solid #ccc;
+}
+
+.global-services-bar .feature .heading {
+    margin-bottom: 20px;
+    line-height: 1em !important;
+}
+
+.global-services-bar .feature h3 {
+	font-size:13px !important;
+	font-weight:bold !important;
+    margin-bottom: 10px;
+}
+
+.spanish-category {
+    white-space: normal !important;
+}
+
+.global-services-bar .feature p {
+    float: left;
+    width: 125px;
+    margin-right: 10px;
+}
+
+.global-services-bar .feature img {
+    float: left;
+}
+
+.global-services-bar .feature a {
+    display: block;
+    clear: both;
+}
+
+.global-services-bar .ways-to-bank {
+    float: left;
+    width: 425px;
+    padding-left: 25px;
+}
+.global-services-bar .ways-to-bank h3{
+	font-size:13px !important;
+	font-weight:bold !important;
+}
+.global-services-bar .ways-to-bank .heading {
+    margin-bottom: 20px;
+    line-height: 1em !important;
+}
+
+.global-services-bar .ways-to-bank p {
+    margin-bottom: 20px;
+}
+
+.global-services-bar .ways-to-bank .services {
+    overflow: hidden;
+    background: url("/JRS/images/marketing/line-three-col-141.gif") repeat-y scroll -10px top;
+}
+
+.global-services-bar .ways-to-bank .service {
+    float: left;
+    line-height: 22px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 141px;
+}
+
+#container #main-content .global-services-bar .ways-to-bank .service a {
+    background: url(/JRS/images/marketing/SPR-ways-to-bank.gif) left top no-repeat;
+    padding-left: 30px !important;
+	padding-top:4px;
+}
+
+#container #main-content .global-services-bar .ways-to-bank .service.mobile a
+{
+    background-position: 0 -150px;
+}
+
+#container #main-content .global-services-bar .ways-to-bank .service.phone a
+{
+    background-position: 0 -50px;
+}
+
+#container #main-content .global-services-bar .ways-to-bank .service.locations a
+{
+    background-position: 0 -200px;
+}
+
+#container #main-content .global-services-bar .ways-to-bank .service.atm a
+{
+    background-position: 0 -100px;
+}
+
+#container #main-content .global-services-bar .ways-to-bank .service.espanol a
+{
+    background-position: 0 -250px;
+}
+
+
+#main-content .collapsible {
+    float: left;
+    clear: both;
+    width: 100%;
+	padding-top: 15px;
+}
+
+#main-content .collapsible-toggle {
+    display: inline;
+    float: left;
+    color: #39C;
+    line-height: 15px;
+    padding-left: 0 !important;
+    text-decoration: none;
+}
+
+#main-content .collapsible-toggle.closed {
+    display: inline;
+    margin-bottom: 0;
+}
+
+#main-content .collapsible-toggle .open,#main-content .collapsible-toggle .closed
+{
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-top: 0px;
+    font-size: 12px;
+}
+
+#main-content .collapsible-toggle:hover .open,#main-content .collapsible-toggle:focus .open,#main-content .collapsible-toggle .closed
+{
+    background: url("/JRS/images/marketing/SPR-toggles.gif") no-repeat scroll 0 1px
+        transparent;
+}
+
+#main-content .collapsible-toggle:hover .open,#main-content .collapsible-toggle:focus .open,#main-content .collapsible-toggle span
+{
+    background: url("/JRS/images/marketing/SPR-toggles.gif") no-repeat scroll 0 -49px
+        transparent;
+}
+
+#main-content .collapsible-toggle.closed .open,#main-content .collapsible-toggle .closed
+{
+    display: none; 
+}
+
+#main-content .collapsible-toggle.closed .closed {
+    display: inline;
+}
+
+#main-content .collapsible-toggle .open {
+    display: inline;
+}
+
+#main-content .tabbed-content-container {
+    border: none;
+}
+
+#main-content .tabbed-content-container ul.tabs {
+    position: relative;
+    width: 692px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #d5d5d5;
+    z-index: 99;
+}
+
+#container #main-content .tabbed-content-container ul.tabs li.tab,#container #main-content .tabbed-content-container ul.tabs li.tab a
+{
+    background-color: #fff;
+    background-image: url("/JRS/images/marketing/SPR-tabs.png") !important;
+    background-repeat: no-repeat;
+    outline: medium none;
+}
+
+#container #main-content .tabbed-content-container ul.tabs li.tab3,#container #main-content .tabbed-content-container ul.tabs li.tab3 a
+{
+
+    background-color: #fff;
+    background-image: url("/JRS/images/marketing/SPR-tabs.png") !important;
+    background-repeat: no-repeat;
+    outline: medium none;
+}
+
+#main-content .tabbed-content-container ul.tabs li.tab-gold {
+    background-position: right -215px !important;
+}
+
+#main-content .tabbed-content-container ul.tabs li.tab-gold a {
+    background-position: left -215px !important;
+}
+
+#container #main-content .tabbed-content-container ul.tabs li.tab {
+    display: inline;
+    float: left;
+    background-position: top right;
+    height: 32px;
+    padding: 0 3px 0 0;
+    margin: 0 8px 0 0;
+    border: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+#container #main-content .tabbed-content-container ul.tabs li.tab3 {
+    display: inline;
+    float: left;
+    background-position: top right;
+    height: 32px;
+    padding: 0 3px 0 0;
+    margin: 0 7px 0 0;
+    border: none;
+    text-align: center;
+    overflow: hidden;
+}
+
+#container #main-content .tabbed-content-container ul.tabs li.tab a {
+    background-position: top left;
+    float: left;
+    color: #fff !important;
+    padding: 10px 0 2px 0 !important;
+    line-height: 10px;
+    height: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#container #main-content .tabbed-content-container ul.tabs li.tab3 a {
+    background-position: top left;
+    float: left;
+    color: #fff !important;
+    padding: 12px 0 0 0 !important;
+    height: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#container #main-content .tabbed-content-container ul.tabs li.last {
+    margin: 0;
+}
+
+#container #main-content .tabbed-content-container ul.tabs li.last6 {
+    margin: 0;
+    padding: 0 1px 0 0;
+}
+
+#main-content .tabbed-content-container ul.tabs li.tab a:hover {
+    text-decoration: none !important;
+}
+
+#main-content .tabbed-content-container ul.tabs li.tab3 a:hover {
+    text-decoration: none !important;
+}
+
+#container #main-content .tabbed-content-container ul.tabs li.ui-tabs-selected,#container #main-content .tabbed-content-container ul.tabs li.ui-state-active
+{
+    background-position: right -120px !important;
+}
+
+#container #main-content .tabbed-content-container ul.tabs li.ui-state-focus {
+    outline: 1px dotted black !important;
+}
+
+#container #main-content .tabbed-content-container ul.tabs li.ui-tabs-selected a,#container #main-content .tabbed-content-container ul.tabs li.ui-state-active a
+{
+    color: #00589d !important;
+    background-position: left -120px !important;
+}
+
+#main-content .tabbed-content-container ul.tabs.one-tab li.tab a {
+    width: 689px;
+}
+
+#main-content .tabbed-content-container ul.tabs.two-tabs li.tab a {
+    width: 339px;
+}
+
+#main-content .tabbed-content-container ul.tabs.three-tabs li.tab a {
+    width: 222px;
+}
+
+#main-content .tabbed-content-container ul.tabs.three-tabs li.tab3 a {
+    width: 223px;
+}
+
+#main-content .tabbed-content-container ul.tabs.four-tabs li.tab a {
+    width: 164px;
+}
+
+#main-content .tabbed-content-container ul.tabs.five-tabs li.tab a {
+    width: 129px;
+}
+
+#main-content .tabbed-content-container ul.tabs.six-tabs li.tab a {
+    width: 106px;
+}
+
+#main-content .tabbed-content-container ul.tabs.seven-tabs li.tab a {
+    width: 89px;
+}
+
+.tabbed-content-container .border {
+    border: 1px solid #d5d5d5;
+    border-top: none;
+    overflow: hidden;
+}
+
+#main-content #main-details .tab-content {
+    position: relative;
+    padding: 0;
+    z-index: 9;
+    overflow: hidden;
+}
+
+#main-content #main-details span.tip {
+    /*display: inline-block;*/
+    background: url("/JRS/images/marketing/BG-dotted-line.gif") repeat-x scroll left bottom transparent;
+    cursor: pointer;
+    zoom: 1;
+}
+
+#main-content #main-details span.tip:hover {
+    color: #39c;
+}
+
+.screen-readable {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+#container {
+    width: 927px !important;
+    margin: 0 0px !important;
+}
+
+#container h4,#container p,#container a,#container button,#container span,#container strong,#container li
+{
+    font-size: 12px;
+}
+
+#container ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+#container #sidebar1 {
+    width: 205px !important;
+    margin-right: 0;
+    overflow: hidden;
+    margin-top: 11px !important;
+}
+
+#container #sidebar1 .services {
+    font-weight: bold;
+    margin-top: 20px;
+    background: url("/JRS/images/marketing/SPR-links.gif") no-repeat scroll 2px -250px transparent;
+    font-size: 12px;
+    padding: 3px 10px 8px 32px;
+    disply: block;
+    border-bottom: medium none;
+    color: #00589D;
+    text-decoration: none;
+}
+
+#container #sidebar2 {
+     margin-right: 0px;
+     overflow: hidden;
+     width: 205px ! important;
+}
+#container #sidebar2 .services {
+    background: rgba(0, 0, 0, 0) url("/JRS/images/marketing/SPR-links.gif") no-repeat scroll 2px -250px;
+    border-bottom: medium none;
+    color: #00589d;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 10px 10px 32px;
+    text-decoration: none;
+    margin: 8px 0 -8px;
+}
+
+#container #sidebar1 .jfpw-menu-accordion-container {
+    width: 203px;
+}
+#container #sidebar2 .jfpw-menu-accordion-container {
+    width: 203px;
+}
+
+#main-content {
+    float: left;
+    background: url(/JRS/images/marketing/BG-main-content-shadow.png) left top no-repeat;
+    width: 692px;
+    padding-left: 30px;
+}
+
+#main-content-tip {
+    float: left;
+    width: 692px;
+    padding-left: 0;
+}
+
+#main-content-footer {
+    padding: 15px 0;
+}
+
+#main-content-footer .action-items {
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px 0;
+    padding: 10px 0;
+}
+
+#main-content-footer .action-items-noBRDtop {
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    padding: 10px 0;
+}
+
+#main-content-footer .action-items .gold-item {
+    background: none;
+    padding: 10px 0;
+    float: left;
+}
+
+#main-content-footer .action-items .gold-text {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    padding: 6px 10px 10px 5px;
+    float: left;
+}
+
+#main-content-footer .action-items .item-a {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    padding: 10px 20px 10px 0;
+    float: left;
+}
+#main-content-footer .action-items-noBRDtop .item-a {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    padding: 10px 20px 10px 0;
+    float: left;
+}
+#main-content-footer .action-items .item-b {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    padding: 12px 20px 13px 15px;
+    float: left;
+}
+
+#main-content-footer .action-items .item-b-text {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    padding: 12px 20px 13px 15px;
+    float: left;
+}
+
+#main-content-footer .action-items .item-c {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    padding: 10px 20px 10px 15px;
+    float: left;
+}
+#main-content-footer .action-items .item-d {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    margin: 0 10px 0 0;
+    padding: 10px 20px 10px 0;
+    float: left;
+}
+
+#main-content-footer .btn-apply-online, #main-content-footer .btn-apply-online-es {
+    float: left;
+}
+
+#main-content-footer .contact-info {
+    float: none;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 2px 0 0 10px;
+    height: 20px;
+    padding: 12px 0 8px 14px;
+}
+
+#main-content-footer .contact-info-compressed {
+    float: none;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 2px 0 0 10px;
+    height: 30px;
+    padding: 5px 0 5px 14px;
+}
+
+#main-content-footer .contact-info-compressed-es {
+    float: none;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 2px 0 0 10px;
+    height: 50px;
+    padding: 5px 0 5px 14px;
+}
+
+#main-content-footer .contact-info.one-item {
+    padding: 12px 0 8px !important;
+}
+
+#main-content-footer .contact-info dt {
+    margin-right: 10px;
+}
+
+#main-content-footer .contact-info dd {
+    line-height: 1.8em;
+    width: 570px;
+}
+
+#main-content-footer .contact-info dt,#main-content-footer .contact-info dd
+{
+    float: left;
+}
+
+#main-content-footer .foot-notes {
+    clear: both;
+    padding: 0;
+    *margin: 15pt auto auto 5pt;
+}
+
+#main-content-footer .foot-notes p.note {
+    color: #666;
+    font-size: 11px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    *margin-left: -5px;
+}
+
+#main-content-footer .foot-notes .note {
+    color: #666;
+    font-size: 11px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+#main-content-footer .foot-notes .note p{
+    color: #666;
+    font-size: 11px;
+    padding: 0 !important;
+    margin:  0 !important;
+}
+
+#main-content-footer .foot-notes .note strong {
+    color: #666;
+    font-size: 11px !important;
+}
+
+#container #main-content-footer .foot-notes .note a {
+    color: #666;
+    display: inline;
+    background: none;
+    padding-left: 0;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.hide {
+    display: none !important;
+}
+
+.find-branch {
+    float: right;
+    margin: -15px 0 0 0;
+}
+
+.columnizer {
+    background: url("/JRS/images/marketing/BG-light-grey-stripes-xlarge.jpg") repeat scroll
+        0 -1px transparent;
+    border: 1px solid #dedede;
+    position: relative;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.columnizer .intro {
+    width: 38%;
+    float: left;
+    border-right: 1px solid #dedede;
+}
+
+.columnizer .intro em {
+    font-style: normal;
+}
+
+.columnizer .intro h4,.columnizer .intro blockquote,.columnizer .intro p
+{
+    margin: 0 17px 10px;
+}
+
+.columnizer .intro blockquote,.columnizer .intro p {
+    padding-left: 20px;
+}
+
+.columnizer .intro p {
+    margin-right: 0;
+}
+
+
+
+.columnizer .intro h4 {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #d16106;
+}
+
+.columnizer .intro blockquote {
+    font-size: 21px;
+    color: #96beda;
+    padding-left: 20px;
+    background: url("/JRS/images/marketing/icon-quota-lft.jpg") no-repeat scroll left 4px
+        transparent;
+}
+
+.columnizer .intro blockquote .quota-rgt {
+    background: url("/JRS/images/marketing/icon-quota-rgt.jpg") no-repeat scroll left top
+        transparent;
+    width: 18px;
+    height: 15px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.columnizer .columns {
+    float: right;
+    margin-left: -1px;
+    width: 62%;
+}
+
+.columnizer .columns .wrapper-cols {
+    background: url("/JRS/images/marketing/BG-dotted-line.gif") repeat-x scroll left bottom;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 5px;
+    width: 386px;
+}
+
+.columnizer .columns .wrapper-cols .scroll-content {
+    height: 120px;
+
+    max-height: 120px;
+    overflow: hidden;
+}
+
+.columnizer .columns .wrapper-cols .scroll-content li {
+    margin-right: 15px;
+
+    float: left;
+    width: 184px;
+}
+
+.columnizer .columns .wrapper-cols .scroll-content .column p {
+    line-height: 16px;
+}
+
+.columnizer .columns .wrapper-cols .scroll-content .last.column {
+    padding-right: 0;
+}
+
+.columnizer .columns .bottom {
+    margin: 10px auto 0;
+    overflow: hidden;
+    width: 386px;
+}
+
+.columnizer .left {
+    float: left;
+}
+
+.columnizer .right {
+    float: right;
+}
+
+#container #main-content .columnizer .pager a {
+    background: none;
+    color: #666;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    padding: 2px 6px;
+    outline: medium none;
+}
+
+#container #main-content .columnizer .pager a.current {
+    border: 1px solid #bebebe;
+    color: #c60;
+}
+
+#container #main-content .columnizer .pager .prev.enabled,#container #main-content .columnizer .pager .next.enabled
+{
+    color: #00589d;
+}
+
+#container #main-content .columnizer .pager .prev.disabled,#container #main-content .columnizer .pager .next.disabled
+{
+    color: #666;
+    opacity: .5;
+    -ms-filter: 'alpha(opacity=50)';
+
+
+    filter: alpha(opacity = 50);
+    text-decoration: none;
+}
+
+#container #main-content .columnizer .pager a.prev,#container #main-content .columnizer .pager a.next
+{
+    color: #00589d;
+    background-image: url("/JRS/images/marketing/SPR-links.gif");
+    background-repeat: no-repeat;
+}
+
+#container #main-content .columnizer .pager a.prev {
+    padding-left: 12px;
+    background-position: left -353px;
+}
+
+#container #main-content .columnizer .pager a.next {
+    padding-right: 12px;
+    background-position: right -377px;
+}
+
+#container #main-content .columnizer .columns p {
+    margin: 0;
+    padding: 0;
+}
+
+.grd-light-grey-stripes {
+    background: url("/JRS/images/marketing/BG-light-grey-stripes.jpg") left top repeat-x;
+}
+
+.grd-light-grey-stripes-bottom {
+    background: url(/JRS/images/marketing/BG-light-grey-stripes_bottom.jpg) left top repeat;
+}
+
+.grd-light-grey-stripes-large {
+    background: url("/JRS/images/marketing/BG-light-grey-stripes-large-nodotted.jpg")
+        repeat-x scroll left 0;
+}
+
+.grd-light-grey-stripes-large-bottom {
+    background:
+        url("/JRS/images/marketing/BG-light-grey-stripes-large-nodotted-bottom.jpg") repeat;
+}
+
+.grd-light-grey-stripes-short {
+    background: url("/JRS/images/marketing/BG-light-grey-stripes-short.jpg") repeat-x
+        scroll left -1px;
+}
+
+.grd-light-grey-stripes-short-bottom {
+    background: url("/JRS/images/marketing/BG-light-grey-stripes-short-bottom.jpg") repeat;
+}
+
+.grd-light-grey-stripes-xlarge {
+    background: url("/JRS/images/marketing/BG-light-grey-stripes-xlarge-nodotted.jpg")
+        repeat-x scroll left top;
+}
+
+.grd-light-grey-stripes-xlarge-bottom {
+    background:
+        url("/JRS/images/marketing/BG-light-grey-stripes-xlarge-nodotted-bottom.jpg") repeat
+        scroll left top;
+}
+
+.grd-bottom-dotted {
+    background: url("/JRS/images/marketing/BG-dotted-light.gif") repeat-x left bottom;
+    padding-bottom: 1px;
+}
+
+.grd-top-dotted {
+    background: url("/JRS/images/marketing/BG-dotted-light.gif") repeat-x left top;
+    padding-top: 1px;
+}
+
+.links-collection {
+    overflow: hidden;
+    color: #333;
+}
+
+ul.links-collection.hrz {
+    float: right;
+    padding: 0 0 0 450px !important;
+}
+
+ul.links-collection.hrz-left {
+    padding: 10px 0 !important;
+}
+
+.top-action-items .links-collection.hrz-left li {
+    float: left;
+    margin-right: 13px;
+}
+
+.top-action-items .item-d {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 10px 20px 10px 0;
+}
+
+.links-collection.hrz li {
+    float: left;
+    margin-right: 5px;
+}
+
+.links-collection.hrz li.separator {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    padding: 10px 8px 10px 0;	
+}
+
+.links-collection.hrz li.phone {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    padding: 10px 8px 10px 0;	
+    line-height: 2.1;
+    display: inline;
+}
+
+.links-collection.hrz li.phone span.image {
+    background-image: url("/JRS/images/marketing/SPR-comunication-icons.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding: 5px 0 5px 27px;
+}
+.links-collection.hrz-left li.phone {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    padding: 10px 10px 10px 0;  
+    line-height: 2.1;
+    display: inline;
+}
+
+.links-collection.hrz-left li.phone span.image {
+    background-image: url("/JRS/images/marketing/SPR-comunication-icons.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding: 5px 0 5px 27px;
+}
+
+.links-collection.hrz li.message {
+    background: url("/JRS/images/marketing/BG-dotted-line-gray.gif") repeat-y scroll right top transparent;
+    padding: 10px 8px 10px 0;	
+}
+
+.links-collection.hrz li.branch {
+    display: inline;
+    padding: 10px 0 10px 0; 
+    margin-right: 0px !important;
+}
+
+.links-collection.hrz-left li.branch {
+    display: inline;
+    padding: 10px 0 10px 0; 
+    margin: 0 0 0 5px;
+}
+
+
+#container #main-content .links-collection li a
+{
+    background-image: url("/JRS/images/marketing/SPR-comunication-icons.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding: 5px 0 5px 27px;
+}
+
+#container #main-content .links-collection li a.popup {
+    background-position: 0 -98px;
+}
+
+#container #main-content .links-collection li a.mail {
+    background-position: 0 -32px;
+}
+
+#container #main-content .links-collection li a.mic {
+    background-position: 0 -65px;
+}
+
+#container #main-content .links-collection li a.bold {
+    font-weight: bold;
+}
+
+.category #main-summary {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.category #main-summary .category-heading {
+    float: none;
+    margin: 0 0 15px -30px;
+}
+
+.category #main-summary .category-heading #breadcrumb a {
+    color: #666666;
+    font-size: 11px;
+    text-decoration: none;
+    background: none;
+    padding-left: 0;
+}
+
+.category #main-summary .heading {
+    display: block;
+    float: none;
+    color: #656565;
+    line-height: 2em;
+    margin: 0 0 20px !important;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.category #main-summary .intro {
+    margin: 0 75px 25px 0;
+}
+.category #main-summary .introB {
+    margin: 0 0 45px 0;
+}
+.category #main-summary .top-links {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.category #main-summary .top-links a {
+    display: block;
+    float: right;
+    margin: 10px 0 0 5px;
+}
+
+.category #main-summary .top-links a.btn-overlay {
+    margin-top: 5px;
+}
+
+.category #main-summary .sub-category-row {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.sub-category #main-summary .sub-category-row2 {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.category #main-summary .top.sub-category-row {
+    padding-top: 25px;
+    border-top: 2px solid #ccc;
+}
+
+.sub-category #main-summary .top.sub-category-row2 {
+    padding-top: 25px;
+}
+
+.category #main-summary .bottom.sub-category-row {
+    padding-top: 25px;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+}
+
+
+.sub-category #main-summary .bottom.sub-category-row2 {
+    padding-top: 25px;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary {
+    position: relative;
+    float: left;
+    width: 196px;
+    min-height: 635px;
+}
+.category #main-summary .sub-category-row .sub-category-summary_lend {
+    position: relative;
+    float: left;
+    width: 196px;
+    min-height: 400px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest {
+    position: relative;
+    float: left;
+    width: 196px;
+    min-height: 450px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_sp {
+    position: relative;
+    float: left;
+    width: 196px;
+    min-height: 835px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_sp.first {
+     padding: 0 15px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_sp.last {
+      padding: 0px 0px 0px 20px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_sp.middle {
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    border-width: 0 1px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_bottom.first {
+	padding-right:25px;
+	border-right:1px solid #ccc;
+	width:196px;
+	float:left;
+	min-height:390px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_bottom.middle {
+	padding-right:25px;
+	border-right:1px solid #ccc;
+	padding-left:25px;
+	width:196px;
+	float:left;
+	min-height:390px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_bottom.first .bottom
+{
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 12px;
+    margin: 0px 25px 0px 0px;
+	width:196px;
+}
+.category #main-summary .sub-category-row .sub-category-summary_bottom.middle .bottom
+{
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 245px;
+    bottom: 0;
+    right: 0;
+    padding-top: 12px;
+    margin: 0px 25px 0px 0px;
+	width:196px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_bottom.first p {
+    padding: 0 20px 0 0;
+    *padding: 0 30pt 10pt 0;
+    *padding: 0 30px 10px 0;
+    bottom: 25px;
+    position: absolute;
+    width: 196px;
+}
+.category #main-summary .sub-category-row .sub-category-summary_bottom.middle p {
+    padding: 0 20px 0 0;
+    *padding: 0 30pt 10pt 0;
+    *padding: 0 30px 10px 0;
+    bottom: 25px;
+    position: absolute;
+    width: 196px;
+}
+
+/*.category #main-summary .sub-category-row .sub-category-summary_one {
+    position: relative;
+    float: left;
+    width: 300px;
+    min-height: 500px;
+	padding-left:20px;
+	padding-right:20px;
+	border-right:1px solid #cccccc;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_two {
+    position: relative;
+    float: left;
+    width: 320px;
+    min-height: 500px;
+	padding-left:20px;
+}*/
+
+.sub-category #main-summary .sub-category-row2 .sub-category-summary2 {
+    position: relative;
+    float: left;
+
+    width: 320px;
+    min-height: 500px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary.first {
+    padding-right: 25px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_lend.first {
+    padding-right: 25px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest.first {
+    padding-right: 25px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary.last {
+    padding-left: 25px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_lend.last {
+    padding-left: 25px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest.last {
+    padding-left: 25px;
+}
+
+.sub-category #main-summary .sub-category-row2 p {
+    bottom: 75px;
+    line-height: 1.5em;
+    margin-bottom: 0;
+    padding-right: 25px;
+    position: absolute;
+}
+
+.sub-category #main-summary .top.sub-category-row2 p {
+    bottom: 45px;
+    line-height: 1.5em;
+    margin-bottom: 0;
+    padding-right: 25px;
+    position: absolute;
+}
+
+.sub-category #main-summary .sub-category-row2 .sub-category-summary2.first2 {
+    padding-right: 25px;
+    border-right: 1px solid #ccc;
+    border-width: 0 1px;
+}
+
+
+.category #main-summary .sub-category-row .sub-category-summary.middle {
+    padding: 0 25px;
+    border: 1px solid #ccc;
+    border-width: 0 1px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_lend.middle {
+    padding: 0 25px;
+    border: 1px solid #ccc;
+    border-width: 0 1px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest.middle {
+    padding: 0 25px;
+    border: 1px solid #ccc;
+    border-width: 0 1px;
+}
+
+.sub-category #main-summary .sub-category-row2 .sub-category-summary2.last2 {
+    padding-left: 25px;
+}
+
+.sub-category #main-summary .sub-category-row .sub-category-summary.last {
+    padding-left: 25px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary .heading
+{
+    color: #656565;
+    line-height: 1em;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_lend .heading
+{
+    color: #656565;
+    line-height: 1em;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest .heading
+{
+    color: #656565;
+    line-height: 1em;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary .heading-sm {
+    color: #656565;
+    line-height: 1.3em;
+    margin: 15px 0 !important;
+    font-size: 14px;
+    font-weight: bold;
+	white-space:normal;
+}
+.sub-category #main-summary .sub-category-row2 .sub-category-summary2 .heading {
+    color: #656565;
+    line-height: 1em;
+    margin: 0px !important;
+    font-size: 18px;
+    font-weight: normal;
+}
+.sub-category #main-summary .sub-category-row2 .sub-category-summary2 .heading sup{
+	font-size:11px !important;
+	vertical-align: super;
+}
+.category #main-summary .sub-category-row .sub-category-summary p {
+    padding: 0 20px 0 0;
+    *padding: 0 30pt 10pt 0;
+    *padding: 0 30px 10px 0;
+    bottom: 25px;
+    position: absolute;
+    width: 196px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_lend p {
+    padding: 0 20px 0 0;
+    *padding: 0 30pt 10pt 0;
+    *padding: 0 30px 10px 0;
+    bottom: 25px;
+    position: absolute;
+    width: 196px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest p {
+    padding: 0 20px 0 0;
+    *padding: 0 30pt 10pt 0;
+    *padding: 0 30px 10px 0;
+    bottom: 25px;
+    position: absolute;
+    width: 196px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_sp p {
+    padding: 0 20px 0 0;
+    *padding: 0 30pt 10pt 0;
+    *padding: 0 30px 10px 0;
+    bottom: 25px;
+    position: absolute;
+    width: 196px;
+}
+.category #main-summary .sub-category-row .sub-category-summary p.algtop {
+    padding: 0 20px 0 0;
+    *padding: 0 30pt 10pt 0;
+    *padding: 0 30px 10px 0;
+	position:static;
+    width: 196px;
+}
+.category #main-summary .sub-category-row .sub-category-summary p.pbottom{
+    padding: 0 20px 0 0;
+    *padding: 0 30pt 10pt 0;
+    *padding: 0 30px 10px 0;
+    bottom: 40px;
+    position: absolute;
+    width: 196px;
+}
+.category #main-summary .sub-category-row .sub-category-summary p.pbottomB{
+    padding: 0 20px 0 0;
+    *padding: 0 30pt 10pt 0;
+    *padding: 0 30px 10px 0;
+    bottom: 60px;
+    position: absolute;
+    width: 196px;
+}
+.category #main-summary .sub-category-row .sub-category-summary h4 {
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_lend h4 {
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest h4 {
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary ul {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_lend ul {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest ul {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+.category #main-summary .sub-category-row .sub-category-summary ul.faqs-list li
+{
+    margin-bottom: 10px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary .bottom
+{
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 18px;
+    margin: 0 25px;
+}
+.category #main-summary .sub-category-row .sub-category-summary .bottom2
+{
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 0;
+    margin: 0 25px;
+}
+.category #main-summary .sub-category-row .sub-category-summary_lend .bottom
+{
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 12px;
+    margin: 0 25px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest .bottom
+{
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 12px;
+    margin: 0 25px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_sp .bottom
+{
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 12px;
+    margin: 0 25px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary .bottom .services
+{
+	color: #00589d;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary .bottom .services:hover
+{
+	text-decoration:underline;
+}
+
+.sub-category #main-summary .sub-category-row2 .sub-category-summary2 .bottom2
+{
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 12px;
+    margin: 0 25px;
+}
+
+.sub-category #main-summary .sub-category-row2 .sub-category-summary2 .bottom1
+{
+
+
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 12px;
+    margin: 0;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary.first .bottom
+{
+    margin-left: 0;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_lend.first .bottom
+{
+    margin-left: 0;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest.first .bottom
+{
+    margin-left: 0;
+}
+
+.sub-category #main-summary .sub-category-row2 .sub-category-summary2.first2 .bottom2
+{
+    margin-left: 0;
+}
+
+.sub-category #main-summary .sub-category-row2 .sub-category-summary2.first2 .bottom
+{
+    margin-left: 0;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary.last .bottom
+{
+    margin-right: 0;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_lend.last .bottom
+{
+    margin-right: 0;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest.last .bottom
+{
+    margin-right: 0;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary .bottom a
+{
+    margin-right: 10px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_lend .bottom a
+{
+    margin-right: 10px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_invest .bottom a
+{
+    margin-right: 10px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_sp .bottom a
+{
+    margin-right: 10px;
+}
+
+.category #main-summary .sub-category-row .sub-category-summary_bottom .bottom a
+{
+    margin-right: 10px;
+}
+
+.category #main-details {
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left bottom repeat-x;
+    padding: 0 0 1px 0;
+}
+
+.category #main-details.nobg {
+    background: none;
+}
+
+.category #main-details .top {
+    position: relative;
+    padding-left: 200px;
+    overflow: hidden;
+}
+
+.category #main-details .topB {
+	background: url(/JRS/images/marketing/BG-dotted-line.gif) left bottom repeat-x;
+    position: relative;
+    padding: 0 0 15px 200px;
+    overflow: hidden;
+}
+
+.category #main-details .heading {
+    color: #656565;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: normal;
+    white-space: inherit;
+}
+
+.category #main-details .premium-banking-services .intro {
+    float: left;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left bottom repeat-x;
+    min-height: 50px;
+}
+
+.category #main-details img.photo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.category #main-details div.photo {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.category #main-details div.photoB {
+    left: 0;
+    position: absolute;
+    top: 15px;
+}
+
+.category #main-details .row {
+    width: 690px;
+    padding: 25px 0;
+    border-top: 2px solid #c5c5c5;
+    overflow: hidden;
+}
+.category #main-details .rowB {
+	background: url(/JRS/images/marketing/BG-dotted-line.gif) repeat-x scroll left top transparent;
+    padding: 15px 0;
+    overflow: hidden;
+	width: 690px;
+}
+.category #main-details .row .top .heading,.category #main-details .banking-services.row .top .intro
+{
+    margin: 1px;
+}
+
+.category #main-details .row .services {
+    padding: 25px 0;
+}
+
+.category #main-details .row .services .service {
+    float: left;
+    width: 50%;
+    height: 115px;
+}
+
+.category #main-details .row .services .service h4,.category #main-details .row .services .service p
+{
+    margin-bottom: 10px;
+}
+
+.category #main-details .row .services .service p {
+    margin-right: 25px;
+}
+
+.category #main-details .row .service.odd {
+    border-left: 1px solid #c5c5c5;
+    margin-left: -1px;
+}
+
+.category #main-details .row .services .service.odd h4,.category #main-details .row .services .service.odd p
+{
+    margin-left: 25px;
+}
+
+.category #main-details .row .services .service.odd p {
+    margin: 0 0 10px 25px;
+}
+
+.category #main-details .row .services .service.odd a {
+    margin-left: 25px;
+}
+
+.category #main-details .banking-services.row .top {
+    position: relative;
+    padding-right: 235px;
+    padding-bottom: 5px;
+}
+
+.category #main-details .banking-services.row .top .side {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 215px;
+}
+
+.category #main-details .banking-services.row .top .side h3 {
+    margin-bottom: 10px;
+}
+
+.category #main-details .banking-services.row .top .side ul.faqs-list li
+{
+    margin-bottom: 10px;
+}
+
+.category #main-details .banking-services.row .top .side ul.faqs-list li.see-all
+{
+    margin-top: 20px;
+}
+
+#container.category .overlay {
+    width: 720px;
+    border: 1px solid #000;
+    background: #fff url(/JRS/images/marketing/BG-gold.gif) repeat left top;
+}
+
+#container.category .overlay h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #333;
+    margin-left: 29px;
+}
+
+#container.category .overlay #global-services {
+    margin-bottom: 15px;
+    margin-left: 29px;
+    margin-top: 30px;
+    overflow: hidden;
+    width: 680px;
+}
+
+#container.category .overlay #global-services .global-services-bar {
+    background-image: none;
+}
+
+#container.category .overlay #global-services .global-services-bar .feature
+{
+    padding-left: 0;
+}
+
+#container.category .overlay #global-services .global-services-bar h2 {
+    color: #666;
+    font-weight: normal;
+}
+
+#container.category .overlay #global-services .global-services-bar h3 {
+    color: #333;
+    font-size: 12px;
+}
+
+#container.category .overlay #global-services .global-services-bar p {
+    color: #333;
+}
+
+#container.category .overlay #global-services .global-services-bar .ways-to-bank
+{
+    padding-left: 23px;
+}
+
+#container.category .overlay #accordion {
+    width: 660px;
+    height: 290px;
+    display: block;
+    overflow: scroll;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+#container.category .overlay #accordion .collapsible-toggle {
+    background: none repeat scroll 0 0 #69c;
+    border-bottom: 1px solid #ddd;
+    float: none;
+}
+
+#container.category .overlay #accordion .collapsible-toggle a {
+    background: transparent url(/JRS/images/marketing/SPR-toggles.gif) no-repeat 10px 5px;
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    padding: 5px 0 5px 32px;
+}
+
+#container.category .overlay #accordion .collapsible {
+    width: 662px;
+}
+
+#container.category .overlay #accordion .collapsible .compare {
+    border-bottom: 0 none;
+    padding-top: 10px;
+    width: 662px;
+}
+
+#container.category .overlay #accordion .collapsible .compare .header {
+    height: 30px !important;
+    background-image: none !important;
+}
+
+
+#container.category .overlay #accordion .collapsible .compare .header .col
+{
+    padding: 0 14px !important;
+    height: 30px !important;
+    width: 181px;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row {
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent url(/JRS/images/marketing/row-bg.png) repeat-y -65px top;
+    position: relative;
+    overflow: hidden;
+}
+
+#container.category .overlay #accordion .collapsible .compare .value {
+    background-image: url(/JRS/images/marketing/row-bg-value-overlay.png) !important;
+    background-position: left top;
+}
+
+#container.category .overlay #accordion .collapsible .compare .selected
+{
+    background-color: #f5f5f5;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .col
+{
+    padding: 20px 14px;
+    height: 100%;
+    width: 171px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .second
+{
+    width: 194px;
+    padding-top: 43px !important;
+}
+
+#container.category .overlay #accordion .collapsible .compare .header .second
+{
+    padding-top: 0 !important;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .third
+{
+    width: 205px;
+    padding-top: 43px !important;
+    padding-right: 0 !important;
+    clear: right;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .first
+{
+    border-left: 0 none !important;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .col h3
+{
+    padding-bottom: 10px;
+    color: #333;
+    margin-top: 0;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .col p
+{
+    margin-bottom: 10px;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .col a
+{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px !important;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .col a.view-details
+{
+    margin-bottom: 0;
+}
+
+overlay #accordion .collapsible .compare .row .col span.cost
+
+{
+    text-align: center;
+    color: #999;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px 1px 0;
+    display: block;
+}
+
+
+#container.category .overlay #accordion .collapsible .compare .row .col .col2
+{
+    float: left;
+    width: 80px;
+    margin-right: 28px;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .col .col2.last
+{
+    margin-right: 0;
+    text-align: center;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .col .col2 p.title
+{
+    color: #957f55;
+    font-weight: bold;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .col .col2 p.charges
+{
+    padding: 30px 0 0 10px;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .col ul li
+{
+    background: transparent url(/JRS/images/marketing/row-bullet.jpg) no-repeat 3px 5px;
+    padding: 0 0 5px 15px;
+}
+
+
+.overlay-category #accordion .collapsible .compare .row .col .price 
+{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #957f55;
+    font-weight: bold;
+	height:6px;
+}
+
+#container.category .overlay #accordion .collapsible .compare .row .col .price sup
+{
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+}
+
+.sub-category #main-summary {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.sub-category #main-summary .sub-category-heading {
+    float: none;
+    margin: 0 0 0 -30px;
+}
+
+.sub-category #main-summary .sub-category-heading #breadcrumb a {
+    color: #666666;
+    text-decoration: none;
+    font-size: 11px;	
+}
+
+.sub-category #main-summary .sub-category-heading a {
+    background: none !important;
+    padding-left: 0px !important;
+}
+
+.sub-category #main-summary #main-heading,.generic-details #main-summary #main-heading,.rates #main-summary #main-heading
+{
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left bottom repeat-x;
+    padding-bottom: 10px;
+    margin: 0 0 30px;
+}
+
+.sub-category #main-summary #main-heading {
+    background: none;
+    padding: 15px 0;
+    margin: 0 0 15px 0;
+    border-bottom: 2px solid #C5C5C5;
+}
+
+.sub-category #main-summary .heading {
+    display: block;
+    float: none;
+    color: #666;
+    line-height: 2em;
+    margin: 0 0 20px !important;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.sub-category #main-summary .top-links {
+    display: block;
+    height: 45px;
+    overflow: hidden;
+}
+
+.sub-category #main-summary .top-links li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.sub-category #main-summary .top-links li a {
+    margin-top: 25px;
+}
+
+.sub-category #main-summary .top-links a#btn-help-me-choose {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.sub-category #main-summary .top-links .apply a {
+    margin-top: 22px;
+}
+
+.sub-category #main-summary .products {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.sub-category #main-summary .products .product {
+    position: relative;
+    float: left;
+    width: 196px;
+    min-height: 540px;
+}
+
+.sub-category #main-summary .products .product2 {
+    position: relative;
+    float: left;
+    width: 320px;
+    min-height: 430px !important;
+}
+
+.sub-category #main-summary .products .product.a {
+    padding-right: 25px;
+}
+
+.sub-category #main-summary .products .product2.a2 {
+    padding-right: 25px;
+    border-right: 1px solid #ccc;
+    border-width: 0 1px;
+}
+
+.sub-category #main-summary .products .product.b {
+    padding: 0 25px;
+    border: 1px solid #ccc;
+    border-width: 0 1px;
+}
+
+.sub-category #main-summary .products .product.c p {
+    padding: 0;
+}
+
+.sub-category #main-summary .products .product.c {
+    padding-left: 25px;
+}
+
+.sub-category #main-summary .products .product2.c {
+    padding-left: 25px;
+}
+
+.sub-category #main-summary .products .product .heading {
+    float: left;
+    clear: both;
+    color: #656565;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: normal; !important;
+}
+
+.sub-category #main-summary .products .product2 .heading {
+    float: left;
+    clear: both;
+    color: #656565;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: normal; !important;
+}
+
+.sub-category #main-summary .products .product .heading em {
+    display: block;
+    color: #656565;
+    line-height: 1em;
+    font-size: 16px;
+    font-style: normal;
+    text-indent: 25px;
+
+    font-weight:bold;
+}
+
+.sub-category #main-summary .products .product2 .heading em {
+    display: block;
+    color: #656565;
+    line-height: 1em;
+    font-size: 16px;
+    font-style: normal;
+    text-indent: 25px;
+    font-weight:bold;
+}
+
+.sub-category #main-summary .products .product.b .heading em,.sub-category #main-summary .products .product.c .heading em
+{
+    text-indent: 38px;
+}
+
+.sub-category #main-summary .products .product .heading sup {
+	font-size: 11px !important;
+    position: relative;
+    top: -7px;
+}
+
+.sub-category #main-summary .products .product2 .heading sup {
+	font-size: 11px !important;
+    position: relative;
+    top: -7px;
+}
+
+.sub-category #main-summary .products h3 {
+    display: block;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.sub-category #main-summary .products ul {
+    margin-bottom: 10px;
+    padding-right: 25px;
+}
+
+.sub-category #main-summary .products p {
+    line-height: 1.5em;
+    position: absolute;
+    bottom: 75px;
+    margin-bottom: 0;
+    padding-right: 25px;
+}
+
+.sub-category #main-summary .products .bottom {
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 15px 0 0;
+    margin: 0 25px;
+}
+
+.sub-category #main-summary .products .bottom a {
+    display: block;
+    float: left;
+    margin: 4px 10px 25px 0;
+}
+
+.sub-category #main-summary .products .bottom a.btn-apply-online, .sub-category #main-summary .products .bottom a.btn-apply-online-es {
+    padding: 5px 8px;
+    margin: 0 10px 25px 0;
+}
+
+.sub-category #main-summary .products .product2.a2 .bottom2 {
+    margin-left: 0;
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+.sub-category #main-summary .products .product.a .bottom {
+    margin-left: 0;
+}
+
+.sub-category #main-summary .products .product2.a2 .bottom {
+    margin-left: 0;
+}
+
+.sub-category #main-summary .products .product.c .bottom {
+    margin-right: 0;
+}
+
+.sub-category #main-details,.generic-details #main-details,.details-no-tabs #main-details
+{
+    padding: 0;
+    border-bottom: none;
+}
+
+.sub-category #main-details .heading {
+    display: block;
+    color: #656565;
+    line-height: 2em;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    border-top: 2px solid #c5c5c5;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.sub-category #main-details .row {
+    position: relative;
+    padding: 0 265px 20px 250px;
+    overflow: hidden;
+}
+
+.sub-category #main-details .row h4 {
+    margin-bottom: 10px;
+}
+
+.sub-category #main-details .row li {
+    line-height: 1.2em;
+    padding: 0 0 7px 0px;
+}
+
+.sub-category #main-details .row .side,.sub-category #main-details .row img
+{
+    position: absolute;
+    top: 0;
+}
+
+.sub-category #main-details .row .side {
+    right: 0;
+    padding-left: 15px;
+    border-left: 1px solid #c5c5c5;
+    max-width:235px;
+}
+
+.sub-category #main-details .row img {
+    left: 0;
+}
+
+.sub-category-lob #main-summary #main-heading {
+    margin-top: 0;
+}
+
+.sub-category-lob #main-summary .heading {
+    display: block;
+    float: none;
+    color: #666;
+    line-height: 2em;
+    margin: 0 0 20px !important;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.sub-category-lob #main-summary .inc-lh {
+    line-height: 1.6;
+}
+
+.sub-category-lob #main-details {
+    padding: 30px 0 0 0;
+}
+
+.sub-category-lob #main-details .heading {
+    display: block;
+
+    color: #656565;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.sub-category-lob #main-details .heading-image {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.sub-category-lob #main-details .column1 {
+    float: left;
+    width: 440px;
+    overflow: auto;
+
+    margin-right: 20px;
+}
+
+.sub-category-lob #main-details .column2 {
+    float: left;
+    width: 210px;
+    overflow: auto;
+    padding-left: 20px;
+    border-left: 1px solid #c5c5c5;
+}
+
+.sub-category-lob #main-details .row {
+    display: block;
+    clear: both;
+    padding: 25px 0;
+    margin-bottom: 10px;
+}
+
+.sub-category-lob #main-details .column1 .row {
+    border-top: 2px solid #c5c5c5;
+    width: 440px;
+}
+
+.sub-category-lob #main-details .column2 .row {
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+}
+
+.sub-category-lob #main-details .row:first-child {
+    padding-top: 0;
+    background: none;
+    border: none;
+}
+
+.sub-category-lob #main-details .column1 .row h4 {
+    padding-bottom: 15px;
+}
+
+.sub-category-lob #main-details .row h4 {
+    padding-bottom: 20px;
+}
+
+.sub-category-lob #main-details .row li {
+    line-height: 1.2em;
+    padding-bottom: 12px;
+}
+
+.sub-category-lob #main-details dl {
+    padding-bottom: 15px;
+}
+
+.sub-category-lob #main-details dd {
+    margin-left: 12px;
+}
+
+.sub-category-lob #main-details .related-program-img {
+    float: left;
+}
+
+.sub-category-lob #main-details .related-program-info {
+    float: left;
+    margin-top: -4px;
+    padding-left: 20px;
+    width: 280px;
+}
+
+.sub-category-lob #main-details .related-program-info p {
+    margin-bottom: 15px;
+}
+
+.sub-category-lob #main-content a.collapsible-toggle {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sub-category-lob #main-content .collapsible-toggle:hover .open,.sub-category-lob #main-content .collapsible-toggle:focus .open,.sub-category-lob #main-content .collapsible-toggle .closed
+{
+    background: url(/JRS/images/marketing/SPR-toggles.gif) no-repeat 0 0;
+    padding-left: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.sub-category-lob #main-content .collapsible-toggle:hover .open,.sub-category-lob #main-content .collapsible-toggle:focus .open,.sub-category-lob #main-content .collapsible-toggle span
+{
+    background: url(/JRS/images/marketing/SPR-toggles.gif) no-repeat 0 -50px;
+    padding-left: 20px;
+}
+
+.vIE7 .sub-category-lob #main-content .collapsible-toggle:hover .open,.vIE7 .sub-category-lob #main-content .collapsible-toggle:focus .open,.vIE7 .sub-category-lob #main-content .collapsible-toggle span
+{
+    line-height: 15px;
+}
+
+.sub-category-lob #main-content .column1 .collapsible {
+    width: 380px;
+}
+
+.sub-category-lob #main-content .column2 .collapsible {
+    width: 210px;
+}
+
+.compare #main-summary {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.compare #main-summary .intro {
+    clear: both;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+#container.compare #main-details table .btn-apply-online, #container.compare #main-details table .btn-apply-online-es {
+
+    display: inline-block;
+}
+
+.compare #main-details table {
+    width: 690px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.compare #main-details table thead {
+    background: url(/JRS/images/marketing/BG-light-grey-stripes-large.jpg) left -1px
+        repeat-x;
+}
+
+ table thead>tr {
+    *background: url(/JRS/images/marketing/BG-light-grey-stripes-large.jpg) left -1px
+        repeat-x;
+}
+
+.compare #main-details table thead.screen-readable {
+    *display: none;
+}
+
+.compare #main-details table thead tr.heading-links {
+    background-position: left -75px;
+}
+
+.compare #main-details table thead th.col-heading {
+    color: #666;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.compare #main-details table thead th.col-heading-package {
+    color: #666;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.compare #main-details table thead th.col-heading .heading {
+    font-size: 18px;
+}
+
+.compare #main-details table thead th.col-heading div.content,
+.compare #main-details table thead td.col-heading div.content {
+    background: url("/JRS/images/marketing/bg-vrt-dotted.gif") top left repeat-y;
+    left: -1px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.compare #main-details table thead th.col-heading div.content-es {
+    background: url("/JRS/images/marketing/bg-vrt-dotted.gif") top left repeat-y;
+    left: -1px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.compare #main-details table thead th.col-heading div.content-es2 {
+    background: url("/JRS/images/marketing/bg-vrt-dotted.gif") top left repeat-y;
+    left: -1px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.compare #main-details table thead th.col-heading div.content-es2 {
+    background: url("/JRS/images/marketing/bg-vrt-dotted.gif") top left repeat-y;
+    left: -1px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.compare #main-details table thead th.col-heading div.content>div:first-child
+{
+    position: relative;
+    font-size: 18px;
+    min-height: 45px;
+    margin-bottom: 20px;
+
+}
+
+.compare #main-details table thead th.col-heading div.content-es>div:first-child
+{
+    position: relative;
+    font-size: 18px;
+    min-height: 140px;
+}
+
+.compare #main-details table thead th.col-heading div.content-es2>div:first-child
+{
+    position: relative;
+    font-size: 18px;
+    min-height: 80px;
+}
+
+.compare #main-details table thead th.col-heading div.content-es2>div:first-child
+{
+    position: relative;
+    font-size: 18px;
+    min-height: 80px;
+}
+
+.compare #main-details table thead th.col-heading div.content>div:first-child+div a
+{
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+.compare #main-details table thead th.col-heading div.content-es>div:first-child+div a
+{
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+.compare #main-details table thead th.col-heading div.content-es2>div:first-child+div a
+{
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+.compare #main-details table thead th.col-heading div.content-es2>div:first-child+div a
+{
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+.compare #main-content #main-details table thead th.col-heading .checkbox
+{
+    display: block;
+    position: absolute;
+    background: url(/JRS/images/marketing/SPR-grey-checkbox.gif) left top no-repeat;
+    right: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    text-indent: -999em;
+}
+
+
+
+.compare #main-details table tbody th,.compare #main-details table tbody td
+
+{
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.compare #main-details table tbody th {
+    padding-lefT: 20px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.compare #main-details table thead th,.compare #main-details table thead tr.heading-links td
+{
+    padding: 15px 0;
+}
+
+.compare #main-details table thead tr.heading-links a {
+    display: block;
+    margin: 0 0 5px 20px;
+}
+.compare #main-details table tr.hdr td { padding: 10px 0; background-color: #f2f2f2; background-image: none; width: 100%; }
+.compare #main-details table tr.hdr td p { display: inline; margin: 0 20px 0 140px; font-weight: bold; }
+.compare #main-details table tr.check-prod td { font-size: 12px; padding: 15px 20px; width: 95px; }
+
+.compare #main-details table tbody tr.odd th,.compare #main-details table tbody tr.odd td { background-color: #f2f2f2; }
+
+.compare #main-details table tbody th.row-heading {
+    color: #666;
+    padding: 20px 10px;
+    vertical-align: top;
+}
+.compare #main-details table tbody td.row-heading {
+    color: #666;
+    padding: 20px 10px;
+    vertical-align: top;
+}
+
+.compare #main-details table tbody th.sub.row-heading em {
+    margin-left: 20px;
+}
+
+.compare #main-details table tbody th em {
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left bottom repeat-x;
+    font-style: normal;
+    font-size:11px;
+}
+
+#container #main-content #main-details table tbody tr th a {
+    background:none;
+    font-size:11px;
+    color:#666666;
+    padding-left:0px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.compare #main-details table tbody td {
+    width: 162px;
+}
+.compare #main-details.two-cols table tbody td {
+    width: 280px;
+}
+
+.compare #main-details.two-cols table thead th.col-heading .heading {
+    display: block;
+    font-size: 18px;
+    width: 280px;
+}
+
+#sign_onOverlay-trigger{
+
+    cursor:pointer;
+}
+
+.compare #main-details.four-cols table tbody td {
+    width: 135px;
+    vertical-align:top;
+}
+
+.compare #main-details.four-cols table thead th.col-heading .heading {
+    display: block;
+    font-size: 18px;
+    width: 85px;
+}
+
+.compare #main-details.four-cols table thead th.col-heading-package .heading {
+    display: block;
+    font-size: 18px;
+    width: 85px;
+}
+
+.compare #main-details table tbody td.checkmark {
+    background-image: url(/JRS/images/marketing/green-checkmark.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.compare #main-details table tbody tr.center td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.compare #main-details table tbody tr td.center {
+    text-align: center;
+}
+
+.compare #main-details table tbody td p,.compare #main-details table tbody td ul
+{
+    margin: 15px 10px;
+}
+
+.compare #main-details table tbody td a {
+
+	margin: 15px 10px;
+}
+
+.compare #main-details table tbody td p,.compare #main-details table tbody td li
+{
+    line-height: 1.5em !important;
+}
+
+.compare #main-details table tbody td li {
+    padding-left: 20px !important;
+}
+
+.compare #main-details table tbody td .price {
+    color: #666;
+    font-size: 20px;
+    text-align: center;
+    font-size: 20px !important;
+}
+
+.compare #main-details table tbody td .price sup {
+    position: relative;
+    right: -5px;
+    font-size: 12px !important;
+}
+
+.compare #main-details table tbody td .price .dollars {
+    font-size: 20px !important;
+}
+
+.compare #main-details table thead .off div,.compare #main-details table thead .off a,.compare #main-details table tbody .off p
+{
+    color: #d2d2d2 !important;
+}
+
+.compare #main-details table thead .col-heading.off .heading {
+    color: #333;
+}
+
+.compare #main-content #main-details table thead .off a {
+    background: url(/JRS/images/marketing/SPR-links.gif) 2px -196px no-repeat;
+}
+
+.compare #main-content #main-details table thead .off .btn-apply-online, .compare #main-content #main-details table thead .off .btn-apply-online-es
+{
+    background: #bdbdbd !important;
+}
+
+a.btn-apply-online-gold {
+        background: url("/JRS/images/marketing/BTN-apply-online-gold.gif") !important;
+        border: medium none;
+        color: #FFFFFF !important;
+        cursor: pointer;
+        display: block;
+        font-family: Arial !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+        line-height: 10px;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+      
+    }
+
+    #container #main-content ul.checklist li.gold {
+        background: url("/JRS/images/marketing/goldCheck.png") no-repeat scroll 0 3px transparent;
+        line-height: 16px;
+        padding: 0 0 10px 25px;
+
+    }
+
+    .compare #main-content #main-details table thead th.col-heading .checkbox-gold {
+        background: url("/JRS/images/marketing/goldSelectedCheckbox.png") no-repeat scroll left top transparent;
+        display: block;
+        height: 15px;
+        position: absolute;
+        right: 0;
+        text-indent: -999em;
+        top: 0;
+        width: 15px;
+    }
+    
+    
+    .compare #main-content #main-details table thead .off .btn-apply-online-gold, .compare #main-content #main-details table thead .off .btn-apply-online-gold-es
+{
+    background: #bdbdbd !important;
+}
+
+.compare #main-content #main-details table thead th.col-heading .checkbox.off
+{
+    background: url(/JRS/images/marketing/SPR-grey-checkbox.gif) left -25px no-repeat;
+}
+
+
+.compare #main-content #main-details table thead th.col-heading .checkbox-gold.off
+{
+    background: url(/JRS/images/marketing/SPR-grey-checkbox.gif) left -25px no-repeat;
+}
+
+
+
+.compare #main-details table tbody td.checkmark.off {
+    background-image: url(/JRS/images/marketing/grey-checkmark.gif);
+}
+
+.compare #main-content #main-details table tbody td.off li.gold {
+    background-image: url(/JRS/images/marketing/grey-checkmark.gif);
+    color: #d2d2d2;
+}
+
+.compare #main-content #main-details table tbody td.off li {
+    background-image: url(/JRS/images/marketing/grey-checkmark.gif);
+    color: #d2d2d2;
+}
+
+.sub-category #main-details .collapsible-toggle, .compare #main-details .collapsible-toggle {
+    float: none;
+    background: #69c;
+    border-bottom: 1px solid #ddd;
+	display: block;
+}
+
+.sub-category #main-content.ways-to-bank-with-citi #main-details .collapsible-toggle a, .compare #main-content.checking #main-details .collapsible-toggle a {
+    display: block;
+    background: none;
+    color: #fff;
+    padding: 5px 0 5px 32px;
+    font-weight: normal;
+}
+
+#container.compare #main-content.checking .collapsible-toggle a, #container.sub-category #main-content.ways-to-bank-with-citi #main-details .collapsible-toggle a
+
+
+{
+    background: url(/JRS/images/marketing/SPR-toggles.gif) 10px -45px no-repeat;
+}
+
+#container.compare #main-content.checking .collapsible-toggle.closed a, #container.sub-category #main-content.ways-to-bank-with-citi #main-details .collapsible-toggle.closed a
+{
+    background: url(/JRS/images/marketing/SPR-toggles.gif) 10px 5px no-repeat;
+}
+
+.compare #main-details .collapsible, .sub-category #main-details .collapsible {
+    float: none;
+}
+
+.category .small-business-overview #main-summary {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.category .small-business-overview #main-summary .top-links {
+    padding-left: 445px;
+}
+
+
+.category .small-business-overview #main-summary .top-links strong {
+    float: left;
+    position: relative;
+    top: 10px;
+    color: #666;
+}
+
+.category .small-business-overview #main-summary .top-links a.btn-overlay
+{
+    float: left;
+    font-weight: bold;
+    width: 140px;
+}
+
+.category .small-business-overview .category-heading .links-collection {
+    margin-top: 10px !important;
+}
+
+.category .small-business-overview .category-heading .links-collection.hrz li
+{
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+.category .small-business-overview #main-details {
+    background: none;
+}
+
+.category .small-business-overview #main-details .top.row {
+    position: relative;
+    min-height: 220px;
+    margin-bottom: 25px;
+    border-top: none;
+    padding: 0;
+}
+
+.category .small-business-overview #main-details .top.row .inner-content
+{
+    padding: 25px 0 25px 215px;
+}
+
+.category .small-business-overview #main-details .top.row .intserv
+{
+    padding: 0px 0 0px 25px;
+}
+
+.category .small-business-overview #main-details .top.row img {
+    position: absolute;
+    left: 20px;
+    top: 32px;
+}
+
+.category .small-business-overview #main-details .top.row .heading {
+    margin-bottom: 10px;
+}
+
+.category .small-business-overview #main-details .top.row p {
+    line-height: 1.5em;
+    margin: 0 25px 10px 0;
+}
+
+.category .small-business-overview #main-details .top.row ul {
+    overflow: hidden;
+    *margin-bottom: 10px;
+}
+
+.category .small-business-overview #main-details .top.row li {
+    float: left;
+    width: 235px;
+    margin-bottom: 10px;
+}
+
+.category .small-business-overview #main-details .top.row .footer {
+    clear: both;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left -2px repeat-x;
+    width: 450px;
+    padding-top: 15px;
+}
+
+.category .small-business-overview #main-details .two-cols {
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+.category .small-business-overview #main-details .two-cols .col.b {
+    margin-left: -2px;
+    border-left: 1px solid #ccc;
+}
+.category .small-business-overview #main-details .col-bordertop {
+	border-top: 1px solid #CCCCCC;
+	padding:25px 0 5px 0;
+	margin:25px 0 0 0;
+	overflow:hidden;
+}
+.category .small-business-overview #main-details .col-bordertop .video-col{
+	width:205px;
+	margin:0 20px 0 0;
+}
+
+
+.category .small-business-overview #main-details .two-cols .col .heading,.category .small-business-overview #main-details .two-cols .col img,.category .small-business-overview #main-details .two-cols .col p,.category .small-business-overview #main-details .two-cols .col ul,.category .small-business-overview #main-details .two-cols .col.footer, .category .small-business-overview #main-details .two-cols .col h3
+{
+    margin: 0 25px;
+}
+
+.category .small-business-overview #main-details .two-cols .col img,.category .small-business-overview #main-details .two-cols .col p
+{
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.category .small-business-overview #main-details .two-cols .col .heading,.category .small-business-overview #main-details .two-cols .col ul,.category .small-business-overview #main-details .two-cols .col li
+{
+    margin-bottom: 5px;
+}
+
+.category .small-business-overview #main-details .two-cols .col ul {
+
+    overflow: hidden;
+}
+
+.category .small-business-overview #main-details .two-cols .footer {
+    clear: both;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left -2px repeat-x;
+    padding: 10px 0;
+    margin: 0 25px;
+}
+
+.category .small-business-overview #main-details .two-cols .footer a {
+    margin-right: 10px;
+}
+
+.category .small-business-overview #main-details .two-cols .footer a.btn-overlay
+{
+    font-weight: bold;
+}
+
+.category .small-business-overview #main-content-footer .btn-branch-locator
+{
+    float: left;
+    margin: -5px 10px 0 0;
+}
+
+#product-details-breadcrumb #breadcrumb a{
+    color: #666666;
+    font-size: 11px !important;
+    text-decoration: none;
+    background: none repeat scroll 0 0 transparent !important;
+    padding-left: 0 !important;
+
+}
+
+#rates-breadcrumb #breadcrumb a{
+    color: #666666;
+    font-size: 11px !important;
+    text-decoration: none;
+    background: none repeat scroll 0 0 transparent !important;
+    padding-left: 0 !important;
+}
+
+#product-details-breadcrumb {
+    width: 100%;
+    height: 25px;
+}
+
+#rates-breadcrumb {
+    width: 100%;
+    height: 25px;
+}
+
+#product-details-breadcrumb #breadcrumb {
+    margin-left: 0 !important;
+}
+
+#rates-breadcrumb #breadcrumb {
+    margin-left: 0 !important;
+}
+
+.product-details .everyday-banking #main-summary {
+    position: relative;
+    width: 720px;
+    padding-right: 0;
+    margin-bottom: 10px;
+}
+
+.product-details .everyday-banking #main-summary .everyday-banking-heading
+{
+    float: none;
+    margin: 0 0 0 -30px;
+    overflow: hidden;
+}
+
+.product-details .everyday-banking #main-summary .everyday-banking-heading-banner
+{
+    float: none;
+    margin: 0 0 0px -12px;
+    overflow: hidden;
+}
+
+.product-details .everyday-banking #main-summary .everyday-banking-heading-banner a
+{
+    padding-left: none;
+    background: none;
+}
+
+.product-details .everyday-banking #main-summary .everyday-banking-heading .links-collection
+{
+    float: right;
+    margin: 20px 0 0 0;
+}
+
+.product-details .everyday-banking #main-summary #main-heading {
+    float: none;
+    line-height: 1em;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+	
+}
+
+.product-details .everyday-banking #main-summary .top-links {
+    position: absolute;
+    top: 240px;
+    right: 0;
+    width: 360px;
+    margin: 0 0 30px 175px;
+    text-align: right;
+}
+
+.product-details .everyday-banking #main-summary .top-links .btn-branch-locator
+{
+    float: right;
+}
+
+.product-details .everyday-banking #main-summary .top-links .btn-overlay
+{
+    float: right;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.product-details .everyday-banking #main-details {
+    padding: 0;
+}
+
+.product-details .everyday-banking #main-details .tab-content-header,.product-details .everyday-banking #main-details .tab-content-footer,.product-details .everyday-banking #main-details .row
+{
+    float: left;
+    width: 638px;
+    padding: 25px 0;
+    margin: 0 25px;
+    overflow: visible;
+}
+
+.product-details .everyday-banking #main-details .tab-content-header .intro
+{
+    line-height: 1.85em;
+    margin-bottom: 15px;
+}
+
+.product-details .everyday-banking #main-details .row {
+    position: relative;
+    background: #fff;
+    border-top: 2px solid #c5c5c5;
+}
+
+.product-details .everyday-banking #main-details .heading {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.product-details .everyday-banking #main-details .row .heading {
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+.product-details .everyday-banking #main-details .row .heading a{
+	background:none !important;
+	color: #666 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+	padding-left: 0 !important;
+}
+.product-details .everyday-banking #main-details .row .overdraft.heading
+{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.product-details .everyday-banking #main-details .heading span {
+    color: #333;
+}
+
+.product-details .everyday-banking #main-details .row .description {
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product-details .everyday-banking #main-details .row .side {
+    width: 195px;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.product-details .everyday-banking #main-details .row .side.top {
+    position: absolute;
+    right: 0;
+    top: 67px;
+    height: 90px;
+    z-index: 99;
+}
+
+.product-details .everyday-banking #main-details .row .collapsible #fees-and-conditions-2 { top: -10px; }
+
+.product-details .everyday-banking #main-details .row .collapsible #fees-and-conditions-3 { top: -45px; }
+
+.product-details .everyday-banking #main-details .row .side.top h3 {
+    margin-bottom: 10px;
+}
+
+.product-details .everyday-banking #main-details .row .collapsible {
+    position: relative;
+    width: 638px;
+    padding-top: 15px;
+}
+
+.product-details .everyday-banking #main-details .row .collapsible.closed
+{
+    overflow: hidden;
+}
+
+.product-details .everyday-banking #main-details .row .collapsible .side.bottom
+{
+    position: absolute;
+    right: 0;
+    top: -25px;
+
+}
+
+.product-details .everyday-banking #main-details .row .collapsible .side.bottom table
+{
+    margin-top: 15px;
+    border-collapse: collapse;
+
+}
+
+.product-details .everyday-banking #main-details .row .collapsible .side.bottom table th,.product-details .everyday-banking #main-details .row .collapsible .side.bottom table td
+{
+    background: #fff;
+    line-height: 1.2em;
+    padding: 7px;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.product-details .everyday-banking #main-details .row .collapsible .side.bottom table th
+{
+    text-align: left;
+    font-weight: normal;
+}
+
+.product-details .everyday-banking #main-details .row .collapsible .side.bottom table td
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-details .everyday-banking #main-details .row .collapsible .side.bottom table tr.odd th,.product-details .everyday-banking #main-details .row .collapsible .side.bottom table tr.odd td
+{
+    background: #f2f2f2;
+}
+
+.product-details .everyday-banking #main-details .row .collapsible .checklist
+{
+    clear: left;
+}
+
+.product-details .everyday-banking #main-details .row .collapsible .checklist li
+{
+    padding-bottom: 15px !important;
+}
+
+.product-details .everyday-banking #main-details .row .collapsible .collapsible-footer
+{
+    clear: both;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left 2px repeat-x;
+    padding: 25px 0 0;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.product-details .everyday-banking #main-details .row .collapsible .collapsible-footer .btn-branch-locator
+{
+    position: relative;
+    float: right;
+    top: -3px;
+    margin-left: 10px;
+}
+
+.product-details .everyday-banking #main-details .row .two-cols {
+    overflow: hidden;
+}
+
+.product-details .everyday-banking #main-details #checking-products .row .two-cols .col .description
+{
+    width: auto;
+}
+
+.product-details .everyday-banking #main-details select {
+    width: 190px;
+}
+
+.product-details .everyday-banking #main-details .row .two-cols .col.b {
+
+    margin-left: -1px;
+    border-left: 1px solid #ccc;
+}
+
+.product-details .everyday-banking #main-details .row .two-cols .col.a h3,.product-details .everyday-banking #main-details .row .two-cols .col.a p
+{
+    margin-right: 10px;
+}
+
+.product-details .everyday-banking #main-details .row .two-cols .col.b h3,.product-details .everyday-banking #main-details .row .two-cols .col.b p
+{
+    margin-left: 20px;
+}
+
+.product-details .everyday-banking #main-details .tab-content-footer {
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    text-align: right;
+}
+
+.product-details .everyday-banking #main-details .tab-content-footer a {
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+.product-details .everyday-banking #main-content-footer .bottom-links .btn-branch-locator
+{
+    float: left;
+    margin: -5px 10px 0 0;
+}
+
+.product-details .everyday-banking #main-content-footer .bottom-links .btn-overlay
+{
+    margin: 0 10px 0 20px;
+    font-weight: bold;
+}
+
+.product-details .everyday-banking #main-details #checking-products .row .description,.product-details .everyday-banking #main-details #checking-products .row .collapsible .checklist
+{
+    width: 400px;
+}
+
+.product-details #main-details .tab-content table {
+    background-color: #fff;
+    border: 0 none;
+    border-top: 1px solid #ccc;
+    border-spacing: 0;
+    border-collapse: collapse;
+    clear: both;
+}
+.product-details #main-details .tab-content table caption{
+    border-bottom: 1px dotted #999;
+    border-top: 1px solid #CCCCCC;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px 0 10px 5px;
+}
+
+.product-details #main-details .tab-content table th {
+    border: 1px dotted #999;
+    border-right: 1px solid #CCCCCC;
+    border-width: 1px 0;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 0 8px 5px;
+    vertical-align: bottom;
+}
+
+#container.product-details #main-details .tab-content table a.collapsible-toggle {
+    background: url("/JRS/images/marketing/SPR-toggles.gif") no-repeat scroll 0 -50px
+        transparent;
+    padding-left: 20px !important;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+#container.product-details #main-details .tab-content table a.collapsible-toggle.closed
+{
+    background-position: 0 0;
+}
+
+.vIE7 #container.product-details #main-details .tab-content table a.collapsible-toggle
+{
+    background-position: 0 -50px;
+}
+
+.vIE7 #container.product-details #main-details .tab-content table a.collapsible-toggle.closed
+{
+    background-position: 0 0;
+}
+
+.product-details #main-details .tab-content table .collapsible {
+    clear: none;
+    float: none;
+}
+
+.product-details #main-details .tab-content table tr td, .product-details #main-details .tab-content table tr th {
+    width: 284px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    padding: 15px 12px;
+
+    font-size: 12px;
+    color: #333;
+    vertical-align: top;
+}
+
+.product-details #main-details .tab-content table tr td.twocolumns {
+    background: transparent url(/JRS/images/marketing/row-bg.png) repeat-y -220px top;
+    border-right: 1px solid #ccc !important;
+    font-size: 11px;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.product-details #main-details .tab-content#Citigold-compare table tr td.twocolumns {
+    background: transparent url(/JRS/images/marketing/row-bg.png) repeat-y -216px top;
+}
+
+.vIE7 .product-details #main-details .tab-content#Citigold-compare table tr.header td.twocolumns
+{
+    background: transparent url(/JRS/images/marketing/row-bg-ie7.png) repeat-y -111px top;
+}
+
+.product-details #main-details .tab-content table tr.header td.twocolumns {
+    text-align: center;
+}
+
+.product-details #main-details .tab-content table tr td.twocolumns div {
+    width: 45px;
+    float: left;
+    padding-left: 3px;
+}
+
+.product-details #main-details .tab-content table tr td.twocolumns div.apy {
+    padding-left: 0;
+    padding-right: 6px;
+    width: 34px;
+}
+
+.product-details #main-details .tab-content#Citigold-compare table tr td.twocolumns div.apy
+{
+    padding-right: 14px;
+}
+
+.vIE7 #container.product-details #main-details .tab-content table tr td.twocolumns div.apy
+{
+    width: 34px;
+}
+
+.vIE7 #container.product-details #main-details .tab-content table tr td.twocolumns div
+{
+    width: 36px;
+}
+
+.product-details #main-details .tab-content table tr td select {
+    width: 145px;
+}
+
+.product-details #main-details .tab-content table tr td span {
+    color: #333;
+    padding: 0 10px;
+}
+
+.product-details #main-details .tab-content table tr td.twocolumnsheader {
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.product-details #main-details .tab-content table tr td.first-colum, .product-details #main-details .tab-content table tr th.first-colum {
+    width: 284px;
+}
+
+.product-details #main-details .tab-content table tr td.second-colum, .product-details #main-details .tab-content table tr th.second-colum {
+    width: 200px;
+}
+
+.product-details #main-details .tab-content table tr td.third-colum, .product-details #main-details .tab-content table tr th.third-colum {
+    width: 149px;
+
+}
+
+.product-details #main-details #home.tab-content table tr td.joint-column {
+    width: 420px;
+}
+
+.product-details #main-details #home.tab-content table tr td.first-colum {
+    width: auto;
+}
+
+.product-details #main-details #home.tab-content table tr td.second-colum {
+    width: 140px;
+}
+
+.product-details #main-details #home.tab-content table tr td.third-colum {
+    width: 190px;
+}
+
+.vIE7 .product-details #main-details #home.tab-content table tr td.first-colum,.vIE8 .product-details #main-details #home.tab-content table tr td.first-colum
+{
+    width: 205px;
+}
+
+.vIE8 .product-details #main-details #home.tab-content table tr td.third-colum {
+    width: 275px;
+}
+
+.product-details #main-details #checking table,.product-details #main-details #certificates table
+{
+    margin-bottom: 30px;
+}
+
+.product-details #main-details #checking.tab-content table tr td.first-colum {
+    width: 195px;
+}
+
+.product-details #main-details #certificates.tab-content table tr td.first-colum {
+    width: 177px;
+}
+
+.product-details #main-details #checking.tab-content table tr td.second-colum,.product-details #main-details #certificates.tab-content table tr td.second-colum
+{
+    width: 74px;
+}
+
+.product-details #main-details #checking.tab-content table tr td.third-colum,.product-details #main-details #certificates.tab-content table tr td.third-colum
+{
+    width: 74px;
+}
+
+.product-details #main-details #checking.tab-content table tr td.fourth-colum,.product-details #main-details #certificates.tab-content table tr td.fourth-colum
+{
+    width: 218px;
+}
+
+.product-details #main-details #citigold.tab-content table tr td.first-colum {
+    width: 303px;
+}
+
+.product-details #main-details #citigold.tab-content table tr td.first-colum a {
+    color: #957f55;
+}
+
+.vIE7 .product-details #main-details #citigold.tab-content table tr td.span4 {
+    width: 500px;
+}
+
+.product-details #main-details #citigold.tab-content table tr td.second-colum {
+    width: 102px;
+}
+
+.product-details #main-details #citigold.tab-content table tr td.third-colum {
+    width: 102px;
+}
+
+.product-details #main-details #citigold.tab-content table tr td.fourth-colum {
+    width: 140px;
+}
+
+.product-details #main-details .tab-content table tr.dotted td {
+    border-bottom-style: dotted;
+}
+
+.product-details #main-details .tab-content table tr td:last-child {
+    border-right: 0 none;
+}
+
+.product-details #main-details .tab-content table tr td.last, .product-details #main-details .tab-content table tr th.last {
+    border-right: 0 none !important;
+    padding-right: 0;
+}
+
+.product-details #main-details .tab-content table tr td.padding-top {
+    vertical-align: top;
+    padding-top: 45px;
+}
+
+.product-details #main-details .tab-content table tr td p {
+    padding-top: 10px;
+    margin: 0;
+    color: #333;
+}
+
+.product-details #main-details .tab-content table tr td sup {
+    font-size: 9px;
+    position: relative;
+    top: -1px;
+    font-weight: normal;
+}
+
+.product-details #main-details .tab-content table tr.header td, th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+.product-details #main-details .tab-content table tr td ul {
+    margin-bottom: 15px;
+}
+
+.product-details #main-details .tab-content table tr td ul li {
+    color: #333;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    background: transparent url(/JRS/images/marketing/row-bullet.jpg) no-repeat left 4px;
+}
+
+.bIE #container.product-details #main-details .tab-content table tr td ul li {
+    background-position: left 6px;
+}
+
+.product-details #main-details #citigold.tab-content table tr.header {
+    background: transparent url(/JRS/images/marketing/BG-gold.gif) repeat left top;
+}
+
+.product-details #main-details #citigold.tab-content table tr.header td {
+    background-color: transparent;
+}
+
+#container.product-details #main-details a.btn-apply-online, #container.product-details #main-details a.btn-apply-online-es {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.sub-category .small-business-solutions #main-summary {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.sub-category .small-business-solutions #main-summary .sub-category-heading
+{
+    float: none;
+    margin: 0 0 25px -30px;
+    overflow: hidden;
+}
+
+.sub-category .small-business-solutions #main-summary .sub-category-heading .links-collection
+{
+    float: right;
+    margin: 20px 0 0 0;
+}
+
+.sub-category .small-business-solutions #main-summary .intro {
+    line-height: 1.5em;
+}
+
+.sub-category .small-business-solutions #main-summary .top-links {
+    height: auto;
+    padding-left: 445px;
+    margin-bottom: 15px;
+}
+
+.sub-category .small-business-solutions #main-summary .top-links strong
+{
+    float: left;
+    position: relative;
+    top: 5px;
+    color: #666;
+    margin-right: 5px;
+}
+
+.sub-category .small-business-solutions #main-summary .top-links a.btn-overlay
+{
+    float: left;
+    font-weight: bold;
+    width: 140px;
+}
+
+.sub-category .small-business-solutions #main-summary .products {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.sub-category .small-business-solutions #main-summary .products .inner-content
+{
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.sub-category .small-business-solutions #main-summary .products .product
+{
+    position: relative;
+    float: left;
+    width: 180px;
+    min-height: 500px;
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+.sub-category .small-business-solutions #main-summary .products .product.a
+{
+    width: 205px;
+}
+
+.sub-category .small-business-solutions #main-summary .products .product.b
+{
+    width: 205px;
+    margin: 0 -1px;
+    border: 1px solid #ccc;
+    border-width: 0 1px;
+}
+
+.sub-category .small-business-solutions #main-summary .products .product.c
+{
+    width: 205px;
+}
+
+.sub-category .small-business-solutions #main-summary .products .product .heading,.sub-category .small-business-solutions #main-summary .products .product img,.sub-category .small-business-solutions #main-summary .products .product p
+{
+    margin-bottom: 10px;
+}
+
+.sub-category .small-business-solutions #main-summary .products .product .heading
+{
+    float: left;
+    clear: both;
+    color: #656565;
+    line-height: 1.2em;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.sub-category .small-business-solutions #main-summary .products .product p
+{
+    margin-right: 15px;
+    bottom: 60px;
+    position: absolute;
+    *padding-right: 45px;
+}
+
+.sub-category .small-business-solutions #main-summary .products .product li
+{
+    background: none;
+    padding: 0;
+    margin: 0 20px 10px 0;
+}
+
+.sub-category .small-business-solutions #main-summary .products .bottom
+{
+    position: absolute;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 10px 0 0;
+    margin: 0 25px !important;
+}
+
+.sub-category .small-business-solutions #main-details {
+    padding: 0;
+}
+
+.sub-category .small-business-solutions #main-details .row {
+    padding: 25px 0 20px 200px;
+    border-top: 2px solid #c5c5c5;
+}
+
+.sub-category .small-business-solutions #main-details .top.row {
+    margin-top: 5px;
+    border-top: none;
+}
+
+.sub-category .small-business-solutions #main-details .row img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 25px;
+}
+
+.sub-category .small-business-solutions #main-details .heading {
+    line-height: 1em;
+    padding-top: 0;
+    border-top: none;
+}
+
+.sub-category .small-business-solutions #main-details p {
+    margin-bottom: 15px;
+}
+
+.sub-category .small-business-solutions #main-details ul {
+    overflow: hidden;
+}
+
+.sub-category .small-business-solutions #main-details li {
+    float: left;
+    width: 50%;
+    padding-left: 0;
+}
+
+.sub-category .small-business-solutions #main-content-footer .left,.sub-category .small-business-solutions #main-content-footer .left .btn-branch-locator,.sub-category .small-business-solutions #main-content-footer .left .telephone
+{
+    float: left;
+}
+
+.sub-category .small-business-solutions #main-content-footer .left {
+    *padding: 5px 0;
+}
+
+.sub-category .small-business-solutions #main-content-footer .right {
+    float: right;
+    *padding: 5px 0;
+}
+
+.sub-category .small-business-solutions #main-content-footer .btn-branch-locator
+{
+    margin: -5px 10px 0 0;
+    font-weight: bold;
+}
+
+.sub-category .small-business-solutions #main-content-footer .btn-overlay
+{
+    font-weight: bold;
+}
+
+#main-summary-ctas {
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 0 0 1px;
+    padding: 10px 0;
+    height: 50px;
+    margin-bottom: 10px;
+}
+#main-summary-ctas-nobdr {
+    border:none;
+    padding: 10px 0;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+#main-summary-ctas .item-a {
+    float: left;
+    padding: 10px 20px 0px 0px;
+}
+
+#main-summary-ctas .item-a_sp {
+    float: left;
+    padding: 10px 0px 10px 0px;
+}
+
+#main-summary-ctas .item-b {
+    float: right;
+    padding: 12px 0 10px 20px;
+}
+
+#main-summary-ctas .item-c {
+    float: left;
+    padding: 10px 0 10px 20px;
+}
+#main-summary-ctas .header {
+    float: left;
+    padding: 0;
+}
+
+#main-summary-ctas .contact {
+    float: right;
+    font-size: 12px;
+    height: 20px;
+    padding: 12px 0 10px 0px;
+}
+
+#main-summary-ctas .contact-left {
+    float: left;
+    font-size: 12px;
+    height: 0px;
+    padding: 12px 0 0 40px;
+}
+#main-summary-ctas .contact_us {
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    padding: 12px 0 10px 0px;
+}
+
+#main-summary-ctas .contact_us_sp {
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    padding: 12px 0 10px 10px;
+}
+
+#main-summary-ctas .contact-button {
+    float: right;
+    font-size: 12px;
+    height: 20px;
+    overflow: hidden;
+    padding: 10px 0 10px 0px;
+}
+
+#main-summary-ctas .contact-button a {
+    display: inline-block !important;
+}
+#main-summary-ctas .contactLongTxt {
+    float: right;
+    font-size: 12px;
+    height: 30px;
+    overflow: hidden;
+    padding: 5px 0 15px 20px;
+    width:390px;
+}
+#main-summary-ctas .contactLongTxt-left {
+    float: left;
+    height: 0px;
+    width: 400px;
+    padding: 2px 0 0 100px;
+}
+#main-summary-ctas .contact-compressed {
+    float: left;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 5px 0 15px 20px;
+    width:200px;
+}
+
+#main-summary-ctas .contact-compressed_sp {
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    overflow: hidden;
+    padding: 5px 0 15px 10px;
+	padding: 5px 0 15px 0px\0/;
+	width:164px;
+}
+
+#main-summary-ctas .visit-compressed_sp {
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    overflow: hidden;
+    padding: 5px 0 15px 10px;
+	 padding: 5px 0 15px 0px\0/;
+	width:201px;
+}
+
+#main-summary-ctas .call-compressed {
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    overflow: hidden;
+    padding: 5px 0 10px 20px;
+	width:160px;
+	margin-top:5px;
+}
+
+
+#main-summary-ctas .call-compressed_sp {
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    overflow: hidden;
+    padding: 5px 0 10px 10px;
+	width:170px;
+	margin-top:5px;
+}
+
+#main-summary-ctas .visit-compressed {
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    overflow: hidden;
+    padding: 5px 0 15px 20px;
+	width:150px;
+	background-image:url(../JRS/CitiGold_BTG/images/icon_branch.png) no-repeat;
+}
+
+#main-summary-ctas .class-compressed {
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    overflow: hidden;
+    padding: 5px 0 15px 20px;
+	width:150px;
+}
+
+#main-summary-ctas .contact a {
+    display: inline-block !important;
+}
+
+#main-summary-ctas-OverdraftProtection {
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 0 0 1px;
+    height: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+
+#main-summary-ctas .item-right{
+    float: right;
+}
+
+#main-summary-ctas .item-left{
+    float: left;
+    padding: 12px 0 10px 20px;
+}
+
+
+.product-details #main-summary {
+    position: relative;
+    margin: 0 0 0px -30px;
+    overflow: hidden;
+}
+
+.product-details #main-summary .two-cols {
+    overflow: hidden;
+    margin: 29px 20px 29px 29px;
+}
+
+.product-details #main-summary .two-cols li {
+    float: left;
+}
+
+.product-details #main-summary .two-cols li.a {
+    padding-right: 20px;
+    width: 415px;
+    border-right: 1px solid #ccc;
+}
+
+.product-details #main-summary .two-cols li.a_equal {
+    padding-right: 20px;
+    width: 315px;
+    border-right: 1px solid #ccc;
+}
+
+.product-details #main-summary .two-cols li.b {
+    width: 228px;
+    border-left: 1px solid #ccc;
+    margin-left: -1px;
+}
+
+.product-details #main-summary #main-heading {
+    margin: 0;
+}
+
+.product-details #main-summary .tag-line {
+    color: #656565;
+    display: block;
+    line-height: 20px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+.product-details #main-summary .intro {
+    clear: both;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.product-details #main-summary .summary-side {
+    width: 220px;
+}
+
+.product-details #main-summary .summary-side_equal {
+    width: 350px;
+	padding-left:10px;
+}
+
+.product-details #main-summary .summary-side h3,.product-details #main-summary .summary-side ul,.product-details #main-summary .summary-side a
+{
+    margin-left: 25px;
+}
+
+.product-details #main-summary .summary-side h3,.product-details #main-summary .summary-side ul
+{
+    font-size: 13px;
+}
+
+.product-details #main-summary .summary-side h3 {
+    margin: 0 5px 15px;
+}
+
+.product-details #main-summary .summary-side ul {
+    overflow: hidden;
+}
+
+.product-details #main-summary .summary-side .btn-apply-online, .product-details #main-summary .summary-side .btn-apply-online-es {
+    width: 85px;
+}
+
+.product-details #main-summary .breakdown {
+    width: 430px;
+    overflow: hidden;
+}
+
+.product-details #main-summary .breakdown ul {
+    overflow: hidden;
+    padding: 12px 0 12px;
+}
+
+.product-details #main-summary .breakdown li {
+
+    float: left;
+    width: 142px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.product-details #main-summary .breakdown li.middle {
+    border: 1px dotted #ccc;
+    border-width: 0 1px;
+}
+
+.product-details #main-summary .breakdown li .price {
+    display: block;
+    font-size: 40px;
+    color: #cdcdcd;
+    margin-bottom: 10px;
+}
+
+.product-details #main-summary .breakdown li .price1 {
+    display: block;
+    font-size: 13px;
+    color: #cdcdcd;
+    margin-bottom: 10px;
+}
+
+.product-details #main-summary .breakdown li .price sup {
+    font-size: 12px;
+    position: relative;
+	top:-15px;
+}
+
+.product-details #main-summary .btn-fees {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.product-details #main-details,.rates #main-details {
+    padding: 0;
+    border: none;
+}
+
+.rates #main-details {
+    margin: 40px 0 0;
+}
+
+.rates #main-details>.border {
+    margin: 0 0 40px;
+}
+
+.product-details #main-details .tab-content-header {
+    padding: 40px 0 20px;
+    margin: 0 25px;
+}
+
+.product-details #main-details .row {
+    padding: 25px 0;
+}
+
+.product-details #main-details .two-cols .col {
+    float: left;
+    width: 318px;
+}
+
+.product-details #main-details .assistance-category {
+    padding: 25px 0;
+}
+
+.product-details #main-details .row,.product-details #main-details .feature-category,.product-details #main-details .assistance-category
+{
+    width: 638px;
+    margin: 0 25px;
+    border-top: 2px solid #c5c5c5;
+    overflow: hidden;
+}
+
+.product-details #main-details .feature-category {
+    padding-bottom: 20px;
+}
+
+.product-details #works-well-with .feature-category.two-cols {
+    padding-bottom: 25px;
+}
+.product-details #main-details .feature-category .featureA {
+	float:left;
+	width:380px;
+}
+.product-details #main-details .feature-category  .video {
+	float:left;
+	width:205px;
+	margin: 20px 20px 0 0;
+}
+
+.product-details #main-details .feature-category .feature-header {
+    color: #676767;
+    padding: 20px 0 5px 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+.product-details #main-details .feature-category .feature-header-gold {
+    color: #957F55;
+    padding: 20px 0 5px 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.product-details #main-details .feature-category .feature-header span  {
+    float:left;
+    font-size:18px;
+}
+.product-details #main-details .feature-category .feature-header-gold span  {
+    float:left;
+    font-size:18px;
+}
+
+.product-details #main-details .feature-category .feature-header sup  {
+    /*float:left;*/
+    margin:0 4px 0 0;
+    vertical-align: super;
+
+}
+.product-details #main-details .feature-category .feature-header-gold sup  {
+    margin:0 4px 0 0;
+    vertical-align: super;
+}
+
+.product-details #main-details .feature.even .feature-header,.product-details #main-details .feature.odd .feature-header
+{
+    padding-bottom: 5px;
+}
+
+.product-details #main-details .feature-category.no-border {
+    border: 0 none;
+    margin-top: 20px;
+}
+
+.product-details #main-details .feature-category .feature ul li {
+    background: url(/JRS/images/marketing/SPR-links.gif) 0 -282px no-repeat;
+    padding: 12px 0 0 12px;
+    line-height: 1.3em;
+}
+.product-details #main-details .feature-category .feature ul .reduced {
+    background: url(/JRS/images/marketing/SPR-links-reduced.gif) 0 -282px no-repeat !important;
+    padding: 12px 0 0 12px;
+    line-height: 1.3em;
+}
+.product-details #main-details .feature-category .featureA ul li {
+	background: url(/JRS/images/marketing/SPR-links.gif) 0 -282px no-repeat;
+	padding: 12px 0 0 12px;
+	line-height:1.3em;
+}
+
+.product-details #main-details .feature-category .feature .collapsible ul li{
+    line-height: 1.3em;
+    background:none;
+    padding:0;
+}
+
+.product-details #main-details .add-on h4,.product-details #main-details .feature h4
+{
+    float: left;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left bottom repeat-x;
+    line-height: 1.4em;
+    cursor: pointer;
+}
+
+.product-details #main-details .feature h4,.product-details #main-details .add-on p,.product-details #main-details .feature p
+{
+    clear: both;
+    line-height: 1.5em;
+}
+
+.product-details #main-details .feature p {
+    margin-top: 12px;
+}
+
+.product-details #main-details .add-on.even,.product-details #main-details .feature.even
+{
+    border-right: 1px solid #c5c5c5;
+}
+
+.product-details #main-details .feature.even,.product-details #main-details .feature.odd
+{
+    margin-top: 25px;
+    padding-top: 0;
+}
+.product-details #main-details .add-on.even,.product-details #main-details .feature.noBdr
+{
+    border-right: none;
+}
+.product-details #account-features .feature.even,.product-details #account-features .feature.odd
+{
+    margin: 25px 0;
+    height: 160px;
+}
+
+.product-details #main-details .feature.even h3,.product-details #main-details .feature.even p,.product-details #main-details .feature.even ul
+{
+    margin-right: 20px;
+}
+
+.product-details #main-details .feature.even h3,.product-details #main-details .feature.odd h3
+{
+    padding-top: 0;
+}
+
+.product-details #main-details .add-on.odd,.product-details #main-details .feature.odd
+{
+    border-left: 1px solid #c5c5c5;
+    margin-left: -1px;
+}
+
+.product-details #main-details .feature.odd h3,.product-details #main-details .feature.odd p,.product-details #main-details .feature.odd ul
+{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.product-details #main-details .add-on.no-border,.product-details #main-details .feature.no-border
+{
+    border: 0 none;
+}
+
+.product-details #main-details .tab-content-footer {
+    position: relative;
+    text-align: right;
+    line-height: 25px;
+    padding-right: 80px;
+    padding-top: 40px;
+}
+
+.product-details #main-details .tab-content-footer .btn-next {
+    position: relative;
+    background: url(/JRS/images/marketing/light-blue-greater-than.jpg) no-repeat 95% 50% !important;
+    right: 0;
+    bottom: 0;
+    
+    color: #39C;
+    padding: 0 25px 0 10px;
+    margin-left: -70px;
+    border: 2px solid #c5c5c5;
+    border-width: 1px 0 0 1px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    left: 80px;
+}
+
+#account-features .feature-category .feature h4 {
+    margin: 0 10px 10px 0;
+}
+
+#account-features .feature-category .feature:hover h4 {
+    color: #39C;
+}
+
+#account-features .feature-category .feature.odd h4,#account-features .feature-category .feature.odd p
+{
+    margin-left: 25px;
+}
+
+#main-content #account-features .collapsible {
+    width: 638px;
+}
+
+#main-content #account-features .collapsible-toggle {
+    background: none;
+    float: none;
+    clear: left;
+    width: 175px;
+    margin-bottom: 5px;
+}
+#main-content p.miranda {
+	border: 1px solid black; 
+	font-weight:bold; 
+	font-size:13px !important;
+	padding: 5px; 
+	text-align:center;
+	text-transform:uppercase;
+}
+#account-features .row .add-on {
+    position: relative;
+}
+
+#account-features .row .add-on.even h4,#account-features .row .add-on.even p
+{
+    margin: 0 30px 10px 55px;
+}
+
+#account-features .row .add-on.odd h4,#account-features .row .add-on.odd p
+{
+    margin: 0 10px 10px 75px;
+}
+
+#account-features .row .add-on p {
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left bottom repeat-x;
+    min-height: 160px;
+    margin-right: 25px;
+    margin-top: 10px!important;
+}
+
+#account-features .row .add-on .bottom {
+    float: none;
+    color: #999;
+    bottom: 0;
+    margin-left: 70px;
+    overflow: hidden;
+}
+
+#account-features .row .add-on .bottom-first {
+    float: none;
+    color: #999;
+    bottom: 0;
+    margin-left: 55px;
+    overflow: hidden;
+}
+
+#account-features .row .add-on .bottom big,#account-features .row .add-on .bottom small
+{
+    float: left;
+}
+
+#account-features .row .add-on .bottom-first big,#account-features .row .add-on .bottom-first small
+{
+    float: left;
+}
+
+#account-features .row .add-on .bottom big {
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#account-features .row .add-on .bottom-first big {
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#account-features .row .add-on .bottom big.price {
+    position: relative;
+    padding: 0 15px 0 7px;
+}
+
+#account-features .row .add-on .bottom-first big.price {
+    position: relative;
+    padding: 0 15px 0 7px;
+}
+
+#account-features .row .add-on .bottom big.price sup {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 11px !important;
+}
+
+#account-features .row .add-on .bottom-first big.price sup {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 11px !important;
+}
+
+#account-features .row .add-on .bottom big.price .dollars,#account-features .row .add-on .bottom big.price .cents
+{
+    color: #999 !important;
+    font-size: 20px !important;
+}
+
+#account-features .row .add-on .bottom-first big.price .dollars,#account-features .row .add-on .bottom-first big.price .cents
+{
+    color: #999 !important;
+    font-size: 20px !important;
+}
+
+#account-features .row .add-on .bottom big.price .cents {
+    position: absolute;
+    right: 0;
+
+    top: 2px;
+    font-size: 11px !important;
+}
+
+#account-features .row .add-on .bottom-first big.price .cents {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 11px !important;
+}
+
+#account-features .row .add-on .bottom small {
+    font-size: 10px;
+}
+
+#account-features .row .add-on .bottom-first small {
+    font-size: 10px;
+}
+
+#account-features .row .add-on .bottom .single-line {
+    padding-top: 1em;
+}
+
+#account-features .row .add-on .bottom-first .single-line {
+    padding-top: 1em;
+}
+
+#account-features .row .add-on .icon {
+    position: absolute;
+    background: url(/JRS/images/marketing/add-on-icons.png) left 0 no-repeat;
+    top: 0;
+    width: 34px;
+    min-height: 34px;
+}
+
+#account-features .row .add-on.even .icon {
+    left: 5px;
+}
+
+#account-features .row .add-on.odd .icon {
+    left: 30px;
+}
+
+#account-features .row .add-on.safety-check .icon {
+    background-position: left -68px;
+}
+
+#account-features .row .add-on.indentity-monitor .icon {
+    background-position: left -34px;
+}
+
+#account-assistance a.see-all {
+    float: left;
+    margin: 0 20px 20px;
+}
+
+#account-assistance .assistance-category {
+    position: relative;
+}
+
+#account-assistance .assistance-category ul,#account-assistance .assistance-category h4
+{
+    margin-left: 195px;
+}
+
+#account-assistance .assistance-category h4 {
+    margin-bottom: 10px;
+}
+
+#account-assistance .assistance-category li {
+    line-height: 1.2em;
+    margin-bottom: 8px;
+}
+
+#account-assistance .assistance-category img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 25px;
+}
+
+#account-assistance .row h4 {
+    color: #656565;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+#account-assistance .row p {
+    margin-bottom: 20px;
+}
+
+#account-assistance .row .contact {
+    list-style: none;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+#account-assistance .row .contact li {
+    float: left;
+    width: 210px;
+    height: 80px;
+    margin: 25px 0 0;
+}
+
+#account-assistance .row .contact .chat,#account-assistance .row .contact .twitter
+{
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-y;
+}
+
+#account-assistance .row .contact h4,#account-assistance .row .contact p
+{
+    padding-left: 40px;
+}
+
+#account-assistance .row .contact h4 {
+    background: url(/JRS/images/marketing/SPR-contact-icons.gif) left top no-repeat;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#account-assistance .row .contact .phone h4 {
+    background-position: 15px 5px;
+}
+
+#account-assistance .row .contact .chat h4 {
+    background-position: 15px -20px;
+}
+
+#account-assistance .row .contact .twitter h4 {
+    background-position: 15px -45px;
+}
+
+#account-assistance .row .contact a {
+    padding-left: 12px;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.product-details #main-details .compare {
+    width: 679px;
+    display: block;
+    padding: 17px 0;
+    margin: 0 auto;
+}
+
+.product-details #main-details .compare .row {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #fff url(/JRS/images/marketing/row-bg.png) repeat-y -14px top;
+    width: 679px;
+}
+
+
+.product-details #main-details .compare .value {
+    background-image: url(/JRS/images/marketing/row-bg-value.png) !important;
+}
+
+.product-details #main-details .compare .header {
+    background-image: none;
+    border: 0 none;
+}
+
+.product-details #main-details .compare .row .col {
+    padding: 20px 14px;
+    height: 100%;
+    width: 185px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-details #main-details .compare .header .col {
+    padding-bottom: 0 !important;
+}
+
+.product-details #main-details .compare .row .first {
+    padding-left: 0;
+    width: 237px !important;
+}
+
+.product-details #main-details .compare .row .second {
+
+    padding-top: 43px !important;
+}
+
+.product-details #main-details .compare .row .third {
+    width: 199px;
+    padding-top: 43px !important;
+    padding-right: 0 !important;
+}
+
+.product-details #main-details .compare .row .col h3 {
+    padding-bottom: 10px;
+    color: #333;
+    margin-top: 0;
+}
+
+
+.product-details #main-details .compare .row .col p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-details #main-details .compare .row .col .col2 {
+    float: left;
+    width: 80px;
+    margin-right: 28px;
+}
+
+.product-details #main-details .compare .row .col .col2.last {
+    margin-right: 0;
+    text-align: center;
+}
+
+.product-details #main-details .compare .row .col .col2 p.title {
+    color: #957f55;
+    font-weight: bold;
+}
+
+.product-details #main-details .compare .row .col .col2 p.charges {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.product-details #main-details .compare .row .col ul li {
+    background: transparent url(/JRS/images/marketing/row-bullet.jpg) no-repeat 3px 5px
+        !important;
+    color: #333;
+    padding: 0 0 10px 14px;
+}
+
+.product-details #main-details .compare .row .col .price {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #957f55;
+    font-weight: bold;
+}
+
+.product-details #main-details .compare .row .col .price sup {
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+}
+
+.category .service-overview #main-summary {
+    margin-bottom: 0;
+}
+
+.category .service-overview #main-summary .global-services-bar {
+    position: relative;
+    margin-left: -30px;
+}
+
+.category .service-overview #main-summary .global-services-bar .inner-content
+{
+    padding-left: 30px;
+}
+
+.category .service-overview #main-summary .global-services-bar img.side-shadow
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.category .service-overview #main-summary .global-services-bar .feature
+{
+    padding-left: 0;
+}
+
+.category .service-overview #main-summary .global-services-bar .ways-to-bank
+{
+    width: 432px;
+}
+
+.category .service-overview #main-summary .global-services-bar .ways-to-bank .service
+{
+    width: 144px;
+}
+
+.category .service-overview #main-details {
+    background: none;
+}
+
+.category .service-overview #main-details .row {
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left bottom repeat-x;
+    border-top: none;
+}
+
+.category .service-overview #main-details .bottom.row {
+    background: none;
+    border-bottom: 2px solid #ccc;
+}
+
+.category .service-overview #main-details .row .col p {
+
+    margin-bottom: 10px;
+}
+
+.category .service-overview #main-details .row .col.a,.category .service-overview #main-details .row .col.c
+{
+    width: 222px;
+}
+
+.category .service-overview #main-details .row .col.b {
+    width: 245px;
+}
+
+.category .service-overview #main-details .row .col.a>* {
+    margin-right: 20px;
+}
+
+.category .service-overview #main-details .row .col.b>* {
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.category .service-overview #main-details .row .col.c>* {
+    margin-left: 25px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-summary {
+    margin: 0 0 15px -30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sub-category .ways-to-bank-with-citi .contact-info span {
+    float: left;
+}
+
+.sub-category .ways-to-bank-with-citi #main-summary h1 {
+    margin-top: 0;
+}
+
+.sub-category .ways-to-bank-with-citi p.info {
+
+    padding: 15px 0 0;
+}
+
+.sub-category .ways-to-bank-with-citi #main-summary p.info {
+    border-top: 1px dotted #ccc;
+    margin-top: 20px;
+
+}
+
+.sub-category .ways-to-bank-with-citi p.info span {
+    margin: 0 10px;
+    color: #999;
+}
+
+.sub-category .ways-to-bank-with-citi a.find-branch {
+    float: right;
+    margin: -15px 0 0 0;
+}
+
+.sub-category .ways-to-bank-with-citi .side-shadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare {
+    border-bottom: 0 none;
+    padding-top: 20px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .header {
+    height: 30px !important;
+    background-image: url() !important;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .headerA {
+    background-image: url() !important;
+	height: 50px !important;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .headerA h2{
+    color:#333;
+	font-size:12px;
+	margin-top: 0;
+	padding-bottom: 10px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .header .col
+{
+    padding: 0 14px !important;
+    height: 30px !important;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .header .col.b
+{
+    width: 188px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .header .col.c
+{
+    width: 160px;
+}
+.sub-category .ways-to-bank-with-citi #main-details.compare .headerA .col
+{
+    padding: 0 14px !important;
+    height: 50px !important;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .headerA .col.b
+{
+    width: 188px;
+}
+
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .headerA .col.c
+{
+    width: 160px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row {
+
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent url(/JRS/images/marketing/row-bg.png) repeat-y left top;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .value {
+    background-image: url(/JRS/images/marketing/row-bg-value.png) !important;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .selected {
+    background-color: #f5f5f5;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col {
+    padding: 20px 14px;
+    height: 100%;
+    width: 235px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .second
+{
+    width: 186px;
+    padding-top: 43px !important;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .third
+{
+    width: 199px;
+    padding-top: 43px !important;
+    padding-right: 0 !important;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .first
+{
+    border-left: 0 none !important;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col h2
+{
+    padding-bottom: 10px;
+    color: #333;
+    margin-top: 0;
+	font-size:13px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col h2
+{
+    padding-bottom: 10px;
+    color: #333;
+    margin-top: 0;
+	font-size:13px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col h3
+{
+    padding-bottom: 10px;
+    color: #333;
+    margin-top: 0;
+    white-space: normal;
+}
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col h5,
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col h6 {
+    font-size:12px;
+    margin: 0 0 0 0;
+}
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col p
+
+{
+    margin-bottom: 10px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col a
+{
+    margin-bottom: 10px;
+    font-size: 12px !important;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col a.view-details
+{
+    padding-bottom: 12px;
+    border-bottom: 1px dotted #999 !important;
+    margin-bottom: 15px !important;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col span.cost
+{
+    text-align: center;
+    color: #999;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    line-height:22px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col .col2
+{
+    float: left;
+    width: 80px;
+    margin-right: 28px;
+    text-align:center
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col .col2.last
+{
+    margin-right: 0;
+    text-align: center;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col .col2 p.title
+{
+    color: #957f55;
+    font-weight: bold;
+}
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col .col2 span.GoldTxt
+{
+    color: #957f55;
+    font-weight: bold;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col .col2 p.charges
+{
+    padding: 30px 0 0 10px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col ul li
+{
+    background: transparent url(/JRS/images/marketing/row-bullet.jpg) no-repeat 3px 5px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col .price
+{
+    font-size: 18px !important;
+    line-height: 22px;
+    text-align: center;
+    color: #957f55;
+    font-weight: bold;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col .titles
+{
+  padding:0px;
+  height:6px;
+}
+
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col .price sup
+{
+    font-size: 12px;
+    position: relative;
+ 
+}
+
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col a.collapsible-toggle,.sub-category .ways-to-bank-with-citi #main-details.compare .row .col .collapsible a
+{
+    background-image: none !important;
+	line-height:0px !important;
+}
+
+.sub-category .ways-to-bank-with-citi #main-summary,.rates #main-summary,.generic-details #main-summary,.sub-category-lob #main-summary
+{
+    margin: 0 0 0 -30px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-summary .inner-content,.rates #main-summary .inner-content,.generic-details #main-summary .inner-content,.sub-category-lob #main-summary .inner-content
+{
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sub-category .ways-to-bank-with-citi #main-summary .side-shadow,.rates #main-summary .side-shadow,.sub-category-lob #main-summary .side-shadow,.product-details #main-summary .side-shadow
+{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.sub-category .ways-to-bank-with-citi #main-summary #main-heading,.rates #main-summary #main-heading,.generic-details #main-summary #main-heading,.sub-category-lob #main-summary #main-heading
+{
+    background: none;
+    line-height: 1em;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-summary .tag-line,.generic-details #main-summary .tag-line
+
+{
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    text-indent: 50px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row {
+    padding: 20px 0;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.b {
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left -2px repeat-x;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.c {
+    border-top: 2px solid #ccc;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.a,.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.c
+{
+    width: 222px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col h3,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col h4,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col h5
+{
+    background: url(/JRS/images/marketing/SPR-ways-to-bank.gif) left top no-repeat;
+    line-height: 2em;
+    height: 40px;
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col h4,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col h5 {
+    color: #666;
+    font-size: 13px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.mobile h3,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.mobile h4,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.mobile h5
+{
+    background-position: 0 -150px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.phone h3,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.phone h4,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.phone h5
+{
+    background-position: 0 -50px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.locations h3,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.locations h4,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.locations h5
+{
+    background-position: 0 -150px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.in-person h3,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.in-person h4,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.in-person h5
+{
+    background-position: 0 -200px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.atm h3,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.atm h4,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.atm h5
+{
+    background-position: 0 -100px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.espanol h3,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.espanol h4,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.espanol h5
+{
+    background-position: 0 -250px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col h3,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col h4,
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col h5
+{
+    padding-left: 30px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col p {
+    margin-bottom: 10px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col a,.sub-category .ways-to-bank-with-citi #main-details .three-cols .col form
+{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col form input
+{
+    margin-bottom: 15px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col form select
+{
+    margin-bottom: 7px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.b {
+    width: 245px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.a>*
+{
+    margin-right: 25px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.b>*
+{
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.c>*
+{
+    margin-left: 25px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.in-person
+{
+    border-left: 1px solid #ccc;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.in-person form input,.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.in-person form select
+{
+    width: 145px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.in-person form button,.sub-category .ways-to-bank-with-citi #main-details .three-cols .col form a
+{
+    float: left;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col.in-person form button
+{
+    margin-right: 10px;
+    height: 20px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col form a
+{
+    margin: 5px 0 0;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col form h3
+{
+    background: none;
+    padding-left: 0;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.c .heading {
+    padding: 0;
+    margin: 0 0 10px;
+    border: none;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.c p {
+    margin-bottom: 20px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.c .contact {
+    list-style: none;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.c .contact li {
+
+    float: left;
+    width: 210px;
+    height: 80px;
+    margin: 25px 0 0;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.c .contact .chat,.sub-category .ways-to-bank-with-citi #main-details .row.c .contact .twitter
+{
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-y;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.c .contact h3,.sub-category .ways-to-bank-with-citi #main-details .row.c .contact p
+{
+
+
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.c .contact h3 {
+    background: url(/JRS/images/marketing/SPR-contact-icons.gif) left top no-repeat;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.c .contact .chat h3
+{
+    background-position: 15px -25px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.c .contact .twitter h3
+{
+    background-position: 15px -50px;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .row.c .contact a {
+    margin-left: 38px;
+    padding-left: 12px;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.sub-category .ways-to-bank-with-citi #main-details .three-cols .col form span.form-row
+{
+    display: block;
+    margin-bottom: 7px;
+}
+
+.details-no-tabs #main-summary {
+    margin: 0 0 0 -30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.service-details #main-summary {
+    margin: 0 0 0 -30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.service-details #main-summary .two-cols {
+    margin: 29px;
+    overflow: hidden;
+}
+
+.details-no-tabs #main-summary .two-cols {
+    margin: 29px;
+    overflow: hidden;
+}
+
+.vIE7 .service-details #main-summary .two-cols li{
+ clear:none !important;
+ width:48%;}
+
+.service-details #main-summary .two-cols li {
+	clear:right;
+    float: left;
+}
+
+.details-no-tabs #main-summary .two-cols li {
+    float: left;
+}
+
+.service-details #main-summary .two-cols li.a {
+    border-right: 1px solid #CCCCCC;
+    padding-right: 20px;
+    width: 415px;
+}
+
+.details-no-tabs #main-summary .two-cols li.a {
+    border-right: 1px solid #CCCCCC;
+    padding-right: 20px;
+    width: 415px;
+}
+
+.service-details #main-summary .two-cols li.b {
+    border-left: 1px solid #CCCCCC;
+    margin-left: -1px;
+    width: 228px;
+}
+
+.detail-no-tabs #main-summary .two-cols li.b {
+    border-left: 1px solid #CCCCCC;
+    margin-left: -1px;
+    width: 228px;
+}
+
+.service-details #main-summary .side-shadow,.details-no-tabs #main-summary .side-shadow
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.detail-no-tabs #main-summary .side-shadow,.details-no-tabs #main-summary .side-shadow
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.service-details #main-summary .content,.details-no-tabs #main-summary .content
+{
+    float: left;
+    padding-right: 25px;
+    width: 430px;
+    overflow: hidden;
+}
+
+.service-details #main-summary .content-es,.details-no-tabs #main-summary .content-es
+{
+    float: left;
+    padding-right: 25px;
+    width: 430px;
+    overflow: hidden;
+}
+
+.service-details #main-summary .content-es2,.details-no-tabs #main-summary .content-es2
+{
+    float: left;
+    padding-right: 25px;
+    width: 430px;
+    overflow: hidden;
+}
+
+.service-details #main-summary .content,.details-no-tabs #main-summary .content
+{
+
+    border-right: 1px solid #ccc;
+}
+
+.service-details #main-summary .content-es,.details-no-tabs #main-summary .content-es
+{
+    border-right: 1px solid #ccc;
+}
+
+.service-details #main-summary .content-es2,.details-no-tabs #main-summary .content-es2
+{
+    border-right: 1px solid #ccc;
+}
+
+.service-details #main-summary .content-nopadd,.details-no-tabs #main-summary .content-nopadd
+{
+    float: left;
+    width: 455px;
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+    overflow: visible;
+}
+
+.service-details #main-summary .content-es-nopadd,.details-no-tabs #main-summary .content-es-nopadd
+{
+    float: left;
+    width: 455px;
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+    overflow: visible;
+}
+
+.service-details #main-summary .content-nopadd .breakdown,.details-no-tabs #main-summary .content-nopadd .breakdown
+{
+    position: relative;
+    left: -35px;
+    width: 490px;
+    overflow: hidden;
+}
+
+.service-details #main-summary .content-es-nopadd .breakdown,.details-no-tabs #main-summary .content-es-nopadd .breakdown
+{
+    position: relative;
+    left: -35px;
+    width: 490px;
+    overflow: hidden;
+}
+
+.service-details #main-summary .content-nopadd .breakdown dt,.details-no-tabs #main-summary .content-nopadd .breakdown dt {
+    font-size:12px;
+    color:#333333;
+    font-weight:bold;
+    margin-right:5px;
+}
+
+.service-details #main-summary .content-es-nopadd .breakdown dt,.details-no-tabs #main-summary .content-es-nopadd .breakdown dt {
+    font-size:12px;
+    color:#333333;
+    font-weight:bold;
+    margin-right:5px;
+}
+
+.service-details #main-summary .breakdown dt {
+    font-size:12px;
+    color:#333333;
+    font-weight:bold;
+    margin-right:5px;
+}
+
+.service-details #main-summary .content-nopadd .breakdown dd,.details-no-tabs #main-summary .content-nopadd .breakdown dd
+{
+    color: #999;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-details #main-summary .content-es-nopadd .breakdown dd,.details-no-tabs #main-summary .content-es-nopadd .breakdown dd
+{
+    color: #999;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-details #main-summary .breakdown dd
+{
+    color: #999;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-details #main-summary .content-nopadd .breakdown dd,.service-details #main-summary .content-nopadd .breakdown dt,.details-no-tabs #main-summary .content-nopadd .breakdown dd,.details-no-tabs #main-summary .content-nopadd .breakdown dt
+{
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.service-details #main-summary .content-es-nopadd .breakdown dd,.service-details #main-summary .content-es-nopadd .breakdown dt,.details-no-tabs #main-summary .content-es-nopadd .breakdown dd,.details-no-tabs #main-summary .content-es-nopadd .breakdown dt
+{
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.service-details #main-summary .breakdown dd,.service-details #main-summary .breakdown dt
+{
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.service-details #main-summary .content-nopadd .breakdown .grd-light-grey-stripes
+{
+    padding: 3px 25px 15px 35px;
+}
+
+.service-details #main-summary .content-es-nopadd .breakdown .grd-light-grey-stripes
+{
+    padding: 3px 25px 15px 35px;
+}
+
+.details-no-tabs #main-summary .content-nopadd .breakdown .grd-light-grey-stripes
+{
+    padding: 25px 25px 25px 35px;
+
+}
+
+.details-no-tabs #main-summary .content-es-nopadd .breakdown .grd-light-grey-stripes
+{
+    padding: 25px 25px 25px 35px;
+
+}
+
+
+.details-no-tabs #main-details .main ul li {
+    background: url("/JRS/images/marketing/SPR-links.gif") no-repeat scroll -20px -405px transparent;
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+
+.details-no-tabs #main-summary .content-nopadd .breakdown .grd-light-grey-stripes p
+{
+    margin: 0;
+}
+
+.details-no-tabs #main-summary .content-es-nopadd .breakdown .grd-light-grey-stripes p
+{
+    margin: 0;
+}
+
+.service-details #main-summary #main-heading,.details-no-tabs #main-summary #main-heading
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.service-details #main-summary .tag-line,.details-no-tabs #main-summary .tag-line
+{
+    color: #656565;
+    display: block;
+    line-height: 20px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.service-details #main-summary .intro,.details-no-tabs #main-summary .intro
+{
+    clear: both;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.details-no-tabs #main-summary .summary-side
+{
+    width: 220px;
+}
+
+.service-details #main-summary .summary-side {
+    width: 220px;
+}
+
+.service-details #main-summary .summary-side ul {
+    overflow: hidden;
+}
+
+.details-no-tabs #main-summary .summary-side .checklist
+{
+    margin-left: 25px;
+}
+
+.service-details #main-summary .summary-side h3,.service-details #main-summary .summary-side ul,.service-details #main-summary .summary-side a,.details-no-tabs #main-summary .summary-side h3,.details-no-tabs #main-summary .summary-side ul,.details-no-tabs #main-summary .summary-side a
+{
+    margin-left: 25px;
+}
+
+#container.service-details #main-content .summary-side a,#container.details-no-tabs #main-content .summary-side a
+{
+    margin-bottom: 10px;
+    display: block;
+}
+
+#container.service-details #main-content .summary-side .btn-apply-online,#container.details-no-tabs #main-content .summary-side .btn-apply-online, #container.service-details #main-content .summary-side .btn-apply-online-es, #container.details-no-tabs #main-content .summary-side .btn-apply-online-es
+{
+    float: none;
+    margin-bottom: 0;
+    width: 90px !important;
+}
+
+.service-details #main-summary .summary-side h3,.details-no-tabs #main-summary .summary-side h3,
+.service-details #main-summary .summary-side h4,.details-no-tabs #main-summary .summary-side h4
+{
+    font-size: 13px;
+    margin: 0 20px 15px;
+    white-space: normal;
+}
+.service-details #main-summary .summary-side h4,.details-no-tabs #main-summary .summary-side h4{
+    color: #666;
+    font-size: 17px arial, helvetica, sans-serif !important;
+    line-height: 20px;
+}
+
+.service-details #main-summary .btn-sign-on {
+    float: left;
+    margin-top: 5px;
+    padding-top: 5px;
+    width: 65px;
+}
+
+.service-details #main-summary .sign-up {
+    float: left;
+    padding-left: 15px;
+    padding-top: 2px;
+    width: 105px;
+}
+
+.service-details #main-summary .sign-up span {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+#container #main-summary .sign-up a {
+    margin-left: 0;
+}
+
+.service-details #main-summary .breakdown {
+    overflow: hidden;
+    width: 439px;
+}
+
+.service-details #main-summary .breakdown .grd-light-grey-stripes {
+    padding: 15px 0;
+}
+
+.service-details #main-summary .breakdown ul {
+    overflow: hidden;
+}
+
+.service-details #main-summary .breakdown li {
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    width: 226px;
+}
+
+.service-details #main-summary .breakdown li.odd {
+    border-left: 1px solid #ccc;
+    margin-left: -1px;
+    padding-left: 50px;
+    width: 178px;
+    text-align: left;
+}
+
+.service-details #main-summary .breakdown li.oddBig {
+    border-left: 1px solid #ccc;
+    margin-left: -1px;
+    padding-left: 11px;
+    width: 200px;
+    text-align: left;
+}
+
+.service-details #main-summary .breakdown li div {
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.service-details #main-summary .breakdown li div .price {
+    font-weight: bold;
+    margin-left: 5px;
+}
+.service-details #main-summary .breakdown li div .priceBlack {
+    font-size:24px;
+	font-weight: bold;
+    margin-left: 5px;
+	color:#000;
+}
+
+.service-details #main-summary .breakdown li div em {
+    color: #666;
+
+    font-style: normal;
+    padding-left: 5px;
+}
+
+.service-details #main-summary .breakdown li.middle {
+    border: 1px dotted #ccc;
+    border-width: 0 1px;
+}
+
+.service-details #main-summary .breakdown li .price {
+    font-size: 24px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.service-details #main-summary .breakdown li .priceBlack {
+    font-size: 24px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.service-details #main-summary .breakdown li .priceBlack {
+    font-size: 24px;
+    color: #999;
+    margin-left: 10px;
+
+}
+
+.service-details #main-summary .breakdown li .price sup {
+    position: relative;
+    font-size: 12px;
+}
+
+.service-details #main-summary .btn-fees {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.details-no-tabs #main-summary .contact {
+    clear: both;
+    margin-right: 20px;
+    margin-top: 15px;
+    overflow: hidden;
+    padding: 0 25px 0 0;
+}
+
+.service-details #main-summary .contact span,.details-no-tabs #main-summary .contact span
+{
+    margin-top: 20px;
+    padding-right: 10px;
+    display: block;
+    float: left;
+}
+
+.service-details #main-summary .contact a,.details-no-tabs #main-summary .contact a
+{
+    margin-top: 20px;
+    float: right;
+}
+
+.service-details #main-details {
+    font-family: arial, sans-serif;
+    overflow: hidden;
+}
+
+.service-details #main-details h2 {
+    color: #333 !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.service-details #main-details .main {
+    border-right: 1px solid #ccc;
+    float: left;
+    padding-right: 20px;
+    width: 437px;
+    margin-bottom: 15px;
+}
+
+.service-details #main-details .main-ao {
+    border-right: 1px solid #ccc;
+    float: left;
+    padding-right: 20px;
+    width: 340px;
+    margin-bottom: 30px;
+}
+
+.service-details #main-details .main-ao-status {
+    float: left;
+    padding-right: 20px;
+    width: 690px;
+    margin-bottom: 30px;
+}
+
+.service-details #main-details .main .marginB {
+    margin-bottom: 30px;
+}
+
+
+.service-details #main-details .main ul li {
+    background: url("/JRS/images/marketing/SPR-links.gif") no-repeat scroll -20px -405px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+}
+
+.service-details #main-details .details-no-tabs .main ul li {
+    background: url("/JRS/images/marketing/SPR-links.gif") no-repeat scroll -20px -405px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+}
+
+.service-details #main-details .side {
+    float: left;
+    padding-left: 25px;
+    width: 205px;
+}
+
+.service-details #main-details .side a.screenslink {
+    background: url("/JRS/images/marketing/screensicon.jpg") no-repeat scroll left top;
+    padding-left: 20px;
+}
+.service-details #main-details .side-ao {
+    float: left;
+
+    padding-left: 25px;
+    width: 300px;
+}
+
+.service-details #main-details .side ul li {
+    margin-bottom: 15px;
+}
+
+.service-details #main-details p {
+    padding-bottom: 8px;
+}
+
+.service-details #main-details .paddingB {
+    padding-bottom: 15px;
+}
+
+.service-details #main-details .table h2 {
+    margin-bottom: 5px;
+}
+
+.service-details #main-details .table table {
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.service-details #main-details .table th {
+    border: 1px dotted #999;
+    border-width: 1px 0;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 8px 0 8px 5px;
+    vertical-align: bottom;
+}
+
+.service-details #main-details table a.collapsible-toggle {
+    background: url("/JRS/images/marketing/SPR-toggles.gif") no-repeat scroll 0 -50px
+        transparent;
+    padding-left: 20px !important;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+.service-details #main-details table a.collapsible-toggle.closed
+{
+    background-position: 0 0;
+}
+
+#container.service-details #main-details .main-ao table a.collapsible-toggle {
+    background: url("/JRS/images/marketing/SPR-toggles.gif") no-repeat scroll 0 -50px
+        transparent;
+    padding-left: 20px !important;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+#container.service-details #main-details .main-ao table a.collapsible-toggle.closed {
+    background-position: 0 0;
+}
+
+.service-details #main-details .main-ao table .collapsible {
+    clear: none;
+    float: none;
+}
+
+.service-details #main-details .main-ao .table table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.service-details #main-details .table th.col0 {
+    width: 110px;
+}
+
+.service-details #main-details .table th.ao-col0 {
+    width: 230px;
+}
+
+.service-details #main-details .table th.ao-status-col0 {
+    width: 350px;
+}
+
+.service-details #main-details .table th.col1 {
+    width: 65px;
+}
+
+.service-details #main-details .table th.ao-status-col1 {
+    width: 150px;
+}
+
+.service-details #main-details .table th.col2 {
+    width: 85px;
+}
+
+.service-details #main-details .table th.ao-status-col2 {
+    width: 155px;
+}
+
+.service-details #main-details .table th.col3 {
+    width: 95px;
+}
+
+.service-details #main-details .table th.col4 {
+    width: auto;
+}
+
+.service-details #main-details .table td {
+    border-color: #999999;
+    border-style: dotted;
+    border-width: 1px 0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding: 9px 0 9px 15px;
+}
+
+.service-details #main-details .table tr.even td {
+    background: #f5f5f5 none;
+}
+
+.service-details #main-details .table tr.last td {
+    border-bottom: 1px dotted #999;
+}
+
+.service-details #main-details .table tr.gold td {
+    background: #fff url(/JRS/images/marketing/BG-gold.gif) repeat left bottom !important;
+    color: #957f55;
+}
+
+.service-details #main-content-footer .contact,.details-no-tabs #main-content-footer .contact
+{
+    float: none;
+
+    font-size: 12px;
+
+    overflow: hidden;
+    padding: 2px 0 0 10px;
+}
+
+.service-details #main-content-footer .contact span,.details-no-tabs #main-content-footer .contact span
+{
+    float: left;
+    padding-right: 15px;
+}
+
+.service-details #main-content-footer .contact a,.details-no-tabs #main-content-footer .contact a
+{
+    float: right;
+}
+
+.service-details .gold {
+    color: #957f55 !important;
+}
+
+.details-no-tabs #main-details {
+    overflow: hidden;
+}
+
+.details-no-tabs #main-details .feature-category {
+    border-bottom: 2px solid #c5c5c5;
+    padding-bottom: 20px;
+}
+
+.details-no-tabs #main-details .feature-category h3.feature-header,
+.details-no-tabs #main-details .feature-category h4.feature-header {
+    color: #676767;
+    padding: 5px 0;
+    font-size: 19px !important;
+    font-weight: bold !important;
+}
+
+.details-no-tabs #main-details .feature {
+    padding-top: 5px;
+}
+
+.details-no-tabs #main-details h3.feature-name,
+.details-no-tabs #main-details h4.feature-name {
+    color: #003366;
+    font-size:17px;
+    font-weight:normal;
+    padding-bottom: 0;
+}
+
+.details-no-tabs #main-details .feature-category h4.feature-header,
+.details-no-tabs #main-details h4.feature-name {
+  margin: 19px 0 5px;
+}
+
+.details-no-tabs #main-details .feature p {
+    padding-bottom: 5px;
+}
+
+.details-no-tabs #main-details .column1 {
+    width: 310px;
+    float: left;
+    margin-right: 70px;
+    padding-bottom: 30px;
+}
+
+.details-no-tabs #main-details .column2 {
+    width: 310px;
+    float: right;
+    padding-bottom: 30px;
+}
+
+.details-no-tabs #body-content {
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+
+.generic-details #main-content #main-summary {
+    background: transparent none;
+}
+
+.generic-details #main-summary .tag-line {
+    display: block;
+    font-style: normal;
+}
+
+.generic-details #main-details .content {
+    padding-bottom: 20px;
+}
+
+.generic-details #main-details .content-es {
+    padding-bottom: 20px;
+}
+
+.generic-details #main-details .content-es2 {
+    padding-bottom: 20px;
+}
+
+.rates #main-summary #main-heading {
+    margin-bottom: 15px;
+}
+
+.rates #main-content #main-details .tab-content {
+    padding: 30px;
+}
+
+#container.rates #main-details div.header {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+#container.rates #main-details div.header h3 {
+    float: left;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #666;
+    margin: 0;
+}
+
+#container.rates #main-details div.header a.arrow {
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.rates #main-details .tab-content table {
+    background-color: #fff;
+    border: 0 none;
+    border-top: 1px solid #ccc;
+    border-spacing: 0;
+    border-collapse: collapse;
+    clear: both;
+}
+
+.rates #main-details .tab-content table th {
+    border: 1px dotted #999;
+    border-right: 1px solid #CCCCCC;
+    border-width: 1px 0;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 8px 0 8px 5px;
+    vertical-align: bottom;
+}
+
+#container.rates #main-details .tab-content table a.collapsible-toggle {
+    background: url("/JRS/images/marketing/SPR-toggles.gif") no-repeat scroll 0 -50px
+        transparent;
+    padding-left: 20px !important;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+#container.rates #main-details .tab-content table a.collapsible-toggle.closed
+{
+    background-position: 0 0;
+}
+
+.vIE7 #container.rates #main-details .tab-content table a.collapsible-toggle
+{
+    background-position: 0 -50px;
+}
+
+.vIE7 #container.rates #main-details .tab-content table a.collapsible-toggle.closed
+{
+    background-position: 0 0;
+}
+
+.rates #main-details .tab-content table .collapsible {
+    clear: none;
+    float: none;
+}
+
+
+.rates #main-details .tab-content table tr td,
+.rates #main-details .tab-content table tr th {
+    width: 74px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    padding: 15px 12px;
+    font-size: 12px;
+    color: #333;
+    vertical-align: top;
+}
+
+.rates #main-details .tab-content table tr td.twocolumns {
+    background: transparent url(/JRS/images/marketing/row-bg.png) repeat-y -220px top;
+    border-right: 1px solid #ccc !important;
+    font-size: 11px;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.rates #main-details .tab-content#citigold table tr td.twocolumns {
+    background: transparent url(/JRS/images/marketing/row-bg.png) repeat-y -216px top;
+}
+
+.vIE7 .rates #main-details .tab-content#citigold table tr.header td.twocolumns
+{
+    background: transparent url(/JRS/images/marketing/row-bg-ie7.png) repeat-y -111px top;
+}
+
+.rates #main-details .tab-content table tr.header td.twocolumns {
+    text-align: center;
+}
+
+.rates #main-details .tab-content table tr td.twocolumns div {
+    width: 45px;
+    float: left;
+    padding-left: 3px;
+}
+
+.rates #main-details .tab-content table tr td.twocolumns div.apy {
+    padding-left: 0;
+    padding-right: 6px;
+    width: 34px;
+}
+
+.rates #main-details .tab-content#citigold table tr td.twocolumns div.apy
+{
+    padding-right: 14px;
+}
+
+.vIE7 #container.rates #main-details .tab-content table tr td.twocolumns div.apy
+{
+    width: 34px;
+}
+
+.vIE7 #container.rates #main-details .tab-content table tr td.twocolumns div
+{
+    width: 36px;
+}
+
+.rates #main-details .tab-content table tr td select {
+    width: 145px;
+}
+
+.rates #main-details .tab-content table tr td span {
+    color: #333;
+    padding: 0 10px;
+}
+
+.rates #main-details .tab-content table tr td.twocolumnsheader,
+.rates #main-details .tab-content table tr th.twocolumnsheader{
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rates #main-details .tab-content table tr td.first-colum,
+.rates #main-details .tab-content table tr th.first-colum {
+    width: 284px;
+}
+
+.rates #main-details .tab-content table tr td.second-colum,
+.rates #main-details .tab-content table tr th.second-colum {
+    width: 200px;
+}
+
+.rates #main-details .tab-content table tr td.third-colum,
+.rates #main-details .tab-content table tr th.third-colum {
+    width: 149px;
+
+
+}
+
+.rates #main-details #home.tab-content table tr td.joint-column {
+    width: 420px;
+}
+
+.rates #main-details #home.tab-content table tr td.first-colum {
+    width: auto;
+}
+
+.rates #main-details #home.tab-content table tr td.second-colum {
+    width: 140px;
+}
+
+.rates #main-details #home.tab-content table tr td.third-colum {
+    width: 190px;
+}
+
+.vIE7 .rates #main-details #home.tab-content table tr td.first-colum,.vIE8 .rates #main-details #home.tab-content table tr td.first-colum
+{
+    width: 205px;
+}
+
+.vIE8 .rates #main-details #home.tab-content table tr td.third-colum {
+    width: 275px;
+}
+
+.rates #main-details #checking table,.rates #main-details #certificates table
+{
+    margin-bottom: 30px;
+}
+
+.rates #main-details #checking.tab-content table tr td.first-colum {
+    width: 195px;
+}
+
+.rates #main-details #certificates.tab-content table tr td.first-colum {
+    width: 177px;
+}
+
+.rates #main-details #checking.tab-content table tr td.second-colum,.rates #main-details #certificates.tab-content table tr td.second-colum
+{
+    width: 74px;
+}
+
+.rates #main-details #checking.tab-content table tr td.third-colum,.rates #main-details #certificates.tab-content table tr td.third-colum
+{
+    width: 74px;
+}
+
+.rates #main-details #checking.tab-content table tr td.fourth-colum,.rates #main-details #certificates.tab-content table tr td.fourth-colum
+{
+    width: 218px;
+}
+
+.rates #main-details #citigold.tab-content table tr td.first-colum {
+    width: 303px;
+}
+
+
+.rates #main-details #citigold.tab-content table tr td.first-colum a {
+    color: #957f55;
+}
+
+.vIE7 .rates #main-details #citigold.tab-content table tr td.span4 {
+    width: 500px;
+}
+
+.rates #main-details #citigold.tab-content table tr td.second-colum {
+    width: 102px;
+}
+
+.rates #main-details #citigold.tab-content table tr td.third-colum {
+    width: 102px;
+}
+
+.rates #main-details #citigold.tab-content table tr td.fourth-colum {
+    width: 140px;
+}
+
+.rates #main-details .tab-content table tr.dotted td {
+    border-bottom-style: dotted;
+}
+
+.rates #main-details .tab-content table tr td:last-child,
+.rates #main-details .tab-content table tr th:last-child {
+    border-right: 0 none;
+}
+
+
+.rates #main-details .tab-content table tr td.last {
+    border-right: 0 none !important;
+    padding-right: 0;
+}
+
+.rates #main-details .tab-content table tr td.padding-top {
+    vertical-align: top;
+    padding-top: 45px;
+}
+
+.rates #main-details .tab-content table tr td p {
+    padding-top: 10px;
+    margin: 0;
+    color: #333;
+}
+
+.rates #main-details .tab-content table tr td sup {
+    font-size: 9px;
+    position: relative;
+    top: -1px;
+    font-weight: normal;
+}
+
+.rates #main-details .tab-content table tr.header td,
+.rates #main-details .tab-content table tr.header th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+.rates #main-details .tab-content table tr td ul {
+    margin-bottom: 15px;
+}
+
+.rates #main-details .tab-content table tr td ul li {
+    color: #333;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    background: transparent url(/JRS/images/marketing/row-bullet.jpg) no-repeat left 4px;
+}
+
+.bIE #container.rates #main-details .tab-content table tr td ul li {
+    background-position: left 6px;
+}
+
+.rates #main-details #citigold.tab-content table tr.header {
+    background: transparent url(/JRS/images/marketing/BG-gold.gif) repeat left top;
+}
+
+.rates #main-details #citigold.tab-content table tr.header td {
+    background-color: transparent;
+}
+
+.rates #main-content #main-details a.back-link {
+    display: inline-block;
+    background-position: left -355px;
+    padding-left: 8px;
+}
+
+.rates #main-content #main-details a.back-link.top {
+    margin: 25px 0 15px 0;
+}
+
+.rates #main-content #main-details a.back-link.bottom {
+    margin: 15px 0;
+}
+
+.rates #main-content #main-details p {
+    color: #666;
+    margin: 0;
+}
+
+.rates #main-details div.foot-notes p {
+    font-size: 11px;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+}
+
+.rates #main-details div.foot-notes p.font-normal {
+    font-size: 12px;
+    padding-bottom: 0;
+}
+
+#container.rates #main-details div.foot-notes p.note {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    padding: 14px;
+    margin-bottom: 10px;
+}
+
+#container.rates #main-details div.foot-notes p a {
+    color: #666;
+    font-size: 11px;
+}
+
+.rates #main-details #home-footer-notes p {
+    font-size: 11px;
+}
+
+.rates #main-details ul.footer-notes {
+    list-style-type: decimal;
+    list-style-position: outside;
+    padding-top: 10px;
+    padding-left: 17px;
+}
+
+.vIE7 .rates #main-details ul.footer-notes {
+    padding-left: 22px;
+}
+
+.rates #main-details ul.footer-notes li {
+    color: #666;
+    font-size: 11px;
+    line-height: 14px;
+    padding-bottom: 15px;
+}
+
+.rates #main-details ul.footer-notes li:last-child {
+    padding-bottom: 0;
+}
+
+#container.rates #main-details a.btn-apply-online, #container.rates #main-details a.btn-apply-online-es {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.vIE7 #container.rates #main-details a.btn-apply-online, .vIE7 #container.rates #main-details a.btn-apply-online-es {
+    padding-top: 3px;
+    padding-bottom: 7px;
+}
+
+.vIE9 #container.rates #main-details a.btn-apply-online, .vIE9 #container.rates #main-details a.btn-apply-online-es {
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+#container.rates #main-details #citigold a.btn-apply-online, #container.rates #main-details #citigold a.btn-apply-online-es {
+    background-image: url(/JRS/images/marketing/BTN-apply-online-gold.gif);
+    margin-right: 0;
+}
+
+.rates #main-content .tabbed-content-container ul.three-tabs li.c {
+    background-image: url(/JRS/images/marketing/tab-folder-three-gold.jpg);
+}
+
+.rates #main-content .tabbed-content-container ul.three-tabs li.c.ui-state-active a
+{
+    color: #957f55 !important;
+}
+
+.everyday-banking-heading #AdBanner2 img {
+    margin-left:30px;
+}
+
+.sub-category-heading #AdBanner2 img {
+    margin-left:-30px;
+}
+
+.small-business-solutions #AdBanner2 img {
+    margin-left: -30px;
+
+}
+
+#container #main-content ul.checklist li.gold {
+    background: url("/JRS/images/marketing/goldCheck.png") no-repeat scroll 0 3px transparent;
+    line-height: 16px;
+    padding: 0 25px 10px 25px;
+}
+
+#app-store-badge  {
+	margin:0 45px 0 0 !important;  
+}
+#app-store-badge-rght  {
+	margin:1px 45px 0 0 !important;  
+}
+
+.sub-category .small-business-solutions #main-details .ContactCTA {
+	clear: both;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left -2px repeat-x;
+    padding: 2px 15px;
+	margin-top: 25px;
+}
+.sub-category .small-business-solutions #main-details .fullList ul  {
+    overflow: hidden;
+    padding: 0 0 0 15px;
+}
+.sub-category .small-business-solutions #main-details .fullList li {
+	background: url(/JRS/images/marketing/SPR-links.gif) 0 -282px no-repeat;
+    float: left;
+    line-height: 1.2em;
+    list-style: none;
+	margin: 0 0 0 15px;
+    padding: 12px 0 0 12px; 
+	width: 450px;
+}
+.LeftNavBanner img {
+	margin-top:30px;
+}
+.column-stripe {
+	width:640px;
+	min-height:115px;
+	
+}
+.rightCol{
+	float:right;
+	width: 460px;
+	padding-left:5px;
+}
+
+.min {
+        min-height:72px;
+}
+
+#wrapper {
+	text-align: left;
+	margin: 0px auto;
+	padding: 0px;
+	border:solid thin #CCC;
+	width: 650px;
+	height:200px;
+	margin-bottom: 45px;
+	background: url("/JRS/images/marketing/BG-light-grey-stripes-large-nodotted-bottom.jpg") repeat;
+}
+#wrapperThankYou {
+    background: url("/JRS/images/marketing/BG-light-grey-stripes-large-nodotted-bottom.jpg") repeat scroll 0 0 transparent;
+    border: thin solid #CCCCCC;
+    height: 305px;
+    margin: 0 auto 10px;
+    padding: 0 0 5px;
+    text-align: left;
+    width: 695px;
+}
+#wrapperThankYou.autoHeight {
+    overflow: hidden;
+    height: auto;
+}
+#cont-striped{
+	width:auto;
+}
+.img-striped {
+    padding-left: 25px;
+    padding-top: 35px;
+}
+.dotted-line-s{
+	background:url("/JRS/images/marketing/BG-dotted-line.gif") repeat-x ;
+	margin: 0;
+    padding: 5px 0;
+	
+}
+
+#side-a {
+	float: left;
+	width: 210px;
+}
+
+#side-b { 
+	margin: 0;
+	float: left;
+	width: 420px;
+	padding-top:8px;
+	padding-left:10px;
+}
+#side-bThankYou {
+    float: left;
+    margin: 0;
+    padding-left: 17px;
+    padding-top: 27px;
+    width: 440px;
+}
+.sideb-text {
+	height:68px;
+	
+}
+.learn-lnk{
+	padding-left:25px;
+}
+#last-box{
+	padding-left:25px;
+	padding-top:20px;
+	width:440;
+} 
+.cd-cols {
+	min-height: 400px;
+        width: 685px;
+	margin-top: 15x;
+}
+#column-text {
+    float: left;
+    width: 290px;
+}
+
+#col-img {
+	float:right;
+	margin-top:35px;
+}
+.border {
+    border-bottom: 2px solid #CCCCCC;
+    margin-top: 0px;
+}
+
+html.bSF.oKindleFire #container #main-content .btn-sign-on, 
+html.bSF.oKindleFire #container #main-content .btn-apply-online, 
+html.bSF.oKindleFire #container #main-content .btn-branch-locator, 
+html.bSF.oKindleFire #container #main-content .btn-find {
+	padding: 5px 8px;
+	width: 85px !important;
+}
+
+html.oMac.bSF #container #main-content .btn-apply-online {
+        width: 90px !important;
+        padding: 5px 4px;
+}
+
+.whatItCostsAlign{
+    margin:0px 0px 6px -130px;
+}
+
+.bulletMini{
+    margin:-15px 0;
+}
+
+.grey {
+    color: #656565;
+    display: block;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+.SC{
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.specialBullet {
+background: url('/JRS/images/marketing/SPR-links.gif') no-repeat scroll -20px -405px transparent; 
+padding-left: 10px; 
+padding-bottom: 8px; 
+margin: 0px 0px 0px 35px;
+}
+
+.specialBulletFirst {
+background: url('/JRS/images/marketing/SPR-links.gif') no-repeat scroll -20px -405px transparent; 
+padding-left: 10px; 
+padding-bottom: 8px; 
+margin: -5px 0px 0px 35px;
+}
+
+#three-columnstransfers{
+                width:680px;
+                height:400px;
+}
+
+.col-transfa{
+                float:left;
+                width:200px;
+                padding-right:20px;
+}
+
+.col-transfb{
+                width:200px;
+                float:left;
+                border-color:#CCCCCC;
+                border-style:solid;
+                border-width: 0 1px;
+                padding-left:20px;
+                padding-right:20px;
+}
+.col-transfc{
+                width:195px;
+                float:right;
+                padding-left:20px;
+}
+
+.transfer-heading{
+   color:#656565;
+   font-size:16px;               
+}
+
+.col-height{
+                min-height:240px;
+                
+}
+
+.bottom-col {
+    background: url("/JRS/images/marketing/BG-dotted-line.gif") repeat-x scroll left -1px transparent;
+} 
+
+.colhisp-height {
+    min-height: 330px;
+}
+
+#container ul.costofliv {
+    list-style: disc outside none;
+    margin-left: 15px;
+}
+#container ul.costofliv li{
+    padding-left: 20px;
+}
+#container ul.families {
+    list-style: circle outside none;
+    margin-left: 56px;
+}
+#container ul.families li{
+    padding-left:20px;
+}
+#container p.sources {
+	font-size:10px !important;
+}
+#container table.numb {
+	border-top: thin solid;
+	border-bottom: thin solid;
+	border-spacing: 0;
+}	
+#container table.numb tr.header {
+	height: 25px;
+}
+#container table.numb tbody tr.gradtop{
+background: url(/JRS/images/common/table-gradient.gif) top left repeat-x #FFF; 
+}
+#container table.numb tr.even {
+	background:none repeat scroll 0 0 #F5F5F5; height: 65px; 
+}
+#container table.numb tr {
+	height: 65px;
+}
+#container table.numb td {
+	padding: 0 5px;
+}	
+#container table.numb td.firstcol {
+	width: 310px;
+}
+#container table.numb td.firstcolumn {
+    width: 160px;
+}
+.CitiBizOverviewColumns {
+    height: 190px;
+}
+.CitiBizOverviewColumnLeft {
+    height: 167px;
+}
+.CitiBizOverviewColumnRight {
+    height: 163px;
+}
+.indented-p{margin-left:20px;}
+
+.myVideo {
+    margin:10px 0 50px;
+} 
+#HeaderMargin {
+  margin:40px 0 25px;
+}
+/*citiBB*/
+.noitem {
+    color: #666666;
+    font-family: Arial,Verdana,Helvetica,sans-serif !important;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    padding-bottom: 10px;}
+	
+	.noitem2 {
+    color: #666666;
+    font-family: Arial,Verdana,Helvetica,sans-serif !important;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    padding-bottom: 10px;
+	padding-left:25px;}
+	
+	.bi-col{
+		width:640px;
+		min-height:710px;
+		padding-top:25px;}
+    .col-a{
+        width:290px;
+        float:left;
+        padding-right:15px;
+        }
+        
+    .col-b{
+        width:280px;
+        margin-left:5px;
+        float:right;
+        border-left:1px solid #CCCCCC;
+        padding-left:30px;
+        min-height:680px;}
+        
+        .middle-col{
+            width:640px;
+            padding-top:15px;
+            border-top:1px solid #CCCCCC;
+            border-bottom: 1px solid #CCCCCC;
+            padding-bottom:15px;
+            min-height:190px;
+            }
+        .img-box{
+            float:left;
+            width:200px;
+            padding-top:23px;}
+        .text-box{
+            float:right;
+            width:420px;
+            padding-left:20px;
+        }
+        .border-box{
+            border-bottom:1px solid #CCCCCC;}
+    
+        .middle-col > h2 {
+          color: #666666;
+          font-family: Arial,Verdana,Helvetica,sans-serif !important;
+          font-size: 18px;
+          font-weight: normal;
+        }
+        .bb_logo {
+            padding-left: 20px;
+            padding-top: 255px;}
+ 
+      .bb_logoT{
+        padding-left: 20px;
+                padding-top: 970px;}
+    .bb_logoTEsp{
+        padding-left: 20px;
+                padding-top: 1045px;}
+            
+/* CSS Document */
+/* CitiMobile */
+
+#signon_Overlay-trigger {cursor: pointer;}
+
+.sub-category-heading #AdBanner2 img {
+    margin-left: 0px;
+    }
+.sub-category #main-summary .top.sub-category-row2 .sub-category-summary2{
+    min-height:330px !important;
+}
+.sub-category #main-summary .bottom.sub-category-row2 .sub-category-summary2{
+    min-height:350px !important;
+}
+#container #main-content ul.checklist2{  
+min-height: 200px;
+}
+
+#container #main-content ul.checklist2 li {
+    background: url("/JRS/images/marketing/green-checkmark.gif") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+    line-height: 16px;
+    padding: 0 25px 10px;
+}
+
+.sub-category #main-summary .sub-category-row2 .sub-category-summary3 .heading sup {
+    font-size: 11px !important;
+    vertical-align: super;
+}
+.sub-category #main-summary .sub-category-row2 .sub-category-summary2 .subheading{
+    color: #666;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top:5px;
+    white-space:normal;
+}
+.sub-category #main-summary .sub-category-row2 .sub-category-summary2 .bottom3
+{
+    position: relative;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left top repeat-x;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 12px;
+    margin: 0px;
+    top:16px;
+}
+.sub-category #main-summary ul.citimobdisclaim{
+    padding:15px;
+}
+.sub-category #main-summary ul.citimobdisclaim li{
+    padding:10px;
+}
+.sub-category #main-summary .sub-category-row2 .sub-category-summary3 .bottom2 {
+    background: url("/JRS/images/marketing/BG-dotted-line.gif") repeat-x scroll left top rgba(0, 0, 0, 0);
+    bottom: 0;
+    left: 0;
+    padding-top: 12px;
+    position: absolute;
+    right: 0;
+}
+
+#account-features .row .bottom big,
+#account-features .row .add-on .bottom small
+{
+    float: left;
+}
+
+#account-features .row .bottom big {
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#account-features .row .bottom big.price {
+    position: relative;
+    padding: 0 15px 0 7px;
+}
+
+#account-features .row .bottom big.price sup {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 11px !important;
+}
+
+#account-features .row .bottom big.price .dollars
+{
+    font-size: 20px !important;
+}
+
+#account-features .row .bottom big.price .cents {
+    position: absolute;
+    right: 0;
+    top: 2px;
+
+
+    font-size: 11px !important;
+}
+
+#account-features .row .bottom small.single-line {
+position: relative;
+/*top: 6px;*/
+}
+
+#body .service-details #main-content #main-summary .breakdown ul > li:first-child {
+
+border-right: 1px solid #ccc;
+
+}
+
+#body #container #main-content #main-details #account-features .safety-check span#SafetyCheck
+{
+    cursor: auto !important; 
+    margin: 0px 0px 10px 55px;
+    font-weight: bold!important;
+    color: #0F0F0F;
+    cursor: pointer;
+    background: url(/JRS/images/marketing/BG-dotted-line.gif) left bottom repeat-x;
+
+}
+#body #container #main-content #main-details #account-features .row .add-on.odd span#SafetyCheck {
+margin-left: 72px!important;
+}
+
+
+.ui-tooltip
+{
+    background: #fff;
+    z-index:999 !important
+}
+
+#account-features .feature-category .feature.odd .toolTipClass {
+                margin:0 10px 10px 25px;             
+}
+#account-features .feature-category .feature .toolTipClass {
+                margin:0 10px 10px 0;
+                font-weight: bold!important;
+                color: #0F0F0F;
+                cursor: pointer;
+                background: url(/JRS/images/marketing/BG-dotted-line.gif) left bottom repeat-x;
+}
+
+#account-features .feature-category .feature .toolTipClass:hover {
+                color: #39C;
+}
+
+#main-content #main-summary-ctas .visit-compressed_sp, #main-content #main-summary-ctas .contact-compressed_sp {
+                padding: 5px 0 15px 0px !important;
+}
+h4.SC {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px !important;
+}
+h4.gray {
+  color: #666 !important;
+  margin: 0 0 15px !important;
+  font-size: 13px !important;
+}
+
+/* ADA Fixes */
+
+#header h1{
+ top:0px !important;
+ text-transform: uppercase !important;
+ font-size: 22px !important;
+}
+#container #main-content a.fn-lnk {
+  margin-bottom: 0px !important;
+}
+#container #main-content h3.tag-line {
+  white-space: inherit;
+}
+#container #main-content a.fn-lnk, 
+#container #main-content a:hover.fn-lnk, 
+#container #main-content a:visited.fn-lnk, 
+#container #main-content a:active.fn-lnk,
+a.fn-lnk, 
+a:hover.fn-lnk, 
+a:visited.fn-lnk, 
+a:active.fn-lnk,
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col a.fn-lnk, 
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col a:hover.fn-lnk,
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col a:visited.fn-lnk, 
+.sub-category .ways-to-bank-with-citi #main-details.compare .row .col a:active.fn-lnk {
+  font-family: arial, helvetica, sans-serif !important;
+  text-decoration: none !important;
+  color: #0f0f0f !important;
+  font-size: 10px !important;
+  vertical-align: text-top;
+}
+#container #main-content a.fn-lnk.gray,
+#container #main-content a:hover.fn-lnk.gray,
+#container #main-content a:visited.fn-lnk.gray,
+#container #main-content a:active.fn-lnk.gray,
+a.fn-lnk.gray, 
+a:hover.fn-lnk.gray, 
+a:visited.fn-lnk.gray, 
+a:active.fn-lnk.gray {
+  color: #999 !important;
+}
+#container #main-content a.fn-lnk.gold,
+#container #main-content a:hover.fn-lnk.gold,
+#container #main-content a:visited.fn-lnk.gold,
+#container #main-content a:active.fn-lnk.gold,
+a.fn-lnk.gold, 
+a:hover.fn-lnk.gold, 
+a:visited.fn-lnk.gold, 
+a:active.fn-lnk.gold,
+a.fn-lnk-gold, 
+a:hover.fn-lnk-gold, 
+a:visited.fn-lnk-gold, 
+a:active.fn-lnk-gold {
+  color: #957f55 !important;
+  text-decoration: none !important;
+}
+a.fn-lnk.bold, 
+a:hover.fn-lnk.bold, 
+a:visited.fn-lnk.bold, 
+a:active.fn-lnk.bold,
+#container #main-content a.fn-lnk.bold,
+#container #main-content a:hover.fn-lnk.bold,
+#container #main-content a:visited.fn-lnk.bold,
+#container #main-content a:active.fn-lnk.bold {
+    font-weight: bold !important;
+}
+.side-shadow {
+  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(/JRS/images/marketing/BG-main-content-shadow.png) !important;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  overflow: visible;
+  position: relative;
+  visibility: visible;
+}
+#container #main-content a:focus{
+  outline: 1px dotted black;
+}
+#container #main-content abbr{
+  border-bottom-width: 0;
+}
+#container #main-content button#lendingServButton, #ServicesOverlay-trigger button, button #AccountsOverlayADA,  button #DeductibilityOverlayADA, button #EligibilityOverlayADA {
+  font-weight: bold;
+  color: #00589D;
+  border: 0 none;
+  background: transparent none repeat scroll 0 0;
+  padding: 0px;
+  cursor: pointer;
+  cursor:hand;
+}
+#container #main-content button:focus#lendingServButton, #ServicesOverlay-trigger button:focus, button:focus #AccountsOverlayADA,  button:focus #DeductibilityOverlayADA, button:focus #EligibilityOverlayADA  {
+    background: transparent none repeat scroll 0 0;
+    color: #00589d;
+    font-weight: bold;
+    padding: 0;
+    cursor: pointer; 
+    cursor: hand;
+    outline: 1px dotted;
+}
+#container #main-content p.borderTop{
+  padding: 15px 0;
+  margin: 30px 0 0 0;
+  border-top: 2px solid #C5C5C5;
+}
+#container #main-content .summary-side h4, .summary-side_equal h4 {
+  color: #666;
+  padding-left: 5px;
+  margin: 0 0 15px 20px;
+  white-space: normal;
+}
+.products.top {
+  padding: 20px 0 0 0;
+  border-top: 2px solid #ccc;
+}
+h3.subHeading {
+  color: #000;
+  margin: 0 0 0 0 !important;
+  font-size: 12px !important;
+}
+.tableADA table thead tr.header th {
+background-color:#fff !important;
+border-bottom:1px solid #ccc;
+position:relative 
+}
+.tableADA table thead tr.header th h3,
+.tableADA table thead tr.header th h4  {
+color: #333;
+font-size: 13px;
+}
+.tableADA table tbody tr.row.selected{
+background-color: #f5f5f5;
+}
+.tableADA table thead tr.header th h3{
+padding: 0 0 5px 10px;
+}
+.tableADA table thead tr.header th h4{
+padding: 20px 0 5px 10px;
+}
+.tableADA table h5{
+font-size: 12px;
+margin: 0;
+padding: 0 0 5px;
+}
+.tableADA table tbody tr.row.selected td.first,
+.tableADA table tbody tr.row td.first{
+padding: 20px 14px 60px;
+height: 100%;
+width: 235px;
+float: left;
+position: relative;
+border-right: 1px solid #ccc;
+}
+.tableADA table tbody tr.row.selected td.last,
+.tableADA table tbody tr.row td.last{
+padding: 50px 14px;
+height: 100%;
+border-left: 1px solid #ccc;
+vertical-align: top;
+}
+.tableADA table tbody tr.row.selected td.last.gold,
+.tableADA table tbody tr.row td.last.gold{
+border-left: 1px solid #dcd3c1;
+}
+.tableADA table tbody tr.row.selected td.second,
+.tableADA table tbody tr.row td.second{
+padding: 40px 14px;
+height: 100%;
+width: 190px;
+vertical-align: top;
+}
+.tableADA table tbody tr.row.selected td.third,
+.tableADA table tbody tr.row td.third{
+height: 100%;
+vertical-align: top;
+border-left: 1px solid #ccc;
+padding: 50px 0 0 12px;
+width: 80px
+}
+.tableADA table tbody tr.row.selected td .miniCol,
+.tableADA table tbody tr.row td .miniCol{
+margin-right: 20px;
+text-align: center;
+}
+.tableADA table tbody tr.row.selected td.last .miniCol,
+.tableADA table tbody tr.row td.last .miniCol{
+float: left;
+width: 80px;
+margin-right: 0;
+border-left: none;
+}
+.tableADA table p.miniCol.title{
+color: #957F55;
+font-weight: bold;
+}
+.tableADA table p.center{
+text-align: center;
+}
+.tableADA table p.price{
+color: #957F55;
+font-weight: bold;
+font-size: 18px !important;
+text-align: center;
+}
+.tableADA table tbody tr.row.selected td.last .miniCol p,
+.tableADA table tbody tr.row td.last .miniCol p{
+text-align: center;
+}
+.tableADA table ul li{
+background: transparent url(/JRS/images/marketing/row-bullet.jpg) no-repeat 3px 5px;
+padding: 0 10px 5px 10px;
+
+}
+.tableADA table span.cost{
+color: #999;
+font-size: 18px !important;
+font-weight: bold;
+display: block;
+line-height: 22px;
+padding-left: 75px; 
+}
+.tableADA table .miniCol span.cost{
+padding-left: 0 !important; 
+}
+.tableADA table tbody .collapsible a{
+line-height: 1.5em;
+}
+
+a.collapsible-toggle {
+    background: transparent !important;
+}
+
+div#miranda {
+	border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 15px 15px;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul.styless li {
+    background: none !important;
+}
+/* CitiMobileApp */
+
+.notCostumer{margin-left: 25px;}
+
+h3.heading-sbrc-sidebar {
+white-space: inherit;
+}
+.width520{min-height:550px!important;}
+.width690{min-height:690px!important;}
+h2.introTitle {
+  font-size: 12px;
+  line-height: 0.05em;
+  padding-top: 20px;
+  color: #000;
+  margin-top: 5px;
+}
+.hiddenSkipNav{
+  text-transform: none;
+}
+
+/*regional pricing overlay*/
+
+#regionalPricingOvHeader {
+    font-size:12px;
+    font-weight:bold;
+    width: 100%;
+}
+div#ui-tooltip-RegionalPricingTooltip {
+    max-width: 450px !important;
+    width: 450px !important;
+}
+div#ui-tooltip-RegionalPricingTooltip .ui-tooltip-tip, div#ui-tooltip-RegionalPricingErrorTooltip .ui-tooltip-tip {
+    top: 90% !important;
+}
+div.ui-tooltip-pos-tr div.ui-tooltip-tip {
+    right: -8px !important;
+    top: -12px !important;
+}
+.bIE div.ui-tooltip-pos-tr div.ui-tooltip-tip {
+    top: -12px !important;
+    right: -8px !important;
+}
+div.ui-tooltip-pos-tc .ui-tooltip-titlebar, div.ui-tooltip-pos-tr .ui-tooltip-titlebar {
+    width: 448px;
+}
+div.ui-tooltip-pos-tc .ui-tooltip-content, div.ui-tooltip-pos-tr .ui-tooltip-content {
+    width: 408px;
+}
+div.ie.ui-tooltip-shadow {
+    /**top: 105px !important ;**/
+    /**height: auto !important ;**/
+}
+.ie.ui-tooltip-shadow {
+    /**top: 105px !important ;**/
+    /**height: auto !important ;**/
+}
+.parameter1 {
+    background-color: #FFFFFF;
+    border-color: #C1C1C1;
+    border-right: 1px dotted #C1C1C1;
+    border-style: none;
+    border-width: 1px;
+    list-style: none outside none;
+    padding: 10px 0;
+    width: 408px;
+}
+.parameter1 #regionalPricing table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.parameter1 #regionalPricing table th {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #D6D6D6;
+    border-style: solid;
+    border-width: 1px 0;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 6px 0 6px 15px;
+    text-align: left;
+    vertical-align: bottom;
+    width: 100%;
+}
+.parameter1 #regionalPricing table th .col1 {
+    width: 20%;
+}
+.parameter1 #regionalPricing table th .col2 {
+    width: 40%;
+}
+.parameter1 #regionalPricing table tr.even td {
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+.parameter1 #regionalPricing table td {
+    border-color: #999999;
+    border-style: none;
+    border-width: 1px 0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding: 6px 0 6px 15px;
+}
+.parameter1 #regionalPricing table tr.last td {
+    border-bottom: 1px solid #D6D6D6;
+}
+.parameter1 .footnote .bottom-note {
+    color: #666666;
+    font-size: 11px;
+}
+.parameter1 .footnote {
+    padding-left: 20px;
+ *margin-left: 0pt
+}
+.savings_ul{ 
+	min-height:100px !important; 
+} 
+
+.savings_div{ 
+	height: auto; 
+	width: 690px !important; 
+}
+
+a.ui-tooltip-icon:focus{
+    outline: 1px dotted black !important;
+}
+#cmlink_CancelBtn:focus, #cmlink_GoBtnLocForm:focus{
+    outline: 1px dotted black !important;
+}
+#aJRSPRODSERV_t_sProdServDetail .cR-citiBodyWrapper .cR-citiFloatContainer #body #container #main-content #main-summary .two-cols .b #cmlink_ProdDisp {
+  width: 95px !important;
+}
