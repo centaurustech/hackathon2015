@@ -1,0 +1,3652 @@
+#citilmHeader, #citilmHeader div, #citilmHeader span, #citilmHeader h1, #citilmHeader h2, #citilmHeader h3, #citilmHeader h4, #citilmHeader h5, #citilmHeader h6, #citilmHeader p, #citilmHeader blockquote, #citilmHeader pre, #citilmHeader a, #citilmHeader abbr, #citilmHeader acronym, #citilmHeader address, #citilmHeader big, #citilmHeader cite, #citilmHeader code, #citilmHeader del, #citilmHeader dfn, #citilmHeader em, #citilmHeader img, #citilmHeader ins, #citilmHeader q, #citilmHeader s, #citilmHeader samp, #citilmHeader small, #citilmHeader strike, #citilmHeader strong, #citilmHeader sub, #citilmHeader sup, #citilmHeader tt, #citilmHeader var, #citilmHeader b, #citilmHeader u, #citilmHeader i, #citilmHeader dl, #citilmHeader dt, #citilmHeader dd, #citilmHeader ol, #citilmHeader ul, #citilmHeader li, #citilmHeader fieldset, #citilmHeader form, #citilmHeader label, #citilmHeader legend, #citilmHeader table, #citilmHeader caption, #citilmHeader tbody, #citilmHeader tfoot, #citilmHeader thead, #citilmHeader tr, #citilmHeader th, #citilmHeader td {
+    background-color: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html div#body {
+    margin-top: 0;
+    overflow: visible;
+}
+.hiddenSkipNav {
+    height: 1px;
+    left: -10000px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+}
+#citilmHeader #brandingDataTransfer {
+    display: none;
+}
+#citilmHeader td, #citilmHeader th, #citilmHeader div, #citilmHeader li {
+    font-family: arial,sans-serif;
+}
+#citilmHeader input, #citilmHeader select {
+    font-family: arial,sans-serif;
+    vertical-align: middle;
+}
+#citilmHeader a {
+    color: #000000;
+    text-decoration: none;
+}
+#citilmHeader .citiBrandingNav a {
+    display: inline-block;
+}
+#citilmHeader a:hover {
+    text-decoration: underline;
+}
+#citilmHeader #user_signOff a:hover {
+    text-decoration: underline !important;
+}
+#citilmHeader strong {
+    font-weight: bold;
+}
+#citilmHeader em {
+    font-style: normal;
+}
+#citilmHeader sup {
+    font-size: smaller;
+    vertical-align: text-top;
+}
+#citilmHeader .citiBrandingNav {
+background: transparent url("horizontal_sprite.png") repeat-x scroll 0 0;
+    clear: both;
+    padding: 0 23px;
+}
+#citilmHeader #nav_main {
+    padding-left: 17px;
+}
+#citilmHeader .citiBrandingNav ul {
+    list-style: outside none none;
+}
+#citilmHeader .citiBrandingNav li {
+    float: left;
+}
+#citilmHeader .citiBrandingNav li a {
+    color: #ffffff !important;
+}
+#citilmHeader #nav_utility li {
+    color: #ffffff;
+}
+#citilmHeader #nav_utility li div, #citilmHeader #nav_utility li div a {
+    color: #000000 !important;
+}
+#citilmHeader {
+    background: transparent url("bg-branding-banner.jpg") no-repeat scroll 0 22px;
+    color: #000000;
+    font-size: 11px;
+    line-height: 13px;
+    margin-bottom: 0;
+    overflow: visible;
+    position: relative;
+    width: 984px;
+    z-index: 101;
+}
+#citilmHeader.br_FS_YodleePFMSSO, #citilmHeader.br_CardsBranding_Yodlee {
+    z-index: 3;
+}
+#citilmHeader.public {
+    background: #ffffff url("bg-marketing-banner.jpg") no-repeat scroll 0 22px;
+}
+#citilmHeader.citiBusiness {
+    background: #ffffff url("bg-business-banner.jpg") no-repeat scroll 0 22px;
+}
+#citilmHeader #headerLogoLink {
+    display: block;
+    left: 25px;
+    position: absolute;
+    top: 45px;
+}
+#headerLogoLinkIE {
+    display: none;
+}
+.signonbb {
+    color: #ffffff !important;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 26px;
+    width: 60px;
+}
+.vIE7 #headerLogoLinkIE, .vIE8 #headerLogoLinkIE {
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+}
+#citilmHeader #nav_utility {
+    height: 26px;
+    padding: 0 22px;
+}
+#citilmHeader #nav_utility li {
+    font-size: 10px;
+    margin-top: 4px;
+    padding: 0 3px;
+    position: relative;
+    text-transform: uppercase;
+}
+#citilmHeader #nav_utility li a {
+    text-transform: uppercase;
+}
+#citilmHeader #nav_utility #ratesTool li, #citilmHeader #nav_utility .flyoutTool li {
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+#citilmHeader #nav_utility #ratesTool ul li a, #citilmHeader #nav_utility .flyoutTool ul li a {
+    font-size: 11px !important;
+    font-weight: bold !important;
+    text-transform: none;
+}
+#citilmHeader #nav_utility li a:hover {
+    text-decoration: none;
+}
+#citilmHeader #nav_utility #finderTool, #citilmHeader #nav_utility #ratesTool, #citilmHeader #nav_utility .flyoutTool {
+    margin-top: 0;
+    padding: 0;
+    z-index: 500;
+}
+#citilmHeader #nav_utility #contactTool {
+    margin-top: 0;
+    padding: 0;
+    z-index: 500;
+}
+#citilmHeader #nav_utility #finderTool > a, #citilmHeader #nav_utility #ratesTool > a, #citilmHeader #nav_utility .flyoutTool > a, #citilmHeader #nav_utility #contactTool > a {
+    padding: 4px 4px 5px 6px;
+}
+#citilmHeader #nav_utility #finderTool a.active .cM-whiteCaratArrowDown-topNav, #citilmHeader #nav_utility #ratesTool a.active .cM-whiteCaratArrowDown-topNav, #citilmHeader #nav_utility #contactTool a.active .cM-whiteCaratArrowDown-topNav {
+    background-color: #727272;
+    background-position: -1px -74px !important;
+    height: 12px;
+    margin: 0 3px 0 -3px !important;
+    width: 12px;
+}
+#citilmHeader #nav_utility #finderTool a.inactive, #citilmHeader #nav_utility #ratesTool a.inactive, #citilmHeader #nav_utility #contactTool a.inactive, #citilmHeader #nav_utility .flyoutTool a.inactive {
+    background-color: transparent;
+    background-position: -1px -405px;
+    display: inline-block;
+}
+#citilmHeader #finderFlyout {
+    background-color: #f7f7f7;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 24px -7px #3d3d3d;
+    display: none;
+    font-size: 12px;
+    left: 0;
+    margin-right: 0;
+    position: absolute;
+    top: 22px;
+    visibility: hidden;
+    width: 250px;
+    z-index: 500;
+}
+#citilmHeader #finderFlyout strong.fcloca {
+    margin: 0;
+    text-transform: uppercase;
+}
+#citilmHeader #finderFlyout strong {
+    background-color: #f5f5f5;
+    display: block;
+    font-size: 14px;
+    margin: 20px 20px 15px 0;
+    text-transform: none;
+}
+#citilmHeader #finderFlyout div.content {
+    background: #ffffff url("megamenu_tile.gif") repeat scroll left top;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+#citilmHeader #finderFlyout select#countryFlyOut {
+    border: 1px solid #b6c0c1;
+    display: block;
+    float: left;
+    height: 20px;
+    margin-bottom: 17px;
+    margin-right: 8px;
+    padding: 1px 0;
+    width: 153px;
+}
+#citilmHeader #finderFlyout input {
+    border: 1px solid #b6c0c1;
+    display: block;
+    float: left;
+    height: 14px;
+    margin-bottom: 6px;
+    margin-right: 8px;
+    padding: 2px 4px;
+    width: 153px;
+}
+#citilmHeader #finderFlyout span {
+    text-transform: none;
+    vertical-align: -4px;
+}
+#citilmHeader #finderFlyout #city {
+    width: 94px;
+}
+#citilmHeader #finderFlyout #state {
+    margin-right: 5px;
+    width: 41px;
+}
+#citilmHeader #finderFlyout a#find-submit {
+    background: transparent url("horizontal_sprite.png") repeat-x scroll 0 -139px;
+    color: #ffffff !important;
+    display: block;
+    float: left;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    height: 20px;
+    line-height: 19px;
+    text-align: center;
+    width: 40px;
+}
+#citilmHeader #finderFlyout div.footer {
+    clear: both;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-transform: none;
+}
+#citilmHeader #nav_utility #finderFlyout a {
+    padding-right: 2px;
+}
+#citilmHeader #nav_utility #finderFlyout div.footer a {
+    color: #02589d !important;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 6px;
+    text-transform: none;
+}
+#citilmHeader #finderFlyout .close {
+    position: absolute;
+    right: 9px;
+    top: 6px;
+}
+#citilmHeader #nav_utility #nav_home ul.oppUtility {
+    float: right !important;
+    margin-left: 400px;
+}
+#citilmHeader #nav_utility #nav_home ul.oppUtility li {
+    margin-right: 10px !important;
+}
+#citilmHeader #nav_utility #nav_home ul.oppUtility li a {
+    font-size: 11px !important;
+}
+#citilmHeader #nav_main {
+    background: transparent url("horizontal_sprite.png") repeat-x scroll 0 -26px;
+    border-bottom: 3px solid #b0dbeb;
+    color: #ffffff !important;
+    height: 27px;
+    margin-top: 82px !important;
+}
+#citilmHeader.citiGoldAccount #nav_main {
+    background: #b5995c none repeat scroll 0 0;
+    border-bottom: medium none;
+}
+#citilmHeader.prelog #nav_main {
+    border-bottom: medium none;
+}
+#citilmHeader.citiBusiness #nav_main {
+    background: #3399cc none repeat scroll 0 0;
+    border-bottom: medium none;
+}
+#citilmHeader #nav_main li a, #citilmHeader #ratesTool ul a, #citilmHeader .flyoutTool ul a {
+    font-size: 11px !important;
+    font-weight: bold !important;
+    line-height: 26px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#citilmHeader #nav_utility ul li a {
+    font-size: 10px !important;
+}
+#citilmHeader #nav_main a:hover, #citilmHeader #nav_main li.active a, #citilmHeader #nav_main li a.active {
+    background: transparent url("horizontal_sprite.png") repeat-x scroll 0 -54px !important;
+    display: inline-block;
+    text-decoration: none !important;
+}
+#citilmHeader.citiGoldAccount #nav_main a:hover, #citilmHeader.citiGoldAccount #nav_main li.active a, #citilmHeader.citiGoldAccount #nav_main li a.active {
+    background: #cbb88d none repeat scroll 0 0 !important;
+    display: inline-block;
+    text-decoration: none !important;
+}
+#citilmHeader.citiBusiness #nav_main a:hover, #citilmHeader.citiBusiness #nav_main li.active a, #citilmHeader.citiBusiness #nav_main li a.active {
+    background: #71b8db none repeat scroll 0 0;
+}
+#citilmHeader #nav_main ul li a#backLogo {
+}
+#citilmHeader #nav_utility li.searchTool {
+    font-size: 10px;
+    margin-top: 2px;
+}
+#citilmHeader li.searchTool a {
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 11px;
+    height: 16px;
+    margin-top: 1px;
+    text-transform: uppercase;
+}
+.gsc-input-box, #citilmHeader li.searchTool input {
+    background: transparent url("horizontal_sprite.png") repeat-x scroll 0 -108px;
+    border: 0 none;
+    float: left;
+    font-size: 10px;
+    height: 15px;
+    margin-top: 1px;
+    padding: 0;
+    width: 30px;
+}
+#citilmHeader #nav_main #contactTool {
+    height: 19px;
+    margin-top: 0;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    position: relative;
+    z-index: 200;
+}
+#citilmHeader #nav_main #contactTool.active {
+    background: #265b9a none repeat scroll 0 0;
+    box-shadow: 0 1px 10px -1px #3d3d3d;
+}
+#citilmHeader #nav_main #contactTool a.flyoutBtn {
+    background: transparent url("icon-down-tick.gif") no-repeat scroll left center;
+    padding-left: 14px;
+}
+#citilmHeader #nav_welcome {
+    background: transparent none repeat scroll 0 0;
+    border-bottom: 1px solid #e7e7e7;
+    height: 25px;
+    margin: 0 28px 10px;
+    padding: 10px 0 0;
+}
+#citilmHeader #nav_welcome li {
+    padding-left: 27px;
+}
+#citilmHeader #nav_welcome li a {
+    color: #000000 !important;
+}
+#citilmHeader #nav_welcome li#regionalPricing {
+    float: right;
+    width: 220px;
+}
+html.lang_es #citilmHeader #nav_welcome li#regionalPricing {
+    width: 211px;
+}
+#citilmHeader #user_information #user_messages {
+    padding-left: 0;
+}
+#citilmHeader #user_messages {
+    position: relative;
+}
+#citilmHeader #user_messages > a {
+    display: block;
+    margin-top: -10px;
+    min-width: 90px;
+    padding: 10px 0 8px 9px;
+    position: relative;
+    z-index: 201;
+}
+#citilmHeader.vIE7 #user_messages > a {
+}
+#citilmHeader #user_messages > a.active {
+    background: transparent url("tile-diagonal-lines-dark.gif") repeat scroll left bottom;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    width: 241px;
+}
+#citilmHeader #user_information > li {
+    background-image: none !important;
+    border-left: 2px solid #888;
+    display: inline-block;
+    height: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#gssSearchBox, .gsc-control-searchbox-only {
+    height: 14px !important;
+}
+.gcsc-branding, .gsc-clear-button, .gsib_b {
+    display: none !important;
+}
+.gsc-control-cse {
+    font-family: Arial,sans-serif !important;
+    vertical-align: bottom !important;
+}
+.gsc-control-cse .gsc-table-result {
+    font-family: Arial,sans-serif !important;
+}
+.cse .gsc-control-cse, .gsc-control-cse {
+    padding: 8px;
+}
+table.gsc-search-box {
+    height: 15px;
+    margin: 0 !important;
+    width: 100% !important;
+}
+.gsc-completion-container {
+    font-size: 10px !important;
+    width: 100% !important;
+}
+td.gsib_a, td.gsc-input {
+    padding: 0 !important;
+    width: 100% !important;
+}
+td.gsc-search-buttons {
+    display: none;
+}
+.gsc-search-box .gsc-input > input:focus, .gsc-input-box-focus {
+    border: medium none !important;
+    box-shadow: none !important;
+}
+.gsc-search-box .gsc-input > input:hover, .gsc-input-box-hover, table.gsc-search-box td.gsc-input, .searchWrapper input:focus {
+    box-shadow: none !important;
+    outline: 0 none !important;
+}
+input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+    background-image: none !important;
+    border: medium none !important;
+    display: none !important;
+    filter: none !important;
+}
+.searchWrapper .cM-searchIcon {
+    display: inline !important;
+    height: 14px !important;
+    left: 2px !important;
+    position: absolute !important;
+    top: 1px !important;
+    width: 14px !important;
+}
+.searchWrapper input.searchBtn {
+    cursor: pointer;
+    height: 14px !important;
+    margin-top: 1px !important;
+    position: absolute !important;
+    right: 4px !important;
+    top: -1px !important;
+    width: 28px !important;
+}
+#gsc-i-id1 {
+    background: transparent none repeat scroll 0 0 !important;
+    height: 14px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 130px !important;
+}
+.gstl_50 {
+    top: 20px !important;
+}
+#labelSearch {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-left: 23px;
+    margin-top: 45px;
+}
+#buttonSearch {
+    display: inline;
+    float: right;
+}
+#gsc-i-id2 {
+    background: transparent none repeat scroll 0 0 !important;
+    border: 1px solid gray !important;
+    float: left !important;
+    margin-left: 13px !important;
+    margin-right: 20px !important;
+    width: 500px !important;
+}
+.gsc-input-box {
+    border: medium none !important;
+    height: auto !important;
+    width: 200px;
+}
+#gs_id51 {
+    margin-bottom: 40px !important;
+}
+#buttonSearch2 {
+    background-color: #285d9b;
+    background-image: -moz-linear-gradient("center top , #3c80ba, #285d9b 60%") !important;
+    border: medium none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    height: 25px !important;
+    padding: 1px 10px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 75px !important;
+}
+#buttonSearch2:hover {
+    background-image: -moz-linear-gradient("center top , #6aaee9, #3b7fba") !important;
+    text-decoration: none;
+}
+.searchTips {
+    margin-left: 10px;
+}
+body > table.gstl_50 {
+    margin-left: -20px !important;
+    width: 200px !important;
+}
+body > table.gstl_51 {
+    margin-left: 10px !important;
+    width: 500px !important;
+}
+#citilmHeader #user_information > li a {
+    color: #000000 !important;
+}
+#citilmHeader #user_information li.user_information_welcome {
+    border-left: medium none;
+}
+#citilmHeader #user_information #user_CardsMyProfile {
+    height: 15px;
+    padding-top: 1px;
+}
+#citilmHeader #user_information li.user_information_welcome #user_name {
+    background-image: none !important;
+    color: #0f0f0f;
+    padding-right: 0;
+}
+#citilmHeader #user_information li.user_information_welcome {
+    padding-left: 0;
+}
+.user_information_welcome_newmessage {
+    color: #008800;
+    font-weight: bold;
+}
+#citilmHeader #user_information > li a.menuitem_welcome_message {
+    color: #05589d !important;
+}
+.menuitem_welcome_message {
+    color: #05589d !important;
+}
+#citilmHeader #user_information #user_cardsMessages span.user_information_welcome_newmessage {
+    color: #008800 !important;
+    font-weight: bold;
+}
+#citilmHeader #user_information li a.menuitem_welcome_message {
+    color: #05589d !important;
+}
+#citilmHeader #user_information li a span.menuitem_welcome_message {
+    color: #05589d !important;
+}
+#citilmHeader #user_information #user_CardsMyProfile > a:hover {
+    text-decoration: none;
+}
+#citilmHeader #user_information #user_CardsMyProfile > a:hover .cM-spriteBase.cM-myProfileIcon {
+    background-position: -1px -153px;
+}
+#citilmHeader #user_information #user_CardsMyProfile > a:hover span.myProfileClass {
+    text-decoration: underline;
+}
+.vIE7 #user_information #user_CardsMyProfile .cM-spriteBase.cM-myProfileIcon {
+    position: relative;
+    top: -2px;
+}
+.vIE8 #user_information #user_CardsMyProfile .cM-spriteBase.cM-myProfileIcon {
+    position: relative;
+    top: 1px;
+}
+#citilmHeader #user_messages > a.active em {
+    background: transparent url("global_sprite.png") no-repeat scroll 216px -672px;
+    display: block;
+    height: 12px;
+    padding: 0 15px 0 2px;
+}
+#citilmHeader #messageflyout {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 2px 2px 24px -7px #3d3d3d;
+    margin-right: 0;
+    padding-top: 30px;
+    position: absolute;
+    top: -10px;
+    visibility: hidden;
+    width: 250px;
+    z-index: 200;
+}
+#citilmHeader #messageflyout div {
+    overflow: hidden;
+}
+#citilmHeader #messageflyout strong {
+    padding: 0;
+}
+#citilmHeader #user_messages #messageflyout a {
+    color: #02589d !important;
+    padding-left: 10px;
+}
+#citilmHeader #messageflyout #flyoutmsglist {
+    background: #ffffff url("flyout-tile-c.jpg") repeat scroll left top;
+    padding: 15px 20px;
+}
+#citilmHeader #messageflyout #flyoutmsglist li {
+    background: transparent url("global_sprite.png") no-repeat scroll -1px -487px !important;
+    display: block;
+    margin-right: 80px;
+    margin-top: 15px;
+    padding-left: 0 !important;
+}
+#citilmHeader #messageflyout #flyoutmsglist strong#yourMsg {
+    margin-left: -4px;
+}
+#citilmHeader #messageflyout #flyoutmsglist div#noMsg {
+    margin-left: 4px;
+    margin-top: 8px;
+}
+#citilmHeader #messageflyout #flyoutallmsg {
+    line-height: 25px;
+    padding: 2px 20px 4px 16px;
+}
+#citilmHeader #messageflyout #flyoutallmsg ul {
+    overflow: hidden;
+}
+#citilmHeader #messageflyout #flyoutallmsg li {
+    padding: 0;
+}
+#citilmHeader #messageflyout #flyoutallmsg li a span {
+    font-family: arial,sans-serif;
+    margin: 0 3px 1px;
+}
+#citilmHeader #messageflyout #flyoutmsglist strong#yourMsg {
+    margin-left: -4px;
+}
+#citilmHeader #messageflyout #flyoutmsglist div#noMsg {
+    margin-left: 4px;
+    margin-top: 8px;
+}
+#citilmHeader #user_name {
+    background: transparent url("global_sprite.png") no-repeat scroll -14px -1px !important;
+    float: left;
+    font-size: 12px;
+    height: 12px;
+    line-height: 14px;
+    padding-right: 10px;
+    vertical-align: top !important;
+}
+#citilmHeader #user_information {
+    font-size: 12px;
+}
+#citilmHeader #user_information li {
+    padding-left: 9px;
+}
+#citilmHeader #user_information #user_lastLogin {
+    background: transparent url("global_sprite.png") no-repeat scroll -14px -1px !important;
+    color: #000000;
+    float: left;
+    height: 12px;
+    padding-right: 9px;
+}
+#citilmHeader #user_information #user_lastLogin {
+    background-image: none !important;
+    height: 15px;
+    padding-top: 1px;
+}
+#citilmHeader .cM-spriteBase.cM-welcomeRowVerticalDivider {
+    float: left;
+    margin-top: -1px;
+}
+.bIE #citilmHeader .cM-spriteBase.cM-welcomeRowVerticalDivider {
+    margin-top: 1px;
+}
+.bIE #citilmHeader #user_lastLogin .cM-spriteBase.cM-welcomeRowVerticalDivider {
+    float: none;
+    left: 8px;
+    position: relative;
+    top: -1px;
+}
+#citilmHeader #user_information #user_signOff {
+    float: right;
+}
+#citilmHeader #user_information #user_signOff a {
+    background: transparent url("icon-lock.gif") no-repeat scroll left center;
+    font-size: 11px;
+    padding-left: 15px;
+    padding-right: 0;
+}
+#citilmHeader li.numeric > a span {
+    background: transparent url("horizontal_sprite.png") repeat scroll 0 -219px;
+    border: 1px solid #999999;
+    float: left;
+    height: 14px;
+    line-height: 14px;
+    margin: -1px 5px 0 4px;
+    min-width: 16px;
+}
+#citilmHeader li.numeric > a span strong {
+    display: block;
+    font-weight: normal;
+    height: 16px;
+    margin-left: 2px;
+    min-width: 12px;
+    padding-right: 2px;
+    text-align: center;
+}
+#citilmHeader li.numeric a:hover {
+    text-decoration: none;
+}
+#citilmHeader li.numeric a:hover em {
+    text-decoration: underline;
+}
+#citilmHeader #nav_utility ul, #citilmHeader #nav_main ul, #citilmHeader #user_actions {
+    float: right;
+}
+#citilmHeader #nav_utility ul#nav_home {
+    float: left;
+}
+#citilmHeader #nav_utility li.vip_link {
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+#citilmHeader #nav_utility li.vip_link a {
+    color: #000 !important;
+    display: block;
+    font-size: 1px !important;
+    height: 21px;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    width: 20px;
+}
+#citilmHeader #nav_navigation {
+    background: transparent url("bg-nav-link-off.gif") repeat-x scroll 0 0;
+    color: #ffffff !important;
+    font-size: 12px;
+    height: 37px;
+}
+#citilmHeader #nav_navigation li {
+    position: relative;
+    z-index: 100;
+}
+#citilmHeader #nav_main li.separator {
+    color: #ffffff;
+    line-height: 26px;
+}
+#citilmHeader #nav_navigation li a {
+    height: 25px;
+    padding: 3px 8px 0;
+}
+#citilmHeader #nav_navigation li:hover {
+    background: transparent url("bg-nav-link-on.gif") repeat-x scroll 0 0;
+}
+#citilmHeader #nav_navigation li a:hover {
+    text-decoration: none !important;
+}
+#citilmHeader #nav_navigation li.sfHover a.main {
+    background: transparent url("menu-arrow.gif") no-repeat scroll center bottom;
+    height: 33px;
+    position: relative;
+    z-index: 150;
+}
+#citilmHeader #nav_navigation li.sfHover li a {
+    background: #ffffff none repeat scroll 0 0;
+    color: #000000;
+    height: auto;
+    padding: 11px 0 11px 16px;
+    position: static;
+    z-index: 100;
+}
+#citilmHeader #nav_navigation li.sfHover li a:hover {
+    background-color: #f7f7f7;
+}
+#citilmHeader #nav_navigation li.active a, #citilmHeader #nav_navigation li.active a:active, #citilmHeader #nav_navigation li.active a:link, #citilmHeader #nav_navigation li.active a:visited {
+    background-color: #ffffff;
+    color: #000000;
+}
+#citilmHeader #nav_navigation li ul {
+    left: 0;
+    position: absolute;
+    top: 37px;
+    z-index: 100;
+}
+#citilmHeader #nav_navigation #serviceCenter ul {
+    margin-left: -2.4em;
+}
+#citilmHeader #nav_navigation #productsAndServices ul {
+    margin-left: -1.2em;
+}
+#citilmHeader #nav_navigation li:hover ul {
+    display: block;
+}
+#citilmHeader #nav_main #nav_marketing, #citilmHeader #nav_main #nav_secured {
+    float: left;
+}
+#citilmHeader #nav_main #nav_marketing .submenu.withSubMenu {
+    overflow: hidden !important;
+    position: relative;
+}
+#citilmHeader #nav_main #nav_marketing .withSubMenu .sub-subMenu {
+    background: #ffffff none repeat scroll 0 0 !important;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 1px 3px rgba("0, 0, 0, 0.8);
+    display: block !important;
+    left: 0;
+    position: absolute;
+    top: 27px;
+    width: 185px;
+    z-index: 50;
+}
+#citilmHeader #nav_main #nav_marketing .withSubMenu:hover {
+    overflow: visible !important;
+}
+#citilmHeader #nav_main #nav_marketing .withSubMenu .sub-subMenu ul, #citilmHeader #nav_main #nav_marketing .withSubMenu .sub-subMenu ul li {
+    float: left;
+    width: 100%;
+}
+#citilmHeader #nav_main #nav_marketing .withSubMenu .sub-subMenu ul li .subMenuItem {
+    border-bottom: 1px dotted #adadad;
+    color: #000000 !important;
+    display: block;
+    font: bold 11px/14px Arial,Helvetica,sans-serif;
+    padding: 12px 8px;
+    text-decoration: none;
+}
+#citilmHeader #nav_main #nav_marketing .withSubMenu .sub-subMenu ul li .subMenuItem:hover {
+    background: rgba("0, 0, 0, 0) none repeat scroll 0 0 !important;
+}
+#citilmHeader #nav_main #nav_marketing .withSubMenu .sub-subMenu ul li .subMenuItem.lastItem {
+    border-bottom: medium none;
+}
+#signOnTool {
+    float: right;
+    font-family: arial,sans-serif;
+}
+#SignOnTo {
+    font-weight: bold;
+}
+#citilmHeader.citiGoldAccount #nav_main #signOnTool {
+    background: #916f34 none repeat scroll 0 0 !important;
+    height: 26px;
+    margin-top: 1px;
+    position: relative;
+}
+#citilmHeader #nav_main #signOnTool {
+    background: transparent url("horizontal_sprite.png") repeat-x scroll 0 -82px;
+    height: 25px;
+    margin-top: 0;
+    position: relative;
+}
+#citilmHeader #nav_main #backToCiti {
+    margin-right: 10px;
+}
+#citilmHeader #nav_main #backToCiti a {
+    padding-left: 0;
+}
+#citilmHeader.citiGoldAccount #nav_main #signOffTool {
+    background: #916f34 none repeat scroll 0 0 !important;
+    height: 25px;
+    margin-top: 1px;
+    position: relative;
+}
+#citilmHeader #nav_main #signOffTool {
+    background: transparent url("horizontal_sprite.png") repeat-x scroll 0 -82px;
+    height: 25px;
+    position: relative;
+}
+#citilmHeader.citiBusiness #nav_main #signOffTool {
+    background: #176fb0 none repeat scroll 0 0;
+}
+#citilmHeader #nav_main #signOnTool .flyoutBtn {
+    color: #ffffff !important;
+    display: block;
+    height: 26px !important;
+    line-height: 26px;
+    margin-bottom: 1px;
+    padding-right: 0;
+    width: 133px !important;
+}
+#citilmHeader #nav_main #signOnTool .flyoutBtn .cM-signOntoDownArrowWhite {
+    background: transparent url("global_sprite.png") no-repeat scroll -1px -630px !important;
+    display: inline !important;
+    height: 20px;
+    margin: 3px 9px 0 16px;
+    padding: 1px 10px 1px 1px;
+    width: 15px !important;
+}
+#citilmHeader #nav_main #signOnTool a.active .cM-signOntoDownArrowWhite {
+    background: transparent url("global_sprite.png") no-repeat scroll -1px -651px !important;
+    display: inline !important;
+    height: 20px;
+    margin: 3px 9px 0 16px;
+    padding: 1px 14px 1px 1px;
+    width: 18px !important;
+}
+#citilmHeader #nav_main #signOffTool .signOffBtn {
+    background: transparent url("red_lock.png") no-repeat scroll 15px 8px;
+    color: #ffffff !important;
+    display: inline-block;
+    line-height: 26px;
+    padding-left: 27px;
+    padding-right: 14px;
+}
+#citilmHeader.citiBusiness #nav_main #signOffTool .signOffBtn {
+    background: transparent url("white_lock.png") no-repeat scroll 15px 8px;
+}
+#citilmHeader.citiGoldAccount #nav_main #signOffTool .signOffBtn {
+    background: transparent url("white_lock.png") no-repeat scroll 15px 8px;
+    color: #ffffff !important;
+    display: inline-block;
+    line-height: 26px;
+    padding-left: 27px;
+    padding-right: 14px;
+}
+#citilmHeader #nav_main #signOnTool .flyoutBtn:hover {
+    background: transparent url("horizontal_sprite.png") no-repeat scroll 0 -54px;
+    outline: medium none;
+    text-decoration: none;
+}
+#citilmHeader #nav_main #signOffTool .signOffBtn:hover {
+    background: transparent url("red_lock.png") no-repeat scroll 15px 8px !important;
+    text-decoration: none;
+}
+#citilmHeader #nav_main #signOnFlyout {
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 24px -7px #3d3d3d;
+    display: none;
+    padding: 10px 0;
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+    width: 170px;
+}
+#citilmHeader #ratesFlyout, #citilmheader .flyoutTool .flyoutPane {
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 24px -7px #3d3d3d;
+    display: none;
+    padding: 10px 0;
+    position: absolute;
+    right: auto;
+    visibility: hidden;
+    width: 170px;
+}
+#citilmHeader #nav_main #signOnFlyout a, #citilmHeader #ratesTool ul a, #citilmHeader .flyoutTool ul a {
+    background-color: #fff;
+    color: #000000 !important;
+    cursor: pointer;
+    display: block;
+    line-height: 14px;
+    padding: 8px 10px;
+    width: 150px;
+}
+#citilmHeader #nav_main #signOnFlyout li .flyoutSeparator, #citilmHeader #ratesTool ul li .flyoutSeparator, #ratesTool #ratesFlyout ul li.flyoutSeparator {
+    background: #ffffff url("horizontal_sprite.png") repeat-x scroll 0 -234px;
+    height: 1px;
+    width: 100%;
+}
+#citilmHeader #nav_main #signOnFlyout a:hover, #citilmHeader #ratesTool ul a:hover, #citilmHeader .flyoutTool ul a:hover {
+    background-color: #e5e5e5 !important;
+    background-image: none !important;
+}
+#citilmHeader #ratesFlyout li:first-child a, #citilmHeader #nav_main #signOnFlyout li:first-child a, #citilmHeader .flyoutTool .flyoutPane li:first-child a {
+    background-image: none;
+}
+#citilmHeader div.jfpw-ie-shadow {
+    font-size: 0;
+    line-height: 0;
+}
+#citilmHeader .hidden {
+    display: none;
+    visibility: hidden;
+}
+#citilmHeader .visuallyhidden {
+    border: 0 none;
+    clip: rect("0pt, 0pt, 0pt, 0pt);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+#citilmHeader .sf-shadow ul {
+    box-shadow: -3px 2px 20px -3px #3d3d3d;
+}
+#citilmHeader .sf-shadow ul.sf-shadow-off {
+    background: transparent none repeat scroll 0 0;
+}
+#citilmHeader #nav_utility #contactTool ul {
+    float: none;
+    overflow: hidden;
+}
+#citilmHeader #contactFlyout {
+    background: #ffffff url("megamenu_tile.gif") repeat scroll left top;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 24px -7px #3d3d3d;
+    display: none;
+    left: 0;
+    max-height: 165px;
+    padding: 15px 20px;
+    position: absolute;
+    text-transform: none;
+    top: 22px;
+    visibility: hidden;
+    width: 200px;
+    z-index: 500;
+}
+#citilmHeader.bIE #signOnFlyout DIV.l {
+    background: rgba("0, 0, 0, 0) url("ie7-ie8/flyout-l.png") repeat-y scroll left bottom;
+    height: 100%;
+    position: absolute;
+    width: 10px;
+}
+#citilmHeader #contactFlyout.fitHeight {
+    height: auto !important;
+}
+#citilmHeader #contactFlyout li {
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-top: 5px;
+    min-height: 50px;
+    padding: 0;
+    width: 200px;
+}
+#citilmHeader #nav_utility #contactFlyout li a {
+    background: transparent url("global_sprite.png") no-repeat scroll 0 0 !important;
+    cursor: pointer;
+    display: block;
+    font-family: arial,sans-serif;
+    padding: 0 0 0 25px;
+}
+#citilmHeader #nav_utility #contactFlyout li a div {
+    font-size: 10px;
+    line-height: 10px;
+    margin-top: 4px;
+    text-transform: none;
+}
+#citilmHeader #nav_utility #contactFlyout li.message a {
+    background-position: -1px -282px !important;
+    height: 10px;
+    line-height: 8px;
+    margin: 8px 0 0 15px;
+}
+#citilmHeader #nav_utility #contactFlyout li.chat a {
+    background-position: -1px -87px !important;
+    height: 15px;
+    line-height: 8px;
+    margin: 8px 0 0 15px;
+}
+#citilmHeader #nav_utility #contactFlyout li.contact a {
+    background-position: -1px -336px !important;
+    height: 14px;
+    line-height: 8px;
+    margin: 8px 0 0 15px;
+}
+#citilmHeader #nav_utility #contactFlyout li.message a:hover {
+    background-position: -1px -293px !important;
+}
+#citilmHeader #nav_utility #contactFlyout li.chat a:hover {
+    background-position: -1px -103px !important;
+}
+#citilmHeader #nav_utility #contactFlyout li.contact a:hover {
+    background-position: -1px -351px !important;
+}
+#citilmHeader #nav_utility #contactFlyout li a:hover {
+    color: #00589d !important;
+}
+#citilmHeader #nav_utility #contactFlyout li span {
+    color: #000000;
+    float: left;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    text-transform: none;
+}
+#citilmHeader #nav_utility #contactFlyout li a.lpLinkFlyout span {
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 6px;
+    padding: 0;
+}
+#nav_welcome div#region-display table#rpTable {
+    border-collapse: collapse;
+    position: absolute;
+    right: 4px;
+    text-align: left;
+    top: -15px;
+    width: 300px;
+}
+#nav_welcome div#region-display table#rpTable tr {
+    float: right;
+}
+#nav_welcome div#region-display td#rpTableLabel {
+    display: inline;
+    float: left;
+}
+div#region-display td#rpTableLabel {
+    color: #A8A8A8 ;
+}
+ 
+div#region-display div#region_value:hover {
+                color: #3399CC;
+                font-weight: normal;
+                border-bottom: 1px dotted #A8A8A8;
+}
+ 
+div#region-display div#region_value,
+div#region-display div#region_err_value {
+                color: #000000;
+                border-bottom: 1px dotted #FFFFFF;
+}
+ 
+#RegionalPricingTooltip, #RegionalPricingErrorTooltip {
+    display: inline-block;
+}
+#citilmFooter label#RegionalPricingTooltip { /*footer color must be different that the rest*/
+    color: #FFFFFF;
+}
+ 
+#RegionalPricingTooltip:hover,
+#RegionalPricingErrorTooltip:hover {
+    display: inline-block;
+    color:#A8A8A8 !important;
+}
+
+#nav_welcome div#region-display .rpTableTdWhiteSpace {
+    display: inline;
+    float: left;
+}
+#citilmHeader.vIE7 #contactFlyout, #citilmHeader.vIE7 #finderFlyout, #citilmHeader.vIE7 #messageflyout, #citilmHeader.vIE8 #contactFlyout, #citilmHeader.vIE8 #finderFlyout, #citilmHeader.vIE8 #messageflyout {
+    background: transparent none repeat scroll 0 0;
+    left: -10px;
+    padding: 0;
+}
+#citilmHeader.vIE7 #contactFlyout, #citilmHeader.vIE8 #contactFlyout {
+    width: 260px;
+}
+#citilmHeader.vIE7 #contactFlyout div.l, #citilmHeader.vIE7 #finderFlyout div.l, #citilmHeader.vIE8 #contactFlyout div.l, #citilmHeader.vIE8 #finderFlyout div.l {
+    background: transparent url("ie7-ie8/flyout-l.png") repeat-y scroll right bottom;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}
+#citilmHeader.vIE7 #contactFlyout div.c, #citilmHeader.vIE8 #contactFlyout div.c {
+    background: #ffffff url("ie7-ie8/flyout-c.png") repeat scroll left bottom;
+    margin-left: 10px;
+    overflow: hidden;
+    padding: 0 20px;
+    text-transform: none;
+    width: 200px;
+}
+#citilmHeader.vIE7 #nav_utility #contactFlyout ul, #citilmHeader.vIE8 #nav_utility #contactFlyout ul {
+    padding-bottom: 2px;
+    padding-top: 15px;
+    width: 200px;
+}
+#citilmHeader.vIE7 #nav_utility #contactFlyout li, #citilmHeader.vIE8 #nav_utility #contactFlyout li {
+    width: 200px;
+}
+#citilmHeader.vIE7 #contactFlyout div.r, #citilmHeader.vIE7 #finderFlyout div.r, #citilmHeader.vIE8 #contactFlyout div.r, #citilmHeader.vIE8 #finderFlyout div.r {
+    background: transparent url("ie7-ie8/flyout-r.png") repeat-y scroll left bottom;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px;
+}
+#citilmHeader.vIE7 #contactFlyout div.bl, #citilmHeader.vIE8 #contactFlyout div.bl {
+    background: transparent url("ie7-ie8/flyout-bl.png") repeat-y scroll right bottom;
+    bottom: -21px;
+    height: 21px;
+    left: 0;
+    position: absolute;
+    width: 19px;
+}
+#citilmHeader.vIE7 #contactFlyout div.b, #citilmHeader.vIE8 #contactFlyout div.b {
+    background: transparent url("ie7-ie8/flyout-b.png") repeat-x scroll left bottom;
+    bottom: -21px;
+    height: 21px;
+    margin-left: 19px;
+    position: absolute;
+    width: 222px;
+}
+#citilmHeader.vIE7 #contactFlyout div.br, #citilmHeader.vIE8 #contactFlyout div.br {
+    background: transparent url("ie7-ie8/flyout-br.png") repeat-y scroll left bottom;
+    bottom: -21px;
+    height: 21px;
+    position: absolute;
+    right: 0;
+    width: 19px;
+}
+#citilmHeader.vIE7 #finderFlyout, #citilmHeader.vIE8 #finderFlyout {
+    width: 270px;
+}
+#citilmHeader.bIE #finderFlyout div.c, #citilmHeader.bIE #messageflyout div.c {
+    background-color: #f7f7f7;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 250px;
+}
+#citilmHeader.bIE #finderFlyout div.footer {
+    padding-bottom: 3px;
+}
+#citilmHeader.bIE #finderFlyout div.bl {
+    background: transparent url("ie7-ie8/finder-bl.png") repeat-y scroll right bottom;
+    bottom: -17px;
+    height: 17px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+}
+#citilmHeader.bIE #finderFlyout div.b {
+    background: transparent url("ie7-ie8/finder-b.png") repeat-x scroll left bottom;
+    bottom: -17px;
+    height: 17px;
+    margin-left: 20px;
+    position: absolute;
+    width: 230px;
+}
+#citilmHeader.bIE #finderFlyout div.br {
+    background: transparent url("ie7-ie8/finder-br.png") repeat-y scroll left bottom;
+    bottom: -17px;
+    height: 17px;
+    position: absolute;
+    right: 0;
+    width: 20px;
+}
+#citilmHeader.bIE #messageflyout div.c {
+    overflow: visible;
+    position: relative;
+    z-index: 10;
+}
+#citilmHeader.bIE #messageflyout {
+    padding-top: 0;
+    top: 20px;
+    width: 270px;
+}
+#citilmHeader.bIE #user_messages > a.active {
+    background: transparent url("ie7-ie8/bg-messages-top.png") no-repeat scroll left bottom;
+    margin-left: -10px;
+    padding-left: 20px;
+    width: 260px;
+}
+#citilmHeader.bIE #user_messages > a.active em {
+    background-position: 216px -672px;
+    cursor: pointer;
+}
+#citilmHeader.bIE #messageflyout #flyoutmsglist li a {
+    display: block;
+    width: 200px;
+}
+#citilmHeader.bIE #messageflyout #flyoutallmsg {
+    padding-bottom: 0;
+    padding-top: 5px;
+    position: relative;
+    top: 5px;
+    z-index: 10;
+}
+#citilmHeader.bIE #messageflyout #flyoutallmsg li a {
+    background-position: -22px -470px;
+    line-height: 14px;
+}
+#citilmHeader.bIE #messageflyout div.l {
+    background: transparent url("ie7-ie8/flyout-l.png") repeat-y scroll right bottom;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}
+#citilmHeader.bIE #messageflyout div.r {
+    background: transparent url("ie7-ie8/flyout-r.png") repeat-y scroll left bottom;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px;
+}
+#citilmHeader.bIE #messageflyout div.bl {
+    background: transparent url("ie7-ie8/messages-bl.png") repeat-y scroll right bottom;
+    bottom: -20px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+}
+#citilmHeader.bIE #messageflyout div.b {
+    background: transparent url("ie7-ie8/messages-b.png") repeat-x scroll left bottom;
+    bottom: -20px;
+    height: 20px;
+    margin-left: 20px;
+    position: absolute;
+    width: 230px;
+}
+#citilmHeader.bIE #messageflyout div.br {
+    background: transparent url("ie7-ie8/messages-br.png") repeat-y scroll left bottom;
+    bottom: -20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    width: 20px;
+}
+#citilmHeader.vIE7 #nav_main #signOnFlyout, #citilmHeader.vIE8 #nav_main #signOnFlyout {
+    background: transparent none repeat scroll 0 0;
+    padding: 0;
+    right: -10px;
+    width: 190px;
+}
+#citilmHeader.vIE7 #ratesFlyout, #citilmHeader.vIE8 #ratesFlyout, #citilmHeader.vIE7 .flyoutTool .flyoutPane, #citilmHeader.vIE8 .flyoutTool .flyoutPane {
+    background: transparent none repeat scroll 0 0;
+    left: -10px;
+    padding: 22px 0 0;
+    width: 190px;
+}
+#citilmHeader.vIE8 #ratesFlyout {
+    padding: 0;
+}
+#citilmHeader.bIE #signOnFlyout div.c, #citilmHeader.bIE #ratesFlyout div.c, #citilmHeader.bIE .flyoutTool .flyoutPane div.c {
+    background-color: #ffffff;
+    margin-left: 10px;
+    width: 170px;
+}
+#citilmHeader.bIE #signOnFlyout div.r, #citilmHeader.bIE #ratesFlyout div.r, #citilmHeader.bIE .flyoutTool .flyoutPane div.r {
+    background: transparent url("ie7-ie8/flyout-r.png") repeat-y scroll left bottom;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px;
+}
+#citilmHeader.bIE #signOnFlyout div.bl, #citilmHeader.bIE #ratesFlyout div.bl, #citilmHeader.bIE .flyoutTool .flyoutPane div.b1 {
+    background: transparent url("ie7-ie8/sign-on-bl.png") repeat-y scroll right bottom;
+    bottom: -21px;
+    height: 21px;
+    left: 0;
+    position: absolute;
+    width: 19px;
+}
+#citilmHeader.bIE #signOnFlyout div.b, #citilmHeader.bIE #ratesFlyout div.b, #citilmHeader.bIE .flyoutTool .flyoutPane div.b {
+    background: transparent url("ie7-ie8/sign-on-b.png") repeat-x scroll left bottom;
+    bottom: -21px;
+    height: 21px;
+    margin-left: 19px;
+    position: absolute;
+    width: 152px;
+}
+#citilmHeader.bIE #signOnFlyout div.br, #citilmHeader.bIE #ratesFlyout div.br, #citilmHeader.bIE .flyoutTool .flyoutPane div.br {
+    background: transparent url("ie7-ie8/sign-on-br.png") repeat-y scroll left bottom;
+    bottom: -21px;
+    height: 21px;
+    position: absolute;
+    right: 0;
+    width: 19px;
+}
+#citilmHeader.vIE7 #contactFlyout li.contact, #citilmHeader.vIE8 #contactFlyout li.contact {
+    min-height: 42px;
+}
+#citilmHeader.br_FS_YodleePFMSSO.vIE8 #user_messages > a.active em {
+    background-position: 200px -530px;
+}
+#citilmHeader.br_FS_YodleePFMSSO.bIE #messageflyout div.bl, #citilmHeader.br_FS_YodleePFMSSO.bIE #messageflyout div.b, #citilmHeader.br_FS_YodleePFMSSO.bIE #messageflyout div.br {
+    bottom: -32px;
+}
+#citilmHeader.br_FS_YodleePFMSSO.bIE #finderFlyout div.bl, #citilmHeader.br_FS_YodleePFMSSO.bIE #finderFlyout div.b, #citilmHeader.br_FS_YodleePFMSSO.bIE #finderFlyout div.br {
+    bottom: -16px;
+}
+#mm_mask {
+    font-size: 12px;
+    height: 0;
+    line-height: 18px;
+    overflow: hidden;
+    position: absolute;
+    top: 135px;
+    width: 984px;
+}
+#mm_mask[mm_status="hide"], .mm_menu[mm_status="hide"] {
+    display: none;
+}
+.mm_menu[mm_status="fade"], .mm_menu[mm_status="show"] {
+    display: block;
+}
+#mm_container {
+    bottom: 0;
+    margin-left: 7px;
+    margin-top: -2px;
+    position: absolute;
+    width: 968px;
+}
+#mm_container div {
+    position: absolute;
+}
+#mm_container div#mm_content, #mm_container div#mm_menus {
+    overflow: hidden;
+    position: static;
+}
+#mm_container .mm_c {
+    overflow: hidden;
+    padding: 20px 20px 3px;
+    position: relative;
+    z-index: 1;
+}
+#mm_container .mm_menu {
+    float: left;
+    margin-left: -2000px;
+    width: 928px;
+}
+#mm_container .mm_m {
+    bottom: 44px;
+    top: 20px;
+}
+#mm_container .mm_m_r {
+    background: transparent url("megamenu_tile.gif") repeat scroll right 0;
+    right: 20px;
+    width: 216px;
+}
+#mm_container .mm_m_l {
+    background-color: #ffffff;
+    left: 20px;
+    right: 236px;
+}
+#mm_container .mm_m_b {
+    background-color: #ededed;
+    bottom: 20px;
+    height: 24px;
+    left: 20px;
+    right: 20px;
+    top: auto;
+}
+#mm_container .mm_tl, #mm_container .mm_tr, #mm_container .mm_bl, #mm_container .mm_br {
+    background: transparent url("megamenu_h.png") repeat scroll 0 -40px;
+    height: 20px;
+    width: 20px;
+}
+#mm_container .mm_tr {
+    background-position: 0 0;
+    right: 0;
+    top: 0;
+}
+#mm_container .mm_tl {
+    top: 0;
+}
+#mm_container .mm_bl {
+    background-position: 0 -80px;
+    bottom: 0;
+}
+#mm_container .mm_br {
+    background-position: 0 -120px;
+    bottom: 0;
+    right: 0;
+}
+#mm_container .mm_b {
+    background: transparent url("megamenu_h.png") repeat scroll 0 -20px;
+    height: 20px;
+}
+#mm_container .mm_t, #mm_container .mm_b {
+    background: transparent url("megamenu_h.png") repeat scroll right -20px;
+    height: 20px;
+}
+#mm_container .mm_t {
+    top: 0;
+}
+#mm_container .mm_t_l, #mm_container .mm_b_l {
+    background-position: 0 -60px;
+    left: 20px;
+    right: 236px;
+}
+#mm_container .mm_t_r, #mm_container .mm_b_r {
+    right: 19px;
+    width: 217px;
+}
+#mm_container .mm_b {
+    background-position: 0 -100px;
+    bottom: 0;
+}
+#mm_container .mm_l, #mm_container .mm_r {
+    background: transparent url("megamenu_v.png") repeat scroll -19px 0;
+    bottom: 44px;
+    top: 20px;
+    width: 20px;
+}
+#mm_container .mm_l_b, #mm_container .mm_r_b {
+    bottom: 20px;
+    height: 24px;
+    top: auto;
+}
+#mm_container .mm_r {
+    background-position: 0 0;
+    right: 0;
+}
+#mm_container .mm_l_b {
+    background-position: 21px 0;
+}
+#mm_container .mm_r_b {
+    background-position: -40px 0;
+}
+#mm_container ul li a {
+    color: #333333;
+    display: block;
+    margin-right: 8px;
+    padding-left: 14px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+#mm_container ul li a:hover {
+    text-decoration: underline;
+}
+#mm_container ul li a.noLink {
+    color: #cccccc;
+}
+#mm_container ul li a.noLink:hover {
+    text-decoration: none;
+}
+#mm_menus ul li a {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+#mm_menus ul li a.title {
+    font-weight: bold;
+    line-height: 24px;
+}
+#mm_container ul h3 a {
+    background-position: -1px -141px;
+    color: #333333;
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    margin-top: 9px;
+    padding-left: 24px;
+}
+#mm_container .mm_tagline ul h3 a {
+    margin-right: 0;
+}
+#mm_container ul h3 {
+    font-weight: bold;
+}
+#mm_container ul li {
+    float: left;
+    line-height: 12px;
+    list-style: outside none none;
+    width: 240px;
+}
+#mm_container ul li span {
+    font-weight: bold;
+}
+#mm_container ul li li {
+    float: none;
+    width: auto;
+}
+#mm_container .mm_divider1, #mm_container .mm_divider2, #mm_container .mm_divider3 {
+    background: transparent url("megamenu_v.png") repeat-y scroll -80px 0;
+    bottom: 63px;
+    left: 250px;
+    position: absolute;
+    top: 30px;
+    width: 1px;
+    z-index: 1;
+}
+#mm_container .mm_divider2 {
+    left: 491px;
+}
+#mm_container .mm_divider3 {
+    left: 731px;
+}
+#mm_container .mm_2col .mm_divider1 {
+    display: none;
+}
+#mm_container .mm_2col .mm_c2 {
+    position: relative;
+    top: 8px;
+}
+#mm_container .mm_2col_2 .mm_divider2 {
+    display: none;
+}
+#mm_container .mm_2col_2 .mm_c3 {
+    position: relative;
+    top: 15px;
+}
+#mm_container .mm_offer {
+    float: right;
+    height: 150px;
+    margin-left: 8px;
+    overflow: hidden;
+    width: 200px;
+}
+#mm_container .mm_offer a {
+    padding-left: 0;
+}
+#mm_container .mm_offer p {
+    line-height: 16px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+#mm_container .mm_offer img {
+    float: left;
+}
+#mm_container .mm_offer ul {
+    margin-left: 52px;
+    position: relative;
+    top: -3px;
+}
+#mm_container ul .mm_offer h3 a {
+    background: transparent none repeat scroll 0 0;
+    margin-bottom: 12px;
+    margin-left: 3px;
+}
+#mm_container ul .mm_offer h3 a, #mm_container .mm_tagline h3 a {
+    background: transparent none repeat scroll 0 0;
+    color: #05589d;
+    padding-left: 0;
+}
+#mm_container .mm_tagline h3 a {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#mm_container ul .mm_offer li a {
+    left: -15px;
+    position: relative;
+}
+#mm_container .mm_tagline {
+    clear: both;
+    padding: 25px 5px 17px 14px;
+    position: relative;
+    top: 7px !important;
+}
+#mm_container .mm_tagline .topA {
+    padding-top: 8px;
+}
+#mm_container .mm_tagline .topB {
+    padding-top: 50px;
+}
+#mm_container .mm_tagline .topC {
+    padding-top: 33px;
+}
+#mm_container .mm_tagline .topD {
+    padding-top: 20px;
+}
+#mm_container .mm_tagline .topE {
+    padding-top: 93px;
+}
+#mm_container .mm_tagline .topF {
+    padding-top: 83px;
+}
+#mm_container .mm_tagline .topG {
+    padding-top: 78px;
+}
+#mm_container .mm_tagline ul li {
+    width: auto;
+}
+#mm_container .mm_tagline p {
+    color: #000000 !important;
+    line-height: 1em;
+    padding: 3px 0;
+}
+#mm_container .mm_tagline .quota-lft {
+    background: transparent url("/JRS/images/marketing/icon-quota-lft.jpg") no-repeat scroll left 7px;
+    font-size: 21px;
+    margin-right: 5px;
+    padding-left: 20px;
+}
+#mm_container .mm_tagline .quota-rgt {
+    background: transparent url("/JRS/images/marketing/icon-quota-rgt.jpg") no-repeat scroll left 7px;
+    font-size: 21px;
+    margin-left: 5px;
+    padding-left: 20px;
+}
+#mm_container .mm_tagline ul li a {
+    background-position: -7px -143px;
+    color: #00589d;
+    margin-right: 0;
+    padding-left: 18px;
+}
+#mm_mask .mm_a {
+    background: transparent url("megamenu_h.png") repeat-y scroll 0 -160px;
+    height: 20px;
+    left: 36px;
+    position: absolute;
+    top: -10px;
+    width: 20px;
+}
+#mm_container h3 span {
+    color: #666666;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    left: 14px;
+    margin-bottom: 3px;
+    margin-top: -5px;
+    position: relative;
+    top: -2px;
+}
+#mm_container ul h3 a {
+    background: #ffffff none repeat scroll 0 0;
+    padding-left: 14px;
+    white-space: normal;
+}
+#mm_container ul a.mm_noLink, #mm_container ul h3 a.mm_noLink {
+    background: #ffffff none repeat scroll 0 0;
+    cursor: default;
+    padding-left: 14px;
+}
+#mm_container ul a.mm_noLink:hover {
+    text-decoration: none;
+}
+#mm_container ul a sup {
+    font-size: 11px;
+    vertical-align: top;
+}
+#mm_container.noTagline .mm_l_b, #mm_container.noTagline .mm_r_b, #mm_container.noTagline .mm_m_b {
+    display: none;
+}
+#mm_container.noTagline .mm_tagline {
+    padding: 25px 0 0;
+}
+#mm_container.noTagline .mm_l_t, #mm_container.noTagline .mm_r_t, #mm_container.noTagline .mm_m {
+    bottom: 20px;
+}
+#mm_container.noTagline .mm_b_l {
+    background-position: 0 -180px;
+}
+#mm_container.noTagline .mm_b_r {
+    background-position: -3px -200px;
+}
+#mm_container.noTagline .mm_br {
+    background-position: 0 -220px;
+}
+#mm_container.noTagline .mm_bl {
+    background-position: 0 -240px;
+}
+#mm_container .mm_offer img {
+    left: -1px;
+    position: relative;
+    top: 10px;
+}
+#mm_container #mm_menus h3 {
+    font-size: 11px !important;
+    font-weight: bold !important;
+    line-height: 12px !important;
+}
+.rpHidden, .selectOptionsHide, .appShowNone {
+    display: none;
+}
+div#mm_banking h3 a, div#mm_creditcards h3 a, div#mm_lending h3 a, div#mm_investing h3 a, div#mm_business h3 a, div#mm_rewards h3 a, div#mm_services h3 a {
+    font-weight: bold !important;
+}
+div#mm_banking h3 a:hover, div#mm_creditcards h3 a:hover, div#mm_lending h3 a:hover, div#mm_investing h3 a:hover, div#mm_business h3 a:hover, div#mm_rewards h3 a:hover, div#mm_services h3 a:hover {
+    font-weight: bold !important;
+}
+div#mm_banking a, div#mm_creditcards a, div#mm_lending a, div#mm_investing a, div#mm_business a, div#mm_rewards a, div#mm_services a {
+    font-size: 11px !important;
+}
+div#mm_banking a:hover, div#mm_creditcards a:hover, div#mm_lending a:hover, div#mm_investing a:hover, div#mm_business a:hover, div#mm_rewards a:hover, div#mm_services a:hover {
+    text-decoration: underline !important;
+}
+div#mm_banking a sup, div#mm_creditcards a sup, div#mm_lending a sup, div#mm_investing a sup, div#mm_business a sup, div#mm_rewards a sup, div#mm_services a sup {
+    color: #333333;
+    font-size: 10px !important;
+    vertical-align: super;
+}
+div#mm_banking a.mm_noLink, div#mm_creditcards a.mm_noLink, div#mm_lending a.mm_noLink, div#mm_investing a.mm_noLink, div#mm_business a.mm_noLink, div#mm_rewards a.mm_noLink, div#mm_services a.mm_noLink {
+    text-decoration: none !important;
+}
+div#mm_banking a.mm_noLink:hover, div#mm_creditcards a.mm_noLink:hover, div#mm_lending a.mm_noLink:hover, div#mm_investing a.mm_noLink:hover, div#mm_business a.mm_noLink:hover, div#mm_rewards a.mm_noLink:hover, div#mm_services a.mm_noLink:hover {
+    text-decoration: none !important;
+}
+#citilmHeader #nav_welcome_cards_logo {
+    background: transparent none repeat scroll 0 0;
+    border-bottom: 1px solid #e7e7e7;
+    height: 25px;
+    margin: 0 28px 30px;
+    padding: 10px 0 0;
+    width: 757px;
+}
+#citilmHeader #nav_welcome_cards_plca_logo {
+    background: transparent none repeat scroll 0 0;
+    border-bottom: 1px solid #e7e7e7;
+    height: 25px;
+    margin: 0 28px 30px;
+    padding: 10px 0 0;
+    width: 757px;
+}
+#citilmHeader #nav_welcome_cards_plca_no_logo {
+    background: transparent none repeat scroll 0 0;
+    height: 25px;
+    margin: 0 28px 30px;
+    padding: 10px 0 0;
+    width: 757px;
+}
+#citilmHeader #nav_welcome_Fedcards {
+    background: transparent none repeat scroll 0 0;
+    border-bottom: 1px solid #e7e7e7;
+    height: 25px;
+    margin: 0 28px 10px;
+    padding: 10px 0 0;
+    width: 757px;
+}
+#citilmHeader .CommonCardNav {
+    background: transparent none repeat scroll 0 0;
+    border-bottom: 1px solid #e7e7e7;
+    height: 25px;
+    margin: 0 28px 10px;
+    padding: 10px 0 0;
+    width: 928px;
+}
+#citilmHeader #nav_welcome_cards li {
+}
+#citilmHeader #nav_welcome_cards_logo li {
+}
+#citilmHeader #nav_welcome_cards_plca_logo li {
+}
+#citilmHeader #nav_welcome_cards li a {
+    color: #000 !important;
+}
+#citilmHeader #nav_welcome_cards_logo li a {
+    color: #000 !important;
+}
+#citilmHeader #nav_welcome_cards_plca_logo li a {
+    color: #000 !important;
+}
+#citilmHeader #nav_welcome_cards #CardsBrandingLogoId.welcomeLogo {
+}
+#citilmHeader #nav_welcome #CardsBrandingLogoId {
+    margin-left: 790px;
+    margin-top: -6px;
+}
+#citilmHeader #nav_welcome_cards #CardsBrandingLogoId {
+    margin-left: 790px;
+    margin-top: -6px;
+}
+#citilmHeader #nav_welcome_cards_logo #CardsBrandingLogoId {
+    margin-left: 790px;
+    margin-top: -6px;
+}
+#citilmHeader #nav_welcome_cards_plca_logo #CardsBrandingLogoId {
+    margin-left: 790px;
+    margin-top: -6px;
+}
+#citilmHeader #nav_welcome_cards_plca_no_logo #CardsBrandingLogoId {
+    margin-left: 790px;
+    margin-top: -6px;
+}
+#citilmHeader #nav_welcome_Fedcards #CardsBrandingLogoId {
+    margin-left: 790px;
+    margin-top: -6px;
+}
+#nav_welcome_cards div#region-display table#rpTable {
+    border-collapse: collapse;
+    position: absolute;
+    right: 4px;
+    text-align: left;
+    top: -15px;
+    width: 300px;
+}
+#nav_welcome_cards div#region-display table#rpTable tr {
+    float: right;
+}
+#nav_welcome_cards div#region-display td#rpTableLabel {
+    display: inline;
+    float: left;
+}
+#nav_welcome_cards div#region-display .rpTableTdWhiteSpace {
+    display: inline;
+    float: left;
+}
+body div#sidebar_container {
+    margin-left: 3px;
+    margin-right: -3px;
+    margin-top: 3px;
+}
+.ac_results {
+    background-color: white;
+    border: 1px solid #999999;
+    overflow: hidden;
+    padding: 0;
+    z-index: 99999 !important;
+}
+.ac_results ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.ac_results li {
+    color: #2269b9;
+    cursor: pointer;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0;
+    overflow: hidden;
+    padding: 2px 5px;
+}
+.ac_results iframe {
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    height: 3000px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 3000px;
+    z-index: -1;
+}
+.ac_loading {
+    background: white url("indicator.gif") no-repeat scroll right center;
+}
+.ac_odd {
+    background-color: #eeeeee;
+}
+.ac_over {
+    color: #42afe5 !important;
+    text-decoration: underline;
+}
+#citilmHeader li.searchTool .searchWrapper, #citilmHeader li.searchTool .searchWrapper #search-form, #citilmHeader li.searchTool .searchWrapper #search, #citilmHeader li.searchTool .searchWrapper .searchInputWrapper {
+    border: medium none !important;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+}
+#citilmHeader li.searchTool .searchWrapper, #citilmHeader li.searchTool .searchWrapper #search-form, #citilmHeader li.searchTool .searchWrapper .searchInputWrapper {
+    background-image: url("horizontal_sprite.png") !important;
+    background-repeat: repeat-x;
+}
+#citilmHeader li.searchTool .searchWrapper {
+    background: transparent url("horizontal_sprite.png") repeat-x scroll 0 -108px;
+    float: left;
+    height: 15px;
+    margin-bottom: -1px;
+    overflow: hidden;
+    padding-left: 23px;
+    position: relative;
+    top: 1px;
+    width: 148px;
+}
+#citilmHeader li.searchTool .searchWrapper #search-form {
+    background-position: right -108px;
+    display: block;
+    height: 15px;
+    padding-right: 6px;
+    width: 157px;
+}
+#citilmHeader li.searchTool .searchWrapper .searchInputWrapper {
+    background-position: left -108px;
+    background-repeat: repeat-x;
+    float: left;
+    height: 16px;
+    top: 0;
+    width: 156px;
+}
+#citilmHeader li.searchTool .searchWrapper #search {
+    height: 16px;
+    line-height: 16px !important;
+    width: 134px;
+}
+#citilmHeader li.searchTool .searchWrapper a {
+    float: right;
+}
+html.vIE8 #citilmHeader li.searchTool .searchWrapper #search {
+    height: 15px;
+}
+html.vIE7 #citilmHeader li.searchTool .searchWrapper #search {
+    position: relative;
+    top: -1px;
+}
+html.bGC #citilmHeader li.searchTool .searchWrapper #search {
+    height: 14px;
+}
+html.bSF #citilmHeader li.searchTool .searchWrapper #search {
+    height: 14px;
+}
+html.bFF #citilmHeader li.searchTool .searchWrapper #search {
+    height: 15px;
+}
+.cM-whiteCaratArrowDown {
+    background: transparent url("global_sprite.png") no-repeat scroll -1px -405px !important;
+    height: 5px;
+    top: -2px;
+    width: 6px;
+}
+.cM-whiteCaratArrowDown-topNav {
+    float: left;
+    margin: 4px 6px 0 0 !important;
+    vertical-align: top !important;
+}
+.cM-whiteLock-signOn {
+    background: transparent url("global_sprite.png") no-repeat scroll -11px -141px !important;
+    float: left;
+    height: 11px;
+    margin: 7px 4px 0 8px !important;
+    top: -2px;
+    vertical-align: top !important;
+    width: 7px !important;
+}
+.cM-searchIcon {
+    background: transparent url("global_sprite.png") repeat-x scroll 0 -186px !important;
+}
+.cM-whiteCaratArrowLeft {
+    background: transparent url("global_sprite.png") no-repeat scroll -8px -488px !important;
+    float: left;
+    height: 7px;
+    margin: 10px 5px 0 !important;
+    width: 5px;
+}
+.cM-whiteCaratArrowRight {
+    background: transparent url("global_sprite.png") no-repeat scroll -8px -405px !important;
+    float: left;
+    height: 5px;
+    margin: 4px 0 0 !important;
+    top: -2px;
+    vertical-align: top !important;
+    width: 5px;
+}
+.cM-spriteBase {
+    background-image: url("/CBOL/common/images/global_sprite.png");
+    background-repeat: repeat-x;
+    display: inline-block;
+    position: relative;
+}
+.cM-myProfileIcon {
+    background-position: -1px -142px;
+    height: 10px;
+    top: 1px;
+    width: 9px;
+}
+.cM-myProfileIcon:hover {
+    background-position: -1px -153px;
+}
+.cM-contentSpriteBase {
+    background-image: url("content_sprite.png");
+    background-repeat: repeat-x;
+    display: inline-block;
+    position: relative;
+}
+.cM-AmexFront {
+    background-position: 0 0;
+    height: 72px;
+    top: 0;
+    width: 146px;
+}
+.cM-AmexBack {
+    background-position: 0 -73px;
+    height: 72px;
+    top: 0;
+    width: 146px;
+}
+.cM-FDIC {
+    /*background-image: url("/JRS/images/MemberFDIC.png");*/
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    vertical-align: middle !important;
+}
+.citi-logo {
+    background-image: url("/JRS/images/citi-logo.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    height: 50px;
+    vertical-align: middle !important;
+    width: 60px;
+}
+.cM-billPayment {
+    background-position: -147px -37px;
+    height: 45px;
+    top: 0;
+    width: 51px;
+}
+.cM-Lender {
+    background-position: -147px -83px;
+    height: 42px;
+    top: 0;
+    width: 41px;
+}
+.cM-citiLogoSmall {
+    background-position: -147px -126px;
+    height: 13px;
+    top: 0;
+    width: 21px;
+}
+.cM-whiteArrowUpOpen {
+    background-position: -169px -126px;
+    height: 10px;
+    top: 0;
+    width: 19px;
+}
+.cM-whiteArrowDown {
+    background-position: -169px -137px;
+    height: 6px;
+    top: 0;
+    width: 7px;
+}
+.cM-blueArrowRight {
+    background-position: -178px -137px;
+    height: 8px;
+    top: 0;
+    width: 7px;
+}
+.cM-facebookIcon {
+    background-position: -189px -83px;
+    height: 17px;
+    top: 0;
+    width: 16px;
+}
+.cM-twitterBoxIcon {
+    background-position: -189px -101px;
+    height: 16px;
+    top: 0;
+    width: 16px;
+}
+.cM-youtubeIcon {
+    background-position: -189px -118px;
+    height: 17px;
+    top: 0;
+    width: 16px;
+}
+.cM-signOnHorizontalDivWhite {
+    background-position: 0 -146px;
+    height: 1px;
+    top: 0;
+    width: 190px;
+}
+.cM-signOnTop {
+    background-position: 0 -148px;
+    height: 10px;
+    top: 0;
+    width: 209px;
+}
+#citilmHeader.ATT {
+    background: rgba("0, 0, 0, 0) url("att_branding/attbranding_bg.jpg") repeat-x scroll left 22px;
+}
+#citilmHeader.ATT #headerLogo {
+    top: 40px;
+}
+#citilmHeader.ATT #nav_main {
+    background: #ededed none repeat scroll 0 0;
+    border-bottom: 0 none;
+}
+#citilmHeader.ATT #nav_main li a {
+    color: #000 !important;
+}
+#citilmHeader.ATT #nav_main a:hover, #citilmHeader.ATT #nav_main li.active a, #citilmHeader.ATT #nav_main li a.active {
+    background-color: #ccc !important;
+    background-image: none !important;
+}
+#citilmHeader.ATT #nav_main li a:hover {
+    background-color: #ccc !important;
+    background-image: none !important;
+}
+#citilmHeader.ATT #nav_main #signOffTool {
+    height: 27px;
+    margin-top: 0;
+}
+#citilmHeader.ATT #nav_main #signOffTool .signOffBtn .cM-redLock-signOn {
+    background: transparent url("global_sprite.png") no-repeat scroll -10px -164px !important;
+    float: left;
+    height: 10px;
+    margin: 9px 4px 0 0 !important;
+    vertical-align: top !important;
+    width: 8px !important;
+}
+.bIE #citilmHeader.ATT #nav_main #signOffTool .signOffBtn .cM-redLock-signOn {
+    margin-top: 8px !important;
+}
+#citilmHeader.ATT #nav_main #signOffTool {
+    background-image: none;
+}
+#citilmHeader.ATT #nav_main #signOffTool .signOffBtn {
+    background-color: #e1e1e1 !important;
+    background-image: none !important;
+    color: #000 !important;
+    display: block;
+    line-height: 27px;
+    outline: medium none;
+    padding-left: 16px;
+    padding-right: 17px;
+}
+#citilmHeader.BBATTACCESS #headerCitiLogoLink {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 45px;
+}
+#citilmHeader.BBATTACCESS {
+    background: #ffffff none repeat scroll 0 0;
+}
+#citilmHeader.BBATTACCESS #headerLogo {
+    top: 40px;
+}
+#citilmHeader.BBATTACCESS #nav_main {
+    background: #ededed none repeat scroll 0 0;
+    border-bottom: 0 none;
+}
+#citilmHeader.BBATTACCESS #nav_main li a {
+    color: #000 !important;
+}
+#citilmHeader.BBATTACCESS #nav_main a:hover, #citilmHeader.BBATTACCESS #nav_main li.active a, #citilmHeader.BBATTACCESS #nav_main li a.active {
+    background-color: #ff7200 !important;
+    background-image: none !important;
+}
+#citilmHeader.BBATTACCESS #nav_main li a:hover {
+    background-color: #ccc !important;
+    background-image: none !important;
+}
+#citilmHeader.BBATTACCESS #nav_main #signOnTool {
+    background: #666666 none repeat scroll 0 0 !important;
+    height: 26px;
+    margin-top: 1px;
+    position: relative;
+}
+#citilmHeader.BBATTACCESS #nav_main #signOffTool {
+    height: 27px;
+    margin-top: 0;
+}
+#citilmHeader.BBATTACCESS #nav_main #signOffTool .signOffBtn .cM-redLock-signOn {
+    background: transparent url("global_sprite.png") no-repeat scroll -10px -164px !important;
+    float: left;
+    height: 10px;
+    margin: 9px 4px 0 0 !important;
+    vertical-align: top !important;
+    width: 8px !important;
+}
+.bIE #citilmHeader.BBATTACCESS #nav_main #signOffTool .signOffBtn .cM-redLock-signOn {
+    margin-top: 8px !important;
+}
+#citilmHeader.BBATTACCESS #nav_main #signOffTool {
+    background-image: none;
+}
+#citilmHeader.BBATTACCESS #nav_main #signOffTool .signOffBtn {
+    background-color: #e1e1e1 !important;
+    background-image: none !important;
+    color: #000 !important;
+    display: block;
+    line-height: 27px;
+    outline: medium none;
+    padding-left: 16px;
+    padding-right: 17px;
+}
+#citilmHeader.BBEXP {
+    background: #ffffff none repeat scroll 0 0;
+}
+#citilmHeader.BBEXP #headerLogo {
+    top: 40px;
+}
+#citilmHeader.BBEXP #nav_main {
+    background: #6b7064 none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-top: 2px solid #00355f;
+}
+#citilmHeader.BBEXP #nav_utility {
+    height: 23px;
+    padding: 0 22px;
+}
+#citilmHeader.BBEXP .citiBrandingNav {
+    background: transparent url("horizontal_sprite.png") repeat-x scroll 0 0;
+    border-bottom: 8px solid #ffc60b;
+    clear: both;
+    padding: 0 23px;
+}
+#citilmHeader.BBEXP #nav_main li a {
+    color: #ffffff !important;
+}
+#citilmHeader.BBEXP #nav_main a:hover, #citilmHeader.BBEXP #nav_main li.active a, #citilmHeader.BBEXP #nav_main li a.active {
+    background-color: #00355f !important;
+    background-image: none !important;
+}
+#citilmHeader.BBEXP #nav_main li a:hover {
+    background-color: #00355f !important;
+    background-image: none !important;
+}
+#citilmHeader.BBEXP #nav_main #signOnTool {
+    background: #00355f none repeat scroll 0 0 !important;
+    height: 26px;
+    padding-top: 2px;
+    position: relative;
+}
+#citilmHeader.BBEXP #nav_main #signOffTool {
+    height: 27px;
+    margin-top: 0;
+}
+#citilmHeader.BBEXP #nav_main #signOffTool .signOffBtn .cM-redLock-signOn {
+    background: transparent url("global_sprite.png") no-repeat scroll -10px -164px !important;
+    float: left;
+    height: 10px;
+    margin: 9px 4px 0 0 !important;
+    vertical-align: top !important;
+    width: 8px !important;
+}
+.bIE #citilmHeader.BBEXP #nav_main #signOffTool .signOffBtn .cM-redLock-signOn {
+    margin-top: 8px !important;
+}
+#citilmHeader.BBEXP #nav_main #signOffTool {
+    background-image: none;
+}
+#citilmHeader.BBEXP #nav_main #signOffTool .signOffBtn {
+    background-color: #e1e1e1 !important;
+    background-image: none !important;
+    color: #000 !important;
+    display: block;
+    line-height: 27px;
+    outline: medium none;
+    padding-left: 16px;
+    padding-right: 17px;
+}
+#citilmHeader.BBAA {
+    background: #ffffff none repeat scroll 0 0;
+}
+#citilmHeader.BBAA #headerLogo {
+    top: 40px;
+}
+#citilmHeader.BBAA #nav_main {
+    background: #9da6ab none repeat scroll 0 0;
+    border-bottom: 0 none;
+    border-top: 2px solid #36495a;
+}
+#citilmHeader.BBAA #nav_main li a {
+    color: #ffffff !important;
+}
+#citilmHeader.BBAA #nav_main a:hover, #citilmHeader.BBAA #nav_main li.active a, #citilmHeader.BBAA #nav_main li a.active {
+    background-color: #0078d2 !important;
+    background-image: none !important;
+}
+#citilmHeader.BBAA #nav_main li a:hover {
+    background-color: #0078d2 !important;
+    background-image: none !important;
+}
+#citilmHeader.BBAA #nav_main #signOnTool {
+    background: #36495a none repeat scroll 0 0 !important;
+    height: 26px;
+    padding-top: 2px;
+    position: relative;
+}
+#citilmHeader.BBAA #nav_main #signOffTool {
+    height: 27px;
+    margin-top: 0;
+}
+#citilmHeader.BBAA #nav_main #signOffTool .signOffBtn .cM-redLock-signOn {
+    background: transparent url("global_sprite.png") no-repeat scroll -10px -164px !important;
+    float: left;
+    height: 10px;
+    margin: 9px 4px 0 0 !important;
+    vertical-align: top !important;
+    width: 8px !important;
+}
+.bIE #citilmHeader.BBAA #nav_main #signOffTool .signOffBtn .cM-redLock-signOn {
+    margin-top: 8px !important;
+}
+#citilmHeader.BBAA #nav_main #signOffTool {
+    background-image: none;
+}
+#citilmHeader.BBAA #nav_main #signOffTool .signOffBtn {
+    background-color: #e1e1e1 !important;
+    background-image: none !important;
+    color: #000 !important;
+    display: block;
+    line-height: 27px;
+    outline: medium none;
+    padding-left: 16px;
+    padding-right: 17px;
+}
+.innerBody #footer .float_table #citilmFooter #citilmFooter {
+    padding: 0 !important;
+}
+#citilmFooter #citilmFooter {
+    padding: 0 !important;
+}
+#citilmFooter, #citilmFooter div, #citilmFooter span, #citilmFooter h1, #citilmFooter h2, #citilmFooter h3, #citilmFooter h4, #citilmFooter h5, #citilmFooter h6, #citilmFooter p, #citilmFooter blockquote, #citilmFooter pre, #citilmFooter abbr, #citilmFooter acronym, #citilmFooter address, #citilmFooter big, #citilmFooter cite, #citilmFooter code, #citilmFooter del, #citilmFooter dfn, #citilmFooter em, #citilmFooter img, #citilmFooter ins, #citilmFooter q, #citilmFooter s, #citilmFooter samp, #citilmFooter small, #citilmFooter strike, #citilmFooter strong, #citilmFooter sub, #citilmFooter sup, #citilmFooter tt, #citilmFooter var, #citilmFooter b, #citilmFooter u, #citilmFooter i, #citilmFooter dl, #citilmFooter dt, #citilmFooter dd, #citilmFooter ol, #citilmFooter ul, #citilmFooter li, #citilmFooter fieldset, #citilmFooter form, #citilmFooter label, #citilmFooter legend, #citilmFooter table, #citilmFooter caption, #citilmFooter tbody, #citilmFooter tfoot, #citilmFooter thead, #citilmFooter tr, #citilmFooter th, #citilmFooter td {
+    background-color: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline-color: #fff;
+}
+div#citilmFooter div#regionalPricing {
+    text-transform: none !important;
+}
+#citilmFooter td, #citilmFooter th, #citilmFooter div, #citilmFooter li {
+    font-family: arial,sans-serif;
+}
+#citilmFooter li {
+    display: inline;
+}
+#citilmFooter input, #citilmFooter select {
+    font-family: arial,sans-serif;
+    vertical-align: middle;
+}
+#citilmFooter a {
+    color: #FFFFFF;
+    text-decoration: none;
+    outline-color: #FFFFFF;
+}
+
+a.accounts-link {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#social_network a {
+    background-image: url("social_network_sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    margin-left: 20px !important;
+    text-indent: -99999px;
+    vertical-align: text-bottom;
+    width: 30px;
+    overflow: hidden;
+}
+#citilmFooter #cmlink_TwitterIconLink {
+    background-position: -32px 0;
+    margin-left: 20px !important;
+    margin-top: -5px;
+}
+#citilmFooter #cmlink_FacebookIconLink {
+    background-position: 9px 0;
+    margin-top: -5px;
+}
+#citilmFooter #cmlink_YoutubeIconLink {
+    background-position: -60px 0;
+    margin-top: -5px;
+}
+span#brandingBottomDisclaimer p {
+    color: #a8a8a8;
+    font-size: 13px;
+}
+#citilmFooter span#brandingBottomDisclaimer span#sBOBoverlay-trigger {
+    color: #00589d !important;
+    cursor: pointer !important;
+    display: block;
+    font-family: Arial,Verdana,sans-serif !important;
+    font-size: 12px !important;
+    margin: 15px 0 0 !important;
+    text-decoration: none !important;
+}
+#citilmFooter span#brandingBottomDisclaimer span#sBOBoverlay-trigger:hover {
+    text-decoration: underline !important;
+}
+#citilmFooter span#brandingBottomDisclaimer a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+#citilmFooter a:hover,#citilmFooter a:focus {
+    color: #a8a8a8 !important;
+    font-family: Arial !important;
+    text-decoration: underline !important;
+    outline:1px solid #fff;
+}
+#citilmFooter #social_network a:hover {
+    text-decoration: none !important;
+}
+#citilmFooter strong {
+    font-weight: bold;
+}
+#citilmFooter em {
+    font-style: normal;
+}
+#citilmFooter ul {
+    list-style: outside none none;
+}
+.citilmfooterESP a {
+    font-size: 13px !important;
+}
+.citilmfooterESP div.links ul li a {
+    display: inline-block;
+    margin-left: 10px !important;
+}
+.citilmfooterESP div.content {
+    top: 40px;
+}
+#citilmFooter {
+    background-color: #282828;
+    clear: both;
+    font-size: 11px;
+    margin-top: 60px;
+    overflow: hidden !important;
+    padding: 0 22px;
+    width: 940px;
+}
+span#cbol-footer-mlc {
+    color: #282828 !important;
+}
+#citilmFooter div.links {
+    border-bottom: 1px solid #444444;
+    border-color: #444444;
+    border-style: solid;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    overflow: hidden;
+    padding-bottom: 5px;
+    padding-top: 1px;
+    position: relative;
+}
+.links li:last-child {
+    margin-top: -8px !important;
+}
+
+* html #citilmFooter div.links {
+    display: inline-block;
+}
+#citilmFooter div.links a {
+    float: left;
+    margin-left: 1px;
+}
+#citilmFooter .cclinks {
+    margin-left: 20px;
+}
+#citilmFooter div.links ul {
+    margin-top: 13px;
+}
+
+#citilmFooter div.links ul li a {
+    color: #ffffff;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+#citilmFooter div.fdic_content {
+    float: right;
+    height: auto;
+    margin: 40px 24px 30px 0;
+    position: relative;
+    vertical-align: middle !important;
+    width: auto;
+}
+.fdic_content span {    margin-left: 20px;}
+
+#citilmFooter div.fdic_content #fdicOverlay-trigger {
+    color: #00589d;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: middle !important;
+}
+#citilmFooter div.fdic_content #social_network {
+    color: #666666;
+    float: right !important;
+    line-height: 1px;
+    padding-bottom: 10px;
+    vertical-align: middle !important;
+}
+#citilmFooter .nortonSSL {
+    height: auto;
+    position: relative;
+    width: 80px;
+    margin-top: -7px;
+}
+.nortonSSL img {    width: 65px; }
+.AdChoicesImage {
+    vertical-align: top !important;
+    margin-top: 10px !important;
+}
+
+
+#citilmFooter .forrester {
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+}
+
+.nortonSSL img {
+    margin-bottom: 7px !important;
+}
+
+.forrester img {
+    margin-bottom: 20px !important;
+}
+#citilmFooter div.footerContent {
+    border-bottom: 1px solid #444444;
+    clear: both;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.cM-contentSpriteBase.cM-FDIC {
+    margin: 0 0 60px 10px !important;
+    padding: 0 !important;
+}
+
+span.cM-contentSpriteBase.cM-FDIC {
+    visibility: hidden;
+}
+
+.EqualHousing > img {
+    margin-bottom: 15px !important;
+}
+
+#citilmFooter div.footerContent img {
+    left: 0;
+    position: absolute;
+    top: 8px;
+}
+
+.AdChoices img {
+    margin-bottom: 24px !important;
+}
+#citilmFooter div.footerContent #brandingBottomDisclaimer img {
+    position: relative;
+}
+#citilmFooter div.footerContent p {
+    color: #a8a8a8 !important;
+    margin-top: 15px;
+    line-height: 20px;
+}
+#citilmFooter div.footerContent td {
+    color: #999;
+}
+#citilmFooter div.copyright {
+    color: #a8a8a8 !important;
+    float: left;
+    padding-top: 5px;
+    font-size: 12px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    text-align: left;
+    width: 168px;
+}
+#citilmFooter #brandingDataTransfer {
+    display: none;
+}
+.ui-dialog.jfpw-dialog .ui-dialog-titlebar-close {
+    width: 20px;
+}
+.ui-dialog.jfpw-dialog .ui-widget-header {
+}
+.ui-dialog.jfpw-dialog .ui-dialog-title {
+    font-size: 12px;
+    font-weight: bold;
+    height: 31px;
+    left: 30px;
+    margin: 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 30px;
+    z-index: 1002;
+}
+.ui-dialog.jfpw-dialog .ui-dialog-content {
+    padding: 0 30px;
+}
+.ui-dialog-titlebar {
+    height: 31px !important;
+}
+.vIE8 .jfpw-slider-vertical-wrap-tip-down {
+    z-index: 2 !important;
+}
+span#fdicOverlay {
+    display: block;
+    overflow: visible;
+    position: static !important;
+}
+#fidcOvContent {
+    margin-top: 10px;
+    padding: 0;
+    position: relative;
+}
+#fdicOvContent p {
+    color: #000;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    width: 470px;
+}
+#citilmFooter div.footerContent span.bottomDisclaimerText p {
+    margin-left: 20px;
+    width: 710px;
+}
+#citilmFooter span#cardsVerContents {
+    float: right !important;
+    margin-left: 30px;
+    position: static;
+    width: 148px;
+}
+#citilmFooter span#cardsVerContents div#brandingVerisignLogo {
+    text-align: right;
+}
+#citilmFooter span#cardsVerContents div.copyright {
+    margin-left: -400px;
+}
+#citilmFooter.ATT .content {
+    padding: 18px 0 0;
+    top: 0;
+}
+div#bodyWrapper div#citilmFooter {
+    position: relative;
+    right: 22px
+}
+div#bodyWrapper div#citilmFooter.ATT {
+    position: relative;
+    right: 22px
+}
+#citilmFooter.ATT .content .ATT_panel img {
+    position: static;
+}
+#citilmFooter.ATT .content .ATT_leftPanel {
+    float: left;
+    width: 790px;
+}
+#citilmFooter.ATT .content .ATT_leftPanel p {
+    margin-top: 12px;
+}
+#citilmFooter.ATT .content .ATT_rightPanel {
+    float: right;
+    text-align: right;
+    width: 130px;
+}
+#citilmFooter.ATT .content .ATT_rightPanel #brandingVerisignLogo {
+    padding: 20px 0;
+}
+div#brandingVerisignLogo {
+    margin-top: 27px !important;
+    float: right;
+}
+a img {
+    border: medium none;
+}
+.global-header {
+    color: rgb("51, 51, 51);
+    font-family: Arial;
+    min-width: 950px;
+}
+div.global-header a {
+    background-image: none;
+    color: rgb("255, 255, 255);
+    cursor: pointer;
+    padding: 0;
+    text-decoration: none;
+}
+.global-header .main-menu-subnav a:hover, .global-header .main-menu-subnav a:focus, .global-header .main-menu-subnav a.focus, .global-header .main-menu-subnav a:active {
+    color: rgb("0, 102, 179);
+    text-decoration: underline;
+}
+.global-header p {
+    color: rgb("102, 102, 102);
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.global-header p.title {
+    color: rgb("51, 51, 51);
+}
+.global-header span.divider {
+    color: rgb("51, 51, 51);
+    margin: 0 6px;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+#welcome-cbol-strip {
+    background-color: #004785;
+    font-size: 14px;
+    height: 26px;
+    min-width: 950px;
+}
+#welcome-cbol-strip p {
+    color: white;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-size: 14px !important;
+    margin: 0 auto;
+    padding: 5px 0;
+    position: relative;
+    text-align: right;
+    width: 950px;
+}
+#welcome-cbol-strip.att-strip {
+    background-color: #fff;
+}
+#welcome-cbol-strip.att-strip p {
+    color: #007db3;
+}
+#welcome-cbol-strip p em {
+    font-style: italic;
+}
+#citi-header {
+    background: rgb("255, 255, 255) url("bg-nav-sprite.png") repeat-x scroll 0 -120px;
+    border-bottom: 1px solid rgb("229, 229, 229);
+    font-size: 12px;
+    height: 147px;
+    margin: 0;
+    padding: 0 0 10px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    z-index: 110;
+}
+#citi-header-inner {
+    height: 147px;
+    margin: 0 auto;
+    position: relative;
+    width: 950px;
+}
+#citi-header-inner img {
+    border: medium none;
+    display: block;
+}
+#citi-header-home {
+    left: -2px;
+    position: absolute;
+    top: 18px;
+}
+#citi-header-home #printLogo {
+    display: none;
+}
+#att-header #citi-header-home {
+    top: 14px;
+}
+#citi-header-welcome {
+    left: 193px;
+    position: absolute;
+    top: 33px;
+}
+#att-header #citi-header-welcome {
+    left: 330px;
+}
+#citi-header-welcome p {
+    color: rgb("255, 255, 255);
+    font-size: 18px;
+}
+#citi-header-welcome em {
+    font-style: italic;
+}
+#citi-header-welcome sup {
+    bottom: 0.4em;
+    font-size: 12px;
+    font-style: normal;
+    height: 0;
+    line-height: 1px;
+    position: relative;
+    vertical-align: baseline;
+}
+#citi-header #citi-header-inner a.title-link, .global-header a.title-link {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: none;
+}
+.global-header .more-link {
+    background-image: url("arrow.gif");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    padding: 0 0 0 15px;
+}
+.global-header a.title-link:hover, .global-header a.title-link:focus, .global-header a.title-link.focus {
+    color: rgb("0, 102, 179);
+}
+.global-header a.title-dbl-link {
+    background-image: url("arrow.gif");
+    background-position: 125px 15px;
+    background-repeat: no-repeat;
+    color: rgb("51, 51, 51);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 0 15px 0 0;
+    text-transform: none;
+}
+.global-header h3 a:hover, .global-header h3 a:focus, .global-header h3 a.focus {
+    color: rgb("255, 162, 2);
+}
+.global-header a.promo-link {
+    background-image: url("arrow.gif");
+    background-position: 0 3px;
+    background-repeat: no-repeat;
+    color: rgb("51, 51, 51);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 0 0 0 17px;
+    text-transform: none;
+}
+.global-header a.promo-link:hover, .global-header a.promo-link:focus, .global-header a.promo-link.focus {
+    color: rgb("0, 102, 179);
+}
+#header-main-nav {
+    left: 0;
+    position: absolute;
+    top: 87px;
+    width: 950px;
+    z-index: 2010;
+}
+.main-menu {
+    float: left;
+    height: 12px;
+    line-height: 12px;
+    margin: 0;
+    padding: 0;
+}
+.main-menu li.main-menu-item {
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0 10px 0 0;
+}
+.main-menu li.main-menu-item .primary-nav a {
+    background: transparent url("nav-button-sprite.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    text-indent: -99999px;
+    width: 131px;
+}
+#att-header li.main-menu-item .primary-nav a {
+    background: transparent url("ATT-nav-button-sprite.png") no-repeat scroll 0 0;
+}
+.main-menu li.main-menu-item.active .primary-nav a, .main-menu li.main-menu-item:hover .primary-nav a {
+    height: 73px;
+    position: relative;
+    z-index: 9999;
+}
+.main-menu li.main-menu-item #primary-nav-shop a {
+}
+.main-menu li.main-menu-item #primary-nav-do-more a {
+    background-position: -141px 0;
+    width: 149px;
+}
+.main-menu li.main-menu-item #primary-nav-about a {
+    background-position: -300px 0;
+    width: 121px;
+}
+.main-menu li #primary-nav-shop a:focus, .main-menu li #primary-nav-shop a.focus, .main-menu li #primary-nav-shop.active a {
+    background-position: 0 -160px;
+    color: rgb("0, 0, 0);
+}
+.main-menu li #primary-nav-do-more a:focus, .main-menu li #primary-nav-do-more a.focus, .main-menu li #primary-nav-do-more.active a {
+    background-position: -141px -160px;
+    color: rgb("0, 0, 0);
+}
+.main-menu li #primary-nav-about a:focus, .main-menu li #primary-nav-about a.focus, .main-menu li #primary-nav-about.active a {
+    background-position: -300px -160px;
+    color: rgb("0, 0, 0);
+}
+.menu-desktop li.main-menu-item:hover #primary-nav-shop a, .main-menu li.main-menu-item.active #primary-nav-shop a, .menu-desktop li #primary-nav-shop:hover {
+    background-position: 0 -80px;
+}
+.menu-desktop li.main-menu-item:hover #primary-nav-do-more a, .main-menu li.main-menu-item.active #primary-nav-do-more a, .menu-desktop li #primary-nav-do-more:hover a {
+    background-position: -141px -80px;
+}
+.menu-desktop li.main-menu-item:hover #primary-nav-about a, .main-menu li.main-menu-item.active #primary-nav-about a, .menu-desktop li #primary-nav-about:hover a {
+    background-position: -300px -80px;
+}
+.main-menu-subnav {
+    background: rgb("255, 255, 255) url("bg-nav-sprite.png") repeat-x scroll 0 -312px;
+    border-bottom: 4px solid rgb("255, 162, 2);
+    border-top: 1px solid rgb("229, 229, 229);
+    box-shadow: 0 0 4px 0 rgba("0, 0, 0, 0.4), 0 5px 8px -3px rgba("0, 0, 0, 0.4);
+    display: none;
+    height: auto;
+    left: -10px;
+    min-height: 214px;
+    position: absolute;
+    top: 70px;
+    width: auto;
+    z-index: 8001;
+}
+.main-menu-subnav-shop {
+    width: 950px;
+}
+.main-menu-subnav::before {
+    background-color: white;
+    height: 9px;
+    left: -10px;
+    position: absolute;
+    top: -10px;
+    width: 990px;
+    z-index: 8002;
+}
+.global-header .main-menu-subnav a {
+    color: rgb("51, 51, 51);
+}
+.main-menu li.main-menu-item:hover {
+    cursor: pointer;
+}
+.menu-desktop li.main-menu-item:hover .main-menu-subnav, .main-menu li.main-menu-item .main-menu-subnav.active {
+    display: block;
+}
+.main-menu-subnav {
+    cursor: default;
+    padding: 20px 0 20px 20px;
+}
+.main-menu-subnav-section {
+    float: left;
+    height: auto;
+    padding: 0 39px 0 0;
+    width: 195px;
+}
+.main-menu-subnav .promo {
+    bottom: 10px;
+    height: auto;
+    margin: 0;
+    padding: 0 10px;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
+#DoMorePoints li {
+    float: left;
+    padding-right: 30px;
+    width: 193px;
+}
+#DoMorePoints .main-menu-subnav-section {
+    padding-right: 0;
+    width: 460px;
+}
+.main-menu-subnav-section:first-child {
+    margin-top: 0;
+}
+#main-menu-do-more .main-menu-subnav-section, #main-menu-about .main-menu-subnav-section.promo {
+    margin-top: 10px;
+}
+.main-menu-subnav-section h3 {
+    color: rgb("51, 51, 51);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 0;
+    padding-bottom: 3px;
+}
+.main-menu-subnav-section h3 a.title-link {
+    background-image: url("arrow.gif");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    padding: 0 15px 0 0;
+}
+.main-menu-subnav-section h4 {
+    color: rgb("51, 51, 51);
+    font-size: 12px;
+    font-weight: bold;
+}
+.main-menu-subnav-section li {
+    display: block;
+    line-height: 18px;
+    list-style: outside none none;
+    padding-bottom: 6px;
+}
+#main-menu-do-more .main-menu-subnav-section li {
+    padding-bottom: 12px;
+}
+.main-menu-subnav-section li a {
+    color: rgb("51, 51, 51);
+}
+.main-menu-subnav-section .sm {
+    display: inline-block;
+}
+.main-menu-subnav-col {
+    float: left;
+    padding-right: 39px;
+    width: 195px;
+}
+.main-menu-subnav-col > ul {
+    border-bottom: 1px dotted rgb("118, 118, 118);
+    margin: 20px 0 0;
+    padding: 0 0 10px;
+}
+.main-menu-subnav-col.last > div.main-menu-subnav-section {
+    border-bottom: 1px dotted rgb("118, 118, 118);
+    margin: 20px 0 0;
+    padding: 0 0 10px;
+}
+.main-menu-subnav-col.last > div.main-menu-subnav-section.points-range {
+    border-bottom-width: 0;
+}
+.main-menu-subnav-col.last > div.main-menu-subnav-section h3 {
+    padding-bottom: 10px;
+}
+#main-menu-about .main-menu-subnav-col > ul, #main-menu-about .main-menu-subnav > h3, #main-menu-about .main-menu-subnav-col > h3 {
+    margin-bottom: 10px;
+}
+#main-menu-about .main-menu-subnav-col > ul {
+    margin-bottom: 20px;
+}
+#main-menu-about #AboutInfoHelp .main-menu-subnav-col:first-child > ul {
+    border: 0 none;
+}
+#main-menu-about .main-menu-subnav > h3, #main-menu-about .main-menu-subnav-col > h3 {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+}
+#main-menu-about .main-menu-subnav-col > ul {
+    margin-top: 0;
+}
+.main-menu-subnav-col.last {
+    padding-right: 0;
+    width: 202px;
+}
+.main-menu-subnav-col.last .main-menu-subnav-section {
+    width: inherit;
+}
+.main-menu-subnav-col > ul {
+}
+.main-menu-subnav-col > ul:last-child {
+    border-bottom-style: none;
+}
+.main-menu-subnav-col h3 {
+    clear: both;
+    letter-spacing: -0.025em;
+    width: 250px;
+}
+.main-menu-subnav-section.promo {
+    background-color: rgb("255, 255, 255);
+    border-right-style: none;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 24px;
+    padding-top: 18px;
+    width: 450px;
+}
+.main-menu-subnav-section.promo h4 {
+    margin: 1em 0;
+}
+.main-menu-subnav-section.promo h4.kicker {
+    margin: 0;
+}
+.promo h4.kicker a {
+    display: block;
+}
+.main-menu-subnav-section.promo p {
+    line-height: 16px;
+}
+.main-menu-subnav-section.promo .promo-image {
+    float: left;
+    margin: 10px auto 0;
+    padding: 0 20px 0 0;
+}
+.main-menu-subnav-section.promo .points {
+    font-size: 14px;
+}
+.main-menu-subnav-section .spacing {
+    margin-bottom: 25px;
+}
+#main-menu-do-more h3 {
+    width: 443px;
+}
+.points-range-header {
+    overflow: hidden;
+}
+.points-range {
+    margin-left: 0;
+    padding: 0 0 10px;
+    width: 203px;
+}
+.points-range ul {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.points-range ul li {
+    float: left;
+    height: 15px;
+}
+.points-range p {
+    color: rgb("51, 51, 51);
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.points-range p.min-range-value {
+    float: left;
+    font-size: 12px;
+}
+.ir {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0 none;
+    direction: ltr;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -99999px;
+}
+.global-header .points-range p.max-range-value {
+    float: right;
+    font-size: 12px;
+    padding-right: 0;
+}
+.global-header .points-range ul li a {
+    background-image: url("slider-sprite.png");
+    float: left;
+    height: 15px;
+    width: 35px;
+}
+.global-header .points-range ul li a.range1 {
+    background-position: 0 0;
+    width: 31px;
+}
+.global-header .points-range ul li a.range1:hover, .global-header .points-range ul li a.range1.focus, .global-header .points-range ul li a.range1:focus {
+    background-position: 0 -15px;
+}
+.global-header .points-range ul li a.range2 {
+    background-position: -31px 0;
+}
+.global-header .points-range ul li a.range2:hover, .global-header .points-range ul li a.range2.focus, .global-header .points-range ul li a.range2:focus {
+    background-position: -31px -15px;
+}
+.global-header .points-range ul li a.range3 {
+    background-position: -66px 0;
+}
+.global-header .points-range ul li a.range3:hover, .global-header .points-range ul li a.range3.focus, .global-header .points-range ul li a.range3:focus {
+    background-position: -66px -15px;
+}
+.global-header .points-range ul li a.range4 {
+    background-position: -101px 0;
+}
+.global-header .points-range ul li a.range4:hover, .global-header .points-range ul li a.range4.focus, .global-header .points-range ul li a.range4:focus {
+    background-position: -101px -15px;
+}
+.global-header .points-range ul li a.range5 {
+    background-position: -136px 0;
+}
+.global-header .points-range ul li a.range5:hover, .global-header .points-range ul li a.range5.focus, .global-header .points-range ul li a.range5:focus {
+    background-position: -136px -15px;
+}
+.global-header .points-range ul li a.range6 {
+    background-position: -171px 0;
+    width: 31px;
+}
+.global-header .points-range ul li a.range6:hover, .global-header .points-range ul li a.range6.focus, .global-header .points-range ul li a.range6:focus {
+    background-position: -171px -15px;
+}
+#citi-header-ID {
+    float: right;
+    margin-top: 40px;
+}
+#citi-header-ID .points-wrapper {
+    float: left;
+    margin-top: 1px;
+}
+#citi-header-ID .points-wrapper a:hover .points, #citi-header-ID .points-wrapper a:focus .points, #citi-header-ID .points-wrapper a.focus .points {
+    text-decoration: underline;
+}
+#citi-header-ID .points {
+    float: left;
+    font-size: 18px;
+    padding-right: 20px;
+}
+#citi-header-ID .points span {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+#att-header #citi-header-ID .points {
+    color: rgb("0, 54, 102);
+}
+#citi-header-ID .points em {
+    border-bottom: 1px solid rgb("255, 255, 255);
+    color: rgb("255, 255, 255);
+    font-style: normal;
+    font-weight: bold;
+}
+#citi-header-ID .points strong {
+    color: rgb("255, 255, 255);
+    display: block;
+    font-size: 133%;
+    margin-top: 2px;
+}
+#citi-header-ID .points-button .icon {
+    background: transparent url("message-sprite.png") no-repeat scroll 5px 3px;
+    float: left;
+    height: 24px;
+    margin: 0 10px 0 0;
+    padding: 0 5px 10px;
+    width: 25px;
+}
+#citi-header-ID .points-button:hover strong, #citi-header-ID .points-button:focus strong, #citi-header-ID .points-button.focus strong {
+    font-style: italic;
+}
+#citi-header-ID .points-button:hover .icon, #citi-header-ID .points-button:focus .icon, #citi-header-ID .points-button.focus .icon {
+    background-position: 5px -40px;
+}
+.global-header #my-account-button {
+    color: rgb("255, 255, 255);
+    display: block;
+    font-size: 110%;
+    font-weight: bold;
+    height: 32px;
+    line-height: 15px;
+    margin: 0;
+    position: absolute;
+    text-decoration: none;
+    width: 130px;
+}
+.global-header #my-account-button a {
+    background-image: url("bar-person-update.png");
+    background-position: 11px -32px;
+    background-repeat: no-repeat;
+    color: rgb("51, 51, 51);
+    display: block;
+    height: 16px;
+    padding: 7px 6px 5px 30px;
+    position: absolute;
+    text-decoration: none;
+    width: 94px;
+    z-index: 2020;
+}
+#att-header.global-header #my-account-button a {
+    background-image: url("ATT-bar-person-update.png");
+}
+.global-header #my-account-button a:focus, .global-header #my-account-button a.focus {
+    background-color: rgb("255, 255, 255);
+    background-position: 11px 7px;
+    background-repeat: no-repeat;
+    color: rgb("51, 51, 51);
+}
+#att-header.global-header #my-account-button a {
+    color: rgb("0, 125, 179);
+}
+#att-header.global-header #my-account-button a:focus, #att-header.global-header #my-account-button a.focus {
+    background-color: rgb("255, 255, 255);
+    background-position: 11px 7px;
+    background-repeat: no-repeat;
+    color: rgb("51, 51, 51);
+}
+.menu-desktop #my-account-menu-item:hover #my-account-button, #my-account-menu-item.active #my-account-button, .global-header .menu-desktop #my-account-button:hover, .global-header #my-account-button.active {
+    border-left: 1px solid rgb("195, 195, 195);
+    border-right: 1px solid rgb("195, 195, 195);
+    border-top: 1px solid rgb("195, 195, 195);
+    box-shadow: 0 0 10px rgba("0, 0, 0, 0.4);
+    left: -6px;
+    padding: 0 14px 0 0;
+    top: -1px;
+}
+.menu-desktop #my-account-menu-item:hover #my-account-button a, #my-account-menu-item.active #my-account-button a, .global-header .menu-desktop #my-account-button:hover a, .global-header #my-account-button.active a {
+    background-color: rgb("255, 255, 255);
+    background-position: 16px -64px;
+    color: rgb("51, 51, 51);
+    padding: 7px 15px 7px 35px;
+    position: absolute;
+    z-index: 2100;
+}
+.menu-desktop .account-menu-item:hover #my-account-menu-subnav, .menu-desktop #my-account-menu-subnav:hover, #my-account-menu-subnav.active {
+    display: block;
+}
+.global-header .info-container {
+    float: right;
+}
+#att-header.global-header .notifications a {
+    color: rgb("0, 125, 179);
+}
+.global-header .notifications a {
+    background: transparent url("notifications-sprite-update.png") no-repeat scroll 0 0;
+    color: rgb("0, 102, 179);
+    display: block;
+    font-size: 13px;
+    height: 25px;
+    line-height: 21px;
+    margin: 4px 0 6px 20px;
+    padding-left: 38px;
+}
+.global-header .notifications a:hover, .global-header .notifications a:focus {
+    text-decoration: underline;
+}
+.global-header .notifications .wishlist {
+    background-position: 0 -40px;
+    margin-bottom: 0;
+}
+.global-header .main-menu-subnav a sup {
+    line-height: 12px;
+    vertical-align: top;
+}
+#citi-header-home #printLogo {
+    display: none;
+}
+#citi-header-inner img {
+    border: medium none;
+}
+.global-header .main-menu-subnav a strong {
+    font-size: 12px;
+}
+.main-menu-subnav-col > ul.last, .main-menu-subnav-col > ul:last-child {
+    border-bottom-style: none;
+}
+#redirectCBusOL-parent.ui-dialog.jfpw-dialog .ui-dialog-titlebar-close {
+    width: 52px;
+}
+#InterdictionOverlayContent-parent.ui-dialog.jfpw-dialog .ui-dialog-titlebar-close {
+    width: 52px;
+}
+.bIE.vIE7 #aJRSMENU_t_sInvestments #citilmFooter div.content {
+    padding: 0;
+}
+.bIE.vIE7 #aJRSMENU_t_sInvestments #citilmFooter div.content > a {
+    float: left;
+}
+.bIE.vIE7 #aJRSMENU_t_sInvestments #brandingBottomDisclaimer {
+    float: left;
+    padding-left: 10px !important;
+    padding-top: 0;
+    width: 920px;
+}
+.bIE.vIE7 #aJRSMENU_t_sInvestments #brandingBottomDisclaimer .EHL {
+    float: right;
+    width: 41px !important;
+}
+.bIE.vIE7 #aJRSMENU_t_sInvestments #citilmFooter div.copyright {
+    float: right;
+}
+.bIE.vIE7 #citilmFooter div.content img {
+    position: relative !important;
+    top: 0 !important;
+}
+.bIE.vIE7 #citilmFooter div.content p {
+    margin-bottom: 15px !important;
+    margin-top: 0 !important;
+}
+@media screen and ("max-width: 767px) {
+#acbol_sec_secgat_t_sCardNumber #header #citilmHeader.public {
+    background-position: 0 0;
+}
+#acbol_sec_secgat_t_sCardNumber #header #citilmHeader #nav_utility li {
+    margin-top: 0;
+}
+#acbol_sec_secgat_t_sCardNumber #header #citilmHeader #headerLogoLink {
+    left: 1em;
+    top: 7px;
+}
+#acbol_sec_secgat_t_sCardNumber #citilmHeader #nav_welcome_cards_plca_no_logo {
+    display: none;
+}
+#acbol_sec_secgat_t_sCardNumber #citilmFooter {
+    margin-left: 0;
+    padding: 0 !important;
+    width: auto;
+}
+}
+#citilmHeader #cA-spf-WelcomeBarContainer {
+    background-color: #ffffff;
+    height: 78px;
+    max-width: 100%;
+    padding: 0 42px 0 22px;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarMessageWrapper {
+    float: left;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarMessageWrapper #cA-spf-WelcomeBarHeadline {
+    color: #333333;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 23px 0 12px;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarMessageWrapper #cA-spf-WelcomeBarLastLogin {
+    color: #333333;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0 0 15px;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction {
+    background-color: #ffffff;
+    float: right;
+    padding: 32px 0 24px;
+    vertical-align: middle;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction ul {
+    height: 22px;
+    margin: 0;
+    padding: 0;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink {
+    display: inline;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 22px;
+    list-style: outside none none;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink a {
+    text-decoration: none;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink .cA-spf-welcomeBarLinkText {
+    color: #0076c0;
+    margin: 0;
+    padding: 0 0 0 7px;
+    vertical-align: top;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink:hover .cA-spf-welcomeBarLinkText {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink .cA-spf-welcomeBarLinkIcon {
+    color: #333333;
+    display: inline-block;
+    height: 22px;
+    text-align: center;
+    vertical-align: middle;
+    width: 22px;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink:hover .cA-spf-welcomeBarLinkIcon {
+    color: #0076c0;
+    cursor: pointer;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink .cA-spf-profileSettingsIcon {
+    background-position: -217px -10px;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink:hover .cA-spf-profileSettingsIcon {
+    background-position: -175px -10px;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink .cA-spf-messagesIcon {
+    background-position: -10px -73px;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink:hover .cA-spf-messagesIcon {
+    background-position: -79px -73px;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink .cA-spf-newMessagesIcon {
+    background-position: -43px -73px;
+    height: 25px;
+    width: 26px;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink:hover .cA-spf-newMessagesIcon {
+    background-position: -111px -73px;
+    height: 25px;
+    width: 26px;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink .cA-spf-ficoIcon {
+    background-position: -10px -10px;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink:hover .cA-spf-ficoIcon {
+    background-position: -51px -10px;
+}
+.cA-spf-spriteBase-RegionalWelcomeBar {
+    background-image: url("cardasboa_sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+#citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink .cA-spf-welcomeBarLinkText sup {
+    font-size: smaller;
+    position: relative;
+    top: -0.4em;
+    vertical-align: baseline;
+}
+.cA-spf-feedbackContainer {
+    background: #ffffff none repeat scroll 0 0;
+    float: left;
+    margin: 0 0 27px;
+    width: 240px;
+}
+.cA-spf-feedbackImage {
+    background-image: url("/NCCS/cardasboa/img/feedback_background.png");
+    background-repeat: no-repeat;
+    border-bottom: thin solid #e7e7e7;
+    height: 106px;
+    width: 240px;
+}
+.cA-spf-feedbackText {
+    color: #333333;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 20px 0 0 20px;
+    width: 100px;
+}
+.cA-spf-feedbackLink {
+    border-bottom: 1px solid #cccccc;
+    margin: 20px 15px 20px 20px;
+    padding: 0 0 20px;
+    width: 205px;
+}
+.cA-spf-feedbackLink a {
+    color: #0076c0;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    text-decoration: none;
+}
+.cA-spf-feedbackLink a:hover {
+    text-decoration: underline;
+}
+.cA-spf-arrowIcon-feedback {
+    background-position: -259px -10px;
+    float: left;
+    height: 7px;
+    margin: 4px 5px 0 0;
+    width: 4px;
+}
+.cA-spf-overlayLink {
+    color: #333333;
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0 20px 20px;
+    width: 200px;
+}
+.cA-spf-overlayLink a {
+    color: #0076c0;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0 0 0 3px;
+    text-decoration: none;
+}
+.cA-spf-overlayLink a:hover {
+    text-decoration: underline;
+}
+.SupMarks, .SupMark, span.SupMark, #mm_container ul li span.SupMark {
+    font-size: 16px !important;
+    font-weight: lighter !important;
+}
