@@ -16,7 +16,7 @@ $("#ping-button").click( function() {
 $('#contribute-button').click( function() {
     var amount = $('#contribution-amount').val();
     var projectId = $('#contribution-project-id').val();
-    var url = "/api/project/" + projectId + "/payment/" + amount;
+    var url = "/api/project/" + encodeURIComponent(projectId) + "/payment/" + amount;
     console.log("Contributing at " + url);
     $.post( url, function( data) {
         console.log("Contribution result " + data);
@@ -40,7 +40,7 @@ function loadProjects() {
     $.getJSON("/api/project", function (data) {
         $.each(data, function(i,project) {
 
-            var refHTML = 'href="#" onclick="showProject(' + project.id + ')"';
+            var refHTML = 'href="#" onclick="showProject(\'' + project.id + '\')"';
             var innerHTML = '<div class="grid grid_6"><div class="contentItem"><h2 style="font-weight: bolder;"><a ' + refHTML + '>' + project.name + '</a></h2>';
             innerHTML += '<a ' + refHTML + '><img src="' + project.imgSrc + '" width="220" height="160"></a>';
             innerHTML += '<p>' + project.description + '</p>';
@@ -64,7 +64,7 @@ function showProject( id) {
     $('#project-contribution').hide(500);
     $('#contribution-project-id').val(id);
 
-    $.getJSON("/api/project/" + id, function (project) {
+    $.getJSON("/api/project/" + encodeURIComponent(id), function (project) {
         $('#project-view-name').text( project.name);
         $('#project-contribution-name').text( project.name);
         $('#project-view-target').text( to4Chars(project.targetAmount));

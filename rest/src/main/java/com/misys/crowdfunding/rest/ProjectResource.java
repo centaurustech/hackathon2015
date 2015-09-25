@@ -41,6 +41,7 @@ public class ProjectResource {
     @POST
     @Path("/{id}/payment/{amount}")
     @Produces({MediaType.APPLICATION_JSON})
-    public void createPayment(@PathParam("id") int id, @PathParam("amount") double amount) {
+    public void createPayment(@PathParam("id") String id, @PathParam("amount") double amount) {
+        projectService.createPayment(id, amount);
     }
 }

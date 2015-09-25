@@ -21,24 +21,20 @@ public class ProjectService implements IProjectService {
 
     private static final Logger LOGGER = getLogger(ProjectService.class);
     private final IProjectDAO projectDAO;
+    private final ObjectMapper objectMapper;
 
     @Inject
     public ProjectService(IProjectDAO projectDAO) {
         this.projectDAO = projectDAO;
+        objectMapper = new ObjectMapper();
+        objectMapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm'Z'"));
     }
 
     @Override
     public String getProjects() {
         List<Map<String, Object>> data = projectDAO.getProjects();
 
-        for (Map<String, Object> m : data) {
-            m.remove("@rid");
-        }
-
         try {
-            ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm'Z'"));
-
             return objectMapper.writeValueAsString(data);
         } catch (IOException e) {
             e.printStackTrace();
@@ -50,18 +46,19 @@ public class ProjectService implements IProjectService {
     public String getProject(String id) {
         Map<String, Object> data = projectDAO.getProject(id);
 
-        data.remove("@rid");
         data.put("backers", 42);
 
         try {
-            ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.setDateFormat(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm'Z'"));
-
             return objectMapper.writeValueAsString(data);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         return "";
+    }
+
+    @Override
+    public void createPayment(String id, double amount) {
+        projectDAO.createPayment(id, amount);
     }
 }

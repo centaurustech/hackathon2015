@@ -6,4 +6,5 @@ package com.misys.crowdfunding.service.api;
 public interface IProjectService {
     String getProjects();
     String getProject(String id);
+    void createPayment(String id, double amount);
 }
