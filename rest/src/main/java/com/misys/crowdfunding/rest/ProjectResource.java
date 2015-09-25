@@ -5,10 +5,7 @@ import com.misys.crowdfunding.service.api.IProjectService;
 import org.slf4j.Logger;
 
 import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 import static org.slf4j.LoggerFactory.getLogger;
@@ -37,7 +34,13 @@ public class ProjectResource {
     @GET
     @Path("/{id}")
     @Produces({MediaType.APPLICATION_JSON})
-    public String getProject(@PathParam("id") int id) {
+    public String getProject(@PathParam("id") String id) {
         return projectService.getProject(id);
+    }
+
+    @POST
+    @Path("/{id}/payment/{amount}")
+    @Produces({MediaType.APPLICATION_JSON})
+    public void createPayment(@PathParam("id") int id, @PathParam("amount") double amount) {
     }
 }

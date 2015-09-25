@@ -5,5 +5,5 @@ package com.misys.crowdfunding.service.api;
  */
 public interface IProjectService {
     String getProjects();
-    String getProject(int id);
+    String getProject(String id);
 }

@@ -25,5 +25,18 @@
             <groupId>com.misys.crowdfunding.provider.api</groupId>
             <artifactId>provider-api</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.orientechnologies</groupId>
+            <artifactId>orientdb-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.orientechnologies</groupId>
+            <artifactId>orientdb-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.orientechnologies</groupId>
+            <artifactId>orientdb-enterprise</artifactId>
+        </dependency>
     </dependencies>
 </project>
