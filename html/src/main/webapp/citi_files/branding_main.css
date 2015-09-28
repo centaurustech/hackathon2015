@@ -82,7 +82,7 @@ background: transparent url("horizontal_sprite.png") repeat-x scroll 0 0;
     margin-bottom: 0;
     overflow: visible;
     position: relative;
-    width: 984px;
+    width: 985px;
     z-index: 101;
 }
 #citilmHeader.br_FS_YodleePFMSSO, #citilmHeader.br_CardsBranding_Yodlee {
@@ -822,7 +822,7 @@ body > table.gstl_51 {
 #citilmHeader #nav_main #nav_marketing .withSubMenu .sub-subMenu {
     background: #ffffff none repeat scroll 0 0 !important;
     border-radius: 0 0 5px 5px;
-    box-shadow: 0 1px 3px rgba("0, 0, 0, 0.8);
+    box-shadow: 0 1px 3px rgba("0, 0, 0, 0.8");
     display: block !important;
     left: 0;
     position: absolute;
@@ -846,7 +846,7 @@ body > table.gstl_51 {
     text-decoration: none;
 }
 #citilmHeader #nav_main #nav_marketing .withSubMenu .sub-subMenu ul li .subMenuItem:hover {
-    background: rgba("0, 0, 0, 0) none repeat scroll 0 0 !important;
+    background: rgba("0, 0, 0, 0") none repeat scroll 0 0 !important;
 }
 #citilmHeader #nav_main #nav_marketing .withSubMenu .sub-subMenu ul li .subMenuItem.lastItem {
     border-bottom: medium none;
@@ -996,7 +996,7 @@ body > table.gstl_51 {
 }
 #citilmHeader .visuallyhidden {
     border: 0 none;
-    clip: rect("0pt, 0pt, 0pt, 0pt);
+    clip: rect("0pt, 0pt, 0pt, 0pt");
     height: 1px;
     margin: -1px;
     overflow: hidden;
@@ -1030,7 +1030,7 @@ body > table.gstl_51 {
     z-index: 500;
 }
 #citilmHeader.bIE #signOnFlyout DIV.l {
-    background: rgba("0, 0, 0, 0) url("ie7-ie8/flyout-l.png") repeat-y scroll left bottom;
+    background: rgba("0, 0, 0, 0") url("flyout-l.png") repeat-y scroll left bottom;
     height: 100%;
     position: absolute;
     width: 10px;
@@ -1159,7 +1159,7 @@ div#region-display div#region_err_value {
     width: 260px;
 }
 #citilmHeader.vIE7 #contactFlyout div.l, #citilmHeader.vIE7 #finderFlyout div.l, #citilmHeader.vIE8 #contactFlyout div.l, #citilmHeader.vIE8 #finderFlyout div.l {
-    background: transparent url("ie7-ie8/flyout-l.png") repeat-y scroll right bottom;
+    background: transparent url("flyout-l.png") repeat-y scroll right bottom;
     height: 100%;
     left: 0;
     position: absolute;
@@ -1167,7 +1167,7 @@ div#region-display div#region_err_value {
     width: 10px;
 }
 #citilmHeader.vIE7 #contactFlyout div.c, #citilmHeader.vIE8 #contactFlyout div.c {
-    background: #ffffff url("ie7-ie8/flyout-c.png") repeat scroll left bottom;
+    background: #ffffff url("flyout-c.png") repeat scroll left bottom;
     margin-left: 10px;
     overflow: hidden;
     padding: 0 20px;
@@ -1183,7 +1183,7 @@ div#region-display div#region_err_value {
     width: 200px;
 }
 #citilmHeader.vIE7 #contactFlyout div.r, #citilmHeader.vIE7 #finderFlyout div.r, #citilmHeader.vIE8 #contactFlyout div.r, #citilmHeader.vIE8 #finderFlyout div.r {
-    background: transparent url("ie7-ie8/flyout-r.png") repeat-y scroll left bottom;
+    background: transparent url("flyout-r.png") repeat-y scroll left bottom;
     height: 100%;
     position: absolute;
     right: 0;
@@ -1191,7 +1191,7 @@ div#region-display div#region_err_value {
     width: 10px;
 }
 #citilmHeader.vIE7 #contactFlyout div.bl, #citilmHeader.vIE8 #contactFlyout div.bl {
-    background: transparent url("ie7-ie8/flyout-bl.png") repeat-y scroll right bottom;
+    background: transparent url("flyout-bl.png") repeat-y scroll right bottom;
     bottom: -21px;
     height: 21px;
     left: 0;
@@ -1199,7 +1199,7 @@ div#region-display div#region_err_value {
     width: 19px;
 }
 #citilmHeader.vIE7 #contactFlyout div.b, #citilmHeader.vIE8 #contactFlyout div.b {
-    background: transparent url("ie7-ie8/flyout-b.png") repeat-x scroll left bottom;
+    background: transparent url("flyout-b.png") repeat-x scroll left bottom;
     bottom: -21px;
     height: 21px;
     margin-left: 19px;
@@ -1207,7 +1207,7 @@ div#region-display div#region_err_value {
     width: 222px;
 }
 #citilmHeader.vIE7 #contactFlyout div.br, #citilmHeader.vIE8 #contactFlyout div.br {
-    background: transparent url("ie7-ie8/flyout-br.png") repeat-y scroll left bottom;
+    background: transparent url("flyout-br.png") repeat-y scroll left bottom;
     bottom: -21px;
     height: 21px;
     position: absolute;
@@ -1227,7 +1227,7 @@ div#region-display div#region_err_value {
     padding-bottom: 3px;
 }
 #citilmHeader.bIE #finderFlyout div.bl {
-    background: transparent url("ie7-ie8/finder-bl.png") repeat-y scroll right bottom;
+    background: transparent url("finder-bl.png") repeat-y scroll right bottom;
     bottom: -17px;
     height: 17px;
     left: 0;
@@ -1235,7 +1235,7 @@ div#region-display div#region_err_value {
     width: 20px;
 }
 #citilmHeader.bIE #finderFlyout div.b {
-    background: transparent url("ie7-ie8/finder-b.png") repeat-x scroll left bottom;
+    background: transparent url("finder-b.png") repeat-x scroll left bottom;
     bottom: -17px;
     height: 17px;
     margin-left: 20px;
@@ -1243,7 +1243,7 @@ div#region-display div#region_err_value {
     width: 230px;
 }
 #citilmHeader.bIE #finderFlyout div.br {
-    background: transparent url("ie7-ie8/finder-br.png") repeat-y scroll left bottom;
+    background: transparent url("finder-br.png") repeat-y scroll left bottom;
     bottom: -17px;
     height: 17px;
     position: absolute;
@@ -1261,7 +1261,7 @@ div#region-display div#region_err_value {
     width: 270px;
 }
 #citilmHeader.bIE #user_messages > a.active {
-    background: transparent url("ie7-ie8/bg-messages-top.png") no-repeat scroll left bottom;
+    background: transparent url("bg-messages-top.png") no-repeat scroll left bottom;
     margin-left: -10px;
     padding-left: 20px;
     width: 260px;
@@ -1286,7 +1286,7 @@ div#region-display div#region_err_value {
     line-height: 14px;
 }
 #citilmHeader.bIE #messageflyout div.l {
-    background: transparent url("ie7-ie8/flyout-l.png") repeat-y scroll right bottom;
+    background: transparent url("flyout-l.png") repeat-y scroll right bottom;
     height: 100%;
     left: 0;
     position: absolute;
@@ -1294,7 +1294,7 @@ div#region-display div#region_err_value {
     width: 10px;
 }
 #citilmHeader.bIE #messageflyout div.r {
-    background: transparent url("ie7-ie8/flyout-r.png") repeat-y scroll left bottom;
+    background: transparent url("flyout-r.png") repeat-y scroll left bottom;
     height: 100%;
     position: absolute;
     right: 0;
@@ -1302,7 +1302,7 @@ div#region-display div#region_err_value {
     width: 10px;
 }
 #citilmHeader.bIE #messageflyout div.bl {
-    background: transparent url("ie7-ie8/messages-bl.png") repeat-y scroll right bottom;
+    background: transparent url("messages-bl.png") repeat-y scroll right bottom;
     bottom: -20px;
     height: 20px;
     left: 0;
@@ -1310,7 +1310,7 @@ div#region-display div#region_err_value {
     width: 20px;
 }
 #citilmHeader.bIE #messageflyout div.b {
-    background: transparent url("ie7-ie8/messages-b.png") repeat-x scroll left bottom;
+    background: transparent url("messages-b.png") repeat-x scroll left bottom;
     bottom: -20px;
     height: 20px;
     margin-left: 20px;
@@ -1318,7 +1318,7 @@ div#region-display div#region_err_value {
     width: 230px;
 }
 #citilmHeader.bIE #messageflyout div.br {
-    background: transparent url("ie7-ie8/messages-br.png") repeat-y scroll left bottom;
+    background: transparent url("messages-br.png") repeat-y scroll left bottom;
     bottom: -20px;
     height: 20px;
     position: absolute;
@@ -1346,7 +1346,7 @@ div#region-display div#region_err_value {
     width: 170px;
 }
 #citilmHeader.bIE #signOnFlyout div.r, #citilmHeader.bIE #ratesFlyout div.r, #citilmHeader.bIE .flyoutTool .flyoutPane div.r {
-    background: transparent url("ie7-ie8/flyout-r.png") repeat-y scroll left bottom;
+    background: transparent url("flyout-r.png") repeat-y scroll left bottom;
     height: 100%;
     position: absolute;
     right: 0;
@@ -1354,7 +1354,7 @@ div#region-display div#region_err_value {
     width: 10px;
 }
 #citilmHeader.bIE #signOnFlyout div.bl, #citilmHeader.bIE #ratesFlyout div.bl, #citilmHeader.bIE .flyoutTool .flyoutPane div.b1 {
-    background: transparent url("ie7-ie8/sign-on-bl.png") repeat-y scroll right bottom;
+    background: transparent url("sign-on-bl.png") repeat-y scroll right bottom;
     bottom: -21px;
     height: 21px;
     left: 0;
@@ -1362,7 +1362,7 @@ div#region-display div#region_err_value {
     width: 19px;
 }
 #citilmHeader.bIE #signOnFlyout div.b, #citilmHeader.bIE #ratesFlyout div.b, #citilmHeader.bIE .flyoutTool .flyoutPane div.b {
-    background: transparent url("ie7-ie8/sign-on-b.png") repeat-x scroll left bottom;
+    background: transparent url("sign-on-b.png") repeat-x scroll left bottom;
     bottom: -21px;
     height: 21px;
     margin-left: 19px;
@@ -1370,7 +1370,7 @@ div#region-display div#region_err_value {
     width: 152px;
 }
 #citilmHeader.bIE #signOnFlyout div.br, #citilmHeader.bIE #ratesFlyout div.br, #citilmHeader.bIE .flyoutTool .flyoutPane div.br {
-    background: transparent url("ie7-ie8/sign-on-br.png") repeat-y scroll left bottom;
+    background: transparent url("sign-on-br.png") repeat-y scroll left bottom;
     bottom: -21px;
     height: 21px;
     position: absolute;
@@ -1677,13 +1677,13 @@ div#region-display div#region_err_value {
     padding: 3px 0;
 }
 #mm_container .mm_tagline .quota-lft {
-    background: transparent url("/JRS/images/marketing/icon-quota-lft.jpg") no-repeat scroll left 7px;
+    background: transparent url("icon-quota-lft.jpg") no-repeat scroll left 7px;
     font-size: 21px;
     margin-right: 5px;
     padding-left: 20px;
 }
 #mm_container .mm_tagline .quota-rgt {
-    background: transparent url("/JRS/images/marketing/icon-quota-rgt.jpg") no-repeat scroll left 7px;
+    background: transparent url("icon-quota-rgt.jpg") no-repeat scroll left 7px;
     font-size: 21px;
     margin-left: 5px;
     padding-left: 20px;
@@ -1927,7 +1927,7 @@ body div#sidebar_container {
     z-index: -1;
 }
 .ac_loading {
-    background: white url("indicator.gif") no-repeat scroll right center;
+    background: white /*url("indicator.gif")*/ no-repeat scroll right center;
 }
 .ac_odd {
     background-color: #eeeeee;
@@ -1965,8 +1965,7 @@ body div#sidebar_container {
     width: 157px;
 }
 #citilmHeader li.searchTool .searchWrapper .searchInputWrapper {
-    background-position: left -108px;
-    background-repeat: repeat-x;
+    background: repeat-x left -108px;
     float: left;
     height: 16px;
     top: 0;
@@ -2036,7 +2035,7 @@ html.bFF #citilmHeader li.searchTool .searchWrapper #search {
     width: 5px;
 }
 .cM-spriteBase {
-    background-image: url("/CBOL/common/images/global_sprite.png");
+    background-image: url("global_sprite.png");
     background-repeat: repeat-x;
     display: inline-block;
     position: relative;
@@ -2051,8 +2050,7 @@ html.bFF #citilmHeader li.searchTool .searchWrapper #search {
     background-position: -1px -153px;
 }
 .cM-contentSpriteBase {
-    background-image: url("content_sprite.png");
-    background-repeat: repeat-x;
+    background: url("content_sprite.png") repeat-x;
     display: inline-block;
     position: relative;
 }
@@ -2070,14 +2068,11 @@ html.bFF #citilmHeader li.searchTool .searchWrapper #search {
 }
 .cM-FDIC {
     /*background-image: url("/JRS/images/MemberFDIC.png");*/
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
+    background: no-repeat 0px 0px;
     vertical-align: middle !important;
 }
 .citi-logo {
-    background-image: url("/JRS/images/citi-logo.png");
-    background-position: 0 0;
-    background-repeat: no-repeat;
+    background: url("citi-logo.png") no-repeat 0 0;
     float: left;
     height: 50px;
     vertical-align: middle !important;
@@ -2150,7 +2145,7 @@ html.bFF #citilmHeader li.searchTool .searchWrapper #search {
     width: 209px;
 }
 #citilmHeader.ATT {
-    background: rgba("0, 0, 0, 0) url("att_branding/attbranding_bg.jpg") repeat-x scroll left 22px;
+    background: rgba("0, 0, 0, 0") url("attbranding_bg.jpg") repeat-x scroll left 22px;
 }
 #citilmHeader.ATT #headerLogo {
     top: 40px;
@@ -2163,12 +2158,10 @@ html.bFF #citilmHeader li.searchTool .searchWrapper #search {
     color: #000 !important;
 }
 #citilmHeader.ATT #nav_main a:hover, #citilmHeader.ATT #nav_main li.active a, #citilmHeader.ATT #nav_main li a.active {
-    background-color: #ccc !important;
-    background-image: none !important;
+    background: #ccc none !important;
 }
 #citilmHeader.ATT #nav_main li a:hover {
-    background-color: #ccc !important;
-    background-image: none !important;
+    background: #ccc none !important;
 }
 #citilmHeader.ATT #nav_main #signOffTool {
     height: 27px;
@@ -2189,8 +2182,7 @@ html.bFF #citilmHeader li.searchTool .searchWrapper #search {
     background-image: none;
 }
 #citilmHeader.ATT #nav_main #signOffTool .signOffBtn {
-    background-color: #e1e1e1 !important;
-    background-image: none !important;
+    background: #e1e1e1 none !important;
     color: #000 !important;
     display: block;
     line-height: 27px;
@@ -2218,12 +2210,10 @@ html.bFF #citilmHeader li.searchTool .searchWrapper #search {
     color: #000 !important;
 }
 #citilmHeader.BBATTACCESS #nav_main a:hover, #citilmHeader.BBATTACCESS #nav_main li.active a, #citilmHeader.BBATTACCESS #nav_main li a.active {
-    background-color: #ff7200 !important;
-    background-image: none !important;
+    background: #ff7200 none !important;
 }
 #citilmHeader.BBATTACCESS #nav_main li a:hover {
-    background-color: #ccc !important;
-    background-image: none !important;
+    background: #ccc none !important;
 }
 #citilmHeader.BBATTACCESS #nav_main #signOnTool {
     background: #666666 none repeat scroll 0 0 !important;
@@ -2501,7 +2491,7 @@ span#brandingBottomDisclaimer p {
     margin-top: 60px;
     overflow: hidden !important;
     padding: 0 22px;
-    width: 940px;
+    width: 984px;
 }
 span#cbol-footer-mlc {
     color: #282828 !important;
@@ -2753,23 +2743,23 @@ a img {
     border: medium none;
 }
 .global-header {
-    color: rgb("51, 51, 51);
+    color: rgb(51, 51, 51);
     font-family: Arial;
     min-width: 950px;
 }
 div.global-header a {
     background-image: none;
-    color: rgb("255, 255, 255);
+    color: rgb(255,255,255);
     cursor: pointer;
     padding: 0;
     text-decoration: none;
 }
 .global-header .main-menu-subnav a:hover, .global-header .main-menu-subnav a:focus, .global-header .main-menu-subnav a.focus, .global-header .main-menu-subnav a:active {
-    color: rgb("0, 102, 179);
+    color: rgb(0, 102, 179);
     text-decoration: underline;
 }
 .global-header p {
-    color: rgb("102, 102, 102);
+    color: rgb(102, 102, 102);
     font-size: 12px;
     line-height: 16px;
     margin: 0;
@@ -2777,10 +2767,10 @@ div.global-header a {
     padding-right: 10px;
 }
 .global-header p.title {
-    color: rgb("51, 51, 51);
+    color: rgb(51,51,51);
 }
 .global-header span.divider {
-    color: rgb("51, 51, 51);
+    color: rgb(51,51,51);
     margin: 0 6px;
 }
 .clearfix::after {
@@ -2820,8 +2810,8 @@ div.global-header a {
     font-style: italic;
 }
 #citi-header {
-    background: rgb("255, 255, 255) url("bg-nav-sprite.png") repeat-x scroll 0 -120px;
-    border-bottom: 1px solid rgb("229, 229, 229);
+    background: rgb(255, 255, 255) url("bg-nav-sprite.png") repeat-x scroll 0 -120px;
+    border-bottom: 1px solid rgb(229, 229, 229);
     font-size: 12px;
     height: 147px;
     margin: 0;
@@ -2861,7 +2851,7 @@ div.global-header a {
     left: 330px;
 }
 #citi-header-welcome p {
-    color: rgb("255, 255, 255);
+    color: rgb(255,255,255);
     font-size: 18px;
 }
 #citi-header-welcome em {
@@ -2890,13 +2880,13 @@ div.global-header a {
     padding: 0 0 0 15px;
 }
 .global-header a.title-link:hover, .global-header a.title-link:focus, .global-header a.title-link.focus {
-    color: rgb("0, 102, 179);
+    color: rgb(0, 102, 179);
 }
 .global-header a.title-dbl-link {
     background-image: url("arrow.gif");
     background-position: 125px 15px;
     background-repeat: no-repeat;
-    color: rgb("51, 51, 51);
+    color: rgb(51,51,51);
     display: inline-block;
     font-size: 12px;
     font-weight: bold;
@@ -2905,13 +2895,13 @@ div.global-header a {
     text-transform: none;
 }
 .global-header h3 a:hover, .global-header h3 a:focus, .global-header h3 a.focus {
-    color: rgb("255, 162, 2);
+    color: rgb(255, 162, 2);
 }
 .global-header a.promo-link {
     background-image: url("arrow.gif");
     background-position: 0 3px;
     background-repeat: no-repeat;
-    color: rgb("51, 51, 51);
+    color: rgb(51,51,51);
     display: inline-block;
     font-size: 12px;
     font-weight: bold;
@@ -2920,7 +2910,7 @@ div.global-header a {
     text-transform: none;
 }
 .global-header a.promo-link:hover, .global-header a.promo-link:focus, .global-header a.promo-link.focus {
-    color: rgb("0, 102, 179);
+    color: rgb(0, 102, 179);
 }
 #header-main-nav {
     left: 0;
@@ -2971,15 +2961,15 @@ div.global-header a {
 }
 .main-menu li #primary-nav-shop a:focus, .main-menu li #primary-nav-shop a.focus, .main-menu li #primary-nav-shop.active a {
     background-position: 0 -160px;
-    color: rgb("0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 .main-menu li #primary-nav-do-more a:focus, .main-menu li #primary-nav-do-more a.focus, .main-menu li #primary-nav-do-more.active a {
     background-position: -141px -160px;
-    color: rgb("0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 .main-menu li #primary-nav-about a:focus, .main-menu li #primary-nav-about a.focus, .main-menu li #primary-nav-about.active a {
     background-position: -300px -160px;
-    color: rgb("0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 .menu-desktop li.main-menu-item:hover #primary-nav-shop a, .main-menu li.main-menu-item.active #primary-nav-shop a, .menu-desktop li #primary-nav-shop:hover {
     background-position: 0 -80px;
@@ -2991,10 +2981,10 @@ div.global-header a {
     background-position: -300px -80px;
 }
 .main-menu-subnav {
-    background: rgb("255, 255, 255) url("bg-nav-sprite.png") repeat-x scroll 0 -312px;
-    border-bottom: 4px solid rgb("255, 162, 2);
-    border-top: 1px solid rgb("229, 229, 229);
-    box-shadow: 0 0 4px 0 rgba("0, 0, 0, 0.4), 0 5px 8px -3px rgba("0, 0, 0, 0.4);
+    background: rgb(255,255,255) url("bg-nav-sprite.png") repeat-x scroll 0 -312px;
+    border-bottom: 4px solid rgb(255, 162, 2);
+    border-top: 1px solid rgb(229, 229, 229);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4), 0 5px 8px -3px rgba(0, 0, 0, 0.4);
     display: none;
     height: auto;
     left: -10px;
@@ -3017,7 +3007,7 @@ div.global-header a {
     z-index: 8002;
 }
 .global-header .main-menu-subnav a {
-    color: rgb("51, 51, 51);
+    color: rgb(51,51,51);
 }
 .main-menu li.main-menu-item:hover {
     cursor: pointer;
@@ -3060,7 +3050,7 @@ div.global-header a {
     margin-top: 10px;
 }
 .main-menu-subnav-section h3 {
-    color: rgb("51, 51, 51);
+    color: rgb(51,51,51);
     display: inline-block;
     font-size: 14px;
     font-weight: bold;
@@ -3075,7 +3065,7 @@ div.global-header a {
     padding: 0 15px 0 0;
 }
 .main-menu-subnav-section h4 {
-    color: rgb("51, 51, 51);
+    color: rgb(51,51,51);
     font-size: 12px;
     font-weight: bold;
 }
@@ -3089,7 +3079,7 @@ div.global-header a {
     padding-bottom: 12px;
 }
 .main-menu-subnav-section li a {
-    color: rgb("51, 51, 51);
+    color: rgb(51,51,51);
 }
 .main-menu-subnav-section .sm {
     display: inline-block;
@@ -3100,12 +3090,12 @@ div.global-header a {
     width: 195px;
 }
 .main-menu-subnav-col > ul {
-    border-bottom: 1px dotted rgb("118, 118, 118);
+    border-bottom: 1px dotted rgb(118, 118, 118);
     margin: 20px 0 0;
     padding: 0 0 10px;
 }
 .main-menu-subnav-col.last > div.main-menu-subnav-section {
-    border-bottom: 1px dotted rgb("118, 118, 118);
+    border-bottom: 1px dotted rgb(118, 118, 118);
     margin: 20px 0 0;
     padding: 0 0 10px;
 }
@@ -3150,7 +3140,7 @@ div.global-header a {
     width: 250px;
 }
 .main-menu-subnav-section.promo {
-    background-color: rgb("255, 255, 255);
+    background-color: rgb(255,255,255);
     border-right-style: none;
     display: block;
     margin-bottom: 0;
@@ -3203,7 +3193,7 @@ div.global-header a {
     height: 15px;
 }
 .points-range p {
-    color: rgb("51, 51, 51);
+    color: rgb(51,51,51);
     padding-bottom: 10px;
     padding-top: 5px;
 }
@@ -3291,22 +3281,22 @@ div.global-header a {
     text-transform: uppercase;
 }
 #att-header #citi-header-ID .points {
-    color: rgb("0, 54, 102);
+    color: rgb(0, 54, 102);
 }
 #citi-header-ID .points em {
-    border-bottom: 1px solid rgb("255, 255, 255);
-    color: rgb("255, 255, 255);
+    border-bottom: 1px solid rgb(255,255,255);
+    color: rgb(255,255,255);
     font-style: normal;
     font-weight: bold;
 }
 #citi-header-ID .points strong {
-    color: rgb("255, 255, 255);
+    color: rgb(255,255,255);
     display: block;
     font-size: 133%;
     margin-top: 2px;
 }
 #citi-header-ID .points-button .icon {
-    background: transparent url("message-sprite.png") no-repeat scroll 5px 3px;
+    background: transparent /*url("message-sprite.png")*/ no-repeat scroll 5px 3px;
     float: left;
     height: 24px;
     margin: 0 10px 0 0;
@@ -3320,7 +3310,7 @@ div.global-header a {
     background-position: 5px -40px;
 }
 .global-header #my-account-button {
-    color: rgb("255, 255, 255);
+    color: rgb(255,255,255);
     display: block;
     font-size: 110%;
     font-weight: bold;
@@ -3332,10 +3322,8 @@ div.global-header a {
     width: 130px;
 }
 .global-header #my-account-button a {
-    background-image: url("bar-person-update.png");
-    background-position: 11px -32px;
-    background-repeat: no-repeat;
-    color: rgb("51, 51, 51);
+    background: /*url("bar-person-update.png")*/ no-repeat 11px -32px;
+    color: rgb(51,51,51);
     display: block;
     height: 16px;
     padding: 7px 6px 5px 30px;
@@ -3345,36 +3333,33 @@ div.global-header a {
     z-index: 2020;
 }
 #att-header.global-header #my-account-button a {
-    background-image: url("ATT-bar-person-update.png");
+/*    background-image: url("ATT-bar-person-update.png");*/
 }
 .global-header #my-account-button a:focus, .global-header #my-account-button a.focus {
-    background-color: rgb("255, 255, 255);
+    background-color: rgb(255,255,255);
     background-position: 11px 7px;
     background-repeat: no-repeat;
-    color: rgb("51, 51, 51);
+    color: rgb(51,51,51);
 }
 #att-header.global-header #my-account-button a {
-    color: rgb("0, 125, 179);
+    color: rgb(0, 125, 179);
 }
 #att-header.global-header #my-account-button a:focus, #att-header.global-header #my-account-button a.focus {
-    background-color: rgb("255, 255, 255);
-    background-position: 11px 7px;
-    background-repeat: no-repeat;
-    color: rgb("51, 51, 51);
+    background: rgb(255, 255, 255) no-repeat 11px 7px;
+    color: rgb(51,51,51);
 }
 .menu-desktop #my-account-menu-item:hover #my-account-button, #my-account-menu-item.active #my-account-button, .global-header .menu-desktop #my-account-button:hover, .global-header #my-account-button.active {
-    border-left: 1px solid rgb("195, 195, 195);
-    border-right: 1px solid rgb("195, 195, 195);
-    border-top: 1px solid rgb("195, 195, 195);
-    box-shadow: 0 0 10px rgba("0, 0, 0, 0.4);
+    border-left: 1px solid rgb(195, 195, 195);
+    border-right: 1px solid rgb(195, 195, 195);
+    border-top: 1px solid rgb(195, 195, 195);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     left: -6px;
     padding: 0 14px 0 0;
     top: -1px;
 }
 .menu-desktop #my-account-menu-item:hover #my-account-button a, #my-account-menu-item.active #my-account-button a, .global-header .menu-desktop #my-account-button:hover a, .global-header #my-account-button.active a {
-    background-color: rgb("255, 255, 255);
-    background-position: 16px -64px;
-    color: rgb("51, 51, 51);
+    background: rgb(255, 255, 255) 16px -64px;
+    color: rgb(51,51,51);
     padding: 7px 15px 7px 35px;
     position: absolute;
     z-index: 2100;
@@ -3386,11 +3371,11 @@ div.global-header a {
     float: right;
 }
 #att-header.global-header .notifications a {
-    color: rgb("0, 125, 179);
+    color: rgb(0, 125, 179);
 }
 .global-header .notifications a {
-    background: transparent url("notifications-sprite-update.png") no-repeat scroll 0 0;
-    color: rgb("0, 102, 179);
+    background: transparent /*url("notifications-sprite-update.png")*/ no-repeat scroll 0 0;
+    color: rgb(0, 102, 179);
     display: block;
     font-size: 13px;
     height: 25px;
@@ -3454,7 +3439,7 @@ div.global-header a {
     margin-bottom: 15px !important;
     margin-top: 0 !important;
 }
-@media screen and ("max-width: 767px) {
+@media screen and (max-width: 767px) {
 #acbol_sec_secgat_t_sCardNumber #header #citilmHeader.public {
     background-position: 0 0;
 }
@@ -3572,8 +3557,7 @@ div.global-header a {
     background-position: -51px -10px;
 }
 .cA-spf-spriteBase-RegionalWelcomeBar {
-    background-image: url("cardasboa_sprite.png");
-    background-repeat: no-repeat;
+    background: url("cardasboa_sprite.png") no-repeat;
     display: inline-block;
 }
 #citilmHeader #cA-spf-WelcomeBarContainer #cA-spf-WelcomeBarInteraction .cA-spf-welcomeBarLink .cA-spf-welcomeBarLinkText sup {
@@ -3589,8 +3573,7 @@ div.global-header a {
     width: 240px;
 }
 .cA-spf-feedbackImage {
-    background-image: url("/NCCS/cardasboa/img/feedback_background.png");
-    background-repeat: no-repeat;
+    background: url("feedback_background.png") no-repeat;
     border-bottom: thin solid #e7e7e7;
     height: 106px;
     width: 240px;
