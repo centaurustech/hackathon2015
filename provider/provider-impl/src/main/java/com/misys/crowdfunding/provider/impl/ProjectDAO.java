@@ -54,7 +54,7 @@ public class ProjectDAO implements IProjectDAO {
         ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
         try {
             List<ODocument> result = db.command(new OSQLSynchQuery<ODocument>(
-                    "select @rid.asString() as id, name, description, imgSrc, type, currency, targetAmount, sum(payments.amount) as currentAmount, targetDate, creationDate, payments.size() as backers " +
+                    "select @rid.asString() as id, name, description, imgSrc, type, currency, targetAmount, ifnull(sum(payments.amount), 0) as currentAmount, targetDate, creationDate, payments.size() as backers " +
                             "from ?")).execute(id);
             Map<String, Object> mret = result.get(0).toMap();
             mret.remove("@rid");

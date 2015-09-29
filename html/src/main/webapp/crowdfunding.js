@@ -33,7 +33,8 @@ $('#contribute-button').click(function () {
 
     console.log("Contributing at Project id" + projectId + " with " + amount + " " + currency + " from " + source);
     $.post("/api/payment/create", data, function(r) {
-        $('#thank-you-modal').modal('show');
+            $('#thank-you-modal').modal('show');
+        }
     );
 });
 
