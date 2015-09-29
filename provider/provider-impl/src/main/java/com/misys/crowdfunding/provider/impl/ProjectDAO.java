@@ -2,7 +2,9 @@ package com.misys.crowdfunding.provider.impl;
 
 import com.misys.crowdfunding.provider.api.IProjectDAO;
 import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
+import com.orientechnologies.orient.core.id.ORecordId;
 import com.orientechnologies.orient.core.record.impl.ODocument;
+import com.orientechnologies.orient.core.sql.OCommandSQL;
 import com.orientechnologies.orient.core.sql.query.OSQLSynchQuery;
 
 import java.util.ArrayList;
@@ -51,7 +53,9 @@ public class ProjectDAO implements IProjectDAO {
     public Map<String, Object> getProject(String id) {
         ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
         try {
-            List<ODocument> result = db.command(new OSQLSynchQuery<ODocument>("select @rid.asString() as id, name, description, imgSrc, type, currency, targetAmount, currentAmount, targetDate, creationDate from projects where @rid=?")).execute(id);
+            List<ODocument> result = db.command(new OSQLSynchQuery<ODocument>(
+                    "select @rid.asString() as id, name, description, imgSrc, type, currency, targetAmount, sum(payments.amount) as currentAmount, targetDate, creationDate, payments.size() as backers " +
+                            "from ?")).execute(id);
             Map<String, Object> mret = result.get(0).toMap();
             mret.remove("@rid");
             return mret;
@@ -61,10 +65,22 @@ public class ProjectDAO implements IProjectDAO {
     }
 
     @Override
-    public void createPayment(String id, double amount) {
+    public void createPayment(String id, double amount, String currency, String source) {
         ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
-        try {
 
+        try {
+            // insert new payment
+            ODocument payment = new ODocument("payments");
+            payment.field("amount", amount);
+            payment.field("currency", currency);
+            payment.field("source", source);
+            payment.field("project", new ORecordId(id));
+            payment.save();
+
+            // add payment to list of payment
+            db.command(new OCommandSQL("update " + id + " add payments = " + payment.getIdentity().toString())).execute();
+        } catch (Exception e) {
+            int i = 0;
         } finally {
             db.close();
         }

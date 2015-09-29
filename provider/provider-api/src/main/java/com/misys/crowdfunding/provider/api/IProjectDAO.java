@@ -9,5 +9,5 @@ import java.util.Map;
 public interface IProjectDAO {
     public List<Map<String, Object>> getProjects();
     public Map<String, Object> getProject(String id);
-    void createPayment(String id, double amount);
+    void createPayment(String id, double amount, String currency, String source);
 }

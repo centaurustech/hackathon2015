@@ -13,14 +13,27 @@ $("#ping-button").click(function () {
     ;
 });
 
+$(".dropdown-menu li a").click(function(){
+    var selText = $(this).text();
+    $(this).parents('.btn-group').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
+    $(this).parents('.btn-group').find('input').val(selText);
+});
+
 $('#contribute-button').click(function () {
-    var amount = $('#contribution-amount').val();
     var projectId = $('#contribution-project-id').val();
-    var url = "/api/project/" + encodeURIComponent(projectId) + "/payment/" + amount;
-    console.log("Contributing at " + url);
-    $.post(url, function (data) {
-        console.log("Contribution result " + data);
-    });
+    var amount = $('#contribution-amount').val();
+    var currency = $('#contribution-currency').val();
+    var source = $('#contribution-source').val();
+
+    var data = { "id" : projectId,
+                 "amount" : amount,
+                 "currency" : currency,
+                 "source" : source};
+
+    console.log("Contributing at Project id" + projectId + " with " + amount + " " + currency + " from " + source);
+    $.post("/api/payment/create", data, function(r) {
+        console.log("Contribution result " + r)}
+    );
 });
 
 function showContribution() {

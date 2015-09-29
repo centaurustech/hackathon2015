@@ -46,8 +46,6 @@ public class ProjectService implements IProjectService {
     public String getProject(String id) {
         Map<String, Object> data = projectDAO.getProject(id);
 
-        data.put("backers", 42);
-
         try {
             return objectMapper.writeValueAsString(data);
         } catch (IOException e) {
@@ -58,7 +56,7 @@ public class ProjectService implements IProjectService {
     }
 
     @Override
-    public void createPayment(String id, double amount) {
-        projectDAO.createPayment(id, amount);
+    public void createPayment(String id, double amount, String currency, String source) {
+        projectDAO.createPayment(id, amount, currency, source);
     }
 }
