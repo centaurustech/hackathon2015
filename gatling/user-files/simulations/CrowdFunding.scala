@@ -21,15 +21,15 @@ class CrowdFunding extends Simulation {
 		"X-Requested-With" -> "XMLHttpRequest")
 
 	val scn = scenario("CrowdFunding")
-		.exec(http("homepage")
+		.exec(http("Homepage")
 			.get("/crofu/index.html")
 			.headers(headers_0))
 		.pause(2)
-		.exec(http("projectList")
+		.exec(http("Projects List")
 			.get("/crofu/crowdfunding.html")
             .headers(headers_1))
         .pause(2)
-        .exec(http("projectView")
+        .exec(http("Project View")
              .get( "/api/project")
              .headers(headers_1))
 
