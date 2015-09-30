@@ -35,6 +35,13 @@ public class ProjectResource {
     }
 
     @GET
+    @Path("/featured")
+    @Produces({MediaType.APPLICATION_JSON})
+    public String getFeaturedProjects() {
+        return projectService.getFeaturedProjects();
+    }
+
+    @GET
     @Path("/{id}")
     @Produces({MediaType.APPLICATION_JSON})
     public String getProject(@PathParam("id") String id) {

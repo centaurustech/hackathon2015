@@ -50,6 +50,26 @@ public class ProjectDAO implements IProjectDAO {
     }
 
     @Override
+    public List<Map<String, Object>> simulateFeatured(String id1, String id2, String id3) {
+        ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
+        try {
+            List<ODocument> result = db.query(new OSQLSynchQuery<ODocument>(
+                    "select @rid.asString() as id, name, description, imgSrc from projects where @rid in [" + id1 + "," + id2 + "," + id3 + "]"));
+            List<Map<String, Object>> ret = new ArrayList<>();
+
+            for(ODocument od : result) {
+                Map<String, Object> mret = od.toMap();
+                mret.remove("@rid");
+                ret.add(mret);
+            }
+
+            return ret;
+        } finally {
+            db.close();
+        }
+    }
+
+    @Override
     public Map<String, Object> getProject(String id) {
         ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
         try {
