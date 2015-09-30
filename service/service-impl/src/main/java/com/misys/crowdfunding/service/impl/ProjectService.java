@@ -43,6 +43,24 @@ public class ProjectService implements IProjectService {
     }
 
     @Override
+    public String getFeaturedProjects() {
+        List<Map<String, Object>> data = projectDAO.getProjects();
+
+        String id1 = (String)data.get((int)(Math.random() * data.size())).get("id");
+        String id2 = (String)data.get((int)(Math.random() * data.size())).get("id");
+        String id3 = (String)data.get((int)(Math.random() * data.size())).get("id");
+
+        List<Map<String, Object>> simulated = projectDAO.simulateFeatured(id1, id2, id3);
+
+        try {
+            return objectMapper.writeValueAsString(simulated);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
+    @Override
     public String getProject(String id) {
         Map<String, Object> data = projectDAO.getProject(id);
 
