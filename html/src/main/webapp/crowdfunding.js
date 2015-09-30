@@ -45,6 +45,7 @@ $('#thank-you-modal').on('hidden.bs.modal', function() {
 function showContribution() {
     $('#project-view').hide(500);
     $('#projects-list').hide(500);
+    $('#featured-list').hide(500);
     $('#project-contribution').show(250);
     window.scrollTo(0, 0);
 }
@@ -52,10 +53,36 @@ function showContribution() {
 function showList() {
     $('#project-view').hide(500);
     $('#project-contribution').hide(500);
+    $('#featured-list').show(250);
     $('#projects-list').show(250);
 }
 
 function loadProjects() {
+    var titleFproject = '<h3>Featured Projects</h3>';
+    var titleProjects = '<h3>Projects</h3>';
+
+    $('#featured-list').append(titleFproject);
+    $.getJSON("/api/project/featured", function (data) {
+        $.each(data, function (i, project) {
+
+            var refHTML = 'href="#" onclick="showProject(\'' + project.id + '\')"';
+            var innerHTML = '<div class="grid grid_6"><div class="contentItem"><h2 style="font-weight: bolder;"><a ' + refHTML + '>' + project.name + '</a></h2>';
+            innerHTML += '<a ' + refHTML + '><img src="' + project.imgSrc + '" width="220" height="160"></a>';
+            innerHTML += '<p>' + project.description + '</p>';
+            innerHTML += '<p><a class="redLink" ' + refHTML + ' title="Find out more">Find out more</a></p>';
+            innerHTML += '</div>';
+
+            $('#featured-list').append(innerHTML);
+        });
+    })
+        .done(function () {
+        })
+        .fail(function () {
+            console.log("projects failed");
+        })
+    ;
+
+    $('#projects-list').append(titleProjects);
     $.getJSON("/api/project", function (data) {
         $.each(data, function (i, project) {
 
