@@ -31,10 +31,11 @@ public class ProjectDAO implements IProjectDAO {
     }
 
     @Override
-    public List<Map<String, Object>> getProjects() {
+    public List<Map<String, Object>> getProjects(String lowerBound, int number) {
         ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
         try {
-            List<ODocument> result = db.query(new OSQLSynchQuery<ODocument>("select @rid.asString() as id, name, description, imgSrc from projects limit 8"));
+            List<ODocument> result = db.command(new OSQLSynchQuery<ODocument>("select @rid.asString() as id, name, description, imgSrc from projects where @rid > ? limit ?"))
+                    .execute(lowerBound == null || "".equals(lowerBound) ? new ORecordId() : new ORecordId(lowerBound), number);
             List<Map<String, Object>> ret = new ArrayList<>();
 
             for(ODocument od : result) {
@@ -50,11 +51,19 @@ public class ProjectDAO implements IProjectDAO {
     }
 
     @Override
-    public List<Map<String, Object>> simulateFeatured(String id1, String id2, String id3) {
+    public List<Map<String, Object>> simulateFeatured(List<String> ids) {
         ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
         try {
-            List<ODocument> result = db.query(new OSQLSynchQuery<ODocument>(
-                    "select @rid.asString() as id, name, description, imgSrc from projects where @rid in [" + id1 + "," + id2 + "," + id3 + "]"));
+
+            List<ORecordId> lstId = new ArrayList<>();
+
+            for (String id : ids) {
+                lstId.add(new ORecordId(id));
+            }
+
+            List<ODocument> result = db.command(new OSQLSynchQuery<ODocument>(
+                    "select @rid.asString() as id, name, description, imgSrc from projects where @rid in ?"))
+                    .execute(lstId);
             List<Map<String, Object>> ret = new ArrayList<>();
 
             for(ODocument od : result) {
