@@ -16,5 +16,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>projects-import</module>
+        <module>users-import</module>
     </modules>
 </project>

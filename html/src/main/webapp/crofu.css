@@ -29,3 +29,20 @@
 .project-list .row {
     border-bottom: 1px solid #aaa;
 }
+
+.project-view {
+
+}
+
+#project-view .project-name {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.projects-nav {
+    display: block;
+    text-align: right;
+    padding: 20px;
+}
