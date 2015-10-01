@@ -44,7 +44,7 @@ public class ProjectService implements IProjectService {
     }
 
     @Override
-    public String getFeaturedProjects() {
+    public String getFeaturedProjects(String user) {
         List<Map<String, Object>> data = projectDAO.getProjects(null, 5000);
 
         List<String> ids = new ArrayList<>();

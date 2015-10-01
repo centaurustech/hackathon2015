@@ -34,14 +34,14 @@ public class ProjectResource {
     @GET
     @Path("/featured")
     @Produces({MediaType.APPLICATION_JSON})
-    public String getFeaturedProjects() {
-        return projectService.getFeaturedProjects();
+    public String getFeaturedProjects(@QueryParam("userId") String user) {
+        return projectService.getFeaturedProjects(user);
     }
 
     @GET
     @Path("/{id}")
     @Produces({MediaType.APPLICATION_JSON})
-    public String getProject(@PathParam("id") String id) {
+    public String getProject(@QueryParam("user") String user, @PathParam("id") String id) {
         return projectService.getProject(id);
     }
 }
