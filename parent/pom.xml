@@ -74,6 +74,12 @@
                 <artifactId>mahout-mr</artifactId>
                 <version>0.10.2</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.mahout</groupId>
+                <artifactId>mahout-math</artifactId>
+                <version>0.10.2</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

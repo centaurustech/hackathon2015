@@ -12,8 +12,8 @@ import java.util.List;
 public class FourreToutDAOTest extends TestCase {
 
     public void testGetUsersContributions() throws Exception {
-        FourreToutDAO dao = new FourreToutDAO();
+        /*FourreToutDAO dao = new FourreToutDAO();
         List<UserContribution> listUc = dao.getUsersContributions();
-        Assert.assertTrue(true);
+        Assert.assertTrue(true);*/
     }
 }
