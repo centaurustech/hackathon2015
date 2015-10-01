@@ -1,0 +1,31 @@
+
+
+.project-list .project-name {
+    line-height: 30px;
+    font-size: 100%;
+    font-weight: bolder;
+    height: 60px;
+}
+
+.project-list .project-name a {
+    text-decoration: none;
+    color: #000;
+}
+
+.project-list .project-description {
+    font-size: small;
+    padding-top: 20px;
+}
+
+.projectList .project-more {
+    font-size: small;
+}
+
+.project-list a.project-more {
+    text-decoration: none;
+    color:#000;
+}
+
+.project-list .row {
+    border-bottom: 1px solid #aaa;
+}

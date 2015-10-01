@@ -57,50 +57,51 @@ function showList() {
 }
 
 function loadProjects() {
-    var titleFproject = '<h3>Featured Projects</h3>';
-    var titleProjects = '<h3>Projects</h3>';
 
-    $('#featured-list').append(titleFproject);
-    $.getJSON("/api/project/featured", function (data) {
-        $.each(data, function (i, project) {
+    var urlPrefix = (window.location.href).match("^http") ? "" : "http://10.25.30.127:8181";
 
-            var refHTML = 'href="#" onclick="showProject(\'' + project.id + '\')"';
-            var innerHTML = '<div class="grid grid_6"><div class="contentItem"><h2 style="font-weight: bolder;"><a ' + refHTML + '>' + project.name + '</a></h2>';
-            innerHTML += '<a ' + refHTML + '><img src="' + project.imgSrc + '" width="220" height="160"></a>';
-            innerHTML += '<p>' + project.description + '</p>';
-            innerHTML += '<p><a class="redLink" ' + refHTML + ' title="Find out more">Find out more</a></p>';
-            innerHTML += '</div>';
-
-            $('#featured-list').append(innerHTML);
-        });
+    $('#featured-list').append('<h3>Recommended Projects</h3>');
+    $.getJSON( urlPrefix + "/api/project/featured", function (data) {
+        fillList( '#featured-list', data);
     })
         .done(function () {
         })
         .fail(function () {
-            console.log("projects failed");
+            console.log("featured projects list failed");
         })
     ;
 
-    $('#projects-list').append(titleProjects);
-    $.getJSON("/api/project", function (data) {
-        $.each(data, function (i, project) {
-
-            var refHTML = 'href="#" onclick="showProject(\'' + project.id + '\')"';
-            var innerHTML = '<div class="grid grid_6"><div class="contentItem"><h2 style="font-weight: bolder;"><a ' + refHTML + '>' + project.name + '</a></h2>';
-            innerHTML += '<a ' + refHTML + '><img src="' + project.imgSrc + '" width="220" height="160"></a>';
-            innerHTML += '<p>' + project.description + '</p>';
-            innerHTML += '<p><a class="redLink" ' + refHTML + ' title="Find out more">Find out more</a></p>';
-            innerHTML += '</div>';
-
-            $('#projects-list').append(innerHTML);
-        });
+    $('#projects-list').append('<h3>Projects</h3>');
+    $.getJSON(urlPrefix + "/api/project", function (data) {
+        fillList( '#projects-list', data);
     })
         .done(function () {
         })
         .fail(function () {
-            console.log("projects failed");
+            console.log("projects list failed");
         })
     ;
+}
+
+function fillList( id, data) {
+    var innerHTML = '<div class="row">';
+    var projectCount = 0;
+    $.each(data, function (i, project) {
+
+        projectCount++;
+        if( ( projectCount - 1) % 4 == 0 && projectCount > 1) {
+            innerHTML += '</div><div class="row">';
+        }
+        var refHTML = 'href="#" onclick="showProject(\'' + project.id + '\')"';
+        innerHTML += '<div class="col-md-3"><div class="project-name"><a ' + refHTML + '>' + project.name + '</a></div>';
+        innerHTML += '<a ' + refHTML + '><img src="' + project.imgSrc + '" width="220" height="160"></a>';
+        innerHTML += '<p class="project-description">' + project.description + '</p>';
+        innerHTML += '<p><a class="project-more" ' + refHTML + ' title="Find out more">Find out more</a></p>';
+        innerHTML += '</div>';
+
+    });
+    innerHTML += '</div>';
+    $(id).append(innerHTML);
 }
 
 function showProject(id) {
