@@ -26,7 +26,7 @@ public class ProjectDAO implements IProjectDAO {
             ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
             db.close();
         } catch (Exception e) {
-            connectionStr = "remote:192.168.100.11/Crowdfunding";
+            connectionStr = "remote:ptxw13040/Crowdfunding";
         }
     }
 
