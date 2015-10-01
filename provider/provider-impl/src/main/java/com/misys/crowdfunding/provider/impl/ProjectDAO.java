@@ -34,7 +34,7 @@ public class ProjectDAO implements IProjectDAO {
     public List<Map<String, Object>> getProjects() {
         ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
         try {
-            List<ODocument> result = db.query(new OSQLSynchQuery<ODocument>("select @rid.asString() as id, name, description, imgSrc from projects"));
+            List<ODocument> result = db.query(new OSQLSynchQuery<ODocument>("select @rid.asString() as id, name, description, imgSrc from projects limit 8"));
             List<Map<String, Object>> ret = new ArrayList<>();
 
             for(ODocument od : result) {
