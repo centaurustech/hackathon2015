@@ -15,7 +15,7 @@ $('#contribute-button').click(function () {
                  "amount" : amount,
                  "currency" : currency,
                  "source" : source,
-                 "userId" : document.cookie.substring( 7)
+                 "userId" : $.cookie( "userId")
     };
 
     console.log("Contributing to Project id" + projectId + " with " + amount + " " + currency + " from " + source + " with data= " + data);
@@ -48,7 +48,7 @@ function showList() {
 
 function loadProjects( userId) {
 
-    document.cookie = "userId=" + userId;
+    $.cookie( "userId=", userId);
 
     var urlPrefix = (window.location.href).match("^http") ? "" : "http://10.25.30.127:8181";
 
