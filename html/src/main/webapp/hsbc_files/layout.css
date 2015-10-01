@@ -1501,3 +1501,15 @@ ul#meta li
     padding-top: 20px;
     padding-bottom: 20px
 }
+
+.modal-header {
+    background-color: #006dcc;
+}
+
+.modal-body {
+    font-size: large;
+}
+
+h4.modal-title {
+    color:#fff;
+}
