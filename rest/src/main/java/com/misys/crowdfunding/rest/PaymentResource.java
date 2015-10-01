@@ -28,9 +28,12 @@ public class PaymentResource {
     @POST
     @Path("/create")
     @Produces({MediaType.APPLICATION_JSON})
-    public Response createPayment(@FormParam("id") String id, @FormParam("amount") double amount,
-                              @FormParam("currency") String currency, @FormParam("source") String source) {
-            projectService.createPayment(id, amount, currency, source);
+    public Response createPayment(@FormParam("userId") String user,
+                                  @FormParam("id") String projectId,
+                                  @FormParam("amount") double amount,
+                                  @FormParam("currency") String currency,
+                                  @FormParam("source") String source) {
+            projectService.createPayment(projectId, amount, currency, source);
             return Response.ok().build();
         }
     }

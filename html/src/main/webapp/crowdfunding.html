@@ -60,6 +60,8 @@
 
     <link rel="stylesheet" href="./hsbc_files/content.css" type="text/css" media="screen">
     <link rel="stylesheet" href="./hsbc_files/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="crofu.css" type="text/css" media="screen">
+
     <!--[if IE 9]>
     <link rel="stylesheet" href="/HBFR_Themes_Skins/themes/html/french/css/ie9.css" type="text/css" media="screen"/>
     <![endif]-->
@@ -519,8 +521,8 @@
 
 <div id="grid">
 
-<div id="featured-list" class="grid grid_24"></div>
-<div id="projects-list" class="grid grid_24"></div>
+<div id="featured-list" class="project-list"></div>
+<div id="projects-list" class="project-list"></div>
 <div id="project-view" style="display: none">
     <div class="project-name"><span id="project-view-name">Project Name</span></div>
     <div style="padding: 100px; padding-top: 20px; padding-bottom: 20px">
@@ -586,8 +588,8 @@
         <input type="hidden" name="project-id" id="contribution-project-id">
         <div class="row" style="padding-top: 30px;">
             <div class="col-md-3"></div>
-            <div class="col-md-3" style="text-align: right;">
-                <label for="contribution-source" >Source:</label>
+            <div class="col-md-3" style="text-align: right;height: 34px">
+                <label for="contribution-source" style="line-height:30px" >Source:</label>
             </div>
             <div class="col-md-3">
                 <div class="btn-group">
@@ -1137,7 +1139,8 @@
 
 <script type="text/javascript" src="./hsbc_files/bottom_section.js"></script>
 <script type="text/javascript" src="crowdfunding.js"></script>
-<script>loadProjects()</script>
+<script type="text/javascript" src="jquery.cookie.js"></script>
+<script>loadProjects('#67:0')</script>
 
 </body>
 </html>

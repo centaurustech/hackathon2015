@@ -9,6 +9,7 @@ import javax.inject.Inject;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -31,8 +32,8 @@ public class ProjectService implements IProjectService {
     }
 
     @Override
-    public String getProjects() {
-        List<Map<String, Object>> data = projectDAO.getProjects();
+    public String getProjects(String lowerBound) {
+        List<Map<String, Object>> data = projectDAO.getProjects(lowerBound, 12);
 
         try {
             return objectMapper.writeValueAsString(data);
@@ -43,14 +44,15 @@ public class ProjectService implements IProjectService {
     }
 
     @Override
-    public String getFeaturedProjects() {
-        List<Map<String, Object>> data = projectDAO.getProjects();
+    public String getFeaturedProjects(String user) {
+        List<Map<String, Object>> data = projectDAO.getProjects(null, 5000);
 
-        String id1 = (String)data.get((int)(Math.random() * data.size())).get("id");
-        String id2 = (String)data.get((int)(Math.random() * data.size())).get("id");
-        String id3 = (String)data.get((int)(Math.random() * data.size())).get("id");
+        List<String> ids = new ArrayList<>();
+        for (int i = 0; i < 3; i++) {
+            ids.add((String)data.get((int)(Math.random() * data.size())).get("id"));
+        }
 
-        List<Map<String, Object>> simulated = projectDAO.simulateFeatured(id1, id2, id3);
+        List<Map<String, Object>> simulated = projectDAO.simulateFeatured(ids);
 
         try {
             return objectMapper.writeValueAsString(simulated);

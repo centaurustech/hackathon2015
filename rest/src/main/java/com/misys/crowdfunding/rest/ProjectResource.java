@@ -5,10 +5,7 @@ import com.misys.crowdfunding.service.api.IProjectService;
 import org.slf4j.Logger;
 
 import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 import static org.slf4j.LoggerFactory.getLogger;
@@ -30,21 +27,21 @@ public class ProjectResource {
     @GET
     @Path("/")
     @Produces({MediaType.APPLICATION_JSON})
-    public String getProjects() {
-        return projectService.getProjects();
+    public String getProjects(@DefaultValue("") @QueryParam("lowerBound") String lowerBound) {
+        return projectService.getProjects(lowerBound);
     }
 
     @GET
     @Path("/featured")
     @Produces({MediaType.APPLICATION_JSON})
-    public String getFeaturedProjects() {
-        return projectService.getFeaturedProjects();
+    public String getFeaturedProjects(@QueryParam("userId") String user) {
+        return projectService.getFeaturedProjects(user);
     }
 
     @GET
     @Path("/{id}")
     @Produces({MediaType.APPLICATION_JSON})
-    public String getProject(@PathParam("id") String id) {
+    public String getProject(@QueryParam("user") String user, @PathParam("id") String id) {
         return projectService.getProject(id);
     }
 }
