@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.misys.crowdfunding</groupId>
+        <artifactId>crowdfunding-parent</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../parent/pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.misys.crowdfunding</groupId>
+    <artifactId>crowdfunding-tools</artifactId>
+    <name>CrowdFunding :: Tools</name>
+    <!-- Top declaration is a pom packaging -->
+    <packaging>pom</packaging>
+    <modules>
+        <module>projects-import</module>
+    </modules>
+</project>
