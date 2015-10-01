@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
@@ -28,13 +29,41 @@ public class MetricsResource {
     @Path("/funds")
     @Produces({MediaType.APPLICATION_JSON})
     public String getFunds() {
-        return metricsService.getFunds();
+        return metricsService.getFunds("json");
+    }
+
+    @GET
+    @Path("/funds/xml")
+    @Produces({MediaType.APPLICATION_XML})
+    public String getFundsAsXML() {
+        return metricsService.getFunds("xml");
+    }
+
+    @GET
+    @Path("/funds/csv")
+    @Produces({MediaType.TEXT_PLAIN})
+    public String getFundsAsCSV() {
+        return metricsService.getFunds("csv");
     }
 
     @GET
     @Path("/investors")
     @Produces({MediaType.APPLICATION_JSON})
     public String getInvestors() {
-        return metricsService.getInvestors();
+        return metricsService.getInvestors("json");
+    }
+
+    @GET
+    @Path("/investors/xml")
+    @Produces({MediaType.APPLICATION_XML})
+    public String getInvestorsAsXML() {
+        return metricsService.getInvestors("xml");
+    }
+
+    @GET
+    @Path("/investors/csv")
+    @Produces({MediaType.TEXT_PLAIN})
+    public String getInvestorsAsCSV() {
+        return metricsService.getInvestors("csv");
     }
 }

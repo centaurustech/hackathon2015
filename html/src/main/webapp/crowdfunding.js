@@ -106,6 +106,7 @@ function loadProjects() {
 
 function showProject(id) {
 //    console.log( "I should be showing project " + id);
+    $('#featured-list').hide(500);
     $('#projects-list').hide(500);
     $('#project-contribution').hide(500);
     $('#contribution-project-id').val(id);
