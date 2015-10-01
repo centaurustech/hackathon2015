@@ -1,18 +1,3 @@
-$("#ping-button").click(function () {
-    console.log("projects ping");
-    $.ajax({
-        url: "/api/ping",
-        dataType: "text"
-    })
-        .done(function (data) {
-            console.log("Ping received " + data);
-        })
-        .fail(function () {
-            console.log("Ping failed");
-        })
-    ;
-});
-
 $(".dropdown-menu li a").click(function(){
     var selText = $(this).text();
     $(this).parents('.btn-group').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
@@ -29,10 +14,15 @@ $('#contribute-button').click(function () {
     var data = { "id" : projectId,
                  "amount" : amount,
                  "currency" : currency,
-                 "source" : source};
+                 "source" : source,
+                 "userId" : document.cookie.substring( 7)
+    };
 
-    console.log("Contributing at Project id" + projectId + " with " + amount + " " + currency + " from " + source);
-    $.post("/api/payment/create", data, function (r) {
+    console.log("Contributing to Project id" + projectId + " with " + amount + " " + currency + " from " + source + " with data= " + data);
+
+    var urlPrefix = (window.location.href).match("^http") ? "" : "http://10.25.30.127:8181";
+
+    $.post( urlPrefix + "/api/payment/create", data, function (r) {
         $('#thank-you-modal').modal('show');
     });
 });
@@ -56,12 +46,16 @@ function showList() {
     $('#projects-list').show(250);
 }
 
-function loadProjects() {
+function loadProjects( userId) {
+
+    document.cookie = "userId=" + userId;
 
     var urlPrefix = (window.location.href).match("^http") ? "" : "http://10.25.30.127:8181";
 
     $('#featured-list').append('<h3>Recommended Projects</h3>');
-    $.getJSON( urlPrefix + "/api/project/featured", function (data) {
+    $.getJSON( urlPrefix + "/api/project/featured",
+        { "userId": userId },
+        function (data) {
         fillList( '#featured-list', data);
     })
         .done(function () {
