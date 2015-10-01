@@ -119,7 +119,8 @@ BODY{
 
 .main-text a{
 	color:#05589d;
-	text-decoration:underline;
+	text-decoration:none;
+    font-size: small;
 }
 
 .main-text a:hover{
@@ -946,4 +947,14 @@ p#disclosure {
     	font-size: 12px !important;
 	color: #666;
 	margin: 0 30px 15px 0;
+}
+
+.contentItem h2 {
+    font-weight: bolder;
+    line-height: 30px;
+    font-size: 100%;
+}
+.contentItem h2 a {
+    text-decoration: none;
+    color: #000;
 }

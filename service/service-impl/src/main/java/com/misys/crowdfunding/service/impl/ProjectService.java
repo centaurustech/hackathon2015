@@ -9,6 +9,7 @@ import javax.inject.Inject;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -31,11 +32,30 @@ public class ProjectService implements IProjectService {
     }
 
     @Override
-    public String getProjects() {
-        List<Map<String, Object>> data = projectDAO.getProjects();
+    public String getProjects(String lowerBound) {
+        List<Map<String, Object>> data = projectDAO.getProjects(lowerBound, 12);
 
         try {
             return objectMapper.writeValueAsString(data);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
+    @Override
+    public String getFeaturedProjects(String user) {
+        List<Map<String, Object>> data = projectDAO.getProjects(null, 5000);
+
+        List<String> ids = new ArrayList<>();
+        for (int i = 0; i < 3; i++) {
+            ids.add((String)data.get((int)(Math.random() * data.size())).get("id"));
+        }
+
+        List<Map<String, Object>> simulated = projectDAO.simulateFeatured(ids);
+
+        try {
+            return objectMapper.writeValueAsString(simulated);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -46,8 +66,6 @@ public class ProjectService implements IProjectService {
     public String getProject(String id) {
         Map<String, Object> data = projectDAO.getProject(id);
 
-        data.put("backers", 42);
-
         try {
             return objectMapper.writeValueAsString(data);
         } catch (IOException e) {
@@ -58,7 +76,7 @@ public class ProjectService implements IProjectService {
     }
 
     @Override
-    public void createPayment(String id, double amount) {
-        projectDAO.createPayment(id, amount);
+    public void createPayment(String id, double amount, String currency, String source) {
+        projectDAO.createPayment(id, amount, currency, source);
     }
 }

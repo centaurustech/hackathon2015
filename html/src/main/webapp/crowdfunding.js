@@ -1,23 +1,28 @@
-$("#ping-button").click(function () {
-    console.log("projects ping");
-    $.ajax({
-        url: "/api/ping",
-        dataType: "text"
-    })
-        .done(function (data) {
-            console.log("Ping received " + data);
-        })
-        .fail(function () {
-            console.log("Ping failed");
-        })
-    ;
+$(".dropdown-menu li a").click(function(){
+    var selText = $(this).text();
+    $(this).parents('.btn-group').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
+    $(this).parents('.btn-group').find('input').val(selText);
 });
 
 $('#contribute-button').click(function () {
     var amount = $('#contribution-amount').val();
     var projectId = $('#contribution-project-id').val();
-    var url = "/api/project/" + encodeURIComponent(projectId) + "/payment/" + amount;
-    $.post(url, function (data) {
+    var amount = $('#contribution-amount').val();
+    var currency = $('#contribution-currency').val();
+    var source = $('#contribution-source').val();
+
+    var data = { "id" : projectId,
+                 "amount" : amount,
+                 "currency" : currency,
+                 "source" : source,
+                 "userId" : $.cookie( "userId")
+    };
+
+    console.log("Contributing to Project id" + projectId + " with " + amount + " " + currency + " from " + source + " with data= " + data);
+
+    var urlPrefix = (window.location.href).match("^http") ? "" : "http://10.25.30.127:8181";
+
+    $.post( urlPrefix + "/api/payment/create", data, function (r) {
         $('#thank-you-modal').modal('show');
     });
 });
@@ -29,6 +34,7 @@ $('#thank-you-modal').on('hidden.bs.modal', function() {
 function showContribution() {
     $('#project-view').hide(500);
     $('#projects-list').hide(500);
+    $('#featured-list').hide(500);
     $('#project-contribution').show(250);
     window.scrollTo(0, 0);
 }
@@ -36,33 +42,65 @@ function showContribution() {
 function showList() {
     $('#project-view').hide(500);
     $('#project-contribution').hide(500);
+    $('#featured-list').show(250);
     $('#projects-list').show(250);
 }
 
-function loadProjects() {
-    $.getJSON("/api/project", function (data) {
-        $.each(data, function (i, project) {
+function loadProjects( userId) {
 
-            var refHTML = 'href="#" onclick="showProject(\'' + project.id + '\')"';
-            var innerHTML = '<div class="grid grid_6"><div class="contentItem"><h2 style="font-weight: bolder;"><a ' + refHTML + '>' + project.name + '</a></h2>';
-            innerHTML += '<a ' + refHTML + '><img src="' + project.imgSrc + '" width="220" height="160"></a>';
-            innerHTML += '<p>' + project.description + '</p>';
-            innerHTML += '<p><a class="redLink" ' + refHTML + ' title="Find out more">Find out more</a></p>';
-            innerHTML += '</div>';
+    $.cookie( "userId=", userId);
 
-            $('#projects-list').append(innerHTML);
-        });
+    var urlPrefix = (window.location.href).match("^http") ? "" : "http://10.25.30.127:8181";
+
+    $('#featured-list').append('<h3>Recommended Projects</h3>');
+    $.getJSON( urlPrefix + "/api/project/featured",
+        { "userId": userId },
+        function (data) {
+        fillList( '#featured-list', data);
     })
         .done(function () {
         })
         .fail(function () {
-            console.log("projects failed");
+            console.log("featured projects list failed");
+        })
+    ;
+
+    $('#projects-list').append('<h3>Projects</h3>');
+    $.getJSON(urlPrefix + "/api/project", function (data) {
+        fillList( '#projects-list', data);
+    })
+        .done(function () {
+        })
+        .fail(function () {
+            console.log("projects list failed");
         })
     ;
 }
 
+function fillList( id, data) {
+    var innerHTML = '<div class="row">';
+    var projectCount = 0;
+    $.each(data, function (i, project) {
+
+        projectCount++;
+        if( ( projectCount - 1) % 4 == 0 && projectCount > 1) {
+            innerHTML += '</div><div class="row">';
+        }
+        var refHTML = 'href="#" onclick="showProject(\'' + project.id + '\')"';
+        innerHTML += '<div class="col-md-3"><div class="project-name"><a ' + refHTML + '>' + project.name + '</a></div>';
+        innerHTML += '<a ' + refHTML + '><img src="' + project.imgSrc + '" width="220" height="160"></a>';
+        innerHTML += '<p class="project-description">' + project.description + '</p>';
+        innerHTML += '<p><a class="project-more" ' + refHTML + ' title="Find out more">Find out more</a></p>';
+        innerHTML += '</div>';
+
+    });
+    innerHTML += '</div>';
+    $(id).append(innerHTML);
+}
+
 function showProject(id) {
 //    console.log( "I should be showing project " + id);
+    $('#featured-list').hide(500);
     $('#projects-list').hide(500);
     $('#project-contribution').hide(500);
     $('#contribution-project-id').val(id);
@@ -117,4 +155,12 @@ function to4Chars(v) {
     var u = ["","k","m","b","t","q"];
 
     return a + ( b > 0 ? ("," + b.toString().substr(0,blen)) : "" ) + u[order];
+}
+
+Math.log10 = Math.log10 || function(x) {
+    return Math.log(x) / Math.LN10;
+}
+
+Math.trunc = Math.trunc || function(x) {
+    return x < 0 ? Math.ceil(x) : Math.floor(x);
 }

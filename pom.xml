@@ -29,5 +29,6 @@
         <module>service</module>
         <module>provider</module>
         <module>html</module>
+        <module>tools</module>
     </modules>
 </project>
