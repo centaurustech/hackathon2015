@@ -10,7 +10,6 @@ import javax.inject.Inject;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -91,8 +90,8 @@ public class ProjectService implements IProjectService {
     }
 
     @Override
-    public void createPayment(String id, double amount, String currency, String source) {
-        projectDAO.createPayment(id, amount, currency, source);
-        //mahoutProvider.learn();
+    public void createPayment(String user, String projectId, double amount, String currency, String source) {
+        projectDAO.createPayment(user, projectId, amount, currency, source);
+        mahoutProvider.learn();
     }
 }

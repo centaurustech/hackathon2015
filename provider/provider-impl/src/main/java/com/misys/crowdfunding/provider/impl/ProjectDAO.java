@@ -6,16 +6,20 @@ import com.orientechnologies.orient.core.id.ORecordId;
 import com.orientechnologies.orient.core.record.impl.ODocument;
 import com.orientechnologies.orient.core.sql.OCommandSQL;
 import com.orientechnologies.orient.core.sql.query.OSQLSynchQuery;
+import org.slf4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+
+import static org.slf4j.LoggerFactory.getLogger;
 
 
 /**
  * Created by kdeveloper on 9/21/15.
  */
 public class ProjectDAO implements IProjectDAO {
+    private static final Logger LOGGER = getLogger(ProjectDAO.class);
 
     private String connectionStr;
 
@@ -94,7 +98,7 @@ public class ProjectDAO implements IProjectDAO {
     }
 
     @Override
-    public void createPayment(String id, double amount, String currency, String source) {
+    public void createPayment(String user, String projectId, double amount, String currency, String source) {
         ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
 
         try {
@@ -103,13 +107,14 @@ public class ProjectDAO implements IProjectDAO {
             payment.field("amount", amount);
             payment.field("currency", currency);
             payment.field("source", source);
-            payment.field("project", new ORecordId(id));
+            payment.field("project", new ORecordId(projectId));
+            payment.field("user", new ORecordId(user));
             payment.save();
 
             // add payment to list of payment
-            db.command(new OCommandSQL("update " + id + " add payments = " + payment.getIdentity().toString())).execute();
+            db.command(new OCommandSQL("update " + projectId + " add payments = " + payment.getIdentity().toString())).execute();
         } catch (Exception e) {
-            int i = 0;
+            LOGGER.error(e.getMessage());
         } finally {
             db.close();
         }

@@ -33,7 +33,7 @@ public class PaymentResource {
                                   @FormParam("amount") double amount,
                                   @FormParam("currency") String currency,
                                   @FormParam("source") String source) {
-            projectService.createPayment(projectId, amount, currency, source);
+            projectService.createPayment(user, projectId, amount, currency, source);
             return Response.ok().build();
         }
     }

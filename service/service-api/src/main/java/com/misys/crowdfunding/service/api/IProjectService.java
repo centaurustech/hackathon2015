@@ -7,5 +7,5 @@ public interface IProjectService {
     String getProjects(String lowerBound);
     String getFeaturedProjects(String user);
     String getProject(String id);
-    void createPayment(String id, double amount, String currency, String source);
+    void createPayment(String user, String projectId, double amount, String currency, String source);
 }
