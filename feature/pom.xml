@@ -60,5 +60,10 @@
             <groupId>com.googlecode.concurrentlinkedhashmap</groupId>
             <artifactId>concurrentlinkedhashmap-lru</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.misys.crowdfunding</groupId>
+            <artifactId>crowdfunding-mahoutBundle</artifactId>
+        </dependency>
     </dependencies>
 </project>

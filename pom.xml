@@ -30,5 +30,20 @@
         <module>provider</module>
         <module>html</module>
         <module>tools</module>
+        <module>mahoutBundle</module>
     </modules>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.trmsys.cargo</groupId>
+                <artifactId>cargo-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <splitFailure>false</splitFailure>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

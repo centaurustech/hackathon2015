@@ -1,5 +1,6 @@
 package com.misys.crowdfunding.service.impl;
 
+import com.misys.crowdfunding.provider.api.IMahoutProvider;
 import com.misys.crowdfunding.provider.api.IProjectDAO;
 import com.misys.crowdfunding.service.api.IMetricsService;
 import com.misys.crowdfunding.service.api.IProjectService;
@@ -17,5 +18,6 @@ public class RegistryModule extends AbstractRegistryModule {
         register(IMetricsService.class).to(MetricsService.class);
 
         bind(IProjectDAO.class).toRegistry();
+        bind(IMahoutProvider.class).toRegistry();
     }
 }
