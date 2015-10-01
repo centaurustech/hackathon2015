@@ -32,10 +32,9 @@ $('#contribute-button').click(function () {
                  "source" : source};
 
     console.log("Contributing at Project id" + projectId + " with " + amount + " " + currency + " from " + source);
-    $.post("/api/payment/create", data, function(r) {
-            $('#thank-you-modal').modal('show');
-        }
-    );
+    $.post("/api/payment/create", data, function (r) {
+        $('#thank-you-modal').modal('show');
+    });
 });
 
 $('#thank-you-modal').on('hidden.bs.modal', function() {
@@ -160,4 +159,12 @@ function to4Chars(v) {
     var u = ["","k","m","b","t","q"];
 
     return a + ( b > 0 ? ("," + b.toString().substr(0,blen)) : "" ) + u[order];
+}
+
+Math.log10 = Math.log10 || function(x) {
+    return Math.log(x) / Math.LN10;
+}
+
+Math.trunc = Math.trunc || function(x) {
+    return x < 0 ? Math.ceil(x) : Math.floor(x);
 }
