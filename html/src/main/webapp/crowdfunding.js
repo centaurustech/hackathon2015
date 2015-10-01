@@ -54,7 +54,7 @@ function loadProjects( userId, lowerBound) {
 
     var urlPrefix = (window.location.href).match("^http") ? "" : "http://10.25.30.127:8181";
 
-    $('#featured-list').children("h3").remove();
+    $('#featured-list').children().remove();
     $('#featured-list').append('<h3>Recommended Projects</h3>');
     $.getJSON( urlPrefix + "/api/project/featured",
         { "userId": userId },
@@ -68,7 +68,7 @@ function loadProjects( userId, lowerBound) {
         })
     ;
 
-    $('#projects-list').children("h3").remove();
+    $('#projects-list').children().remove();
     $('#projects-list').append('<h3>Projects</h3>');
     $.getJSON(urlPrefix + "/api/project",
         { "lowerBound" : lowerBound},
