@@ -46,9 +46,11 @@ function showList() {
     $('#projects-list').show(250);
 }
 
-function loadProjects( userId) {
+function loadProjects( userId, lowerBound) {
 
-    $.cookie( "userId=", userId);
+    if( lowerBound === undefined) lowerBound = "";
+
+    $.cookie( "userId", userId);
 
     var urlPrefix = (window.location.href).match("^http") ? "" : "http://10.25.30.127:8181";
 
@@ -66,8 +68,11 @@ function loadProjects( userId) {
     ;
 
     $('#projects-list').append('<h3>Projects</h3>');
-    $.getJSON(urlPrefix + "/api/project", function (data) {
-        fillList( '#projects-list', data);
+    $.getJSON(urlPrefix + "/api/project",
+        { "lowerBound" : lowerBound},
+        function (data) {
+        var lastId = fillList( '#projects-list', data);
+        $('#projects-list').append('<div class="projects-nav"><a href="#" onclick="loadProjects( \'' + userId + '\', \'' + lastId + '\')">Next</a> </div>');
     })
         .done(function () {
         })
@@ -92,10 +97,12 @@ function fillList( id, data) {
         innerHTML += '<p class="project-description">' + project.description + '</p>';
         innerHTML += '<p><a class="project-more" ' + refHTML + ' title="Find out more">Find out more</a></p>';
         innerHTML += '</div>';
-
+        lastId = project.id;
     });
     innerHTML += '</div>';
     $(id).append(innerHTML);
+
+    return lastId;
 }
 
 function showProject(id) {
