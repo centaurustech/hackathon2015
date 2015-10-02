@@ -4,21 +4,18 @@ import com.misys.crowdfunding.provider.api.IMahoutProvider;
 import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
 import com.orientechnologies.orient.core.record.impl.ODocument;
 import com.orientechnologies.orient.core.sql.query.OSQLSynchQuery;
-import org.apache.hadoop.yarn.webapp.ResponseInfo;
 import org.apache.mahout.cf.taste.impl.common.FastByIDMap;
 import org.apache.mahout.cf.taste.impl.model.*;
 import org.apache.mahout.cf.taste.impl.neighborhood.ThresholdUserNeighborhood;
-import org.apache.mahout.cf.taste.impl.recommender.GenericItemBasedRecommender;
+import org.apache.mahout.cf.taste.impl.recommender.GenericBooleanPrefUserBasedRecommender;
 import org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender;
+import org.apache.mahout.cf.taste.impl.similarity.LogLikelihoodSimilarity;
 import org.apache.mahout.cf.taste.impl.similarity.PearsonCorrelationSimilarity;
-import org.apache.mahout.cf.taste.impl.similarity.TanimotoCoefficientSimilarity;
 import org.apache.mahout.cf.taste.model.DataModel;
 import org.apache.mahout.cf.taste.model.PreferenceArray;
 import org.apache.mahout.cf.taste.neighborhood.UserNeighborhood;
-import org.apache.mahout.cf.taste.recommender.ItemBasedRecommender;
 import org.apache.mahout.cf.taste.recommender.RecommendedItem;
 import org.apache.mahout.cf.taste.recommender.UserBasedRecommender;
-import org.apache.mahout.cf.taste.similarity.ItemSimilarity;
 import org.apache.mahout.cf.taste.similarity.UserSimilarity;
 import org.slf4j.Logger;
 
@@ -51,6 +48,44 @@ public class MahoutProvider implements IMahoutProvider{
 
     private long getLongFromRID(String rid) {
         return Long.parseLong(rid.substring(rid.lastIndexOf(':') + 1, rid.length()));
+    }
+
+    @Override
+    public void learnBoolean() {
+        FastByIDMap<PreferenceArray> userIdMap = new FastByIDMap<PreferenceArray>();
+
+        ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
+
+        try {
+            List<ODocument> lstActiveUsers = db.query(new OSQLSynchQuery<ODocument>("select distinct(user.asString()) as id  from payments"));
+
+            for(ODocument user : lstActiveUsers) {
+                List<ODocument> projects = db.command(new OSQLSynchQuery<ODocument>("select project.@rid.asString() as id, sum(amount) as amount from payments where user = ? group by (project)"))
+                        .execute(user.field("id"));
+
+                int i = 0;
+                BooleanUserPreferenceArray userPref = new BooleanUserPreferenceArray(projects.size());
+                long userId = getLongFromRID((String)user.field("id"));
+                for(ODocument project : projects) {
+                    userPref.set(i++, new BooleanPreference(userId, getLongFromRID((String) project.field("id"))));
+                }
+
+                userIdMap.put(userId, userPref);
+            }
+        } catch (Exception e) {
+            LOGGER.error(e.getMessage(), e);
+        } finally {
+            db.close();
+        }
+
+        try {
+            DataModel dataModel = new GenericBooleanPrefDataModel(GenericBooleanPrefDataModel.toDataMap(userIdMap));
+            UserSimilarity similarity = new LogLikelihoodSimilarity(dataModel);
+            UserNeighborhood neighborhood = new ThresholdUserNeighborhood(10, similarity, dataModel);
+            recommender = new GenericBooleanPrefUserBasedRecommender(dataModel, neighborhood, similarity);
+        } catch (Exception e) {
+            LOGGER.error(e.getMessage(), e);
+        }
     }
 
     @Override

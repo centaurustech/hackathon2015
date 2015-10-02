@@ -61,7 +61,8 @@ public class ProjectService implements IProjectService {
 
     @Override
     public String getFeaturedProjects(String user) {
-        mahoutProvider.learn();
+        //mahoutProvider.learn();
+        mahoutProvider.learnBoolean();
         List<Map<String, Object>> featured = projectDAO.simulateFeatured(mahoutProvider.recommend(user));
 
         /*if (featured.size() == 0)

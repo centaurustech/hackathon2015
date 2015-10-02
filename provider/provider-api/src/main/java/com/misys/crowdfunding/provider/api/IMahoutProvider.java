@@ -7,5 +7,6 @@ import java.util.List;
  */
 public interface IMahoutProvider {
     void learn();
+    void learnBoolean();
     List<String> recommend(String userId);
 }
