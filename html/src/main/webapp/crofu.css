@@ -1,13 +1,13 @@
 
-
 .project-list .project-name {
     line-height: 30px;
     font-size: 100%;
     font-weight: bolder;
     height: 60px;
+    text-align: center;
 }
 
-.project-list .project-name a {
+.project-name a {
     text-decoration: none;
     color: #000;
 }
@@ -30,11 +30,17 @@
     border-bottom: 1px solid #aaa;
 }
 
-.project-view {
-
+.project-image {
+    text-align: center;
 }
 
-#project-view .project-name {
+.project-title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#project-view-name,
+#project-contribution-name{
     text-align: center;
     font-size: xx-large;
     font-weight: bolder;
