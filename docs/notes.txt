@@ -1,0 +1,69 @@
+Hello Everyone and thanks for having us!
+So, What is CroFu?
+Cro-Fu is the Hackathon counterpart to the Fusion Reactor CrowdFunding project
+The original contributors were Bakthier Pulatov in London and Karim El Mourabet in Dubai.
+
+This should serve as evidence in the CrowdFunding case that we,Misys should build this solution … now.
+
+---
+
+So what is Crowdfunding?
+<click>
+A Crowd Funding Platform is a web based market place were projects meet funders.
+<click>
+This is an alternative to traditional lending, because funds come from individuals.
+<click>
+As we speak, there are over 1300 platforms that process 34 billion dollars per year.
+<click>
+The target market size for 2020 is $1tn
+<click>
+That is one million, million dollars.
+
+---
+
+Mysis is the perfect provider for this solution
+<click> Our technology is especially fit. Fusion Fabric brings Performance, Availability and is SaaS ready.
+<click> We are completely legitimate with our existing Client Base of retail and commercial banks, and our existing offering with FusionBanking Lending
+<click> We have the right culture:
+<click> We want to help our customers take their first step into this new generation of financial products. 
+<click> Building a new Market place is a great challenge.
+<click> This is a juicy greenfield market for us.
+
+---
+
+We would like to showcase 3 aspects of the solution in the context of this Hackathon
+<click> The system needs to integrate to existing bank websites as well as data consumers, such as FBI.
+<click> It needs to be able to cope with large volumes.
+<click> It needs to be smart enough to maximize platform revenue by optimizing projects recommendations
+
+--- Demo
+
+What we see here is an existing HSBC website that leverages FusionFabric services to enable CrowdFunding offering.
+As a user I can log into my bank website and browse existing projects
+<drill crowd funding> In this list, I can pick whatever project is relevant to me, 
+<drill in project> See what the current state is, and either contribute or Follow this project for later 
+Let s make a donation 
+<click donate> From here
+<open sources list> I can choose where the money comes from
+<type in amount> Enter the amount I wish to donate
+<click donate and close thank you> I can then go back to this project
+<reopen project status> And see that progress has been recorded.
+
+---
+
+<tab 2> 
+In this tab, I have a Citibank website powered by the same service.
+<click Crowdfunding> 
+Projects recommendation are catered to individual user profile using Apache Mahout technology. 
+Please ask us questions about this.
+
+Besides user facing services, the platform is also able to produce metrics
+<tab 3, Show JSON> that could be consumed by processors such as Fusion Business Insight.
+
+---
+
+In order to cope with volumes, we had to implement a multi node FusionFabric architecture
+<click>Processing request from 1k users went smooth
+<click> Ramping up to 10k users showed we were losing about 10% of inbound traffic
+<click> By adding a second node to our cluster, we immediately remediated the loss
+
