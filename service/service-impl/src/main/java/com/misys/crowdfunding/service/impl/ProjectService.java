@@ -10,6 +10,7 @@ import javax.inject.Inject;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -45,8 +46,7 @@ public class ProjectService implements IProjectService {
         return "";
     }
 
-    /*@Override
-    public String getFeaturedProjects(String user) {
+    private List<Map<String, Object>> simulateFeatured() {
         List<Map<String, Object>> data = projectDAO.getProjects(null, 5000);
 
         List<String> ids = new ArrayList<>();
@@ -56,21 +56,19 @@ public class ProjectService implements IProjectService {
 
         List<Map<String, Object>> simulated = projectDAO.simulateFeatured(ids);
 
-        try {
-            return objectMapper.writeValueAsString(simulated);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return "";
-    }*/
+        return simulated;
+    }
 
     @Override
     public String getFeaturedProjects(String user) {
         mahoutProvider.learn();
-        List<Map<String, Object>> simulated = projectDAO.simulateFeatured(mahoutProvider.recommend(user));
+        List<Map<String, Object>> featured = projectDAO.simulateFeatured(mahoutProvider.recommend(user));
+
+        /*if (featured.size() == 0)
+            featured = simulateFeatured();*/
 
         try {
-            return objectMapper.writeValueAsString(simulated);
+            return objectMapper.writeValueAsString(featured);
         } catch (IOException e) {
             e.printStackTrace();
         }
