@@ -114,7 +114,7 @@ public class ProjectDAO implements IProjectDAO {
             // add payment to list of payment
             db.command(new OCommandSQL("update " + projectId + " add payments = " + payment.getIdentity().toString())).execute();
         } catch (Exception e) {
-            LOGGER.error(e.getMessage());
+            LOGGER.error(e.getMessage(), e);
         } finally {
             db.close();
         }

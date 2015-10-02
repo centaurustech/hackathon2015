@@ -116,6 +116,7 @@ function showProject(id) {
     $('#contribution-project-id').val(id);
 
     $.getJSON("/api/project/" + encodeURIComponent(id), function (project) {
+        $('#project-view-image').attr("src", project.imgSrc);
         $('#project-view-name').text(project.name);
         $('#project-contribution-name').text(project.name);
         $('#project-view-target').text(to4Chars(project.targetAmount));
