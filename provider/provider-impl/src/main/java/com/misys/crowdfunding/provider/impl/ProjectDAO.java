@@ -9,6 +9,7 @@ import com.orientechnologies.orient.core.sql.query.OSQLSynchQuery;
 import org.slf4j.Logger;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -36,11 +37,11 @@ public class ProjectDAO implements IProjectDAO {
 
     @Override
     public List<Map<String, Object>> getProjects(String lowerBound, int number) {
+        List<Map<String, Object>> ret = new ArrayList<>();
         ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
         try {
             List<ODocument> result = db.command(new OSQLSynchQuery<ODocument>("select @rid.asString() as id, name, description, imgSrc from projects where @rid > ? limit ?"))
                     .execute(lowerBound == null || "".equals(lowerBound) ? new ORecordId() : new ORecordId(lowerBound), number);
-            List<Map<String, Object>> ret = new ArrayList<>();
 
             for(ODocument od : result) {
                 Map<String, Object> mret = od.toMap();
@@ -48,14 +49,17 @@ public class ProjectDAO implements IProjectDAO {
                 ret.add(mret);
             }
 
-            return ret;
+        } catch (Exception e) {
+            LOGGER.error(e.getMessage(), e);
         } finally {
             db.close();
         }
+        return ret;
     }
 
     @Override
     public List<Map<String, Object>> simulateFeatured(List<String> ids) {
+        List<Map<String, Object>> ret = new ArrayList<>();
         ODatabaseDocumentTx db = new ODatabaseDocumentTx(connectionStr).open("admin", "admin");
         try {
 
@@ -68,7 +72,6 @@ public class ProjectDAO implements IProjectDAO {
             List<ODocument> result = db.command(new OSQLSynchQuery<ODocument>(
                     "select @rid.asString() as id, name, description, imgSrc from projects where @rid in ?"))
                     .execute(lstId);
-            List<Map<String, Object>> ret = new ArrayList<>();
 
             for(ODocument od : result) {
                 Map<String, Object> mret = od.toMap();
@@ -76,10 +79,12 @@ public class ProjectDAO implements IProjectDAO {
                 ret.add(mret);
             }
 
-            return ret;
+        } catch (Exception e) {
+            LOGGER.error(e.getMessage(), e);
         } finally {
             db.close();
         }
+        return ret;
     }
 
     @Override
@@ -92,9 +97,12 @@ public class ProjectDAO implements IProjectDAO {
             Map<String, Object> mret = result.get(0).toMap();
             mret.remove("@rid");
             return mret;
+        } catch (Exception e) {
+            LOGGER.error(e.getMessage(), e);
         } finally {
             db.close();
         }
+        return new HashMap<>();
     }
 
     @Override

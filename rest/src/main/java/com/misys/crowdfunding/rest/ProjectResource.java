@@ -35,7 +35,8 @@ public class ProjectResource {
     @Path("/featured")
     @Produces({MediaType.APPLICATION_JSON})
     public String getFeaturedProjects(@QueryParam("userId") String user) {
-        return projectService.getFeaturedProjects(user);
+        //return projectService.getFeaturedProjects(user);
+        return projectService.getFeaturedProjects("#67:903");
     }
 
     @GET
