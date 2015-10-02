@@ -66,6 +66,7 @@ public class ProjectService implements IProjectService {
 
     @Override
     public String getFeaturedProjects(String user) {
+        mahoutProvider.learn();
         List<Map<String, Object>> simulated = projectDAO.simulateFeatured(mahoutProvider.recommend(user));
 
         try {
@@ -92,6 +93,5 @@ public class ProjectService implements IProjectService {
     @Override
     public void createPayment(String user, String projectId, double amount, String currency, String source) {
         projectDAO.createPayment(user, projectId, amount, currency, source);
-        mahoutProvider.learn();
     }
 }
