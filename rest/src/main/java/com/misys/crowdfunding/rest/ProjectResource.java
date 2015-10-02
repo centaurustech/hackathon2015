@@ -42,6 +42,7 @@ public class ProjectResource {
     @Path("/{id}")
     @Produces({MediaType.APPLICATION_JSON})
     public String getProject(@QueryParam("user") String user, @PathParam("id") String id) {
-        return projectService.getProject(id);
+        //return projectService.getProject("#67:911");
+        return projectService.getProject("#67:903");
     }
 }
