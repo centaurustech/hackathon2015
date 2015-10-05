@@ -1472,22 +1472,6 @@ ul#meta li
     display: inline-block;
 }
 
-.separator .label {
-    color: #000;
-    padding: 10px;
-    padding-top: 40px;
-    display: table;
-    margin: 0 auto;
-}
-
-.separator {
-    display: block;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
 #inner-page .row {
     padding-left: 100px;
     padding-right: 100px;
