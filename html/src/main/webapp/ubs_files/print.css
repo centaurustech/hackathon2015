@@ -1,0 +1,110 @@
+
+body{
+    width:auto;
+    height: auto;
+}
+
+#nav-service,
+#nav-main,
+#nav-content,
+#service,
+#footer-interact{
+    display:none;
+}
+
+#header,
+#nav-main{
+    min-width: 0;
+}
+
+#doc,
+#main{
+    min-width:0;
+    width:auto;
+    margin:0;
+    padding:0;
+}
+
+#content {
+    overflow: visible;
+}
+
+#content div.wrapper-content {
+    float: none;
+}
+
+#logo {
+    margin-left: 0;
+}
+
+.ui-tooltip-footer {
+    display: none !important;
+}
+
+/* accordion */
+
+.ui-accordion .ui-accordion-content {
+    display: block !important;
+}
+
+.ui-accordion tr.ui-accordion-content {
+    display: table-row !important;
+}
+
+.ui-accordion .ui-accordion-header .ui-icon {
+    display: none;
+}
+
+.ui-accordion .ui-accordion-content,
+a.accordion-header div span {
+    padding-left: 0 !important;
+}
+
+.ui-accordion .ui-accordion-header {
+    margin-top: 2em !important;
+}
+
+.box-accordion a.accordion-header {
+    border-bottom: 1px solid #BEBEBE !important;
+}
+
+a.accordion-header div span {
+    text-decoration: none !important;
+}
+
+/************ clear fix **************/
+
+.textimage,
+.textimage .highlightSegment {
+    overflow: visible
+}
+
+.textimage:after,
+.textimage .highlightSegment:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*
+.textimage,
+.textimage .highlightSegment {display: inline-block;}
+*/
+.ie7 .textimage,
+.ie7 .textimage .highlightSegment {
+    zoom: 1;
+    display: block;
+}
+
+/** Global Horizons **/
+.gH__headerLevel1,
+.gH__headerLevel2,
+.gH__row--even,
+.gH__row--odd,
+.gH__leftHeader,
+.gH__noData,
+.gH__data {
+    background-color: #fff;
+    color: #000;
+}

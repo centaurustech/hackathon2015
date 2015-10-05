@@ -1,0 +1,191 @@
+.fundsSearchBar{border-top:1px solid #bebebe;border-bottom:1px solid #bebebe}
+.fundsSearchBar .table-cell{vertical-align:top}
+.search-bar{height:100%;margin:0;padding:1em .833em}
+.search-bar form{overflow:hidden;padding-top:.25em}
+.search-bar input{margin:0;width:34em}
+.column .search-bar input{width:auto}
+ul.ui-menu{width:auto!important}
+.fundsProductTable{table-layout:fixed;border-bottom:1px solid #bebebe;table-layout:fixed}
+.fundsProductTable th{font-size:1.083em;line-height:1.333em}
+.fundsProductTable th.header a{position:relative}
+.fundsProductTable th.header a span{background-image:url("../../../includesfunds/includes/img/sortArrows.png");background-repat:no-repeat;background-position:0 0;background-color:white;bottom:6px;display:block;height:6px;position:absolute;width:20px}
+.fundsProductTable th.header a span.info-icon{background:url("../../../includesfunds/includes/img/infoIcon.png") no-repeat scroll 0 0 transparent;display:inline-block;height:18px;line-height:18px;margin:0 0 0 5px;position:static;vertical-align:top;width:18px}
+.fundsProductTable th.header span span.info-icon{background:url("../../../includesfunds/includes/img/infoIcon.png") no-repeat scroll 0 0 transparent;display:inline-block;height:18px;line-height:18px;margin:0 0 0 5px;position:static;vertical-align:top;width:18px}
+.fundsProductTable th.headerSortUp a span{background-position:0 -12px}
+.fundsProductTable th.headerSortDown a span{background-position:0 -24px}
+.fundsProductTable th a{text-decoration:none;color:#222;font-weight:bold;padding:2px .667em 1.5em;display:block}
+.fundsProductTable .searchResults{overflow:hidden}
+.fundsProductTable .parent-row{background-color:#f7f7f7}
+.fundsProductTable .parent-row td{border-top:1px solid #bebebe;margin:0;vertical-align:top}
+.fundsProductTable .parent-row td a{font-weight:normal;text-decoration:none;color:#222}
+.fundsProductTable .parent-row td a strong{display:block}
+.fundsProductTable .parent-row td.centeredTxt{text-align:center}
+.fundsProductTable .parent-row .ui-icon{left:0;position:relative;top:0}
+.fundsProductTable .parent-row:hover,.fundsProductTable .parent-row:focus{background-color:#bfd6eb}
+.fundsProductTable .parent-row.ui-state-active{background:white}
+.fundsProductTable .parent-row.ui-state-active td{border-bottom:0 none transparent}
+.fundsProductTable .child-row{display:table-row}
+.fundsProductTable .child-row td{padding:.917em .5em 1.5em;margin:0;vertical-align:top}
+.fundsProductTable .child-row .right{margin-top:0}
+.fundsRPP .button-icon{height:1.667em;line-height:1.667em;text-align:center;text-decoration:none}
+.right-pager{float:right}
+.right-pager .paginator li a.button-icon{font-size:1em;height:1.667em;line-height:1.667em;min-width:1.25em;padding-bottom:0;padding-top:0;width:auto}
+.noresults .searchresults{padding-top:1.667em}
+.noresults .searchresults .noresultsMessage{border:1px solid #bebebe;padding:4px;text-align:center;overflow:hidden}
+.ie7 .fundsSearchBar{clear:both}
+.ie7 .fundsSearchResults{clear:both}
+.ie7 .fundsSearchResults .fundsProductTable .header span{margin:0;padding:0!important}
+.ie7 .fundsSearchResults th{vertical-align:top}
+.ie7 .fundsSearchResults th.header a span{background-image:url("../../../includesfunds/includes/img/sortArrows.gif");background-repeat:no-repeat;background-color:white;left:8px;height:6px!important;display:block!important;overflow:hidden;font-size:0}
+.ie7 .fundsSearchResults th.headerSortUp a span{background-position:0 -12px}
+.ie7 .fundsSearchResults th.headerSortDown a span{background-position:0 -24px}
+.fundsProductSelection{clear:both;overflow:hidden}
+.fundsProductSelection h5{font-weight:bold}
+.fundsProductSelection .linklist,.fundsProductSelection .list-numbered,.fundsProductSelection .list-bullet{margin-top:0}
+.info-icon{background:url("../../../includesfunds/includes/img/infoIcon.png") no-repeat scroll center center transparent;height:18px;width:18px;display:inline-block;zoom:1;vertical-align:text-bottom}
+.fundsSelectTooltip{border:0 none transparent;background:none transparent}
+.fundsSelectTooltip.ui-tooltip span{background:none transparent}
+.fundsSelectTooltip .ui-tooltip-content{background-color:#646464;background:-moz-linear-gradient(#646464,#444);background:-ms-linear-gradient(#646464,#444);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#646464),color-stop(100%,#444));background:-webkit-linear-gradient(#646464,#444);background:-o-linear-gradient(#646464,#444);background:linear-gradient(#646464,#444);*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF646464',endColorstr='#FF444444');color:white;width:215px;padding:10px;-moz-box-shadow:transparent 0 0 0;-webkit-box-shadow:transparent 0 0 0;box-shadow:transparent 0 0 0;position:relative}
+.fundsSelectTooltip .ui-tooltip-content .arrow{position:absolute;border-top:12px solid #444;border-left:12px solid transparent;border-right:12px solid transparent;width:0;height:0;position:absolute;content:" ";display:block;right:50%;bottom:-10px}
+.fundsSelectTooltip .ui-tooltip-content .funds_index,.fundsSelectTooltip .ui-tooltip-content .funds_product>br{display:none}
+.column .fundsProductSelection .list-link{width:100%}
+.fundsProductSelection .ui-selectmenu-open{height:auto!important;width:auto!important;white-space:nowrap}
+.funds_index{color:#687d30;padding-left:.25em;float:right}
+.ui-selectmenu-menu li a{overflow:hidden;*zoom:1}
+.ui-selectmenu-menu .funds_product{float:left;display:inline}
+.ui-selectmenu-menu .funds_product .highlight{display:inline}
+.ui-selectmenu-menu .funds_index{margin-left:1.667em;line-height:36px;font-weight:bold}
+.ui-selectmenu-menu .funds_index .uni,.ui-selectmenu-menu .funds_index .num{display:inline}
+#content .ui-state-hover .ui-selectmenu-status .funds_index{top:1px;right:19px}
+#content .ui-selectmenu-focus .ui-selectmenu-status .funds_index{top:1px;right:19px}
+#content .funds_currency .ui-selectmenu-status .funds_product{margin-right:80px}
+#content .funds_percentage .ui-selectmenu-status .funds_product{margin-right:60px}
+#content .ui-selectmenu-status .funds_product{margin-right:60px}
+#content .ui-selectmenu-status .funds_index{position:absolute;right:20px;top:2px}
+#content .ui-selectmenu-status .funds_index .uni,#content .ui-selectmenu-status .funds_index .num{display:inline;font-weight:bold}
+.ui-selectmenu-status .funds_product>br{display:none}
+#main #service .fundsProductSelection{padding:0 .417em;background:#f2f2f2;margin-top:0}
+#main #service .fundsProductSelection .linklist,#main #service .fundsProductSelection .list-numbered,#main #service .fundsProductSelection .list-bullet{margin:0 .417em;padding:0}
+.selectioncomponent{margin-top:0!important}
+.fundsProductSelection .ui-selectmenu-status .funds_product{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ie6 .fundsProductSelection .ui-selectmenu-status .funds_product,.ie7 .fundsProductSelection .ui-selectmenu-status .funds_product{overflow:visible;white-space:normal}
+#service .fundsProductSelection .ui-selectmenu-status .funds_index{display:none;visibility:hidden}
+.stageteaser .wrapper-stageTabs{bottom:30px}
+.stageteaser .gradientContainer{bottom:0;left:0;padding:0 10px;position:absolute;right:0}
+.fundsStageTeaser .button-wrapper{float:left}
+.fundsStageTeaser .button-wrapper .button,.fundsStageTeaser .button-wrapper .form button{margin:0;padding:inherit}
+.fundsStageTeaser .button-wrapper .button span span,.fundsStageTeaser .button-wrapper .form button span span{padding:.308em 1.083em}
+.fundsStageTeaser .button-wrapper .button-prim span span{background-color:#8f9e6b;background:-moz-linear-gradient(#8f9e6b,#6a7d39);background:-ms-linear-gradient(#8f9e6b,#6a7d39);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#8f9e6b),color-stop(100%,#6a7d39));background:-webkit-linear-gradient(#8f9e6b,#6a7d39);background:-o-linear-gradient(#8f9e6b,#6a7d39);background:linear-gradient(#8f9e6b,#6a7d39);*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF8F9E6B',endColorstr='#FF6A7D39');height:auto;white-space:normal}
+.fundsStageTeaser .button-wrapper .button-prim:active span span{background-color:#6a7d39;background:-moz-linear-gradient(#6a7d39,#8f9e6b);background:-ms-linear-gradient(#6a7d39,#8f9e6b);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#6a7d39),color-stop(100%,#8f9e6b));background:-webkit-linear-gradient(#6a7d39,#8f9e6b);background:-o-linear-gradient(#6a7d39,#8f9e6b);background:linear-gradient(#6a7d39,#8f9e6b);*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF6A7D39',endColorstr='#FF8F9E6B')}
+.fundsStageTeaser .button-wrapper .button-prim:hover span span,.fundsStageTeaser .button-wrapper .button-prim:focus span span{background-color:#6f7e4b;background:-moz-linear-gradient(#6f7e4b,#4a5d19);background:-ms-linear-gradient(#6f7e4b,#4a5d19);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#6f7e4b),color-stop(100%,#4a5d19));background:-webkit-linear-gradient(#6f7e4b,#4a5d19);background:-o-linear-gradient(#6f7e4b,#4a5d19);background:linear-gradient(#6f7e4b,#4a5d19);*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF6F7E4B',endColorstr='#FF4A5D19')}
+.ie8 .fundsStageTeaser .button-wrapper .button-prim span{background-image:none}
+.ie8 .fundsStageTeaser .button-wrapper .button-prim span span{padding:0 1.25em}
+.gradientContainer .gradientBack{background:-moz-linear-gradient(left,#536619 0,#b90 50%,#712109 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,#536619),color-stop(50%,#b90),color-stop(100%,#712109));background:-webkit-linear-gradient(left,#536619 0,#b90 50%,#712109 100%);background:-o-linear-gradient(left,#536619 0,#b90 50%,#712109 100%);background:-ms-linear-gradient(left,#536619 0,#b90 50%,#712109 100%);background:linear-gradient(to right,#536619 0,#b90 50%,#712109 100%)}
+.gradientContainer .g1{*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=1,startColorstr='#FF536619',endColorstr='#FFBB9900');text-align:left;padding-left:1%}
+.gradientContainer .g2{*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=1,startColorstr='#FFBB9900',endColorstr='#FF712109');text-align:right;padding-right:1%}
+.gradientContainer .g1,.gradientContainer .g2{display:block;float:left;width:49%;color:white;font-size:1.083em;height:30px;line-height:30px}
+.ie7 #content .fundsStageTeaser .button-wrapper{margin-right:15px}
+.ie7 .stageTeaserWrapper{overflow:hidden}
+.ie7 .gradientContainer{width:944px;overflow:hidden}
+.ie7 .gradientContainer span{padding-left:0;padding-right:0}
+.ie7 .gradientContainer .g1{width:457px;padding-left:5px}
+.ie7 .gradientContainer .g2{width:457px;padding-right:5px}
+.ie6 #content .fundsStageTeaser .button-wrapper{margin-right:0}
+.ie6 #content .fundsStageTeaser .button-wrapper a.button span span{padding:0 1.15em}
+.ie6 #content .fundsStageTeaser .g1{width:455px}
+.ie6 #content .fundsStageTeaser .g2{width:455px}
+.fundsCalculator{overflow:hidden}
+.fundsCalculator .controlsArea{float:left;margin-right:34px;width:370px}
+.fundsCalculator .controlsArea .ui-slider-horizontal{border-bottom:1px solid white;border-top:2px solid #919191;border-left:0 none transparent;border-right:0 none transparent;clear:both;height:0;margin-bottom:1.583em;margin-top:.83333em}
+.fundsCalculator .controlsArea .ui-slider-horizontal .max{float:right}
+.fundsCalculator .controlsArea .ui-slider-horizontal .min{float:left}
+.fundsCalculator .controlsArea .ui-slider-horizontal .min,.fundsCalculator .controlsArea .ui-slider-horizontal .max{margin-bottom:.883em;margin-top:.883em}
+.fundsCalculator .controlsArea .ui-slider-handle{background-color:#646464;background:-moz-linear-gradient(#646464,#444);background:-ms-linear-gradient(#646464,#444);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#646464),color-stop(100%,#444));background:-webkit-linear-gradient(#646464,#444);background:-o-linear-gradient(#646464,#444);background:linear-gradient(#646464,#444);*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF646464',endColorstr='#FF444444');height:1.25em;margin-left:-1.667em;top:-0.66667em;width:3.333em;border-radius:.167em;-moz-box-shadow:#ccc 0 .083em 0;-webkit-box-shadow:#ccc 0 .083em 0;box-shadow:#ccc 0 .083em 0;border:0 none transparent}
+.fundsCalculator .controlsArea .ui-slider-handle:hover,.fundsCalculator .controlsArea .ui-slider-handle:focus{background-color:#444;background:-moz-linear-gradient(#444,#242424);background:-ms-linear-gradient(#444,#242424);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#444),color-stop(100%,#242424));background:-webkit-linear-gradient(#444,#242424);background:-o-linear-gradient(#444,#242424);background:linear-gradient(#444,#242424);*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF444444',endColorstr='#FF242424')}
+.fundsCalculator .controlsArea .ui-slider-handle:active{background-color:#646464;background:-moz-linear-gradient(#646464,#919191);background:-ms-linear-gradient(#646464,#919191);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#646464),color-stop(100%,#919191));background:-webkit-linear-gradient(#646464,#919191);background:-o-linear-gradient(#646464,#919191);background:linear-gradient(#646464,#919191);*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF646464',endColorstr='#FF919191')}
+.fundsCalculator .controlsArea .ui-slider-handle .handleIcon{background:url("../../../includesfunds/includes/img/sliderArrowsSmall.png") no-repeat scroll center center transparent;display:block;height:1.25em;width:40px}
+.fundsCalculator .fundsForm fieldset{border:0 none transparent;background:none transparent;padding-top:10px}
+.fundsCalculator .fundsForm .field-units-right{text-align:right;widht:337px;margin-top:.41667em}
+.fundsCalculator .fundsForm .units{display:inline;margin-top:1.250em}
+.fundsCalculator .fundsForm .fundsInput{display:inline;float:none;text-align:right;margin:0}
+.fundsCalculator .fundsForm .ui-selectmenu{float:right;margin-bottom:.41667em;margin-top:.41667em}
+.fundsCalculator .fundsForm li{background:none repeat scroll 0 0 #f2f2f2;border-bottom:3px solid white;padding:0 1.667em}
+.fundsCalculator .fundsForm label{font-size:1.083em;font-weight:bold;line-height:1.5em;margin-top:.41667em;width:14em}
+.fundsCalculator .info-icon{background:url("../../../includesfunds/includes/img/infoIcon.png") no-repeat scroll center center transparent;height:18px;width:18px;display:inline-block;zoom:1;vertical-align:text-bottom}
+.fundsCalculator .chartArea{width:54.556%;float:left}
+.fundsChartInfo,.fundsSearchInfo{padding-left:15px;padding-right:11px;border:0 none transparent;background:none transparent;-moz-box-shadow:transparent 0 0 0;-webkit-box-shadow:transparent 0 0 0;box-shadow:transparent 0 0 0}
+.fundsChartInfo .ui-tooltip-content,.fundsSearchInfo .ui-tooltip-content{background-color:#e9f8fd;border:2px solid #81cceb;width:215px;padding:9px;margin-left:-4px}
+.fundsChartInfo .ui-tooltip-content .arrow,.fundsSearchInfo .ui-tooltip-content .arrow{background:url("../../../includesfunds/includes/img/tooltipTriangle.png") no-repeat scroll left center transparent;display:block;position:absolute}
+.fundsChartInfo .ui-tooltip-content .right,.fundsSearchInfo .ui-tooltip-content .right{background-position:right center;right:-3px;top:50%;height:20px;width:16px;margin-top:-10px}
+.fundsChartInfo .ui-tooltip-content .left,.fundsSearchInfo .ui-tooltip-content .left{background-position:left center;left:-3px;top:50%;height:20px;width:16px;margin-top:-10px}
+.fundsChartInfo .ui-tooltip-content .top,.fundsSearchInfo .ui-tooltip-content .top{background-position:top center;top:-3px;left:50%;height:10px;width:32px;margin-top:10px;margin-left:-16px}
+.fundsChartInfo .ui-tooltip-content .bottom,.fundsSearchInfo .ui-tooltip-content .bottom{background-position:bottom center;bottom:-8px;left:50%;height:10px;width:32px;margin-left:-16px}
+.fundsChartInfo .ui-tooltip-content .bottom.left,.fundsSearchInfo .ui-tooltip-content .bottom.left{background-position:bottom center;bottom:-8px;left:50%;height:10px;width:32px;top:auto;margin-top:auto;margin-bottom:0;margin-left:-32px;margin-right:0}
+.fundsChartInfo .ui-tooltip-triangle,.fundsSearchInfo .ui-tooltip-triangle{background:url("../../../includesfunds/includes/img/tooltipTriangle.png") no-repeat scroll left center transparent;display:block;height:20px;left:-3px;margin-top:-10px;position:absolute;top:50%;width:16px}
+.ie9 .ui-slider-handle{background-position:-20px 0;background-color:transparent;background-color:transparent;background-repeat:no-repeat;height:15px;margin-left:-20px;top:-8px;width:40px}
+.ie9 .ui-slider-handle:hover,.ie9 .ui-slider-handle:focus{background-position:0 0;background-color:transparent}
+.ie9 .ui-slider-handle:active{background-position:-60px 0;background-color:transparent}
+.ie9 .ui-slider-handle .handleIcon{background:url("../../../includesfunds/includes/img/sliderArrows.png") no-repeat scroll center center transparent}
+.chartArea h2{margin:0 0 10px}
+.chartArea .figure{height:290px;position:relative}
+.chartArea .figure ul{list-style:none outside none;margin:0;padding:0}
+.chartArea .graph{height:310px;position:relative}
+.chartArea .legend{float:right;margin-top:1.417em;text-align:left;width:35%}
+.chartArea .legend li{display:block;line-height:1.750em;margin:0;padding:.5% .667%}
+.chartArea .legend .icon{display:block;float:left;height:16px;margin:2px 10px 0 0;width:16px}
+.chartArea .legend .icon.fig0{background-color:#58a3c2;border:1px solid #58a3c2}
+.chartArea .legend .icon.fig1{background-color:#cfb292;border:1px solid #cfb292}
+.chartArea .legend .icon.fig2{background-color:#6a5c53;border:1px solid #6a5c53}
+.chartArea .x-axis{bottom:30px;color:#555;position:absolute;left:4.417em;right:3.583em;text-align:center}
+.chartArea .x-axis li{float:left;margin:0 .5%;padding:5px 0;width:8.09%}
+.chartArea .x-scaleTitle{bottom:36px;display:block;position:absolute;right:0;text-align:right;width:3.583em}
+.chartArea .y-scaleTitle{left:3em;position:absolute}
+.chartArea .y-axis{color:#555;left:4.417em;position:absolute;right:0;text-align:left;top:25px;height:183px}
+.chartArea .y-axis li{border-left:1px solid #bebebe;border-top:1px solid #bebebe;display:block;height:25%;width:100%}
+.chartArea .y-axis li span{display:block;float:left;margin-left:-6.5em;width:6em;text-align:right}
+.chartArea .y-axis li.y-value.y0{border-left:0 none transparent}
+.chartArea .bars{bottom:50px;height:188px;left:4.417em;position:absolute;right:3.583em;z-index:10}
+@media print{.chartArea .bars{height:186px}
+}
+.chartArea .bar-group{float:left;height:100%;margin:0 .5%;position:relative;width:8.09%;list-style:none}
+.chartArea .bar{bottom:0;cursor:pointer;height:0;left:15%;position:absolute;text-align:center;width:70%;max-height:100%}
+.chartArea .bar.fig0{background-color:#58a3c2;height:100%}
+@media print{.chartArea .bar.fig0{border:1px solid #58a3c2}
+}
+.chartArea .bar.fig1{background-color:#cfb292;height:100%}
+@media print{.chartArea .bar.fig1{border:1px solid #cfb292}
+}
+.chartArea .bar.fig2{background-color:#6a5c53;height:0}
+@media print{.chartArea .bar.fig2{border:1px solid #6a5c53}
+}
+.chartArea .bar.data{max-height:100%;z-index:6}
+@media print{.chartArea .bar.data{border:1px solid transparent}
+}
+.chartArea dl.tooltip{display:none;visibility:hidden;margin-left:-256px;background-color:#646464;background:-moz-linear-gradient(#646464,#444);background:-ms-linear-gradient(#646464,#444);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#646464),color-stop(100%,#444));background:-webkit-linear-gradient(#646464,#444);background:-o-linear-gradient(#646464,#444);background:linear-gradient(#646464,#444);*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FF646464',endColorstr='#FF444444');margin-top:-80px;color:white;width:250px;padding:10px 20px;position:relative}
+.chartArea dl.tooltip:before{position:absolute;border-top:12px solid #444;border-left:12px solid transparent;border-right:12px solid transparent;width:0;height:0;position:absolute;content:" ";display:block;right:20px;bottom:-10px}
+.chartArea dl.tooltip dt{clear:both;display:table-cell;float:left;line-height:1em;text-align:left;width:125px;color:white}
+.chartArea dl.tooltip dd{display:table-cell;float:left;line-height:1em;text-align:left;color:white;width:100px;margin-left:4px}
+.chartArea .accountValue,.chartArea .effectiveValue{margin-left:4.417em;position:relative}
+.chartArea .accountValue h4,.chartArea .effectiveValue h4{text-align:left;margin-bottom:.5em;font-size:1.5em}
+.chartArea .accountValue .accountValueData,.chartArea .accountValue .effectiveValueData,.chartArea .effectiveValue .accountValueData,.chartArea .effectiveValue .effectiveValueData{font-size:1.66667em;padding:.25em 0 0;width:60%;margin-bottom:.16667em;color:#6a7d39;font-weight:bold}
+.fundsChartData{background:none transparent;border:0 none transparent;-moz-box-shadow:transparent 0 0 0;-webkit-box-shadow:transparent 0 0 0;box-shadow:transparent 0 0 0}
+.fundsChartData .ui-tooltip-content{background-color:#f8f8f8;background:-moz-linear-gradient(#f8f8f8,#fcfcfc);background:-ms-linear-gradient(#f8f8f8,#fcfcfc);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#f8f8f8),color-stop(100%,#fcfcfc));background:-webkit-linear-gradient(#f8f8f8,#fcfcfc);background:-o-linear-gradient(#f8f8f8,#fcfcfc);background:linear-gradient(#f8f8f8,#fcfcfc);*zoom:1;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr='#FFF8F8F8',endColorstr='#FFFCFCFC');border:2px solid #cdcdcd;padding:10px;color:#222}
+.fundsChartData .ui-tooltip span{background:none transparent}
+.fundsChartData .tooltip{overflow:hidden}
+.fundsChartData dt{clear:both;display:inline;float:left;width:10em}
+.fundsChartData dd span{display:inline;float:left;line-height:1.667em;margin-left:4px;background:none transparent}
+.fundsChartData dd{display:block;float:left;line-height:1.667em;margin-left:4px;background:none transparent;width:10em}
+.fundsChartData .arrow{background:url("../../../includesfunds/includes/img/chartTooltipArrow.png") no-repeat bottom center transparent;display:block;height:12px;width:20px;position:absolute}
+.fundsChartData .bottom{bottom:-10px;background-position:bottom left}
+.fundsChartData .center{left:50%;margin-left:-10px}
+.fundsChartData .top{top:-10px;background-position:top center}
+.ie7 .fundsCalculator .controlsArea fieldset{background:none transparent}
+.ie7 .fundsCalculator .controlsArea fieldset li{padding-bottom:10px;margin-bottom:0}
+.ie7 .fundsCalculator .chartArea .y-axis{top:24px}
+.ie7 .fundsCalculator .chartArea .y-value{height:43px}
+.ie7 .fundsCalculator .chartArea .graph .bars{right:3.4em}
+.ie7 .fundsCalculator .chartArea .x-axis{overflow:hidden;right:3.4em}
+.ie7 .fundsCalculator .chartArea .x-axis li{margin:0 .5%}
+.ie7 .fundsCalculator .data:hover .tooltip{display:block}
+.ie7 .fundsCalculator .data:hover .tooltip dt,.ie7 .fundsCalculator .data:hover .tooltip dd{display:block}
+.ie7 .tooltip{width:250px}

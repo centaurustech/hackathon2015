@@ -345,10 +345,11 @@
 </title>
 
 
+<link rel="stylesheet" href="crofu.css" type="text/css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="./citi_files/US-Regional.css" type="text/css">
 <link rel="stylesheet" href="./citi_files/grid.css" type="text/css">
-<link rel="stylesheet" href="crofu.css" type="text/css">
+
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="./citi_files/jquery-combined.min.js"></script>
@@ -1114,7 +1115,7 @@ br_
                mm_once="adServe(&#39;&#39;, 1674642, &#39;mm_lending_offer&#39;);">Lending
             </a></li>
         <li role="menuitem" class="submenu" aria-haspopup="false" tabindex="-1">
-            <a href="citi_crofu.html" role="presentation" tabindex="0" id="crowdfunding">Crowdfunding</a>
+            <a href="citi_crofu.html" role="presentation" tabindex="0">Crowdfunding</a>
         </li>
         <li role="menuitem" class="submenu" aria-haspopup="true" tabindex="-1" aria-owns="mm_investing">
             <a href="https://online.citi.com/US/JRS/pands/detail.do?ID=CitigoldRecognitionAndBenefits&JFP_TOKEN=481L5X7O#"
@@ -2733,124 +2734,9 @@ Please select your state
 
 <!-- text content #start-->
 <div class="text">
+    <div id="crowdfunding"></div>
 <!--main text #start -->
 <!--    <div class="main-text">-->
-        <div id="featured-list" class="project-list"></div>
-        <div id="projects-list" class="project-list"></div>
-        <div id="project-view" style="display: none">
-            <div class="project-title"><span id="project-view-name">Project Name</span></div>
-            <div class="project-image"><img id="project-view-image" src=""></div>
-            <div style="padding: 100px; padding-top: 20px; padding-bottom: 20px">
-                <div class="row">
-                    <div class="col-md-3">
-                        <span class="project-banner">Type</span>
-                        <img src="images/donation.jpg" width="180" height="150">
-                    </div>
-                    <div class="col-md-3">
-                        <span class="project-banner">Target</span>
-                        <span class="big" id="project-view-target">-</span>
-                    </div>
-                    <div class="col-md-3">
-                        <span class="project-banner">Completion</span>
-                        <span class="big" id="project-view-completion">-%</span>
-                    </div>
-                    <div class="col-md-3">
-                        <span class="project-banner">Backers</span>
-                        <span class="big" id="project-view-backers">-</span>
-                    </div>
-                </div>
-            </div>
-            <div class="separator"><span class="label">Progress</span></div>
-            <div>
-                <div class="row" style="padding-left: 50px;padding-right: 50px">
-                    <div class="col-md-1">Funds</div>
-                    <div class="col-md-8">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" id="project-amount-progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" style="width:33%"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-3" id="project-amount-progress-text"> X out of Y</div>
-                </div>
-                <div class="row" style="padding-left: 50px;padding-right: 50px">
-                    <div class="col-md-1">Time</div>
-                    <div class="col-md-8">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" id="project-time-progress-bar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" style="width:66%"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-3" id="project-time-progress-text">X days left</div>
-                </div>
-                <div class="row" style="padding:20px;padding-left: 100px; padding-right: 100px">
-                    <div class="col-md-7"><button type="button" class="btn btn-success btn-block btn-large" onclick="showContribution()">Donate</button></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-4"><button type="button" class="btn btn-info btn-block" onclick="showList()">Follow</button></div>
-                </div>
-            </div>
-            <div class="separator"><span class="label">Description</span></div>
-            <div id="project-description-div">
-                <div id="project-description">Project Description</div>
-                <div class="row" style="padding:20px;padding-left: 100px; padding-right: 100px">
-                    <div class="col-md-7"><button type="button" class="btn btn-success btn-block btn-large" onclick="showContribution()">Donate</button></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-4"><button type="button" class="btn btn-info btn-block" onclick="showList()">Follow</button></div>
-                </div>
-            </div>
-        </div>
-        <div id="project-contribution" style="display: none">
-            <div class="project-title"><span id="project-contribution-name">Project Name</span></div>
-            <div class="block text-center" style="padding-top: 10px;">You are about to contribute funds to this project</div>
-            <form role="form">
-                <input type="hidden" name="project-id" id="contribution-project-id">
-                <input type="hidden" name="user-id" id="contribution-user-id" value="#67:1466">
-                <div class="row" style="padding-top: 30px;">
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3" style="text-align: right;">
-                        <label for="contribution-source" >Source:</label>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="dropdown">
-                            <button class="btn btn-default dropdown-toggle" type="button" id="contribution-source" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                Account ending in -4321
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Account ending in -4321</a></li>
-                                <li><a href="#">Account ending in -5678</a></li>
-                                <li><a href="#">Credit card ending in -0000</a></li>
-                                <li><a href="#">PayPal</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3"></div>
-                </div>
-                <div class="row" style="padding-top: 5px;" >
-                    <div class="col-md-3"></div>
-                    <div class="col-md-3" >
-                        <input type="text" class="form-control" id="contribution-amount" placeholder="Amount" style="text-align: right;" >
-                    </div>
-                    <div class="col-md-3">
-                        <div class="dropdown">
-                            <button class="btn btn-default dropdown-toggle" type="button" id="contribution-currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                EUR
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">EUR</a></li>
-                                <li><a href="#">USD</a></li>
-                                <li><a href="#">GBP</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3"></div>
-                </div>
-            </form>
-            <div class="row" style="padding:20px;padding-left: 100px; padding-right: 100px">
-                <div class="col-md-3"></div>
-                <div class="col-md-3"><button type="button" class="btn btn-success btn-block btn-large" id="contribute-button">Donate</button></div>
-                <div class="col-md-3"><button type="button" class="btn btn-warning btn-block" onclick="showList()">Cancel</button></div>
-                <div class="col-md-3"></div>
-            </div>
-        </div>
 <!--    </div>-->
 <!--main text #end -->
 <br clear="all">
@@ -3852,25 +3738,8 @@ lpMTagConfig.vars.push(['page', 'PageName', pageName]);</script>
     </tbody>
 </table>
 
-<div class="modal fade" id="thank-you-modal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title">Thank you!</h4>
-            </div>
-            <div class="modal-body">
-                <p>Your contribution has been recorded.<br>Thank you for your support!</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
 <script type="text/javascript" src="crowdfunding.js"></script>
 <script type="text/javascript" src="jquery.cookie.js"></script>
-<script>loadProjects('#67:1')</script>
+<script>initCrowdfunding('#67:1')</script>
 </body>
 </html>
