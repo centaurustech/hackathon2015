@@ -10,17 +10,19 @@ $('#contribute-button').click(function () {
     var amount = $('#contribution-amount').val();
     var currency = $('#contribution-currency').val();
     var source = $('#contribution-source').val();
+    var userId = $('#contribution-user-id').val();
 
     var data = { "id" : projectId,
                  "amount" : amount,
                  "currency" : currency,
                  "source" : source,
-                 "userId" : $.cookie( "userId")
+                 "userId" : userId
+                 //"userId" : $.cookie( "userId")
     };
 
     console.log("Contributing to Project id" + projectId + " with " + amount + " " + currency + " from " + source + " with data= " + data);
 
-    var urlPrefix = (window.location.href).match("^http") ? "" : "http://10.25.30.127:8181";
+    var urlPrefix = (window.location.href).match("^http") ? "" : "http://ptxw13040:8181";
 
     $.post( urlPrefix + "/api/payment/create", data, function (r) {
         $('#thank-you-modal').modal('show');
@@ -52,7 +54,7 @@ function loadProjects( userId, lowerBound) {
 
     $.cookie( "userId", userId);
 
-    var urlPrefix = (window.location.href).match("^http") ? "" : "http://10.25.30.127:8181";
+    var urlPrefix = (window.location.href).match("^http") ? "" : "http://ptxw13040:8181";
 
     $('#featured-list').children().remove();
     $('#featured-list').append('<h3>Recommended Projects</h3>');
