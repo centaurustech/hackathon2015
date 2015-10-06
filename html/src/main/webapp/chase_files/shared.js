@@ -777,15 +777,7 @@ CQ.shared.HTTP = new function() {
          * @return {String} The internalized URL
          */
         internalize: function(url, doc) {
-            if (!doc) doc = document;
-            var docHost = CQ.shared.HTTP.getSchemeAndAuthority(doc.location.href);
-            var urlHost = CQ.shared.HTTP.getSchemeAndAuthority(url);
-            if (docHost == urlHost) {
-                return url.substring(urlHost.length + contextPath.length);
-            }
-            else {
-                return url;
-            }
+            return url;
         },
 
         /**
