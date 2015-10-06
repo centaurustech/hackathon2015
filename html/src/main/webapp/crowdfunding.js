@@ -315,10 +315,10 @@ function sendContribution() {
         "currency" : currency,
         "source" : source,
         "userId" : userId
-        //"userId" : $.cookie( "userId")
     };
 
-    console.log("Contributing to Project id" + projectId + " with " + amount + " " + currency + " from " + source + " with data= " + data);
+    console.log("Contributing data is");
+    console.log( data);
 
     var urlPrefix = (window.location.href).match("^http") ? "" : fallbackURL;
 
